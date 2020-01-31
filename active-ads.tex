@@ -1,0 +1,1260 @@
+%**************************************%
+%*    Generated from PreTeXt source   *%
+%*    on 2020-01-31T08:14:48-05:00    *%
+%*                                    *%
+%*      https://pretextbook.org       *%
+%*                                    *%
+%**************************************%
+\documentclass[oneside,10pt,]{book}
+%% Custom Preamble Entries, early (use latex.preamble.early)
+%% Default LaTeX packages
+%%   1.  always employed (or nearly so) for some purpose, or
+%%   2.  a stylewriter may assume their presence
+\usepackage{geometry}
+%% Some aspects of the preamble are conditional,
+%% the LaTeX engine is one such determinant
+\usepackage{ifthen}
+%% etoolbox has a variety of modern conveniences
+\usepackage{etoolbox}
+\usepackage{ifxetex,ifluatex}
+%% Raster graphics inclusion
+\usepackage{graphicx}
+%% Color support, xcolor package
+%% Always loaded, for: add/delete text, author tools
+%% Here, since tcolorbox loads tikz, and tikz loads xcolor
+\PassOptionsToPackage{usenames,dvipsnames,svgnames,table}{xcolor}
+\usepackage{xcolor}
+%% begin: defined colors, via xcolor package, for styling
+%% end: defined colors, via xcolor package, for styling
+%% Colored boxes, and much more, though mostly styling
+%% skins library provides "enhanced" skin, employing tikzpicture
+%% boxes may be configured as "breakable" or "unbreakable"
+%% "raster" controls grids of boxes, aka side-by-side
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\tcbuselibrary{breakable}
+\tcbuselibrary{raster}
+%% We load some "stock" tcolorbox styles that we use a lot
+%% Placement here is provisional, there will be some color work also
+%% First, black on white, no border, transparent, but no assumption about titles
+\tcbset{ bwminimalstyle/.style={size=minimal, boxrule=-0.3pt, frame empty,
+colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
+%% Second, bold title, run-in to text/paragraph/heading
+%% Space afterwards will be controlled by environment,
+%% dependent of constructions of the tcb title
+\tcbset{ runintitlestyle/.style={fonttitle=\normalfont\bfseries, attach title to upper} }
+%% Spacing prior to each exercise, anywhere
+\tcbset{ exercisespacingstyle/.style={before skip={1.5ex plus 0.5ex}} }
+%% Spacing prior to each block
+\tcbset{ blockspacingstyle/.style={before skip={2.0ex plus 0.5ex}} }
+%% xparse allows the construction of more robust commands,
+%% this is a necessity for isolating styling and behavior
+%% The tcolorbox library of the same name loads the base library
+\tcbuselibrary{xparse}
+%% Hyperref should be here, but likes to be loaded late
+%%
+%% Inline math delimiters, \(, \), need to be robust
+%% 2016-01-31:  latexrelease.sty  supersedes  fixltx2e.sty
+%% If  latexrelease.sty  exists, bugfix is in kernel
+%% If not, bugfix is in  fixltx2e.sty
+%% See:  https://tug.org/TUGboat/tb36-3/tb114ltnews22.pdf
+%% and read "Fewer fragile commands" in distribution's  latexchanges.pdf
+\IfFileExists{latexrelease.sty}{}{\usepackage{fixltx2e}}
+%% shorter subnumbers in some side-by-side require manipulations
+\usepackage{xstring}
+%% Text height identically 9 inches, text width varies on point size
+%% See Bringhurst 2.1.1 on measure for recommendations
+%% 75 characters per line (count spaces, punctuation) is target
+%% which is the upper limit of Bringhurst's recommendations
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use latex.geometry)
+%% This LaTeX file may be compiled with pdflatex, xelatex, or lualatex executables
+%% LuaTeX is not explicitly supported, but we do accept additions from knowledgeable users
+%% The conditional below provides  pdflatex  specific configuration last
+%% The following provides engine-specific capabilities
+%% Generally, xelatex is necessary for non-Western fonts
+\ifthenelse{\boolean{xetex} \or \boolean{luatex}}{%
+%% begin: xelatex and lualatex-specific configuration
+\ifxetex\usepackage{xltxtra}\fi
+%% realscripts is the only part of xltxtra relevant to lualatex 
+\ifluatex\usepackage{realscripts}\fi
+%% fontspec package provides extensive control of system fonts,
+%% meaning *.otf (OpenType), and apparently *.ttf (TrueType)
+%% that live *outside* your TeX/MF tree, and are controlled by your *system*
+%% (it is possible that a TeX distribution will place fonts in a system location)
+\usepackage{fontspec}
+%% We use Latin Modern (lmodern) as the default font
+%% So we check that it is available as a system font
+\IfFontExistsTF{Latin Modern Roman}{}{\GenericError{}{The font "Latin Modern Roman" requested by PreTeXt output is not available as a system font}{Consult the PreTeXt Guide for help with LaTeX fonts.}{}}
+%% We then define various font family commands using a vanilla version,
+%% with the intention of letting a style override these choices
+%% \setmainfont can be re-issued, and \renewfontfamily can redefine others
+\setmainfont{Latin Modern Roman}[SmallCapsFont={Latin Modern Roman Caps}, SlantedFont={Latin Modern Roman Slanted}]
+\newfontfamily{\divisionfont}{Latin Modern Roman}
+\newfontfamily{\contentsfont}{Latin Modern Roman}
+\newfontfamily{\pagefont}{Latin Modern Roman}[SlantedFont={Latin Modern Roman Slanted}]
+\newfontfamily{\tabularfont}{Latin Modern Roman}[SmallCapsFont={Latin Modern Roman Caps}]
+%% begin: font information supplied by "font-xelatex-style" template
+%% end: font information supplied by "font-xelatex-style" template
+%% 
+%% Extensive support for other languages
+\usepackage{polyglossia}
+%% Set main/default language based on pretext/@xml:lang value
+%% document language code is "en-US", US English
+%% usmax variant has extra hypenation
+\setmainlanguage[variant=usmax]{english}
+%% Enable secondary languages based on discovery of @xml:lang values
+%% Enable fonts/scripts based on discovery of @xml:lang values
+%% Western languages should be ably covered by Latin Modern Roman
+%% end: xelatex and lualatex-specific configuration
+}{%
+%% begin: pdflatex-specific configuration
+\usepackage[utf8]{inputenc}
+%% PreTeXt will create a UTF-8 encoded file
+%% begin: font setup and configuration for use with pdflatex
+%% Portions of a document, are, or may, be affected by font-changing commands
+%% These are more robust when using  xelatex  but may be employed with  pdflatex
+%% The following definitons are meant to be re-defined in a style with \renewcommand
+\newcommand{\divisionfont}{\relax}
+\newcommand{\contentsfont}{\relax}
+\newcommand{\pagefont}{\relax}
+\newcommand{\tabularfont}{\relax}
+%% begin: font information supplied by "font-pdflatex-style" template
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%% begin: font information supplied by "font-pdflatex-style" template
+%% end: font setup and configuration for use with pdflatex
+%% end: pdflatex-specific configuration
+}
+%% Symbols, align environment, commutative diagrams, bracket-matrix
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{amssymb}
+%% allow page breaks within display mathematics anywhere
+%% level 4 is maximally permissive
+%% this is exactly the opposite of AMSmath package philosophy
+%% there are per-display, and per-equation options to control this
+%% split, aligned, gathered, and alignedat are not affected
+\allowdisplaybreaks[4]
+%% allow more columns to a matrix
+%% can make this even bigger by overriding with  latex.preamble.late  processing option
+\setcounter{MaxMatrixCols}{30}
+%%
+%%
+%% Division Titles, and Page Headers/Footers
+%% titlesec package, loading "titleps" package cooperatively
+%% See code comments about the necessity and purpose of "explicit" option.
+%% The "newparttoc" option causes a consistent entry for parts in the ToC 
+%% file, but it is only effective if there is a \titleformat for \part.
+%% "pagestyles" loads the  titleps  package cooperatively.
+\usepackage[explicit, newparttoc, pagestyles]{titlesec}
+%% The companion titletoc package for the ToC.
+\usepackage{titletoc}
+%% Fixes a bug with transition from chapters to appendices in a "book"
+%% See generating XSL code for more details about necessity
+\newtitlemark{\chaptertitlename}
+%% begin: customizations of page styles via the modal "titleps-style" template
+%% Designed to use commands from the LaTeX "titleps" package
+%% Plain pages should have the same font for page numbers
+\renewpagestyle{plain}{%
+\setfoot{}{\pagefont\thepage}{}%
+}%
+%% Single pages as in default LaTeX
+\renewpagestyle{headings}{%
+\sethead{\pagefont\slshape\MakeUppercase{\ifthechapter{\chaptertitlename\space\thechapter.\space}{}\chaptertitle}}{}{\pagefont\thepage}%
+}%
+\pagestyle{headings}
+%% end: customizations of page styles via the modal "titleps-style" template
+%%
+%% Create globally-available macros to be provided for style writers
+%% These are redefined for each occurence of each division
+\newcommand{\divisionnameptx}{\relax}%
+\newcommand{\titleptx}{\relax}%
+\newcommand{\subtitleptx}{\relax}%
+\newcommand{\shortitleptx}{\relax}%
+\newcommand{\authorsptx}{\relax}%
+\newcommand{\epigraphptx}{\relax}%
+%% Create environments for possible occurences of each division
+%% Environment for a PTX "preface" at the level of a LaTeX "chapter"
+\NewDocumentEnvironment{preface}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Preface}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\chapter*{#1}%
+\addcontentsline{toc}{chapter}{#3}
+\label{#6}%
+}{}%
+%% Environment for a PTX "chapter" at the level of a LaTeX "chapter"
+\NewDocumentEnvironment{chapterptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Chapter}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\chapter[{#3}]{#1}%
+\label{#6}%
+}{}%
+%% Environment for a PTX "section" at the level of a LaTeX "section"
+\NewDocumentEnvironment{sectionptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Section}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\section[{#3}]{#1}%
+\label{#6}%
+}{}%
+%% Environment for a PTX "index" at the level of a LaTeX "chapter"
+\NewDocumentEnvironment{indexptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Index}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\chapter*{#1}%
+\addcontentsline{toc}{chapter}{#3}
+\label{#6}%
+}{}%
+%%
+%% Styles for six traditional LaTeX divisions
+\titleformat{\part}[display]
+{\divisionfont\Huge\bfseries\centering}{\divisionnameptx\space\thepart}{30pt}{\Huge#1}
+[{\Large\centering\authorsptx}]
+\titleformat{\chapter}[display]
+{\divisionfont\huge\bfseries}{\divisionnameptx\space\thechapter}{20pt}{\Huge#1}
+[{\Large\authorsptx}]
+\titleformat{name=\chapter,numberless}[display]
+{\divisionfont\huge\bfseries}{}{0pt}{#1}
+[{\Large\authorsptx}]
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titleformat{\section}[hang]
+{\divisionfont\Large\bfseries}{\thesection}{1ex}{#1}
+[{\large\authorsptx}]
+\titleformat{name=\section,numberless}[block]
+{\divisionfont\Large\bfseries}{}{0pt}{#1}
+[{\large\authorsptx}]
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titleformat{\subsection}[hang]
+{\divisionfont\large\bfseries}{\thesubsection}{1ex}{#1}
+[{\normalsize\authorsptx}]
+\titleformat{name=\subsection,numberless}[block]
+{\divisionfont\large\bfseries}{}{0pt}{#1}
+[{\normalsize\authorsptx}]
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titleformat{\subsubsection}[hang]
+{\divisionfont\normalsize\bfseries}{\thesubsubsection}{1em}{#1}
+[{\small\authorsptx}]
+\titleformat{name=\subsubsection,numberless}[block]
+{\divisionfont\normalsize\bfseries}{}{0pt}{#1}
+[{\normalsize\authorsptx}]
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titleformat{\paragraph}[hang]
+{\divisionfont\normalsize\bfseries}{\theparagraph}{1em}{#1}
+[{\small\authorsptx}]
+\titleformat{name=\paragraph,numberless}[block]
+{\divisionfont\normalsize\bfseries}{}{0pt}{#1}
+[{\normalsize\authorsptx}]
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5em}
+%%
+%% Styles for five traditional LaTeX divisions
+\titlecontents{part}%
+[0pt]{\contentsmargin{0em}\addvspace{1pc}\contentsfont\bfseries}%
+{\Large\thecontentslabel\enspace}{\Large}%
+{}%
+[\addvspace{.5pc}]%
+\titlecontents{chapter}%
+[0pt]{\contentsmargin{0em}\addvspace{1pc}\contentsfont\bfseries}%
+{\large\thecontentslabel\enspace}{\large}%
+{\hfill\bfseries\thecontentspage}%
+[\addvspace{.5pc}]%
+\dottedcontents{section}[3.8em]{\contentsfont}{2.3em}{1pc}%
+\dottedcontents{subsection}[6.1em]{\contentsfont}{3.2em}{1pc}%
+\dottedcontents{subsubsection}[9.3em]{\contentsfont}{4.3em}{1pc}%
+%%
+%% Begin: Semantic Macros
+%% To preserve meaning in a LaTeX file
+%%
+%% \mono macro for content of "c", "cd", "tag", etc elements
+%% Also used automatically in other constructions
+%% Simply an alias for \texttt
+%% Always defined, even if there is no need, or if a specific tt font is not loaded
+\newcommand{\mono}[1]{\texttt{#1}}
+%%
+%% Following semantic macros are only defined here if their
+%% use is required only in this specific document
+%%
+%% End: Semantic Macros
+%% Division Numbering: Chapters, Sections, Subsections, etc
+%% Division numbers may be turned off at some level ("depth")
+%% A section *always* has depth 1, contrary to us counting from the document root
+%% The latex default is 3.  If a larger number is present here, then
+%% removing this command may make some cross-references ambiguous
+%% The precursor variable $numbering-maxlevel is checked for consistency in the common XSL file
+\setcounter{secnumdepth}{3}
+%%
+%% AMS "proof" environment is no longer used, but we leave previously
+%% implemented \qedhere in place, should the LaTeX be recycled
+\newcommand{\qedhere}{\relax}
+%%
+%% A faux tcolorbox whose only purpose is to provide common numbering
+%% facilities for most blocks (possibly not projects, 2D displays)
+%% Controlled by  numbering.theorems.level  processing parameter
+\newtcolorbox[auto counter, number within=section]{block}{}
+%%
+%% This document is set to number PROJECT-LIKE on a separate numbering scheme
+%% So, a faux tcolorbox whose only purpose is to provide this numbering
+%% Controlled by  numbering.projects.level  processing parameter
+\newtcolorbox[auto counter, number within=section]{project-distinct}{}
+%% A faux tcolorbox whose only purpose is to provide common numbering
+%% facilities for 2D displays which are subnumbered as part of a "sidebyside"
+\newtcolorbox[auto counter, number within=tcb@cnt@block, number freestyle={\noexpand\thetcb@cnt@block(\noexpand\alph{\tcbcounter})}]{subdisplay}{}
+%%
+%% tcolorbox, with styles, for FIGURE-LIKE
+%%
+%% figureptx: 2-D display structure
+\tcbset{ figureptxstyle/.style={bwminimalstyle, middle=1ex, blockspacingstyle, } }
+\newtcolorbox[use counter from=block]{figureptx}[3]{lower separated=false, before lower={{\textbf{Figure~\thetcbcounter}\space#1}}, phantomlabel={#2}, unbreakable, parbox=false, figureptxstyle, }
+%% tableptx: 2-D display structure
+\tcbset{ tableptxstyle/.style={bwminimalstyle, middle=1ex, blockspacingstyle, coltitle=black, bottomtitle=2ex, titlerule=-0.3pt} }
+\newtcolorbox[use counter from=block]{tableptx}[3]{title={{\textbf{Table~\thetcbcounter}\space#1}}, phantomlabel={#2}, unbreakable, parbox=false, tableptxstyle, }
+%% Localize LaTeX supplied names (possibly none)
+\renewcommand*{\chaptername}{Chapter}
+%% Equation Numbering
+%% Controlled by  numbering.equations.level  processing parameter
+%% No adjustment here implies document-wide numbering
+\numberwithin{equation}{section}
+%% "tcolorbox" environment for a single image, occupying entire \linewidth
+%% arguments are left-margin, width, right-margin, as multiples of
+%% \linewidth, and are guaranteed to be positive and sum to 1.0
+\tcbset{ imagestyle/.style={bwminimalstyle} }
+\NewTColorBox{image}{mmm}{imagestyle,left skip=#1\linewidth,width=#2\linewidth}
+%% For improved tables
+\usepackage{array}
+%% Some extra height on each row is desirable, especially with horizontal rules
+%% Increment determined experimentally
+\setlength{\extrarowheight}{0.2ex}
+%% Define variable thickness horizontal rules, full and partial
+%% Thicknesses are 0.03, 0.05, 0.08 in the  booktabs  package
+\newcommand{\hrulethin}  {\noalign{\hrule height 0.04em}}
+\newcommand{\hrulemedium}{\noalign{\hrule height 0.07em}}
+\newcommand{\hrulethick} {\noalign{\hrule height 0.11em}}
+%% We preserve a copy of the \setlength package before other
+%% packages (extpfeil) get a chance to load packages that redefine it
+\let\oldsetlength\setlength
+\newlength{\Oldarrayrulewidth}
+\newcommand{\crulethin}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.04em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}%
+\newcommand{\crulemedium}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.07em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+\newcommand{\crulethick}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.11em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+%% Single letter column specifiers defined via array package
+\newcolumntype{A}{!{\vrule width 0.04em}}
+\newcolumntype{B}{!{\vrule width 0.07em}}
+\newcolumntype{C}{!{\vrule width 0.11em}}
+%% More flexible list management, esp. for references
+%% But also for specifying labels (i.e. custom order) on nested lists
+\usepackage{enumitem}
+%% Support for index creation
+%% imakeidx package does not require extra pass (as with makeidx)
+%% Title of the "Index" section set via a keyword
+%% Language support for the "see" and "see also" phrases
+\usepackage{imakeidx}
+\makeindex[title=Index, intoc=true]
+\renewcommand{\seename}{See}
+\renewcommand{\alsoname}{See also}
+%% hyperref driver does not need to be specified, it will be detected
+%% Footnote marks in tcolorbox have broken linking under
+%% hyperref, so it is necessary to turn off all linking
+%% It *must* be given as a package option, not with \hypersetup
+\usepackage[hyperfootnotes=false]{hyperref}
+%% Hyperlinking active in electronic PDFs, all links solid and blue
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
+\hypersetup{pdftitle={Active Applied Discrete Structures}}
+%% If you manually remove hyperref, leave in this next command
+\providecommand\phantomsection{}
+%% Graphics Preamble Entries
+\usepackage{amsmath}
+%% If tikz has been loaded, replace ampersand with \amp macro
+%% tcolorbox styles for sidebyside layout
+\tcbset{ sbsstyle/.style={raster before skip=2.0ex, raster equal height=rows, raster force size=false} }
+\tcbset{ sbspanelstyle/.style={bwminimalstyle} }
+%% Enviroments for side-by-side and components
+%% Necessary to use \NewTColorBox for boxes of the panels
+%% "newfloat" environment to squash page-breaks within a single sidebyside
+%% "xparse" environment for entire sidebyside
+\NewDocumentEnvironment{sidebyside}{mmmm}
+  {\begin{tcbraster}
+    [sbsstyle,raster columns=#1,
+    raster left skip=#2\linewidth,raster right skip=#3\linewidth,raster column skip=#4\linewidth]}
+  {\end{tcbraster}}
+%% "tcolorbox" environment for a panel of sidebyside
+\NewTColorBox{sbspanel}{mO{top}}{sbspanelstyle,width=#1\linewidth,valign=#2}
+%% extpfeil package for certain extensible arrows,
+%% as also provided by MathJax extension of the same name
+%% NB: this package loads mtools, which loads calc, which redefines
+%%     \setlength, so it can be removed if it seems to be in the 
+%%     way and your math does not use:
+%%     
+%%     \xtwoheadrightarrow, \xtwoheadleftarrow, \xmapsto, \xlongequal, \xtofrom
+%%     
+%%     we have had to be extra careful with variable thickness
+%%     lines in tables, and so also load this package late
+\usepackage{extpfeil}
+%% Custom Preamble Entries, late (use latex.preamble.late)
+%% Begin: Author-provided packages
+%% (From  docinfo/latex-preamble/package  elements)
+%% End: Author-provided packages
+%% Begin: Author-provided macros
+%% (From  docinfo/macros  element)
+%% Plus three from MBX for XML characters
+\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\pow}{\mathcal P}
+\newcommand{\inv}{^{-1}}
+\newcommand{\st}{|}
+\renewcommand{\iff}{\leftrightarrow}
+\newcommand{\Iff}{\Leftrightarrow}
+\newcommand{\imp}{\rightarrow}
+\newcommand{\Imp}{\Rightarrow}
+\newcommand{\isom}{\cong}
+
+\newcommand{\card}[1]{\left| #1 \right|}
+\newcommand{\twoline}[2]{\begin{pmatrix}#1 \\ #2 \end{pmatrix}}
+\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,label=#1:#2]{}}
+\newcommand{\va}[1]{\vtx{above}{#1}}
+\newcommand{\vb}[1]{\vtx{below}{#1}}
+\newcommand{\vr}[1]{\vtx{right}{#1}}
+\newcommand{\vl}[1]{\vtx{left}{#1}}
+\renewcommand{\v}{\vtx{above}{}}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+%% End: Author-provided macros
+\begin{document}
+\frontmatter
+%% begin: half-title
+\thispagestyle{empty}
+{\centering
+\vspace*{0.28\textheight}
+{\Huge Active Applied Discrete Structures}\\}
+\clearpage
+%% end:   half-title
+%% begin: adcard
+\thispagestyle{empty}
+\null%
+\clearpage
+%% end:   adcard
+%% begin: title page
+%% Inspired by Peter Wilson's "titleDB" in "titlepages" CTAN package
+\thispagestyle{empty}
+{\centering
+\vspace*{0.14\textheight}
+%% Target for xref to top-level element is ToC
+\addtocontents{toc}{\protect\hypertarget{x:book:active-ads}{}}
+{\Huge Active Applied Discrete Structures}\\[3\baselineskip]
+{\Large Ken Levasseur}\\[0.5\baselineskip]
+{\Large University of Massachusetts Lowell}\\[3\baselineskip]
+{\Large January 31, 2020}\\}
+\clearpage
+%% end:   title page
+%% begin: copyright-page
+\thispagestyle{empty}
+\hypertarget{g:colophon:idm365633817072}{}\vspace*{\stretch{2}}
+\noindent{\bfseries Edition}: version 0.1\par\medskip
+\noindent{\bfseries Website}: \href{http:\slash{}\slash{}faculty.uml.edu\slash{}klevasseur\slash{}ADS2}{faculty.uml.edu\slash{}klevasseur\slash{}ADS2}\par\medskip
+\noindent\textcopyright{}2020\quad{}Ken Levasseur\\[0.5\baselineskip]
+Active Applied Discrete Structures by Kenneth Levasseur is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License. You are free to Share: copy and redistribute the material in any medium or format; Adapt: remix, transform, and build upon the material. You may not use the material for commercial purposes.  The licensor cannot revoke these freedoms as long as you follow the license terms.\par\medskip
+\vspace*{\stretch{1}}
+\null\clearpage
+%% end:   copyright-page
+%% begin: dedication-page
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{center}\Large%
+To Karen%
+\end{center}
+\vspace*{\stretch{2}}
+\clearpage
+%% end:   dedication-page
+%% begin: obverse-dedication-page (empty)
+\thispagestyle{empty}
+\null%
+\clearpage
+%% end:   obverse-dedication-page
+%
+%
+\typeout{************************************************}
+\typeout{Preface  Preface}
+\typeout{************************************************}
+%
+\begin{preface}{Preface}{}{Preface}{}{}{x:preface:active-ads-preface}
+\emph{Active Applied Discrete Structures} is designed for use ...%
+\nopagebreak\par%
+\hfill\begin{tabular}[t]{l@{}}
+Ken Levasseur\\
+Lowell, MA
+\end{tabular}\\\par
+\end{preface}
+%% begin: table of contents
+%% Adjust Table of Contents
+\setcounter{tocdepth}{1}
+\renewcommand*\contentsname{Contents}
+\tableofcontents
+%% end:   table of contents
+\mainmatter
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 1 Binary Representation of Positive Integers}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Binary Representation of Positive Integers}{}{Binary Representation of Positive Integers}{}{}{x:chapter:chapter_1}
+\index{Binary Representation of Positive Integers}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 1.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-1}
+Since this is the first class meeting, there is no prior reading.  Half of the class is devoted to explaining the way the class will be run.  Then we will explore the binary representation of positive integers, which is in Section 1.4 of Applied Discrete Structures.  A sheet with the base 10 numbers 1 through 64 and their corresponding binary representations is passed out.  Students are asked to identify patterns.%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 1.2 Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Questions}{}{Questions}{}{}{x:section:questions-1}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}What base 10 number is equal to \(101000010_2\)?%
+\item{}What is the base 2 representation of 911?%
+\item{}An even number is an (integer) multiple of 2.  For example, 12 is even because \(12 = 6 \cdot 2\) but 13 is not even since \(12 = \frac{13}{2} \cdot 2\).  How can you quickly tell whether a number represented in base 10  is even?  How can you quickly tell whether a number represented in base 2  is even?%
+\item{}How can you quickly tell whether a number represented in base 10  is a multiple of 5?  Can you quickly tell whether a number represented in base 2  is a multiple of 5?%
+\item{}How can you quickly tell whether a number represented in base 10  is a multiple of 8?  Can you quickly tell whether a number represented in base 2  is a multiple of 8?%
+\item{}How can you quickly tell whether a number represented in base 10  is a multiple of 9?  Can you quickly tell whether a number represented in base 2  is a multiple of 9?%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 1.3 Handouts}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Handouts}{}{Handouts}{}{}{x:section:handouts-1}
+Look for patterns in these two tables. The second gives the binary form of integers padded with 0's so as to contain exactly 4 bits.%
+\begin{sidebyside}{2}{0}{0}{0}%
+\begin{sbspanel}{0.75}[center]%
+%
+\begin{equation*}
+\begin{array}{ccccc}
+\text{Base 10} & \text{Base
+2} & \text{} & \text{Base
+10} & \text{Base 2} \\
+1 & 1_2 & \text{     } & 33 &
+100001_2 \\
+2 & 10_2 & \text{     } & 34
+& 100010_2 \\
+3 & 11_2 & \text{     } & 35
+& 100011_2 \\
+4 & 100_2 & \text{     } & 36
+& 100100_2 \\
+5 & 101_2 & \text{     } & 37
+& 100101_2 \\
+6 & 110_2 & \text{     } & 38
+& 100110_2 \\
+7 & 111_2 & \text{     } & 39
+& 100111_2 \\
+8 & 1000_2 & \text{     } &
+40 & 101000_2 \\
+9 & 1001_2 & \text{     } &
+41 & 101001_2 \\
+10 & 1010_2 & \text{     } &
+42 & 101010_2 \\
+11 & 1011_2 & \text{     } &
+43 & 101011_2 \\
+12 & 1100_2 & \text{     } &
+44 & 101100_2 \\
+13 & 1101_2 & \text{     } &
+45 & 101101_2 \\
+14 & 1110_2 & \text{     } &
+46 & 101110_2 \\
+15 & 1111_2 & \text{     } &
+47 & 101111_2 \\
+16 & 10000_2 & \text{     } &
+48 & 110000_2 \\
+17 & 10001_2 & \text{     } &
+49 & 110001_2 \\
+18 & 10010_2 & \text{     } &
+50 & 110010_2 \\
+19 & 10011_2 & \text{     } &
+51 & 110011_2 \\
+20 & 10100_2 & \text{     } &
+52 & 110100_2 \\
+21 & 10101_2 & \text{     } &
+53 & 110101_2 \\
+22 & 10110_2 & \text{     } &
+54 & 110110_2 \\
+23 & 10111_2 & \text{     } &
+55 & 110111_2 \\
+24 & 11000_2 & \text{     } &
+56 & 111000_2 \\
+25 & 11001_2 & \text{     } &
+57 & 111001_2 \\
+26 & 11010_2 & \text{     } &
+58 & 111010_2 \\
+27 & 11011_2 & \text{     } &
+59 & 111011_2 \\
+28 & 11100_2 & \text{     } &
+60 & 111100_2 \\
+29 & 11101_2 & \text{     } &
+61 & 111101_2 \\
+30 & 11110_2 & \text{     } &
+62 & 111110_2 \\
+31 & 11111_2 & \text{     } &
+63 & 111111_2 \\
+32 & 100000_2 & \text{     }
+& 64 & 1000000_2 \\
+\end{array}
+\end{equation*}
+%
+\end{sbspanel}%
+\begin{sbspanel}{0.25}[center]%
+\par
+%
+\begin{equation*}
+\begin{array}{cc}
+n & \text{padded
+binary } n \\
+0 & 0000 \\
+1 & 0001 \\
+2 & 0010 \\
+3 & 0011 \\
+4 & 0100 \\
+5 & 0101 \\
+6 & 0110 \\
+7 & 0111 \\
+8 & 1000 \\
+9 & 1001 \\
+10 & 1010 \\
+11 & 1011 \\
+12 & 1100 \\
+13 & 1101 \\
+14 & 1110 \\
+15 & 1111 \\
+\end{array}
+\end{equation*}
+%
+\end{sbspanel}%
+\end{sidebyside}%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 2 Sets and Operations on them}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Sets and Operations on them}{}{Sets and Operations on them}{}{}{x:chapter:chapter_2}
+\index{Sets, and operations on them}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 2.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-2}
+Before class, read Sections 1.1 and 1.2 of Applied Discrete Structures.  Respond to the following question: How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?%
+\par
+Also, turn in solutions to these exercises:  Section 1.1: \#2, and Section 1.2: \#2%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 2.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-2}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Section 1.1 \#4 (b), (c)%
+\item{}Section 1.2 \#4 (b) and \#6%
+\item{}Find two sets \(A\) and \(B\) for which \(|A| = 5\), \(|B| = 6\), and \(|A\cup B| = 9\). What is \(|A \cap B|\)?%
+\item{}For any sets \(A\) and \(B\), define \(A\times B = \{(a,b) \mid a\in A \text{ and } b \in B\}\) and \(AB = \{ab \mid a\in A \text{ and } b \in B\}\). If \(A = \{1,2\}\) and \(B = \{2,3,4\}\),  what is \(|A \times B|\)? What is \(|AB|\)?%
+\item{}A common data structure for a software implementation of sets is a ``bitmap.''  The way it works is if you want to work with subsets of a universe, \(U\), with cardinality \(n\) you first establish an ordering of \(U\) when \(u_k\) is the \(k\)th element.  A set \(A\) is then represented by a string of \(n\) bits  \(b_1b_2\dots b_n\) when \(b_k\) is 1 if \(u_k \in A\) and is 0 otherwise. In the following questions, assume \(U=\{1,2,3,4,5\}\) with the ordering as listed.%
+\begin{enumerate}[label=(\alph*)]
+\item{}What are the bit strings for the empty set and for \(U\)?%
+\item{}What are the bit strings for \(A=\{1,2,3\}\) and \(B=\{1,3,5\}\)?%
+\item{}What are the general rules for determining the the bit strings for \(A\cap B\) and \(A \cup B\)?  What their bit strings in this particular case?%
+\end{enumerate}
+%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 3 Sets, Sums \& Products}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Sets, Sums \& Products}{}{Sets, Sums \& Products}{}{}{x:chapter:chapter_3}
+\index{Cartesian Product}%
+\index{Power Set}%
+\index{Summation Notation}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 3.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-3}
+Read Sections 1.3 and 1.5 of Applied Discrete Structures.%
+\par
+Response Question:  If \(A\) is a finite set, why is the number of elements in the power set of \(A\) a power of 2?%
+\par
+Also, turn in solutions to these exercises:%
+\begin{enumerate}[label=\arabic*.]
+\item{}Let \(B=\{0,1\}\).  List elements of  \(\mathcal{P}(B)\),  \(B\times B\) and \(B\times B\times B\).%
+\item{}Calculate \(\sum_{k=1}^3 (2k-1)\), \(\sum_{k=1}^4 (2k-1)\), and \(\sum_{k=1}^5 (2k-1)\). Do you see a pattern?%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 3.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-3}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Let \(X = \{n \in \mathbb{N} \mid 10 \leq n \lt 20\}\).  Find examples of sets with the properties below and very briefly explain why your examples work.%
+\begin{enumerate}[label=(\alph*)]
+\item{}A set \(A \subseteq \mathbb{N}\) with \(\lvert A \rvert = 10\) such that \(X - A = \{10, 12, 14\}\).%
+\item{}A set \(B \in \mathcal{P}(X)\) with \(\lvert B\rvert = 5\).%
+\item{}A set \(C \subseteq \mathcal{P}(X)\) with \(\lvert C\rvert = 5\).%
+\item{}A set \(D \subseteq X \times X\) with \(\lvert D\rvert = 5\).%
+\item{}A set \(E \subseteq X\) such that \(\lvert E\rvert \in E\).%
+\end{enumerate}
+%
+\item{}Explain why there is no set \(A\) which satisfies \(A = \{2, \card{A}\}\)%
+\item{}Use summation or product notation to rewrite the following.%
+\begin{enumerate}[label=(\alph*)]
+\item{}\(1 + \frac{1}{2} + \frac{1}{3}+ \frac{1}{4}+ \cdots + \frac{1}{50}\)%
+\item{}\(1 + 5 + 9 + 13 + \cdots + 421\)%
+\item{}\(\frac{1}{2}\cdot \frac{3}{4}\cdot \frac{5}{6}\cdot \cdots 			 
+\cdot\frac{99}{100}\)%
+\end{enumerate}
+%
+\item{}Are there sets \(A\) and \(B\) such that \(|A| = |B|\), \(|A\cup B| = 10\), and \(|A\cap B| = 5\)?  Explain.%
+\item{}Consider the universe of postive integers greater than or equal to 2. Let \(A_2\) be the set of all multiples of 2 except for \(2\). Let \(A_3\) be the set of all multiples of 3 except for 3. And so on, so that \(A_n\) is the set of all multiple of \(n\) except for \(n\), for any \(n \ge 2\). Describe (in words) the set \(\left(A_2 \cup A_3 \cup A_4 \cup \cdots \right)^c\).%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 4 Counting: Product Rule and Permutations}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Counting: Product Rule and Permutations}{}{Counting: Product Rule and Permutations}{}{}{x:chapter:chapter_4}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 4.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-4}
+Read Sections 2.1 and 2.2 of Applied Discrete Structures%
+\par
+Response Question:  Suppose \(A\) and \(B\) are finite sets.  Explain how the cardinality the Cartesian product \(A \times B\) can be determined using the Rule of Products.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{enumerate}
+\item{}2.1: \#4%
+\item{}2.2: How many ways can the letters in the word DRACUT be arranged? They don't have to form a real word.%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 4.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-4}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would counted, but 214 would not be counted.%
+\item{}How many positive integers divide evenly into \(67,500=2^2 3^3 5^4\)?%
+\item{}The manager of a baseball team has decide on the batting order of his team.  He has selected the nine batters already.%
+\begin{enumerate}[label=(\alph*)]
+\item{}How many ways could he select a batting order?%
+\item{}He decides that the catcher must bat before the shortstop?  How many ways can he select a batting order now?%
+\item{}In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman.  How many ways can the manager select a batting order now?%
+\end{enumerate}
+%
+\item{}How many ways can the letters in the word APPLE be arranged?%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 5 Partitions and Combinations}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Partitions and Combinations}{}{Partitions and Combinations}{}{}{x:chapter:chapter_5}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 5.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-5}
+Read Sections 2.3 and 2.4 of Applied Discrete Structures.%
+\par
+Response question: In mathematics, the word partition is used in two contexts. One is for partitions of sets, as described in Section 2.3. The other is for partitions of a positive integer.  An example of a partition of \(5\) is \(3+1+1\), a sum of positive integers equal to \(5\). It is customary to write the terms of the sum in non-increasing order since \(1+3+1\) is considered the same partition of \(5\). The other partitions of 5 are \(5\), \(4+1\), \(3+2\), \(2+2+1\), \(2+1+1+1\), and \(1+1+1+1+1\). How might a listing of all partitions of an integer like \(5\) help in listing all partitions of a set with that many elements?%
+\par
+Exercises to do and turn in:%
+\begin{enumerate}
+\item{}2.3 \#2%
+\item{}2.4  \#4%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 5.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-5}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Section 2.3 \#6%
+\item{}How many different partitions are there of the set \(\{1,2,3,4,5\}\)%
+\item{}How many ways can you arrange the letters in the word BOOKKEEPER?%
+\item{}Section 2.4 \#12%
+\item{}Section 2.4 \#5%
+\item{}Section 2.4 \#6%
+\item{}Consider the set of lattice paths from \((0,0)\) to \((8,8)\).  You should know one quick formula for the cardinality of that set.  However, counting a different way can lead to an interesting  identity involving binomial coefficients.  Notice that any path goes through exactly one of the points \((0,8), (1,7), (2,6), \dots , (8,0)\).  Count the number of lattice paths that go through each of those 9 points - leave the expression in terms of binomial coefficients.  Even more interesting is what you get if  generalize to a destination of \((n,n)\), \(n \geq 1\).%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 5.3 Some Lattices}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Some Lattices}{}{Some Lattices}{}{}{x:section:handouts-5}
+Here are a couple of lattices for you to doodle with.%
+\begin{figureptx}{}{g:figure:idm365568666192}{}%
+\begin{image}{0.125}{0.75}{0.125}%
+\includegraphics[width=\linewidth]{images/graphpaper8.png}
+\end{image}%
+\tcblower
+\end{figureptx}%
+\begin{figureptx}{}{g:figure:idm365568664304}{}%
+\begin{image}{0.125}{0.75}{0.125}%
+\includegraphics[width=\linewidth]{images/graphpaper8.png}
+\end{image}%
+\tcblower
+\end{figureptx}%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 6 Logic: Propositions and Truth Tables}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Logic: Propositions and Truth Tables}{}{Logic: Propositions and Truth Tables}{}{}{x:chapter:chapter_6}
+\index{Propositions and Truth Tables}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 6.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-6}
+Read sections 3.1 and 3.2 of Applied Discrete Structures.%
+\par
+Response Question: Suppose you were given a proposition generated by 100 propositional variables and you are asked whether there is at least one assignment of truth values that you could assign to these variables to make the proposition true. Why is constructing a truth table not practical.  If you decided to examine all possible assignments of truth values and your computer could check one million cases per second, approximately how long would it take to check all cases?%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Section 3.1. \#2%
+\item{}Section 3.2 \#2, parts (a) and (c)%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 6.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-6}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Reword the following statements into ``If...then'' statements.%
+\begin{enumerate}[label=(\alph*)]
+\item{}No resident of Chelmsford likes hot peppers.%
+\item{}For 3+7=10, it is necessary that cows fly.%
+\item{}For 3+7=10, it is sufficient that cows fly.%
+\item{}Lowell is the oldest city in Massachusetts unless mermaids exist.%
+\item{}I carry an umbrella when it rains.%
+\end{enumerate}
+%
+\item{}Construct the truth table for \((p \lor q) \land (p\lor \neg q)\).   Notice anything about the result?%
+\item{}Consider the statement “If Boris visits Hampton Beach, then he eats fried clams.”%
+\begin{enumerate}[label=(\alph*)]
+\item{}Write the converse of the statement.%
+\item{}Write the contrapositive of the statement.%
+\item{}Is it possible for the contrapositive to be false? If it was, what would that tell you?%
+\item{}Suppose the original statement is true, and that Boris eats fried clams. Can you conclude anything (about his travels)?%
+\item{}Suppose the original statement is true, and that Boris does eat fried clams. Can you conclude anything (about his travels)?%
+\end{enumerate}
+%
+\item{}Consider the statement, ``If a number is triangular or square, then it is not prime''%
+\begin{enumerate}[label=(\alph*)]
+\item{}Make a truth table for the statement \((T \vee S) \rightarrow \neg P\).%
+\item{}If you believed the statement was false, what properties would a counterexample need to possess? Explain by referencing your truth table.%
+\item{}If the statement were true, what could you conclude about the number 5657, which is definitely prime? Again, explain using the truth table.%
+\end{enumerate}
+%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 7 Equivalence, Implication, and Laws of Logic}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Equivalence, Implication, and Laws of Logic}{}{Equivalence, Implication, and Laws of Logic}{}{}{x:chapter:chapter_7}
+\index{Equivalence}%
+\index{Implication}%
+\index{Laws of Logic}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 7.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-7}
+Read sections 3.3 and 3.4 of Applied Discrete Structures.%
+\par
+Response question: Explain why every proposition implies a tautology.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}3.3: \#2%
+\item{}3.4: \#2%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 7.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-7}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Find a proposition that is equivalent to \(p \lor  q\) and uses only conjunction and negation.%
+\item{}Frankie Fib was telling you what he consumed yesterday afternoon. He tells you, ``I had either popcorn or raisins. Also, if I had cucumber sandwiches, then I had soda. But I didn't drink soda or tea.'' Of course you know that Frankie is the worlds worst liar, and everything he says is false. What did Frankie have to eat and drink?%
+\item{}Construct the truth table for \((p \rightarrow q) \land (q \rightarrow r) \land (r \rightarrow p)\).   Notice anything about the result?%
+\item{}The significance of the Sheffer Stroke is that it is a ``universal'' operation in that all other logical operations can be built from it.%
+\begin{enumerate}[label=(\alph*)]
+\item{}Prove that \(p | q\) is equivalent to \(\neg (p \land  q)\).%
+\item{}Prove that \(\neg p \Leftrightarrow  p | p\).%
+\item{}Build \(\land\) using only the Sheffer Stroke.%
+\item{}Build \(\lor\) using only the Sheffer Stroke.%
+\end{enumerate}
+%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 7.3 The Sheffer Stroke}
+\typeout{************************************************}
+%
+\begin{sectionptx}{The Sheffer Stroke}{}{The Sheffer Stroke}{}{}{x:section:handouts-7}
+\index{Equivalence}%
+Another logical operation is the Sheffer Stroke, which is the subject of one of the exercises.%
+\begin{tableptx}{\textbf{Truth Table for the Sheffer Stroke}}{x:table:tt-scheffer}{}%
+\centering
+{\tabularfont%
+\begin{tabular}{ccc}
+\(p\)&\(q\)&\(p \mid q\)\tabularnewline[0pt]
+0&0&1\tabularnewline[0pt]
+0&1&1\tabularnewline[0pt]
+1&0&1\tabularnewline[0pt]
+1&1&0
+\end{tabular}
+}%
+\end{tableptx}%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 8 Structured Proofs}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Structured Proofs}{}{Structured Proofs}{}{}{x:chapter:chapter_NN}
+\index{Proofs}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 8.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-NN}
+Read section 3.5 of Applied Discrete Structures.%
+\par
+Response question: A proposition, \(P\), generated by a set of propositional variables is said to be satisfiable if there is at least one way to assign truth values to all of the variables so that \(P\) Is true. Explain why \(P\) is satisfiable as long as \(\neg P\)  is not a tautology.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Put the following into symbolic form and check its validity: If I am a good person, nothing bad will happen to me. Nothing happened to me. Therefore, I am a good person.%
+\item{}Section 3.5: \#4 (a)%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 8.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-NN}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Prove either directly or indirectly:%
+\begin{equation*}
+a \lor  b, c \land  d, a \rightarrow  \neg c \Rightarrow  b
+\end{equation*}
+%
+\item{}In these two Lewis Carroll puzzles, you are given premises and are expected to form your own conclusion.  In each of them, convert the premises to symbolic form, draw a conclusion, and then translate back to English.%
+\begin{enumerate}[label=(\alph*)]
+\item{}%
+\begin{itemize}[label=\textbullet]
+\item{}No bald creature needs a hairbrush.%
+\item{}No lizards have hair.%
+\end{itemize}
+%
+\item{}%
+\begin{itemize}[label=\textbullet]
+\item{}Promise breakers are untrustworthy.%
+\item{}Wine drinkers are very communicative.%
+\item{}A man who keeps his promises is honest.%
+\item{}No teetotalers are pawnbrokers.%
+\item{}One can always trust a very communicative person.%
+\end{itemize}
+%
+\end{enumerate}
+%
+\item{}There \(n+1\), \(n\ge 1\)\textgreater{} people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:%
+\begin{itemize}[label=\textbullet]
+\item{}The backstage pass must go to the oldest person who gets a ticket.%
+\item{}The person who gets the backstage pass can' t get either of the other two tickets, but the two regular tickets can both go to the same person.%
+\end{itemize}
+How many ways can you give away the tickets? There are two ways to count. Find both and equate them.%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 8.3 Basic Logical Inferences}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Basic Logical Inferences}{}{Basic Logical Inferences}{}{}{x:section:handouts-NN}
+From section 3.4 of Applied Discrete Structures:%
+\begin{tableptx}{\textbf{Basic Logical Laws - Common Implications and Equivalences}}{x:table:table-implications}{}%
+\centering
+\index{Modus Ponens!see Detachment}%
+\index{Modus Tollens!see Indirect Reasoning}%
+\index{Detachment}%
+\index{Indirect Reasoning}%
+{\tabularfont%
+\begin{tabular}{cc}
+Detachment (AKA Modus Ponens)&\((p \rightarrow  q) \land  p\Rightarrow  q\)\tabularnewline\hrulemedium
+Indirect Reasoning (AKA Modus Tollens)&\((p \to  q) \land  \neg q \Rightarrow  \neg p\)\tabularnewline\hrulemedium
+Disjunctive Addition&\(p\Rightarrow (p\lor q)\)\tabularnewline\hrulemedium
+Conjunctive Simplification&\((p \land  q) \Rightarrow  p\) and \((p \land  q) \Rightarrow  q\)\tabularnewline\hrulemedium
+Disjunctive Simplification&\((p \lor  q) \land  \neg p \Rightarrow  q\) and \((p \lor q) \land \neg q\Rightarrow p\)\tabularnewline\hrulemedium
+Chain Rule&\((p \to  q) \land  ( q \rightarrow  r) \Rightarrow  (p\to  r)\)\tabularnewline\hrulemedium
+Conditional Equivalence&\(p \rightarrow  q \Leftrightarrow  \neg p \lor  q\)\tabularnewline\hrulemedium
+Biconditional Equivalences&\((p \leftrightarrow  q) \Leftrightarrow  (p\rightarrow q) \land  (q \rightarrow  p)\Leftrightarrow (p \land  q) \lor  (\neg p \land  \neg q)\)\tabularnewline\hrulemedium
+Contrapositive&\((p\to q) \Leftrightarrow (\neg q \to \neg p)\)
+\end{tabular}
+}%
+\end{tableptx}%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 9 Mathematical Induction}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Mathematical Induction}{}{Mathematical Induction}{}{}{x:chapter:chapter_9}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 9.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-9}
+Read Sections 3.6 and 3.7 of Applied Discrete Structures. It is only necessary to read 3.6 through Example 3.6.7.%
+\par
+Response question: You don’t need induction to prove that the sum of the first \(n\) Positive integers equals \(\frac{n(n+1)}{2}\). Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Simplify the expressions%
+\begin{enumerate}[label=(\alph*)]
+\item{}\((\sum_{k=1}^{n+1}k^2) -(\sum_{k=1}^n k^2)\)%
+\item{}\(\sum_{k=1}^n (\frac{1}{k}-\frac{1}{k+1})\)%
+\item{}\(\frac{(n+2)!}{n!}\)%
+\end{enumerate}
+%
+\item{}Prove that for \(n \ge 0\), \(\sum_{k=0}^n {2^k} = 2^{n+1}-1\).%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 9.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-9}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Prove that for \(n\geq 1\),%
+\begin{equation*}
+\frac{1}{1\cdot 2 }+ \frac{1}{2\cdot 3}+ \cdots  + \frac{1}{n(n+1)}= \frac{n}{n+1}.
+\end{equation*}
+%
+\item{}Prove that it is possible to make up any postage of 28 cents or more using only five-cent and eight-cent stamps.%
+\item{}Suppose that a particular real number \(x\) has the property that \(x + \frac{1}{x}\) is an integer.  Prove that \(x^n + \frac{1}{x^n}\) is an integer for all natural numbers \(n\).%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 10 }
+\typeout{************************************************}
+%
+\begin{chapterptx}{}{}{}{}{}{x:chapter:chapter_10}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 10.1 Quantifiers and Proofs}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Quantifiers and Proofs}{}{Quantifiers and Proofs}{}{}{x:section:reading-10}
+Read Sections 3.8 and 3.9 of Applied Discrete Structures%
+\par
+Response Question: In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Section 3.8: \#2%
+\item{}Section 3.9: \#2%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 10.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-10}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Translate the following statement over the positive integers into symbols. Use \(E(x)\) for ``\(x\) is even'' and \(O(x)\) for ``\(x\) is odd.''%
+\begin{enumerate}[label=(\alph*)]
+\item{}No number is both even and odd.%
+\item{}One more than any even number is an odd number.%
+\item{}There is prime number that is even.%
+\item{}Between any two numbers there is a third number.%
+\item{}There is no number between a number and one more than that number.%
+\end{enumerate}
+%
+\item{}Use quantifiers to state that for every positive integer, there is a larger positive integer.%
+\item{}One of the following is true and the other is false.  Identify the true one says and explain why the other one is false.%
+\begin{gather*}
+(\exists  b)_{\mathbb{Z}} ((\forall a)_{\mathbb{Z}}(a + b = 0))\\
+(\forall  a)_{\mathbb{Z}} ((\exists b)_{\mathbb{Z}}(a + b = 0))
+\end{gather*}
+%
+\item{}Prove that the sum of of an odd integer and and even integer is odd.%
+\item{}Prove that if you divide 4 into a perfect square, \(1, 4, 9, 16, \dots\), the remainder will be either 0 or 1.%
+\item{}Prove that the cube root of \(2\) is an irrational number.%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+\backmatter
+%
+%
+%% A lineskip in table of contents as transition to appendices, backmatter
+\addtocontents{toc}{\vspace{\normalbaselineskip}}
+%
+%
+%% The index is here, setup is all in preamble
+\printindex
+%
+\end{document}

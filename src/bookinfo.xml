@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<docinfo>
+
+    <brandlogo url="http://discretemath.org" source="http://discretemath.org/images/ads_v3_cover.jpg" />
+ <!-- 
+       <latex-preamble>
+            <package>amsmath</package>
+            <package>kbordermatrix</package>
+            <package>blkarray</package>
+        </latex-preamble>
+ -->
+
+
+    <!-- Math-related macros from "macros.tex" in previous LaTeX version -->
+    <!-- \notdivide replaces \notmid to avoid conflict with tikz - TWJ 5/6/2010 -->
+    <!-- Added operator \gf  - TWJ 2/26/2013 -->
+    <!-- Added operator \inn - TWJ 4/6/2013  -->
+    <!-- Added operator \aut - TWJ 4/6/2013  -->
+    <!-- Added operator \Hom - TWJ 8/19/2010 -->
+    <macros>
+\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\pow}{\mathcal P}
+\newcommand{\inv}{^{-1}}
+\newcommand{\st}{|}
+\renewcommand{\iff}{\leftrightarrow}
+\newcommand{\Iff}{\Leftrightarrow}
+\newcommand{\imp}{\rightarrow}
+\newcommand{\Imp}{\Rightarrow}
+\newcommand{\isom}{\cong}
+<!-- 
+\renewcommand{\bar}{\overline}
+ -->
+\newcommand{\card}[1]{\left| #1 \right|}
+\newcommand{\twoline}[2]{\begin{pmatrix}#1 \\ #2 \end{pmatrix}}
+\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,label=#1:#2]{}}
+\newcommand{\va}[1]{\vtx{above}{#1}}
+\newcommand{\vb}[1]{\vtx{below}{#1}}
+\newcommand{\vr}[1]{\vtx{right}{#1}}
+\newcommand{\vl}[1]{\vtx{left}{#1}}
+\renewcommand{\v}{\vtx{above}{}}
+    </macros>
+
+    <!-- tikz package and libraries for images -->
+    <latex-image-preamble>
+    \usepackage{amsmath}
+<!-- 
+    \usepackage{tikz}
+    \usetikzlibrary{backgrounds}
+    \usetikzlibrary{arrows,matrix}
+    \usetikzlibrary{snakes}
+ -->
+    </latex-image-preamble>
+    <!-- Prefix to enhance Sage notebook contents -->
+    <initialism>Active-ADS</initialism>
+
+<!-- 
+	The following is outdated.  This information is now part of the command line.
+    <analytics>
+        <statcounter>
+            <project>11204831</project>
+            <security>957c565b</security>
+        </statcounter>
+    </analytics>
+ 
+ -->
+</docinfo>

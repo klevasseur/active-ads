@@ -1,0 +1,40 @@
+\select@language {english}
+\hypertarget {x:book:active-ads}{}
+\contentsline {chapter}{Preface}{vii}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Binary Representation of Positive Integers}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Reading}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Questions}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Handouts}{1}{section.1.3}
+\contentsline {chapter}{\numberline {2}Sets and Operations on them}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Reading}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}In-Class Questions}{3}{section.2.2}
+\contentsline {chapter}{\numberline {3}Sets, Sums \& Products}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Reading}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}In-Class Questions}{4}{section.3.2}
+\contentsline {chapter}{\numberline {4}Counting: Product Rule and Permutations}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Reading}{5}{section.4.1}
+\contentsline {section}{\numberline {4.2}In-Class Questions}{5}{section.4.2}
+\contentsline {chapter}{\numberline {5}Partitions and Combinations}{6}{chapter.5}
+\contentsline {section}{\numberline {5.1}Reading}{6}{section.5.1}
+\contentsline {section}{\numberline {5.2}In-Class Questions}{6}{section.5.2}
+\contentsline {section}{\numberline {5.3}Some Lattices}{7}{section.5.3}
+\contentsline {chapter}{\numberline {6}Logic: Propositions and Truth Tables}{8}{chapter.6}
+\contentsline {section}{\numberline {6.1}Reading}{8}{section.6.1}
+\contentsline {section}{\numberline {6.2}In-Class Questions}{8}{section.6.2}
+\contentsline {chapter}{\numberline {7}Equivalence, Implication, and Laws of Logic}{10}{chapter.7}
+\contentsline {section}{\numberline {7.1}Reading}{10}{section.7.1}
+\contentsline {section}{\numberline {7.2}In-Class Questions}{10}{section.7.2}
+\contentsline {section}{\numberline {7.3}The Sheffer Stroke}{11}{section.7.3}
+\contentsline {chapter}{\numberline {8}Structured Proofs}{12}{chapter.8}
+\contentsline {section}{\numberline {8.1}Reading}{12}{section.8.1}
+\contentsline {section}{\numberline {8.2}In-Class Questions}{12}{section.8.2}
+\contentsline {section}{\numberline {8.3}Basic Logical Inferences}{13}{section.8.3}
+\contentsline {chapter}{\numberline {9}Mathematical Induction}{14}{chapter.9}
+\contentsline {section}{\numberline {9.1}Reading}{14}{section.9.1}
+\contentsline {section}{\numberline {9.2}In-Class Questions}{14}{section.9.2}
+\contentsline {chapter}{\numberline {10}}{15}{chapter.10}
+\contentsline {section}{\numberline {10.1}Quantifiers and Proofs}{15}{section.10.1}
+\contentsline {section}{\numberline {10.2}In-Class Questions}{15}{section.10.2}
+\vspace {\normalbaselineskip }
+\contentsline {chapter}{Index}{16}{section*.7}
+\contentsfinish 

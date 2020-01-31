@@ -1,0 +1,2 @@
+#!/bin/bash
+xsltproc --xinclude  --stringparam exercise.divisional.solution "no" --stringparam exercise.divisional.answer  "no"  ../../mathbook/xsl/mathbook-latex.xsl src/active-ads.xml > active-ads.tex

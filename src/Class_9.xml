@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_9" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Mathematical Induction</title>
+<idx></idx>
+<section xml:id="reading-9"><title>Reading</title>
+<p>Read Sections 3.6 and 3.7 of Applied Discrete Structures. It is only necessary to read 3.6 through Example 3.6.7.</p>
+<p>Response question: You don’t need induction to prove that the sum of the first <m>n</m> Positive integers equals <m>\frac{n(n+1)}{2}</m>. Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read. </p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li><p> Simplify the expressions 
+				<ol label="(a)"><li><p> <m>(\sum_{k=1}^{n+1}k^2) -(\sum_{k=1}^n k^2)</m></p></li>
+				 <li><p> <m>\sum_{k=1}^n (\frac{1}{k}-\frac{1}{k+1})</m></p></li>
+				 <li><p> <m>\frac{(n+2)!}{n!}</m></p></li></ol>
+     </p></li>
+		<li><p>Prove that for <m>n \ge 0</m>, <m>\sum_{k=0}^n {2^k} = 2^{n+1}-1</m>.</p></li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-9"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p>Prove that for <m>n\geq 1</m>,
+  <me>\frac{1}{1\cdot 2 }+ \frac{1}{2\cdot 3}+ \cdots  + \frac{1}{n(n+1)}= \frac{n}{n+1}.</me></p></li>
+<li><p>Prove that it is possible to make up any postage of 28 cents or more using only five-cent and eight-cent stamps.</p></li>
+<li><p>Suppose that a particular real number <m>x</m> has the property that <m>x + \frac{1}{x}</m> is an integer.  Prove that <m>x^n + \frac{1}{x^n}</m> is an integer for all natural numbers <m>n</m>.	</p></li>
+</ol>
+</p>
+</section>
+<!-- 
+<section xml:id="handouts-9"><title>Handouts</title>
+<p>None</p>
+</section>
+ -->
+</chapter>	

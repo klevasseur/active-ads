@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_10" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title></title>
+<idx></idx>
+<section xml:id="reading-10"><title>Quantifiers and Proofs</title>
+<p>Read Sections 3.8 and 3.9 of Applied Discrete Structures</p>
+<p>Response Question: In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect.</p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li>Section 3.8: #2</li>
+		<li>Section 3.9: #2 </li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-10"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p>
+        Translate the following statement over the positive integers into symbols. Use <m>E(x)</m> for <q><m>x</m> is even</q> and <m>O(x)</m> for <q><m>x</m> is odd.</q>
+       <ol label="(a)">
+          <li><p>No number is both even and odd. </p></li>
+          <li><p>One more than any even number is an odd number.</p></li>
+          <li><p>There is prime number that is even. </p></li>
+          <li><p>Between any two numbers there is a third number.</p></li>
+          <li><p>There is no number between a number and one more than that number.
+            </p></li>
+        </ol>
+      </p></li>
+<li><p>Use quantifiers to state that for every positive integer, there is a larger positive integer.</p></li>
+<li><p>One of the following is true and the other is false.  Identify the true one says and explain why the other one is false.
+		<md>
+		<mrow>(\exists  b)_{\mathbb{Z}} ((\forall a)_{\mathbb{Z}}(a + b = 0))</mrow>
+		<mrow>(\forall  a)_{\mathbb{Z}} ((\exists b)_{\mathbb{Z}}(a + b = 0))</mrow>
+		</md>
+</p></li>
+<li><p>Prove that the sum of of an odd integer and and even integer is odd.</p></li>
+<li><p>Prove that if you divide 4 into a perfect square, <m>1, 4, 9, 16, \dots</m>, the remainder will be either 0 or 1.</p></li>
+<li><p>Prove that the cube root of <m>2</m> is an irrational number.</p></li>
+</ol>
+</p>
+</section>
+</chapter>	
