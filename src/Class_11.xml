@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Set Theory Logic</title>
+<section xml:id="reading-NN"><title>Reading</title>
+<p>Read Sections 4.1  and 4.2 of Applied Discrete Structures</p>
+<p>Response Question: Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws. </p>
+<p>Also, turn in solutions to these exercises: 
+    <ul><li>Section 4.1 #2.</li>
+        <li>Section 4.2 #2 (b) and (c) only.</li>
+        </ul>  </p>
+</section>
+<section xml:id="questions-NN"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+            <li><p>What can one say about the sets <m>A</m> and <m>B</m> if we
+        know the following?  Back up your answers with proofs.
+        <ol label="(a)">
+                <li><p><m>A \cup B = A</m></p></li>
+                <li><p><m>A\cap B = A</m></p></li>
+                <li><p><m>A–B = A</m></p></li>
+                <li><p><m>A\cap B = B\cap A</m></p></li>
+                <li><p><m>A–B = B–A</m></p></li>
+                </ol>
+            </p></li>
+            <li><p>
+                <ol label="(a)">
+                    <li><p>Given the following sets of integers, <m>A, B, C</m>, find the set of elements that belong to exactly one of the three sets. 
+                            <md>
+                            <mrow>A=\{2,4,6,8,10,12,14,16,18\}</mrow>
+                            <mrow>B=\{2,3,5,7,11,13,17,19\}</mrow>
+                            <mrow>C=\{3,6,9,12,15,18\}</mrow>
+                            </md></p></li>
+                    <li><p>Prove that for any three sets, <m>A, B, C</m>, 
+                        <me>(A \cup B \cup C)\cap ((A^c \cap B^c)\cup (A^c \cap C^c)\cup (B^c \cap C^c))</me>
+                        is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part.</p></li>
+                        <li><p>Find a similar expression for the set of elements that belong to exactly one of any four sets <m>A, B, C, D.</m></p></li>
+                </ol>
+            </p></li>
+    <li><p>Recall that the power set of any set <m>A</m> is the set of all subsets of <m>A</m> and is denoted <m>\mathcal{P}(A)</m>.  Which of the following are true?
+    <md>
+        <mrow>\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(b)</mrow>
+        <mrow>\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(b)</mrow>
+    </md>
+    If either is not true, can you replace the equals sign with <m>\subseteq</m> or <m>\supseteq</m> to get a true statement?
+    </p></li>
+</ol>
+</p>
+</section>
+</chapter>    
