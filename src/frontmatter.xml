@@ -44,10 +44,12 @@
 		</copyright>
 		
 	</colophon>
+<!-- 
 <dedication>
 <title>Dedication</title>
 <p>To Karen</p>
 </dedication>
+ -->
 	<!-- Accepted order: acknowledgements, forewords, prefaces -->
 <!-- 
 <xi:include href="./acknowledgement.xml" />
