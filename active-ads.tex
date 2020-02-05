@@ -1,6 +1,6 @@
 %**************************************%
 %*    Generated from PreTeXt source   *%
-%*    on 2020-01-31T08:14:48-05:00    *%
+%*    on 2020-02-05T09:21:02-05:00    *%
 %*                                    *%
 %*      https://pretextbook.org       *%
 %*                                    *%
@@ -384,6 +384,8 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 %% hyperref, so it is necessary to turn off all linking
 %% It *must* be given as a package option, not with \hypersetup
 \usepackage[hyperfootnotes=false]{hyperref}
+%% configure hyperref's  \url  to match listings' inline verbatim
+\renewcommand\UrlFont{\small\ttfamily}
 %% Hyperlinking active in electronic PDFs, all links solid and blue
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
 \hypersetup{pdftitle={Active Applied Discrete Structures}}
@@ -481,12 +483,12 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 {\Huge Active Applied Discrete Structures}\\[3\baselineskip]
 {\Large Ken Levasseur}\\[0.5\baselineskip]
 {\Large University of Massachusetts Lowell}\\[3\baselineskip]
-{\Large January 31, 2020}\\}
+{\Large February 5, 2020}\\}
 \clearpage
 %% end:   title page
 %% begin: copyright-page
 \thispagestyle{empty}
-\hypertarget{g:colophon:idm365633817072}{}\vspace*{\stretch{2}}
+\hypertarget{g:colophon:idm12415137728}{}\vspace*{\stretch{2}}
 \noindent{\bfseries Edition}: version 0.1\par\medskip
 \noindent{\bfseries Website}: \href{http:\slash{}\slash{}faculty.uml.edu\slash{}klevasseur\slash{}ADS2}{faculty.uml.edu\slash{}klevasseur\slash{}ADS2}\par\medskip
 \noindent\textcopyright{}2020\quad{}Ken Levasseur\\[0.5\baselineskip]
@@ -494,21 +496,6 @@ Active Applied Discrete Structures by Kenneth Levasseur is licensed under a Crea
 \vspace*{\stretch{1}}
 \null\clearpage
 %% end:   copyright-page
-%% begin: dedication-page
-\cleardoublepage
-\thispagestyle{empty}
-\vspace*{\stretch{1}}
-\begin{center}\Large%
-To Karen%
-\end{center}
-\vspace*{\stretch{2}}
-\clearpage
-%% end:   dedication-page
-%% begin: obverse-dedication-page (empty)
-\thispagestyle{empty}
-\null%
-\clearpage
-%% end:   obverse-dedication-page
 %
 %
 \typeout{************************************************}
@@ -885,13 +872,13 @@ Exercises to do and turn in:%
 %
 \begin{sectionptx}{Some Lattices}{}{Some Lattices}{}{}{x:section:handouts-5}
 Here are a couple of lattices for you to doodle with.%
-\begin{figureptx}{}{g:figure:idm365568666192}{}%
+\begin{figureptx}{}{g:figure:idm12501452368}{}%
 \begin{image}{0.125}{0.75}{0.125}%
 \includegraphics[width=\linewidth]{images/graphpaper8.png}
 \end{image}%
 \tcblower
 \end{figureptx}%
-\begin{figureptx}{}{g:figure:idm365568664304}{}%
+\begin{figureptx}{}{g:figure:idm12501465680}{}%
 \begin{image}{0.125}{0.75}{0.125}%
 \includegraphics[width=\linewidth]{images/graphpaper8.png}
 \end{image}%
@@ -1191,18 +1178,18 @@ Also, turn in solutions to these exercises:%
 %
 %
 \typeout{************************************************}
-\typeout{Chapter 10 }
+\typeout{Chapter 10 Quantifiers and Proof Review}
 \typeout{************************************************}
 %
-\begin{chapterptx}{}{}{}{}{}{x:chapter:chapter_10}
+\begin{chapterptx}{Quantifiers and Proof Review}{}{Quantifiers and Proof Review}{}{}{x:chapter:chapter_10}
 \index{}%
 %
 %
 \typeout{************************************************}
-\typeout{Section 10.1 Quantifiers and Proofs}
+\typeout{Section 10.1 Reading}
 \typeout{************************************************}
 %
-\begin{sectionptx}{Quantifiers and Proofs}{}{Quantifiers and Proofs}{}{}{x:section:reading-10}
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-10}
 Read Sections 3.8 and 3.9 of Applied Discrete Structures%
 \par
 Response Question: In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect.%
@@ -1242,6 +1229,225 @@ Also, turn in solutions to these exercises:%
 \item{}Prove that the sum of of an odd integer and and even integer is odd.%
 \item{}Prove that if you divide 4 into a perfect square, \(1, 4, 9, 16, \dots\), the remainder will be either 0 or 1.%
 \item{}Prove that the cube root of \(2\) is an irrational number.%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 11 Set Theory Logic}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Set Theory Logic}{}{Set Theory Logic}{}{}{x:chapter:chapter_11}
+%
+%
+\typeout{************************************************}
+\typeout{Section 11.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-11}
+Read Sections 4.1  and 4.2 of Applied Discrete Structures%
+\par
+Response Question: Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws.%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Section 4.1 \#2.%
+\item{}Section 4.2 \#2 (b) and (c) only.%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 11.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-11}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}What can one say about the sets \(A\) and \(B\) if we know the following?  Back up your answers with proofs.%
+\begin{enumerate}[label=(\alph*)]
+\item{}\(A \cup B = A\)%
+\item{}\(A\cap B = A\)%
+\item{}\(A–B = A\)%
+\item{}\(A\cap B = B\cap A\)%
+\item{}\(A–B = B–A\)%
+\end{enumerate}
+%
+\item{}%
+\begin{enumerate}[label=(\alph*)]
+\item{}Given the following sets of integers, \(A, B, C\), find the set of elements that belong to exactly one of the three sets.%
+\begin{gather*}
+A=\{2,4,6,8,10,12,14,16,18\}\\
+B=\{2,3,5,7,11,13,17,19\}\\
+C=\{3,6,9,12,15,18\}
+\end{gather*}
+%
+\item{}Prove that for any three sets, \(A, B, C\),%
+\begin{equation*}
+(A \cup B \cup C)\cap ((A^c \cap B^c)\cup (A^c \cap C^c)\cup (B^c \cap C^c))
+\end{equation*}
+is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part.%
+\item{}Find a similar expression for the set of elements that belong to exactly one of any four sets \(A, B, C, D.\)%
+\end{enumerate}
+%
+\item{}Recall that the power set of any set \(A\) is the set of all subsets of \(A\) and is denoted \(\mathcal{P}(A)\).  Which of the following are true?%
+\begin{gather*}
+\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(b)\\
+\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(b)
+\end{gather*}
+If either is not true, can you replace the equals sign with \(\subseteq\) or \(\supseteq\) to get a true statement?%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 12 Minsets and Duality}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Minsets and Duality}{}{Minsets and Duality}{}{}{x:chapter:chapter_12}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 12.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-12}
+Read Sections 4.3 and 4.4 of Applied Discrete Structures%
+\par
+Response Question: To what extend is there any duality in arithmetic of numbers with addition and multiplication?  How does it break down where is doesn't in set theory?%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Consider the subsets \(A = \{1, 3, 5\}\), \(B = \{2,3,4\}\),  where \(U = \{1,2,3,4,5\}\).  List the nonempty minsets generated by \(A\textrm{ and }B\).%
+\item{}What is the dual of \(A \cap (B\cap (A\cap B)^c)= \emptyset\)?%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 12.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-12}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}A common way to denote a particular minset generated by a collection of subsets is as follows.  If there are \(k\) subsets, \(B_1, B_2, \dots ,B_k\), and \(b=b_1b_2\cdots b_k\) is any string of \(k\) bits, then%
+\begin{equation*}
+M_b =  M_{b_1b_2\cdots \b_k} = D_1 \cap D_2 \cap \cdots \cap D_k,
+\end{equation*}
+where \(D_i\) is either \(B_i\) or \(B_i^c\).  If \(b_i = 1\) then \(D_i =B_i\) and if \(b_i=0\) then \(D_i=B_i^c\).  For example, if \(k=4\), \(M_{0110} = B_1^c \cap B_2 \cap B_3 \cap B_4^c\).%
+\begin{enumerate}[label=(\alph*)]
+\item{}Suppose \(U=\{1, 2, 3, 4, 5\}\), \(k=2\), \(B_1= \{1, 2\}\), and \(B_2 = \{2,3,4\}\).  List the minsets generated by \(B_1\) and \(B_2\) using ``\(M_b\)'' notation. Notice that they form a partition of \(U\).%
+\item{}How does this notation make help us see how many distinct  minsets there could be that are generated by \(k\) subsets of a universe.%
+\end{enumerate}
+%
+\item{}%
+\begin{enumerate}[label=(\alph*)]
+\item{}Partition \(\{1, 2,  \dots, 8\}\) into the minsets generated by \(B_1= \{1, 2\}\), \(B_2 = \{1, 3, 5, 8\}\), and \(B_3 = \{2, 3, 4, 6\}\).%
+\item{}How many different subsets of \(\{1, 2, \dots ,8\}\) can you create using \(B_1, B_2\), and \(B_3\) with the standard set operations?%
+\item{}Do there exist subsets \(C_1, C_2, C_3\) with which you can generate every subset of \(\{1,2, . . . ,8\}\)?  If so, can you find such a collection of subsets?  If not, why?  You might find the Venn diagram below useful for thinking about this problem.%
+\end{enumerate}
+%
+\item{}What is the dual of a minset?  These sets are called ``maxsets''  Find the maxsets generated by the two sets in part (a) of the first problem.   Why do you suppose they are called maxsets?%
+\item{}The descriptions of duality in Section 4.4 is not complete.  If you expand expressions involving subsets, such as the expression \(A \cap B \subseteq A\), which is a true statement in set theory.  What should be the dual?  How should we treat the subset symbol?%
+\end{enumerate}
+%
+\begin{figureptx}{A three set Venn diagram}{x:figure:fig-venn3}{}%
+\begin{image}{0.05}{0.9}{0.05}%
+\includegraphics[width=\linewidth]{images/fig-venn3.png}
+\end{image}%
+\tcblower
+\end{figureptx}%
+\end{sectionptx}
+\end{chapterptx}
+%
+%
+\typeout{************************************************}
+\typeout{Chapter 13 Matrix Operations}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Matrix Operations}{}{Matrix Operations}{}{}{x:chapter:chapter_13}
+\index{}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 13.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-13}
+Read Sections 5.1 and 5.2 of Applied Discrete Structures.%
+\par
+Response Question:  Let \(A=\begin{bmatrix} 2 & 0\\ 0 & -1 \end{bmatrix}\). Select any 2 by 2 matrix with nonzero entries and call it \(B\). Compute the products \(AB \textrm{ and }BA\)  What effect does \(A\) have on \(B\) in each case?%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Section 5.1 \#2 parts a and b%
+\item{}Section 5.2 \#2%
+\end{itemize}
+%
+\par
+There is a short video on matrix multiplication at \url{https://youtu.be/zt-IU1lXFzs}%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 13.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-13}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Let \(A=\begin{bmatrix} 1 & a\\ 0 & 1 \end{bmatrix}\) and \(B=\begin{bmatrix} 1 & b\\ 0 & 1 \end{bmatrix}\).  Compute the product \(A B\).  Based on this result, what is \(A^{-1}\).%
+\item{}\index{Transpose of a matrix}If \(A\) is a an \(m \times n\) matrix, we define the transpose of A to be the \(n \times m\) matrix whose rows are the columns of \(A\).  For example, the transpose of%
+\begin{equation*}
+\left(
+\begin{array}{ccc}
+1 &2 &3 \\
+4 &5 &6 \\
+\end{array}
+\right) \textrm{  is  }
+\left(
+\begin{array}{cc}
+1 &4 \\
+2 &5 \\
+3 &6 \\
+\end{array}
+\right).
+\end{equation*}
+The notation \(A^t\) is used for the transpose of \(A\).%
+\begin{enumerate}[label=(\alph*)]
+\item{}If \(A\) is an \(m \times n\) matrix, are the products \(A A^t\) and \(A^t A \) defined?  What are the orders of the products that are defined?%
+\item{}Given the following matrix, what useful information might you get from the products \(A A^t\) or \(A^t A\).?%
+\begin{equation*}
+A=\left(
+\begin{array}{ccccc}
+16 &11 &4 &3 &15 \\
+16 &17 &13 &12 &6 \\
+\end{array}
+\right) 
+\end{equation*}
+%
+\end{enumerate}
+%
+\item{}Prove by induction that for \(n \geq 1\), \(\left(
+\begin{array}{cc}
+a & 0 \\
+0 & b \\
+\end{array}
+\right)^n= \left(
+\begin{array}{cc}
+a^n & 0 \\
+0 & b^n \\
+\end{array}
+\right)\).%
+\item{}Suppose that \(A, P, \textrm{ and } B\) are all \(m \times m\) matrices, \(m \geq 2\), and \(A= P^{-1} B P\). Prove that  \(A^n == P^{-1} B^n P\) for all \(n \geq 1\).%
 \end{enumerate}
 %
 \end{sectionptx}
