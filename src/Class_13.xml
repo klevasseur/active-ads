@@ -6,8 +6,39 @@
 <p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. </p>
 <p>Response Question:  Let <m>A=\begin{bmatrix} 2 &amp; 0\\ 0 &amp; -1 \end{bmatrix}</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case?</p>
 <p>Also, turn in solutions to these exercises: 
-	<ul><li>Section 5.1 #2 parts a and b</li>
-		<li>Section 5.2 #2</li>
+	<ul><li> <p>Let <m>A=\left(
+\begin{array}{cc}
+ 1 &amp; -1 \\
+ 2 &amp; 3 \\
+\end{array}
+\right)</m> and  <m>B =\left(
+\begin{array}{cc}
+ 0 &amp; 1 \\
+ 3 &amp; -5 \\
+\end{array}
+\right)</m> </p>
+<p><ol label="(a)">
+<li><p> Compute <m>A B</m> and <m>B A</m>.</p></li>
+<li><p> Compute <m>A + B</m> and <m>B + A</m>.</p></li>
+</ol></p></li>
+		<li><p> For the given matrices <m>A</m> find <m>A^{-1}</m> if it exists and verify that <m>A A^{-1}=A^{-1}A = I</m>. If <m>A^{-1}</m> does not exist
+explain why.</p>
+<p><ol label="(a)">
+<li> <m>A =\left(
+\begin{array}{cc}
+ 2 &amp; -1 \\
+ -1 &amp; 2 \\
+\end{array}
+\right)</m>
+</li>
+<li> <m>A = \left(
+\begin{array}{cc}
+ 2 &amp; 1 \\
+ 4 &amp; 2 \\
+\end{array}
+\right)</m>
+</li>
+</ol></p></li>
 		</ul>  </p>
 		<p>There is a short video on matrix multiplication at <url href="https://youtu.be/zt-IU1lXFzs"/></p>
 </section>
@@ -47,6 +78,37 @@
 							</p></li>
 							</ol></p>
 				</li>
+			<li><p>If <me>A =\left(
+					\begin{array}{cc}
+					 2 &amp; 1 \\
+					 1 &amp; -1 \\
+					\end{array}
+					\right), X =\left(
+					\begin{array}{c}
+					 x_1 \\
+					 x_2 \\
+					\end{array}
+					\right)\textrm{, and }B =\left(
+					\begin{array}{c}
+					 3 \\
+					 1 \\
+					\end{array}
+					\right),</me> show that <m>A X =B</m> is a way of expressing the system  
+			<m>\begin{array}{c}2x_1 + x_2 = 3\\ x_1 - x_2= 1\\
+			\end{array}</m>  using matrices.</p>
+    <p> Express the following systems of equations using matrices:</p>
+		<p><ol label="(a)" cols="2">				
+			<li><p>  <m>\begin{array}{c}
+			                  2 x_1- x_2= 4\\
+									x_1+ x_2= 0\\
+									\end{array}</m></p>
+
+			<li><p>  <m>\begin{array}{c}
+			   x_1+ x_2+ 2 x_3= 1\\
+				x_1- x_2+ x_3= -1\\
+				x_1+ 3 x_2+x_3= 5\\
+				\end{array}</m></p></li>
+    </li></ol></p></li>
 			<li><p> Prove by induction that for <m>n \geq 1</m>, <m>\left(
 				\begin{array}{cc}
 				 a &amp; 0 \\
@@ -59,10 +121,33 @@
 				\end{array}
 				\right)</m>.
 				</p></li>
-			<li><p>
-				Suppose that <m>A, P, \textrm{ and } B</m> are all <m>m \times m</m> matrices, <m>m \geq 2</m>, and
-				<m>A= P^{-1} B P</m>. Prove that  <m>A^n == P^{-1} B^n P</m> for all <m>n \geq 1</m>.
-			</p></li>		
+			<li><p>In this exercise, we propose to show how matrix multiplication is a natural operation.  Suppose a bakery produces bread, cakes and pies every weekday, Monday through Friday. Based on past sales history, the bakery produces various numbers of each product each day, summarized in the <m>5 \times 3</m> matrix <m>D</m>.  It should be noted that the order could be described as <q>number of days by number of products.</q>   For example, on Wednesday (the third day) the number of cakes (second product in our list) that are produced  is  <m>d_{3,2} = 4</m>.
+				 <me>D =\left(
+				\begin{array}{ccc}
+				 25 &amp; 5 &amp; 5 \\
+				 14 &amp; 5 &amp; 8 \\
+				20 &amp; 4 &amp; 15 \\
+				 18 &amp; 5 &amp; 7 \\
+				 35 &amp; 10 &amp; 9 \\
+				\end{array}
+				\right)</me></p>
+				<p> The main ingredients of these products are flour, sugar and eggs. We assume that other ingredients are always in ample supply, but we need to be sure to have the three main ones available.   For each of the three products, The amount of each ingredient that is needed is summarized in the <m>3 \times 3</m>, or <q>number of products by number of ingredients</q> matrix <m>P</m>.  For example, to bake a cake (second product) we need <m>P_{2,1}=1.5</m> cups of flour (first ingredient).  Regarding units: flour and sugar are given in cups per unit of each product, while eggs are given in individual eggs per unit of each product.
+				 <me>P =\left(
+				\begin{array}{ccc}
+				 2 &amp; 0.5 &amp; 0 \\
+				 1.5 &amp; 1 &amp; 2 \\
+				1 &amp; 1 &amp; 1  \\
+				\end{array}
+				\right)</me>
+				These amounts are <q>made up</q>, so don't used them to do your own baking!</p>
+				<p>
+				<ol  label="(a)">
+						<li><p>How many cups of flour will the bakery need every Monday?  Pay close attention to how you compute your answer and the units of each number.</p></li>
+						<li><p>How many eggs will the bakery need every Wednesday?</p></li>
+						<li><p> Compute the matrix product <m>D P</m>.   What do you notice? </p></li> 
+						<li><p>Suppose the costs of ingredients are <m>\$0.12</m> for a cup of flour, <m>\$0.15</m> for a cup of sugar and <m>\$0.19</m> for one egg. How can this information be put into a matrix that can meaningfully be multiplied by one of the other matrices in this problem?</p></li>
+				</ol>
+				</p></li>	
 </ol>
 </p>
 </section>
