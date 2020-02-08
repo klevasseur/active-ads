@@ -20,7 +20,16 @@ Discuss any similarities you see between these three relations.
 <section xml:id="questions-15"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-<li><p></p></li>
+<li><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least on doorway.</p></li>
+<li><p>Given <m>s</m> and <m>t</m>, relations on <m>\mathbb{Z}</m>, <m> s = \{(1, n) : n \in \mathbb{Z}\}</m> and <m>t= \{(n, 1) : n \in  \mathbb{Z}\}</m>,
+what are <m>st</m> and <m>ts</m>? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing
+partial graphs.</p></li>
+<li><p><ol label="(a)">Let <m>A</m> be the set of strings of 0's and 1's of length 3 or less.
+		<li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 2 100</m>, but <m>01 w 101</m> is false. Draw a digraph for this relation. </li>
+		<li> Do the same for the relation <m>p</m> defined by <m>x p y</m> if <m>x</m> is a prefix of <m>y</m>. For example, <m>10 p 101</m>, but <m>01 p 101</m> is false.</li>
+</ol></p></li>
+<li><p>Consider logical implication, <m>\Rightarrow</m>, on the set of propositions <m>\{0,1,p,q,p\lor q, p\land q, p\land p \}</m>. Draw a digraph of this relation.</p></li>
+
 </ol>
 </p>
 </section>
