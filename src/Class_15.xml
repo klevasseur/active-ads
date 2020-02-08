@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_15" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title></title>
+<idx></idx>
+<section xml:id="reading-15"><title>Reading</title>
+<p>Read Sections 6.1 and 6.2 of Applied Discrete Structures</p>
+<p>Response Question: Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
+<ul>
+<li><p>Less than or equal to,<m>\leq</m>, on the integers,</p></li>
+<li><p>Set containment, <m>\subeq</m>, on the power set of a set,</p></li>
+<li><p>Logical implication, <m>\Rightarrow</m>, on any set of propositions.</p></li>
+</ul>
+Discuss any similarities you see between these three relations.
+</p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li><p>Consider the two relations on people: <m>M</m>, where <m>aMb</m> if <m>a</m>'s mother is <m>b</m>; and <m>S</m>, where  <m>aSb</m> if <m>a</m> and <m>b</m> are siblings.  Describe, in words, the two relations <m>MS</m> and <m>SM</m>.</p></li>
+	<li><p> Let <m>A = \{1,2,3,4,6,12\}</m>.  Draw a digraph for the relation <q>divides</q> on <m>A</m>.</p></li>
+				</ul>  </p>
+</section>
+<section xml:id="questions-15"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p></p></li>
+</ol>
+</p>
+</section>
+<section xml:id="handouts-15"><title>Handouts</title>
+<p>None</p>
+</section>
+</chapter>	
