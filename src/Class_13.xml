@@ -97,18 +97,19 @@ explain why.</p>
 			<m>\begin{array}{c}2x_1 + x_2 = 3\\ x_1 - x_2= 1\\
 			\end{array}</m>  using matrices.</p>
     <p> Express the following systems of equations using matrices:</p>
-		<p><ol label="(a)" cols="2">				
+		<p>
+		<ol label="(a)" cols="2">				
 			<li><p>  <m>\begin{array}{c}
 			                  2 x_1- x_2= 4\\
 									x_1+ x_2= 0\\
-									\end{array}</m></p>
-
+									\end{array}</m></p></li>
 			<li><p>  <m>\begin{array}{c}
 			   x_1+ x_2+ 2 x_3= 1\\
 				x_1- x_2+ x_3= -1\\
 				x_1+ 3 x_2+x_3= 5\\
 				\end{array}</m></p></li>
-    </li></ol></p></li>
+        </ol>
+        </p></li>
 			<li><p> Prove by induction that for <m>n \geq 1</m>, <m>\left(
 				\begin{array}{cc}
 				 a &amp; 0 \\
