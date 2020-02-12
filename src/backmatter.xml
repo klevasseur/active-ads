@@ -16,6 +16,8 @@
         <idx>Solutions</idx>
  </solutions>
  -->
+ <xi:include href="./references.xml" />
+
 <!-- 
 
 <appendix><title>Notation</title>
