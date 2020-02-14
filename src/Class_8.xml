@@ -33,7 +33,7 @@
 					</li>
 			</ol>
 		</p></li>
-		<li><p>There <m>n+1</m>, <m>n\ge 1</m>> people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:
+		<li><p>There are <m>n+1</m>, <m>n\ge 1</m> people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:
     	<ul>
 			<li>The backstage pass must go to the oldest person who gets a ticket.</li>
 			<li>The person who gets the backstage pass can' t get either of the other two tickets, but the two regular tickets can both go to the same person.</li>
