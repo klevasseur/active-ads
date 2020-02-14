@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_18" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Functions and Their Properties</title>
+<idx></idx>
+<section xml:id="reading-18"><title>Reading</title>
+<p>Read Sections 7.1 and 7.2 of <em>Applied Discrete Structures</em></p>
+<p>Response Question: In programming, a <em>function</em> is a named section of a program that performs a specific task and returns a value.  How does this compare with the definition of a function in mathematics?   </p>
+<p>Also, turn in solutions to these exercises: 
+	<ol label="1.">
+		<li><p> At the end of the semester a teacher assigns letter grades to each of her 45 students. Is this a function? If so, what sets make up the domain and codomain, and is the function injective, surjective, bijective, or neither?</p></li>
+	   <li><p> Let <m>A</m> be a set and let <m>S</m> be any subset of <m>A</m>. Let <m>\chi_S: A\to \{0,1\}</m> be defined by
+		<me>\chi_S(x)= \left\{
+		\begin{array}{cc}
+		 1 &amp; \textrm{if } x\in S \\
+		 0 &amp; \textrm{if } x\notin S \\
+		\end{array}
+		\right.
+		</me>
+		</p>
+		<p>The function <m>\chi_S</m> is called the <term>characteristic function</term><idx>Characteristic function</idx> of <m>S</m>.</p>
+		<p>Suppose <m>A = \{a, b, c\}</m>.
+		<ol label="(a)"> 
+		<li><p>If  <m>S = \{a, b\}</m>, list the elements of <m>\chi_S</m> .</p></li>
+		<li><p>What are <m>\chi_{\emptyset}</m> and <m>\chi_A</m>?</p></li>
+		</ol></p>
+		</li>
+	</ol>  </p>
+</section>
+<section xml:id="questions-18"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+	<li><p>Define functions on the positive integers, <m>\mathbb{P}</m>, if they exist, that have the properties specified below.
+	      <ol label="(a)">
+			<li><p> A function that is one-to-one and onto.</p></li>
+			<li><p> A function that is neither one-to-one nor onto.</p></li>
+			<li><p> A function that is one-to-one but not onto.</p></li>
+			<li><p> A function that is onto but not one-to-one.</p></li>
+			</ol>
+		</p></li>
+	<li><p>Prove that in a room with <m>n</m> people, <m>n \geq 2</m>, at least two people know exactly the same number of people. Assume knowing is a symmetric relation: If Paul knows Pat, then Pat knows Paul.</p></li>
+<li><p>Infinite Acres Spa and Math Camp has an infinite number of single occupancy rooms, numbered with each positive integer.  You are the night manager.  The spa is fully booked for the weekend and all rooms are occupied. A bus arrives late Friday night.  You find that the manager has booked an additional infinite busload of customers, with confirmation codes numbered <m>1, 2, 3, \dots</m>.   Can you accomodate the new arrivals? </p></li>
+	<li>Prove that the set of finite strings of 0's and 1's is countable.</li>
+<!-- 
+	<li>Prove that the set of all functions on the integers is an uncountable set.</li>
+ -->
+</ol>
+</p>
+</section>
+<!-- 
+<section xml:id="handouts-18"><title>Handouts</title>
+<p>None</p>
+</section>
+ -->
+</chapter>	

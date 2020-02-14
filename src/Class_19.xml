@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_19" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Function Composition</title>
+<idx></idx>
+<section xml:id="reading-19"><title>Reading</title>
+<p>Read Section 7.3 of <em>Applied Discrete Structures</em></p>
+<p>Response Question: Google <q>linux piping</q> and describe how this technique is related to function composition.</p>
+<p>Also, turn in solutions to these exercises: 
+	<ol label="1.">		
+			<li><p> Define <m>s</m>, <m>u</m>, and <m>d</m>, all functions on the integers, by 
+			   <m>s(n) = n^2</m> , <m>u(n) = n + 1</m>, and <m>d(n) = n-1</m>. Determine:
+			   <ol label="(a)">
+			<li><p> <m>u \circ  s \circ  d</m></p></li>
+			<li><p> <m>s \circ  u\circ  d</m></p></li>
+			<li><p> <m>d \circ  s \circ  u</m></p></li>
+			</ol>
+			Describe each function with a formula.</p></li>
+			<li><p><ul><li><p>Does <m>f:\mathbb{Z} \rightarrow \mathbb{Z}</m> defined by <m>f(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
+			<li><p>Does <m>g:\mathbb{R} \rightarrow \mathbb{R}</m> defined by <m>g(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
+			</ul></p></li>
+		</ol>  </p>
+</section>
+<section xml:id="questions-19"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p> Let <m>A = \{1, 2, 3\}</m>. Define <m>f:A\rightarrow A</m> by <m>f(1) = 2</m>, <m>f(2) = 3</m>, and <m>f(3) = 1</m>. Find <m>f^2</m>, <m>f^3</m>, <m>f^4</m> and
+<m>f^{-1}</m>.  Describe each of these functions as being equal to a previous one, or in the same manner as <m>f</m> has been described.</p></li>
+<li><p>Prove that if a function has an inverse, that inverse must be unique.</p></li>
+<li><p> Let <m>f</m> and <m>g</m> be functions whose inverses exist. Prove that <m>(f\circ g)^{-1}= g^{-1}\circ f^{-1}</m>.</p></li>
+<li><p><ol label="(a)"><li> Our definition of cardinality states that two sets, <m>A</m> and <m>B</m>, have the same cardinality if there exists a bijection
+between the two sets. Why does it not matter whether the bijection is from <m>A</m> into <m>B</m> or <m>B</m> into <m>A</m>?</li>
+<li><p>Prove that <q>has the same cardinality as</q> is an equivalence relation on sets.</p></li>
+</ol></p></li>
+</ol>
+</p>
+</section>
+<!-- 
+<section xml:id="handouts-19"><title>Handouts</title>
+<p>None</p>
+</section>
+ -->
+</chapter>	
