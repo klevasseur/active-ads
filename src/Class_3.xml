@@ -5,7 +5,7 @@
 <idx>Power Set</idx>
 <idx>Summation Notation</idx>
 <section xml:id="reading-3"><title>Reading</title>
-<p>Read Sections 1.3 and 1.5 of Applied Discrete Structures.</p>
+<p>Read Sections 1.3 and 1.5 of <em>Applied Discrete Structures</em>.</p>
 <p>Response Question:  If <m>A</m> is a finite set, why is the number of elements in the power set of <m>A</m> a power of 2? </p>
 <p>Also, turn in solutions to these exercises: 
 <ol label="1.">
@@ -28,7 +28,7 @@
         </ol>
       </p>
 </li>
-	<li><p> Explain why there is no set 
+	<li><p>(From <xref ref="biblio-levin-2020"/>) Explain why there is no set 
 	<m>A</m> which satisfies <m>A = \{2, \card{A}\}</m></p></li>
 	<li><p>Use summation or product notation to rewrite the following.
 			<ol label="(a)">

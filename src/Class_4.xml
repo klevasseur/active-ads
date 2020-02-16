@@ -3,7 +3,7 @@
 <title>Counting: Product Rule and Permutations</title>
 <idx></idx>
 <section xml:id="reading-4"><title>Reading</title>
-<p>Read Sections 2.1 and 2.2 of Applied Discrete Structures</p>
+<p>Read Sections 2.1 and 2.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question:  Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products.</p> 
 <p>Also, turn in solutions to these exercises: 
       <ol><li><p>2.1: #4</p></li>

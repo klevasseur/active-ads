@@ -3,7 +3,7 @@
 <title>Relations</title>
 <idx></idx>
 <section xml:id="reading-15"><title>Reading</title>
-<p>Read Sections 6.1 and 6.2 of Applied Discrete Structures</p>
+<p>Read Sections 6.1 and 6.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
 <ul>
 <li><p>Less than or equal to,<m>\leq</m>, on the integers,</p></li>

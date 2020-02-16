@@ -3,7 +3,7 @@
 <title>Matrix Laws and Oddities</title>
 <idx></idx>
 <section xml:id="reading-14"><title>Reading</title>
-<p>Read Sections 5.3 and 5.4 of Applied Discrete Structures</p>
+<p>Read Sections 5.3 and 5.4 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks.</p>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>Let <m>A=\begin{bmatrix} 0 &amp;1&amp;0&amp;0\\ 0 &amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;1\\ 1 &amp;0&amp;0&amp;0 \end{bmatrix}</m>. Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</li>
