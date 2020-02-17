@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_18" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Functions and Their Properties</title>
-<idx></idx>
+<idx>Function Properties</idx>
 <section xml:id="reading-18"><title>Reading</title>
 <p>Read Sections 7.1 and 7.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: In programming, a <em>function</em> is a named section of a program that performs a specific task and returns a value.  How does this compare with the definition of a function in mathematics?   </p>

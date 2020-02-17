@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_22" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title></title>
+<idx></idx>
+<section xml:id="reading-22"><title>Reading</title>
+<p>Read </p>
+<p>Response Question: </p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li></li>
+		<li></li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-22"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p></p></li>
+<li><p>A computer algorithm takes no time to sort a list with one item, but if it is given a list with <m>n</m> items, <m>n \geq 2</m>, then it takes <m>T(n) = T(n-1) + 3\dot n</m> nanoseconds.  Find a closed form expression for <m>T(n)</m> </p></li></ol>
+</p>
+</section>
+<section xml:id="handouts-22"><title>Handouts</title>
+<p>None</p>
+</section>
+</chapter>	

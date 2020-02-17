@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_19" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Function Composition</title>
-<idx></idx>
+<idx>Function Composition</idx>
 <section xml:id="reading-19"><title>Reading</title>
 <p>Read Section 7.3 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Google <q>linux piping</q> and describe how this technique is related to function composition.</p>

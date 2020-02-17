@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_20" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Recursion and Sequences</title>
-<idx></idx>
+<idx>Recursion</idx>
+<idx>Stack</idx>
 <section xml:id="reading-20"><title>Reading</title>
 <p>Read  Sections 8.1 and 8.2 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned. </p>
+<p>Response Question: Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned. </p>
 <p>Also, turn in solutions to these exercises: 
 	<ul>
 			<li>Consider a sequence of strings, <m>L(n)</m> defined recursively by
-			 <m>L(n)=L(n-2)+L(n-2)+L(n-1)</m> with <m>L(0)='1'</m> and <m>L(1)='0'</m>. Here, the plus
-			  sign is taken as concatenation of strings.  Determine <m>L(4)</m>.</li>
+			 <m>L(n)=L(n-2)+L(n-2)+L(n-1)</m> with <m>L(0)="1"</m> and <m>L(1)="0"</m>. 
+			 Here, the plus sign is taken as concatenation of strings.  Determine <m>L(4)</m>.</li>
 			<li><p>Consider sequence <m>Q</m> defined by <m>Q(k) = 2k + 9</m>, <m>k \geq  1</m>. 
 			Complete the table below and determine a recurrence relation
 		    that describes <m>Q</m>. 
@@ -46,6 +47,7 @@
 </p>
 </section>
 <section xml:id="s-bsa"><title>Binary Search Algorithm</title>
+<idx>Binary Search</idx>
 <p>Here is a python version of the binary search algorithm.
 <cd>
 def BinarySearch(r,j,k,C):
@@ -67,7 +69,7 @@ def BinarySearch(r,j,k,C):
       print('not found')
       return False      
 </cd>
-The output from an example of a search for the number 30  in a list of 28 numbers is as follows. It should be noted that in python, indices start at 0, so probing position 13 means to look at the 14th entry in the list.
+The output from an example of a search for the number 30  in a list of 28 numbers follows. It should be noted that in python indices start at 0, so we initially look for 30 in the entries indexed from 0 to 29.  Also, probing position 13 means looking at the 14th entry in the list.
 <cd>
 s=[1,9,13,16,30,31,32,33,36,37,38,45,49,50,52,61,63,64,69,77,79,80,81,83,86,90,93,96]
 BinarySearch(s,0,len(s)-1,30)

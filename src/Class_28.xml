@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title></title>
+<idx></idx>
+<section xml:id="reading-NN"><title>Reading</title>
+<p>Read </p>
+<p>Response Question: </p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li></li>
+		<li></li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-NN"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+	<li><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
+		<ol label="(a)">
+			<li><p>Draw the <m>\binom{5}{1}</m> and <m>\binom{5}{2}</m> trees.</p></li>
+			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
+	</p></li>
+</ol>
+</p>
+</section>
+<section xml:id="handouts-NN"><title>Handouts</title>
+<p>None</p>
+</section>
+</chapter>	
