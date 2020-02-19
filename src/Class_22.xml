@@ -4,7 +4,7 @@
 <idx></idx>
 <section xml:id="reading-22"><title>Reading</title>
 <p>Read the remainder of Section 8.3 starting with Subsection 8.3.4: “Solution of Nonhomogeneous Finite Order Linear Relations”. </p>
-<p>Response Question: An algorithm that sorts files in <q><m>n \log{n}</m>-time</q> is normally considered better than one that sorts in <q><m>n^2</m>-time</q>.  However, that's not always the case for smaller files.  If the time it takes to sort <m>n</m> items using Algorithms A and B take <m>1200\cdot n \log_2{n}</m> nanoseconds and <m>5 n^2</m> nanosecond, respectively, how large must a file be to make Algorithm A the preferred one?  </p>
+<p>Response Question: An algorithm that sorts files in <q><m>n \log{n}</m>-time</q> is normally considered better than one that sorts in <q><m>n^2</m>-time</q>.  However, that's not always the case for smaller files.  The time it takes to sort <m>n</m> items using Algorithms A and B take <m>1200\cdot n \log_2{n}</m> nanoseconds and <m>5 n^2</m> nanoseconds. respectively. How large must a file be to make Algorithm A the preferred one?  </p>
 <p>Also, turn in solutions to these exercises: 
 	<ul>
 	<li><p>Find a closed form solution to <m>S(k) - 2 S (k - 1) = 5^k</m>, with <m>>S(0) = 3</m></p></li>
