@@ -44,9 +44,7 @@
 		<xi:include href="./Class_20.xml" /> 
 		<xi:include href="./Class_21.xml" /> 
 		<xi:include href="./Class_22.xml" /> 
-<!-- 
- -->
-
+		<xi:include href="./Class_23.xml" /> 
 		<xi:include href="./backmatter.xml" />            
     </book>
 
