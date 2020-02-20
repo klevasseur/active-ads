@@ -41,7 +41,7 @@
 <p> Are there sets <m>A</m> and <m>B</m> such that <m>|A| = |B|</m>,
    <m>|A\cup B| = 10</m>, and <m>|A\cap B| = 5</m>?  Explain.
       </p></li>
-	<li><p>Consider the universe of postive integers greater than or equal to 2. Let <m>A_2</m> be the set of all multiples of 2 except for <m>2</m>. 
+	<li><p>(from <xref ref="biblio-levin-2020"/>) Consider the universe of postive integers greater than or equal to 2. Let <m>A_2</m> be the set of all multiples of 2 except for <m>2</m>. 
 	Let <m>A_3</m> be the set of all multiples of 3 except for 3. And so on, so that <m>A_n</m> is the set of all multiple of <m>n</m> except for <m>n</m>, for any <m>n \ge 2</m>. Describe (in words) the set <m>\left(A_2 \cup A_3 \cup A_4 \cup \cdots \right)^c</m>.</p></li>
 </ol>
 </p>	

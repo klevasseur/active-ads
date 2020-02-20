@@ -4,10 +4,10 @@
 <idx></idx>
 <section xml:id="reading-23"><title>Reading</title>
 <p>Read Section 8.4 of <em>Applied Discrete Structures</em>. </p>
-<p>Response Question: In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search looking at each item in a list until you find what you're looking for or you get to the end of the list.  What is the average number of items you will examine in a successful and in an unsuccessful search of a list with <m>n</m> items?</p>
+<p>Response Question: In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list.  What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with <m>n</m> items?</p>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li> <p>Prove that if <m>n \geq 0</m>, <m>\lfloor n/2\rfloor +\lceil n/2\rceil = n</m>.</p></li>
-		<li><p>One derangement of <m>\{1,2,3,4\}</m> is 3143.  List all others.</p></li>
+		<li><p>One derangement of <m>\{1,2,3,4\}</m> is 2143.  List all others.</p></li>
 		</ul>  </p>
 </section>
 <section xml:id="questions-23"><title>In-Class Questions</title>

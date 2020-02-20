@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Generating Functions</title>
+<idx></idx>
+<section xml:id="reading-NN"><title>Reading</title>
+<p>Read the first two subsections of Section 8.5 of <em>Applied Discrete Structures</em>. </p>
+<p>Response Question: </p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li>What sequence has as its generating function <m>\frac{1}{3-2x}</m>?</li>
+		<li>How are the generating functions of the sequences <m>S(n)=n^2</m> and <m>T(n)=(n+1)^2</m> related?</li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-NN"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p>Let
+		<me>d(n)=
+		\begin{cases}
+			1 &amp; \textrm{if }1 \leq n \leq 6\\
+			0 &amp; \textrm{if }n=0\textrm{ or }n \gt 6
+		\end{cases}.</me> 
+What sequence has as its generating function <m>G(d;z)^2</m>?  How is that sequence related to what you get when you roll two dice and add the top faces? </p></li>
+<li><p>Earlier, we proved that with supplies of five and eight cent stamps, we could make any postage amount of 28 cents or more.  Here, we will look at what smaller amounts can and can't be made.  Let <m>F(z)=1+z^5+z^10+z^15+z^20 +\cdots</m> and <m>E(z)=1+z^8+z^16+z^24+ \cdots</m>. </p></li>
+</ol>
+</p>
+</section>
+<section xml:id="handouts-NN"><title>Handouts</title>
+<p>None</p>
+</section>
+</chapter>	
