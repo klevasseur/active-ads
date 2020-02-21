@@ -19,6 +19,13 @@
     <!-- Added operator \aut - TWJ 4/6/2013  -->
     <!-- Added operator \Hom - TWJ 8/19/2010 -->
     <macros>
+\usepackage[utf8]{inputenc}
+\newcommand{\apple}{\text{&#x1F34E;}}
+\newcommand{\ap}{\apple}
+\newcommand{\banana}{\text{&#x1F34C;}}
+\newcommand{\ba}{\banana}
+\newcommand{\pear}{\text{&#x1F350;}}
+\newcommand{\pe}{\pear}
 \newcommand{\identity}{\mathrm{id}}
 \newcommand{\notdivide}{{\not{\mid}}}
 \newcommand{\notsubset}{\not\subset}
@@ -55,6 +62,19 @@
     <!-- tikz package and libraries for images -->
     <latex-image-preamble>
     \usepackage{amsmath}
+    \usepackage{tikz}
+\usepackage{tkz-graph}
+\usepackage{tkz-euclide}
+\usepackage{chemfig}
+\usetikzlibrary{patterns}
+\usetikzlibrary{positioning}
+\usetikzlibrary{matrix,arrows}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{through,intersections,decorations,shadows,fadings}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
 <!-- 
     \usepackage{tikz}
     \usetikzlibrary{backgrounds}
