@@ -21,7 +21,7 @@ Discuss any similarities you see between these three relations.<m>\vspace{10pt}<
 <section xml:id="questions-15"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-<li><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least on doorway.</p></li>
+<li><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least one doorway.</p></li>
 <li><p>Given <m>s</m> and <m>t</m>, relations on <m>\mathbb{Z}</m>, <m> s = \{(1, n) : n \in \mathbb{Z}\}</m> and <m>t= \{(n, 1) : n \in  \mathbb{Z}\}</m>,
 what are <m>st</m> and <m>ts</m>? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing
 partial graphs.</p></li>

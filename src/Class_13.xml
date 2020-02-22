@@ -4,7 +4,7 @@
 <idx></idx>
 <section xml:id="reading-13"><title>Reading</title>
 <p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. </p>
-<p>Response Question:  Let <m>A=\begin{bmatrix} 2 &amp; 0\\ 0 &amp; -1 \end{bmatrix}</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case?</p>
+<p>Response Question:  Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case?</p>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li> <p>Let <m>A=\left(
 \begin{array}{cc}
@@ -45,7 +45,7 @@ explain why.</p>
 <section xml:id="questions-13"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-			<li><p>Let <m>A=\begin{bmatrix} 1 &amp; a\\ 0 &amp; 1 \end{bmatrix}</m> and <m>B=\begin{bmatrix} 1 &amp; b\\ 0 &amp; 1 \end{bmatrix}</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 
+			<li><p>Let <m>A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)</m> and <m>B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 
 			</p></li>
 			<li><idx>Transpose of a matrix</idx>
 				<p>If <m>A</m> is a an <m>m \times n</m> matrix, we define the transpose of A to be the <m>n \times m</m> matrix whose rows are the columns of <m>A</m>.  For example, the transpose of 
