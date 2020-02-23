@@ -3,13 +3,44 @@
 <title>Sets and Operations on them</title>
 <idx>Sets, and operations on them</idx><section xml:id="reading-2"><title>Reading</title>
 <p>Before class, read Sections 1.1 and 1.2 of <em>Applied Discrete Structures</em>.  Respond to the following question: How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?</p>
-<p>Also, turn in solutions to these exercises:  Section 1.1: #2, and Section 1.2: #2 </p>
+<p>Also, turn in solutions to these exercises: 
+	<ul>
+	<li><p>  List all elements of the following sets:
+		<ol  label="(a)">
+		<li><p> <m>\{\frac{1}{n} \mid n \in \{3,4,5,6\}\}</m></p></li>
+		<li><p> <m>\{x \in \mathbb{Z} \mid x = x+1 \}</m></p></li>
+		<li><p> <m>\{n^2 \mid  n = -2, -1, 0, 1, 2\}</m></p></li>
+		<li><p> <m>\{n \in  \mathbb{P} \mid n \textrm{ is a  factor of  24 }\}</m></p></li>
+		</ol></p></li>
+	<li><p> Let <m>A = \{0, 2, 3\}</m>, <m>B = \{2, 3\}</m>, <m>C = \{1, 5, 9\}</m>, <m>D = \{3, 2\}</m>, and <m>E = \{2, 3, 2\}</m>. Assume that the universal set is <m>U = \{0, 1, 2, . . . , 9\}</m>. Determine which of the
+following are true. Give reasons for your decisions. 
+<ol cols="2" label="(a)">
+<li><p>  <m>A = B</m> </p></li>
+<li><p>  <m>B = C</m> </p></li>
+<li><p>  <m>B = D</m> </p></li>
+<li><p>  <m>E=D</m></p></li>
+<li><p>  <m>A\cap B = B\cap A</m></p></li>
+<li><p>  <m>A \cup  B = B \cup  A</m> </p></li>
+<li><p>  <m>A-B = B-A</m> </p></li>
+<li><p>  <m>A \oplus  B = B \oplus  A</m> </p></li>
+  </ol></p></li></ul>
+	 </p>
 </section>
 <section xml:id="questions-2"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-<li><p>Section 1.1 #4 (b), (c)</p></li>
-<li><p>Section 1.2 #4 (b) and #6</p></li>
+<li><p>  Use set-builder notation to describe the following sets of positive integers: 
+<ol label="(a)">
+<li><p><m>\{1, 2, 3, 4, 5, 6, 7\}</m> </p></li>
+<li><p> <m>\{1, 10, 100, 1,000, 10,000, 100,000\}</m>  </p></li>
+</ol></p></li>
+<li><p> Let <m>U= \{1, 2, 3, . . . , 9\}</m>.  Find an example to illustrate that there are sets <m>A</m> and <m>B</m> such that <m>A - B \neq  B - A</m> </p></li>
+<li><p> Suppose that <m> U</m> is an infinite universal set, and <m> A</m> and <m> B</m> are infinite subsets of <m> U</m>. Answer the following questions with a brief explanation.</p> 
+<p><ol label="(a)">
+<li><p>  Must <m>A^c</m> be finite? </p></li>
+<li><p>  Must <m>A\cup B</m> be infinite? </p></li>
+<li><p>  Must <m>A\cap B</m> be infinite? </p></li>
+</ol></p></li>
 <li><p>Find two sets <m>A</m> and <m>B</m> for which <m>|A| = 5</m>, <m>|B| = 6</m>, and <m>|A\cup B| = 9</m>. What is <m>|A \cap B|</m>?</p></li>
 <li><p>For any sets <m>A</m> and <m>B</m>, define <m>A\times B = \{(a,b) \mid a\in A \text{ and } b \in B\}</m> and <m>AB = \{ab \mid a\in A \text{ and } b \in B\}</m>. If <m>A = \{1,2\}</m> and <m>B = \{2,3,4\}</m>,  what is <m>|A \times B|</m>? What is <m>|AB|</m>?</p></li>
 <li><p>A common data structure for a software implementation of sets is a <q>bitmap.</q>  The way it works is if you want to work with subsets of a universe, <m>U</m>, with cardinality <m>n</m> you first establish an ordering of <m>U</m> when <m>u_k</m> is the <m>k</m>th element.  A set <m>A</m> is then represented by a string of <m>n</m> bits  <m>b_1b_2\dots b_n</m> when <m>b_k</m> is 1 if <m>u_k \in A</m> and is 0 otherwise.

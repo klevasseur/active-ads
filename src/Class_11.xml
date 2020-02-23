@@ -5,8 +5,17 @@
 <p>Read Sections 4.1  and 4.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws. </p>
 <p>Also, turn in solutions to these exercises: 
-    <ul><li>Section 4.1 #2.</li>
-        <li>Section 4.2 #2 (b) and (c) only.</li>
+    <ul><li><p>Write the converse of parts (a), (c), and (e) of Exercise 1 and prove or disprove them.
+    		<ol label="(a)">
+<li><p>Let <m>A</m>, <m>B</m>, and <m>C</m> be sets. If <m>A\subseteq B</m> and <m>B\subseteq C</m>, then <m>A\subseteq C</m>.</p></li>
+<li><p>Let <m>A,B, \textrm{ and } C</m> be sets. If (<m>A\subseteq B</m> and <m>A\subseteq C</m>) then <m>A\subseteq B\cap C</m>.</p></li>
+<li><p>Let <m>A,B, \textrm{ and } C</m> be sets. If <m>A\subseteq B</m> then <m>A\times C \subseteq B\times C</m>.</p></li>
+</ol>
+    		</p></li>
+        <li><p><ol label="(a)">
+<li>Prove the Identity Law for sets  with a membership table.</li>
+<li>Prove the Involution Law  for sets using basic definitions.</li>
+</ol></p></li>
         </ul>  </p>
 </section>
 <section xml:id="questions-11"><title>In-Class Questions</title>
@@ -45,5 +54,34 @@
     </p></li>
 </ol>
 </p>
+</section>
+<section><title>The Basic Laws of Set Theory</title>
+<table   xml:id="table-set-laws">
+<title>Basic Laws of Set Theory</title>
+<tabular  halign="center"><row><cell></cell><cell></cell><cell></cell></row>
+<row><cell> </cell><cell>Commutative Laws</cell><cell> </cell></row>
+<row bottom="minor"><cell>(1) <m>A \cup B = B \cup  A</m></cell><cell> </cell><cell>(<m>1^{\prime}</m>) <m>A \cap B = B\cap A</m> 
+</cell></row>
+<row><cell></cell><cell>Associative Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(2) <m>A \cup  (B \cup  C)= (A\cup B)\cup C</m> </cell><cell></cell><cell>(<m>2^{\prime}</m>) <m>A \cap  (B \cap  C) = (A \cap  B) \cap  C </m></cell></row>
+<row><cell></cell><cell>Distributive Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(3) <m>A\cap (B \cup  C)=(A\cap B )\cup (A\cap  C)</m> </cell><cell></cell><cell>(<m>3^{\prime}</m>) <m>A \cup (B \cap C) = (A \cup B ) \cap (A\cup C)</m></cell></row>
+<row><cell></cell><cell>Identity Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(4) <m>A \cup  \emptyset  = \emptyset  \cup  A = A</m></cell><cell></cell><cell>(<m>4^{\prime}</m>) <m>A \cap  U = U \cap  A = A</m>
+</cell></row>
+<row><cell></cell><cell>Complement Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(5) <m>A\cup A^c= U</m></cell><cell></cell><cell>(<m>5^{\prime}</m>) <m>A\cap A^c= \emptyset</m></cell></row>
+<row><cell></cell><cell>Idempotent Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(6) <m>A \cup  A = A</m></cell><cell></cell><cell> (<m>6^{\prime}</m>) <m>A\cap  A = A</m></cell></row>
+<row><cell></cell><cell>Null Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(7) <m>A \cup  U = U</m></cell><cell></cell><cell>(<m>7^{\prime}</m>) <m>A \cap  \emptyset  =\emptyset</m></cell></row>
+<row><cell></cell><cell>Absorption Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(8) <m>A \cup  (A\cap  B) = A</m></cell><cell></cell><cell>(<m>8^{\prime}</m>) <m>A\cap (A \cup  B) = A</m></cell></row>
+<row><cell></cell><cell>DeMorgan's Laws</cell><cell></cell></row>
+<row bottom="minor"><cell>(9) <m>(A \cup  B)^c= A^c\cap  B^c</m></cell><cell></cell><cell> (<m>9^{\prime}</m>) <m>(A\cap  B)^c = A^c \cup  B^c</m></cell></row>
+<row><cell></cell><cell>Involution Law</cell><cell></cell></row>
+<row bottom="minor"><cell></cell><cell>(10) <m>(A^c)^c= A</m></cell><cell></cell></row>
+</tabular>
+</table>
 </section>
 </chapter>    

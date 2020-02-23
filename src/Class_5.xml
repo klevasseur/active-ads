@@ -1,29 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_5" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Partitions and Combinations</title>
-<idx></idx>
+<idx>Lattice Paths</idx>
 <section xml:id="reading-5"><title>Reading</title>
 <p>Read Sections 2.3 and 2.4 of Applied Discrete Structures.</p>
 <p>Response question: In mathematics, the word partition is used in two contexts. One is for partitions of sets, as described in Section 2.3. The other is for partitions of a positive integer.  An example of a partition of <m>5</m> is <m>3+1+1</m>, a sum of positive integers equal to <m>5</m>. It is customary to write the terms of the sum in non-increasing order since <m>1+3+1</m> is considered the same partition of <m>5</m>. The other partitions of 5 are <m>5</m>, <m>4+1</m>, <m>3+2</m>, <m>2+2+1</m>, <m>2+1+1+1</m>, and <m>1+1+1+1+1</m>. How might a listing of all partitions of an integer like <m>5</m> help in listing all partitions of a set with that many elements?</p>
 
 <p>Exercises to do and turn in:
-   <ol><li>2.3 #2</li>
-   <li>2.4  #4</li>
-   </ol>
+   <ul>
+   	<li><p>Which of the following collections of subsets of the plane, <m> \mathbb{R}^2</m>, are partitions?
+   		<ol label="(a)">
+			<li><p><m> \{ \{(x, y) \mid x + y = c \} \mid c \in \mathbb{R} \}</m></p></li>
+			<li><p> The set of all circles in <m> \mathbb{R}^2 </m></p></li>
+			<li><p> The set of all circles in <m>\mathbb{R}^2</m> centered at the origin together with the set 		
+					<m>\{(0,0)\}</m></p></li>
+			<li><p><m>\{\{(x, y)\} \mid (x, y) \in \mathbb{R}^2  \} </m></p></li>
+		</ol></p></li>
+   <li><p> The congressional committees on mathematics and computer science are made up of five representatives each, and a congressional rule is that the two committees must be disjoint. If there are 385 members of congress, how many ways could the committees be selected?</p></li>
+   </ul>
 </p>
 </section>
 <section xml:id="questions-5"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-<li><p>Section 2.3 #6</p></li>
+<li><p>
+<ol label="(a)"><li><p>A group of 30 students were surveyed and it was found that 18 of them took Calculus and 12 took Physics. If all students took at least one course, how many took both Calculus and Physics? Illustrate using a Venn diagram.</p></li>
+<li><p>What is the answer to the question in part (a) if five students did not take either of the two courses? Illustrate using a Venn diagram.</p></li>
+</ol>
+</p></li>
 <li><p>How many different partitions are there of the set <m>\{1,2,3,4,5\}</m></p></li>
 <li><p>How many ways can you arrange the letters in the word BOOKKEEPER?</p></li>
-<li><p>Section 2.4 #12</p></li>
-<li><p>Section 2.4 #5</p></li>
-<li><p>Section 2.4 #6</p></li>
+<li><p> Explain in words why the following equalities are true based on number of subsets,  and then verify the equalities using the formula for binomial coefficients.</p>
+<p><ol label="(a)">
+<li><p><m>\binom{n}{1} = n</m> </p></li>
+<li><p><m>\binom{n}{k} = \binom{n}{n-k}</m>, <m> 0 \leq k \leq n</m></p></li>
+</ol></p></li>
+<li><p><idx><h>Lattice Paths</h></idx>The image below shows a 6 by 6 grid and an example of a <term>lattice path</term> that could be taken from <m>(0,0)</m>  to <m>(6,6)</m>, which is a path taken by traveling along grid lines going only to the right and up. How many different lattice paths are there of this type?  Generalize to the case of lattice paths from <m>(0,0)</m> to <m>(m,n)</m>  for any nonnegative integers <m>m</m> and <m>n</m>.</p>
+</li>
+<li><p>How many of the lattice paths from <m>(0,0)</m> to <m>(6,6)</m> pass through <m>(3,3)</m> as the one in <xref ref="fig-lattice-path-6" text="type-local" /> does?
+</p>
+<figure xml:id="fig-lattice-path-6">
+       			<caption>A lattice path</caption>
+               <image width="50%" source="images/fig-lattice-path-6.png">
+                    <description>An example of a lattice path</description>
+                </image>
+      </figure></li>
 <li><p>Consider the set of lattice paths from <m>(0,0)</m> to <m>(8,8)</m>.  You should know one quick formula for the cardinality of that set.  However, counting a different way can lead to an interesting  identity involving binomial coefficients.  Notice that any path goes through exactly one of the points <m>(0,8), (1,7), (2,6), \dots , (8,0)</m>.  Count the number of lattice paths that go through each of those 9 points - leave the expression in terms of binomial coefficients.  Even more interesting is what you get if  generalize to a destination of <m>(n,n)</m>, <m>n \geq 1</m>. </p></li>
 </ol>
 </p>
+
 </section>
 <section xml:id="handouts-5"><title>Some Lattices</title>
 <p>Here are a couple of lattices for you to doodle with.</p>
