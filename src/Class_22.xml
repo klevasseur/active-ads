@@ -8,7 +8,7 @@
 <p>Also, turn in solutions to these exercises: 
 	<ul>
 	<li><p>Find a closed form solution to <m>S(k) - 2 S (k - 1) = 5^k</m>, with <m>>S(0) = 3</m></p></li>
-	<li><p>What form would a particular solution to <m>T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^k</m> take?  Don't find a solution at this time.</p></li>
+	<li><p>What form would a particular solution to <m>T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^k</m> take?  Find just a particular solution at this time.</p></li>
 	</ul>  </p>
 </section>
 <section xml:id="questions-22"><title>In-Class Questions</title>

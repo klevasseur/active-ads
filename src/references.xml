@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <references><idx><h>References</h></idx>
+<!-- 
 <introduction>
-<p>Problems, particulary in-class problems, and ideas have come from several sources.  I've attempted to identify sources of any distinctive ideas or problems here.</p>
 </introduction>
+ -->
 <biblio type="raw" xml:id="biblio-bogart-2017">Bogart, Kenneth P., <title>Combinatorics Through Guided Discovery</title>, <url href="http://bogart.openmathbooks.org">http://bogart.openmathbooks.org</url></biblio>
 <biblio type="raw" xml:id="biblio-doerr-2019">Doerr, A, and K. Levasseur, <title>Applied Discrete Structures</title>, <url href="http://discretemath.org">http://discretemath.org</url></biblio>
 <biblio type="raw" xml:id="biblio-levin-2020">Levin, Oscar, <title>Discrete Mathematics:
