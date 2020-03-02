@@ -7,7 +7,7 @@
 <p>Response Question: Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks.</p>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>Let <m>A=\left(\begin{array}{cccc} 0 &amp;1&amp;0&amp;0\\ 0 &amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;1\\ 1 &amp;0&amp;0&amp;0 \end{array}\right)</m>. Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</li>
-		<li>Find at least three <m>2\times2</m> matrices, A, such that <m>A^2=A</m>.</li>
+		<li>Find at least three <m>2\times2</m> matrices, <m>A</m>, such that <m>A^2=A</m>.</li>
 		</ul>  </p>
 </section>
 <section xml:id="questions-14"><title>In-Class Questions</title>

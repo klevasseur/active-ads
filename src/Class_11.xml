@@ -5,7 +5,7 @@
 <p>Read Sections 4.1  and 4.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws. </p>
 <p>Also, turn in solutions to these exercises: 
-    <ul><li><p>Write the converse of parts (a), (c), and (e) of Exercise 1 and prove or disprove them.
+    <ul><li><p>Write the converse of the following true statements and prove or disprove them.
     		<ol label="(a)">
 <li><p>Let <m>A</m>, <m>B</m>, and <m>C</m> be sets. If <m>A\subseteq B</m> and <m>B\subseteq C</m>, then <m>A\subseteq C</m>.</p></li>
 <li><p>Let <m>A,B, \textrm{ and } C</m> be sets. If (<m>A\subseteq B</m> and <m>A\subseteq C</m>) then <m>A\subseteq B\cap C</m>.</p></li>
