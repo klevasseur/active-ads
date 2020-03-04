@@ -9,7 +9,7 @@
     		<ol label="(a)">
 <li><p>Let <m>A</m>, <m>B</m>, and <m>C</m> be sets. If <m>A\subseteq B</m> and <m>B\subseteq C</m>, then <m>A\subseteq C</m>.</p></li>
 <li><p>Let <m>A,B, \textrm{ and } C</m> be sets. If (<m>A\subseteq B</m> and <m>A\subseteq C</m>) then <m>A\subseteq B\cap C</m>.</p></li>
-<li><p>Let <m>A,B, \textrm{ and } C</m> be sets. If <m>A\subseteq B</m> then <m>A\times C \subseteq B\times C</m>.</p></li>
+<li><p>Let <m>A,B, \textrm{ and } C</m> be sets with <m>C\neq \emptyset</m>. If <m>A\subseteq B</m> then <m>A\times C \subseteq B\times C</m>.</p></li>
 </ol>
     		</p></li>
         <li><p><ol label="(a)">
@@ -35,20 +35,20 @@
                 <ol label="(a)">
                     <li><p>Given the following sets of integers, <m>A, B, C</m>, find the set of elements that belong to exactly one of the three sets. 
                             <md>
-                            <mrow>A=\{2,4,6,8,10,12,14,16,18\}</mrow>
+                            <mrow>A=\{2,6,10,14,18\}</mrow>
                             <mrow>B=\{2,3,5,7,11,13,17,19\}</mrow>
                             <mrow>C=\{3,6,9,12,15,18\}</mrow>
                             </md></p></li>
                     <li><p>Prove that for any three sets, <m>A, B, C</m>, 
                         <me>(A \cup B \cup C)\cap ((A^c \cap B^c)\cup (A^c \cap C^c)\cup (B^c \cap C^c))</me>
-                        is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part.</p></li>
+                        is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part, where you assume that the universe is <m>\{1,2,3,\dots,18,19\}</m>.</p></li>
                         <li><p>Find a similar expression for the set of elements that belong to exactly one of any four sets <m>A, B, C, D.</m></p></li>
                 </ol>
             </p></li>
     <li><p>Recall that the power set of any set <m>A</m> is the set of all subsets of <m>A</m> and is denoted <m>\mathcal{P}(A)</m>.  Which of the following are true?
     <md>
-        <mrow>\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(b)</mrow>
-        <mrow>\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(b)</mrow>
+        <mrow>\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(B)</mrow>
+        <mrow>\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(B)</mrow>
     </md>
     If either is not true, can you replace the equals sign with <m>\subseteq</m> or <m>\supseteq</m> to get a true statement?
     </p></li>
