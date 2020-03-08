@@ -58,12 +58,12 @@
     <paragraphs>
         <title>Introduction</title>
 
-        <p><em>Active Applied Discrete Structures</em> is designed for use in a flipped class using <em>Applied Discrete Structures</em>. Each chapter, designed for a 75 minute class period.</p>
+        <p><em>Active Applied Discrete Structures</em> is designed for use in a flipped class using <em>Applied Discrete Structures</em>. Each chapter, designed for a 75 minute class period.  There are two parts that correspond with a two semester sequence, <em>Part 1 - Fundamentals</em>, and <em>Part 2 - Structures</em>. </p>
     </paragraphs>
 	<paragraphs>
         <title>Usage</title>
 		<p> The class format that is presumed is for the instructor to assign students to read materials that will be covered in class <m>n</m> in time to submit a short assignment by the beginning of class <m>n-1</m>. Then at the time of class <m>n</m>, they work on more challenging problems in groups of 4-6 students.</p>
-		<p>A tricky thing about this format is getting started. On class 1, no prior reading can be expected. The binary representation of positive integers is discussed. This is mostly done through group work. The assumption is that since most students in the class are computer science majors, they have some familiarity with the topic and can help  other students with the problems. Class 2 is also a bit of a rush. I ask student do do reading for that class and get responses back to me a couple of days before the second class. They are also asked to prepare for Class 3 and get responses to me by Class 2.   Fortunately, the material in Chapter 1 isn't too difficult.  The rest of the semester proceeds as described above.</p>
+		<p>A tricky thing about this format is getting started. On class 1 of the first semester, no prior reading can be expected. The binary representation of positive integers is discussed. This is mostly done through group work. The assumption is that since most students in the class are computer science majors, they have some familiarity with the topic and can help  other students with the problems. Class 2 is also a bit of a rush. I ask student do do reading for that class and get responses back to me a couple of days before the second class. They are also asked to prepare for Class 3 and get responses to me by Class 2.   Fortunately, the material in Chapter 1 isn't too difficult.  The rest of the semester proceeds as described above. In the second semester, the first class is taken up by reviewing the most important concepts from the first semester through sequence of problems. Another quick turn-around in the reading for Class 2 is needed to get into the flow.  After that the second semester proceeds the same as the first.</p>
     </paragraphs>    
 	<paragraphs>
         <title>Contents of the Chapters</title>
@@ -74,11 +74,11 @@
 	<paragraphs>
         <title>The Problems</title>
         <p>The problems and ideas that make up this work come from several sources.  Many of the problems are taken directly from <em>Applied Discrete Structures</em>, mostly even numbered problems for which no solutions are published. In some cases, the problem are slightly altered.  I've also mined problems from other sources.  Some were clearly in the <q>public domain</q> in that they have appeared in several places over many years.  In those cases, I haven't identified the source.   There have been a few problems or ideas that seemed somewhat more novel, and I've noted their source. Books by Bogart (<xref ref="biblio-bogart-2017"/>) and Levin (<xref ref="biblio-levin-2020"/>) are among these sources.</p>
-        <p>I've attempted to mix relatively easy problem with some more challenging one for in-class work, while keeping the number doable for most of the students.</p>
+        <p>I've attempted to mix relatively easy problems with some more challenging ones for in-class work, while keeping the number of problems doable for most of the students.</p>
     </paragraphs>
 	<paragraphs>
         <title>Status</title>
-        <p>As of the spring of 2020, there are 24 chapters class-tested in the first semester course at UMass Lowell. This covers the first eight chapters of <em>Applied Discrete Structures</em>. The plan is to add another 24 chapters for use in the second semester later in 2020. </p>
+        <p>As of the spring of 2020, <em>Part 1 - Fundamentals</em>, contains 24 chapters class-tested in the first semester course at UMass Lowell. This covers the first eight chapters of <em>Applied Discrete Structures</em>. <em>Part 2 - Structures</em> will contain another 24 chapters for use in a second semester course. </p>
     </paragraphs>
 
 

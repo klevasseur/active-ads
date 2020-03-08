@@ -43,6 +43,7 @@
 		   \end{cases}</me></p></li>
 		<li><p>I'm thinking of a number between 1 and 25.  If I know you will use the binary search algorithm to guess my number and I want you to use as many guesses as possible, what are the best numbers for me to think about?</p></li>
 		<li><p>The length of a string is the number of characters in the string. Let <m>v(n)</m> be the length of <m>L(n)</m>, which was defined in the the homework problems.  Find a recursive description of <m>v(n)</m>.</p></li>
+<p><li><p><em>Fun Question</em>.  This last question comes from the BBC quiz show <q>Round Britain</q>. I expect that you would need to Google some of these references.  If Barker and Corbett encountered, sequentially, Kieslowski's colours, Blyton's adventurers, Tarantino's undesirables and Thurber's timepieces, how many pilots would they meet next?  The answer will appear at the end of the next chapter.</p></li></p>
 </ol>
 </p>
 </section>

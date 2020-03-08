@@ -29,5 +29,7 @@
 <me>F_0= 1 \textrm{, } F_1= 1\textrm{ and}</me> 
 
 <me>F_k = F_{k-2} + F_{k-1} \textrm{ for }k\geq 2</me>
-</p></section>
+</p>
+<p>Answer to the last in-class question in the previous chapter: These clues give you numbers in ascending order: The TWO Ronnies, the THREE colours trilogy, the Famous FIVE, the Hateful EIGHT, Thurber's THIRTEEN clocks.
+This is a Fibonacci sequence, in which each number is the sum of the previous two. The next number in the sequence (and the answer to the question) must therefore be 21 - as in the rock band, 21 Pilots. This was a question posed at the end of Programme 7 of the 2020 Round Britain Quiz.</p></section>
 </chapter>	
