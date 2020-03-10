@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title></title>
-<idx></idx>
-<introduction>In the first class of the second semester, I review the course format and syllabus.  In the time remaining, we spend some time working on problems that review some of the fundamental concepts from the first semester.</introduction>
-<section xml:id="questions-NN"><title>In-Class Questions</title>
+<chapter xml:id="chapter_101" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Start of Second Semeser, Review</title>
+<introduction><p>In the first class of the second semester, some time will be taken to review the course format and syllabus.  In the remaining time, work on problems that review some of the fundamental concepts from the first semester.</p></introduction>
+<section xml:id="questions-101"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
 <li><p>Prove that if <m>f</m> and <m>g</m> are bijections on a set <m>X</m>, then <m>g \circ f</m> is also a bijection on <m>X</m>. </p></li>
-<li><p>Partition the set <m>X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}</m> into equivalence classes</p></li>
+<li><p>Partition the set <m>X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}</m> into equivalence classes according to the relation congruence modulo 4, <m>\equiv_4</m>.</p></li>
+<li><p>Is the following logical argument valid?  </p>
+<blockquote>
+  <p>
+    Peacham is either in Vermont or New Hampshire. If Peacham is in Vermont, then Peacham is in New England. If Peacham is in New Hamphire, then Peacham is in New England. Therefore, Peacham is in New England.</p>
+</blockquote>
+</li>
 <li><p>
         Prove, by mathematical induction, that <m>F_0 + F_1 + F_2 + \cdots + F_{n} = F_{n+2} - 1</m>,
         where <m>F_n</m> is the <m>n</m>th Fibonacci number (<m>F_0 = 1</m>,
-        <m>F_1 = 1</m> and <m>F_n = F_{n-1} + F_{n-2}</m>).
+        <m>F_1 = 1</m> and <m>F_n = F_{n-1} + F_{n-2}</m> for <m>n\geq 2</m>).
     </p>
 </li>
+<li><p>Prove that if <m>n</m> is an integer and you divide <m>n^2</m> by 5, then the remainder is always 0, 1, or 4.</p></li>
+<li><p>Prove that the square root of 5 is an irrational number.</p></li>
 </ol>
 </p>
 </section>
-<section xml:id="handouts-NN"><title>Handouts</title>
+<section xml:id="handouts-101"><title>Handouts</title>
 <p>None</p>
 </section>
 </chapter>	
