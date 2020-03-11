@@ -21,9 +21,9 @@
     
 	<book xml:id="active-ads">
         <title>Active Applied Discrete Structures</title>    
-        <part><title>Fundamentals</title>
-        <xi:include href="./frontmatter.xml" /> 
-		<xi:include href="./Class_1.xml" />                        
+         <xi:include href="./frontmatter.xml" /> 
+      <part><title>Fundamentals</title>
+ 		<xi:include href="./Class_1.xml" />                        
 		<xi:include href="./Class_2.xml" />                        
 		<xi:include href="./Class_3.xml" />                        
 		<xi:include href="./Class_4.xml" />                        
@@ -50,6 +50,7 @@
 		</part>
 		<part><title>Structures</title>
 		<xi:include href="./Class_101.xml" /> 
+		<xi:include href="./Class_102.xml" /> 
 		</part>		
 		<xi:include href="./backmatter.xml" />            
     </book>

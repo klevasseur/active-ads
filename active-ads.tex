@@ -1,6 +1,6 @@
 %**************************************%
 %*    Generated from PreTeXt source   *%
-%*    on 2020-02-23T13:26:31-05:00    *%
+%*    on 2020-03-09T16:43:40-04:00    *%
 %*                                    *%
 %*      https://pretextbook.org       *%
 %*                                    *%
@@ -63,6 +63,15 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 \IfFileExists{latexrelease.sty}{}{\usepackage{fixltx2e}}
 %% shorter subnumbers in some side-by-side require manipulations
 \usepackage{xstring}
+%% Footnote counters and part/chapter counters are manipulated
+%% April 2018:  chngcntr  commands now integrated into the kernel,
+%% but circa 2018/2019 the package would still try to redefine them,
+%% so we need to do the work of loading conditionally for old kernels.
+%% From version 1.1a,  chngcntr  should detect defintions made by LaTeX kernel.
+\ifdefined\counterwithin
+\else
+    \usepackage{chngcntr}
+\fi
 %% Text height identically 9 inches, text width varies on point size
 %% See Bringhurst 2.1.1 on measure for recommendations
 %% 75 characters per line (count spaces, punctuation) is target
@@ -218,6 +227,18 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 \renewcommand{\epigraphptx}{#5}%
 \chapter*{#1}%
 \addcontentsline{toc}{chapter}{#3}
+\label{#6}%
+}{}%
+%% Environment for a PTX "part" at the level of a LaTeX "part"
+\NewDocumentEnvironment{partptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Part}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\part[{#3}]{#1}%
 \label{#6}%
 }{}%
 %% Environment for a PTX "chapter" at the level of a LaTeX "chapter"
@@ -410,7 +431,17 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 %% introduction: in a structured division
 \NewDocumentEnvironment{introduction}{m}
 {\notblank{#1}{\noindent\textbf{#1}\space}{}}{\par\medskip}
+%%
+%% tcolorbox, with styles, for miscellaneous environments
+%%
+%% paragraphs: the terminal, pseudo-division
+%% We use the lowest LaTeX traditional division
+\titleformat{\subparagraph}[runin]{\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{#1}
+\titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+\NewDocumentEnvironment{paragraphs}{mm}
+{\subparagraph*{#1}\hypertarget{#2}{}}{}
 %% Localize LaTeX supplied names (possibly none)
+\renewcommand*{\partname}{Part}
 \renewcommand*{\chaptername}{Chapter}
 %% Equation Numbering
 %% Controlled by  numbering.equations.level  processing parameter
@@ -601,12 +632,12 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 {\Huge Active Applied Discrete Structures}\\[3\baselineskip]
 {\Large Ken Levasseur}\\[0.5\baselineskip]
 {\Large University of Massachusetts Lowell}\\[3\baselineskip]
-{\Large February 23, 2020}\\}
+{\Large March 9, 2020}\\}
 \clearpage
 %% end:   title page
 %% begin: copyright-page
 \thispagestyle{empty}
-\hypertarget{g:colophon:idm198378343824}{}\vspace*{\stretch{2}}
+\hypertarget{g:colophon:idm411251057456}{}\vspace*{\stretch{2}}
 \noindent{\bfseries Edition}: version 0.1\par\medskip
 \noindent{\bfseries Website}: \href{http:\slash{}\slash{}discretemath.org}{discretemath.org}\par\medskip
 \noindent\textcopyright{}2020\quad{}Ken Levasseur\\[0.5\baselineskip]
@@ -621,9 +652,27 @@ Active Applied Discrete Structures by Kenneth Levasseur is licensed under a Crea
 \typeout{************************************************}
 %
 \begin{preface}{Preface}{}{Preface}{}{}{x:preface:active-ads-preface}
-\emph{Active Applied Discrete Structures} is designed for use in a flipped class using \emph{Applied Discrete Structures}. Each chapter is designed for a 75 minute class period.  The class format that is presumed is for the instructor to assign students to read materials that will be covered in class \(n\) in time to submit a short assignment by the beginning of class \(n-1\). Then at the time of class \(n\), they work on more challenging problems in groups of 4-6 students.%
+\begin{paragraphs}{Introduction.}{g:paragraphs:idm411251049568}%
+\emph{Active Applied Discrete Structures} is designed for use in a flipped class using \emph{Applied Discrete Structures}. Each chapter, designed for a 75 minute class period.  There are two parts that correspond with a two semester sequence, \emph{Part 1 - Fundamentals}, and \emph{Part 2 - Structures}.%
+\end{paragraphs}%
+\begin{paragraphs}{Usage.}{g:paragraphs:idm411251049184}%
+The class format that is presumed is for the instructor to assign students to read materials that will be covered in class \(n\) in time to submit a short assignment by the beginning of class \(n-1\). Then at the time of class \(n\), they work on more challenging problems in groups of 4-6 students.%
 \par
-A tricky thing about this format is getting started. On class 1, no prior reading can be expected. The binary representation of positive integers is discussed. This is mostly done through group work. The assumption is that since most students in the class are computer science majors, they have some familiarity with the topic and can help  other students with the problems. Class 2 is also a bit of a rush. I ask student do do reading for that class and get responses back to me a couple of days before the second class. They are also asked to prepare for Class 3 and get responses to me by Class 2.   Fortunately, the material in Chapter 1 isn't too difficult.  The rest of the semester proceeds as described above.%
+A tricky thing about this format is getting started. On class 1 of the first semester, no prior reading can be expected. The binary representation of positive integers is discussed. This is mostly done through group work. The assumption is that since most students in the class are computer science majors, they have some familiarity with the topic and can help  other students with the problems. Class 2 is also a bit of a rush. I ask student do do reading for that class and get responses back to me a couple of days before the second class. They are also asked to prepare for Class 3 and get responses to me by Class 2.   Fortunately, the material in Chapter 1 isn't too difficult.  The rest of the semester proceeds as described above. In the second semester, the first class is taken up by reviewing the most important concepts from the first semester through sequence of problems. Another quick turn-around in the reading for Class 2 is needed to get into the flow.  After that the second semester proceeds the same as the first.%
+\end{paragraphs}%
+\begin{paragraphs}{Contents of the Chapters.}{g:paragraphs:idm411251041872}%
+Each chapter has two or three sections.  Each chapter except the first has a reading section that contains instructions to student prior the class period. Generally, this is to read one or more sections of the text, respond to a ``Response Question'' and do a few basic problems associated with the reading.  The Response Questions tend to be more tangential to the content and often connect the mathematics to computer science.%
+\par
+The second section is always a series of problems to be worked on during the class. For students' convenience, some chapters have a third section, usually containing a short excerpt from \emph{Applied Discrete Structures}.%
+\end{paragraphs}%
+\begin{paragraphs}{The Problems.}{g:paragraphs:idm411251039184}%
+The problems and ideas that make up this work come from several sources.  Many of the problems are taken directly from \emph{Applied Discrete Structures}, mostly even numbered problems for which no solutions are published. In some cases, the problem are slightly altered.  I've also mined problems from other sources.  Some were clearly in the ``public domain'' in that they have appeared in several places over many years.  In those cases, I haven't identified the source.   There have been a few problems or ideas that seemed somewhat more novel, and I've noted their source. Books by Bogart (\hyperlink{x:biblio:biblio-bogart-2017}{[{\xreffont 1}]}) and Levin (\hyperlink{x:biblio:biblio-levin-2020}{[{\xreffont 3}]}) are among these sources.%
+\par
+I've attempted to mix relatively easy problems with some more challenging ones for in-class work, while keeping the number of problems doable for most of the students.%
+\end{paragraphs}%
+\begin{paragraphs}{Status.}{g:paragraphs:idm411251033280}%
+As of the spring of 2020, \emph{Part 1 - Fundamentals}, contains 24 chapters class-tested in the first semester course at UMass Lowell. This covers the first eight chapters of \emph{Applied Discrete Structures}. \emph{Part 2 - Structures} will contain another 24 chapters for use in a second semester course.%
+\end{paragraphs}%
 \par
 The main web page for Applied Discrete Structures is \url{http://discretemath.org}%
 \nopagebreak\par%
@@ -634,12 +683,19 @@ Lowell, MA
 \end{preface}
 %% begin: table of contents
 %% Adjust Table of Contents
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{0}
 \renewcommand*\contentsname{Contents}
 \tableofcontents
 %% end:   table of contents
 \mainmatter
 %
+%
+\typeout{************************************************}
+\typeout{Part I Fundamentals}
+\typeout{************************************************}
+%
+\begin{partptx}{Fundamentals}{}{Fundamentals}{}{}{g:part:idm411251027648}
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 1 Binary Representation of Positive Integers}
@@ -788,7 +844,7 @@ binary } n \\
 \end{sidebyside}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 2 Sets and Operations on them}
@@ -870,7 +926,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 3 Sets, Sums \& Products}
@@ -931,7 +987,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 4 Counting: Product Rule and Permutations}
@@ -980,7 +1036,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 5 Partitions and Combinations}
@@ -1058,13 +1114,13 @@ Exercises to do and turn in:%
 %
 \begin{sectionptx}{Some Lattices}{}{Some Lattices}{}{}{x:section:handouts-5}
 Here are a couple of lattices for you to doodle with.%
-\begin{figureptx}{}{g:figure:idm198356528368}{}%
+\begin{figureptx}{}{g:figure:idm411250891456}{}%
 \begin{image}{0.125}{0.75}{0.125}%
 \includegraphics[width=\linewidth]{images/graphpaper8.png}
 \end{image}%
 \tcblower
 \end{figureptx}%
-\begin{figureptx}{}{g:figure:idm198356526640}{}%
+\begin{figureptx}{}{g:figure:idm411250890128}{}%
 \begin{image}{0.125}{0.75}{0.125}%
 \includegraphics[width=\linewidth]{images/graphpaper8.png}
 \end{image}%
@@ -1072,7 +1128,7 @@ Here are a couple of lattices for you to doodle with.%
 \end{figureptx}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 6 Logic: Propositions and Truth Tables}
@@ -1155,7 +1211,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 7 Equivalence, Implication, and Laws of Logic}
@@ -1236,7 +1292,7 @@ Another logical operation is the Sheffer Stroke, which is the subject of one of 
 \end{tableptx}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 8 Structured Proofs}
@@ -1338,7 +1394,7 @@ Contrapositive&\((p\to q) \Leftrightarrow (\neg q \to \neg p)\)
 \end{tableptx}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 9 Mathematical Induction}
@@ -1390,7 +1446,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 10 Quantifiers and Proof Review}
@@ -1455,7 +1511,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 11 Set Theory Logic}
@@ -1475,11 +1531,11 @@ Response Question: Compare the Laws of Set Theory in Section 4.2 of Applied Disc
 \par
 Also, turn in solutions to these exercises:%
 \begin{itemize}[label=\textbullet]
-\item{}Write the converse of parts (a), (c), and (e) of Exercise 1 and prove or disprove them.%
+\item{}Write the converse of the following true statements and prove or disprove them.%
 \begin{enumerate}[label=(\alph*)]
 \item{}Let \(A\), \(B\), and \(C\) be sets. If \(A\subseteq B\) and \(B\subseteq C\), then \(A\subseteq C\).%
 \item{}Let \(A,B, \textrm{ and } C\) be sets. If (\(A\subseteq B\) and \(A\subseteq C\)) then \(A\subseteq B\cap C\).%
-\item{}Let \(A,B, \textrm{ and } C\) be sets. If \(A\subseteq B\) then \(A\times C \subseteq B\times C\).%
+\item{}Let \(A,B, \textrm{ and } C\) be sets with \(C\neq \emptyset\). If \(A\subseteq B\) then \(A\times C \subseteq B\times C\).%
 \end{enumerate}
 %
 \item{}%
@@ -1513,7 +1569,7 @@ Also, turn in solutions to these exercises:%
 \begin{enumerate}[label=(\alph*)]
 \item{}Given the following sets of integers, \(A, B, C\), find the set of elements that belong to exactly one of the three sets.%
 \begin{gather*}
-A=\{2,4,6,8,10,12,14,16,18\}\\
+A=\{2,6,10,14,18\}\\
 B=\{2,3,5,7,11,13,17,19\}\\
 C=\{3,6,9,12,15,18\}
 \end{gather*}
@@ -1522,14 +1578,14 @@ C=\{3,6,9,12,15,18\}
 \begin{equation*}
 (A \cup B \cup C)\cap ((A^c \cap B^c)\cup (A^c \cap C^c)\cup (B^c \cap C^c))
 \end{equation*}
-is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part.%
+is the set of all elements that belong to exactly one of the three sets.  Verify this fact first with the example in the previous part, where you assume that the universe is \(\{1,2,3,\dots,18,19\}\).%
 \item{}Find a similar expression for the set of elements that belong to exactly one of any four sets \(A, B, C, D.\)%
 \end{enumerate}
 %
 \item{}Recall that the power set of any set \(A\) is the set of all subsets of \(A\) and is denoted \(\mathcal{P}(A)\).  Which of the following are true?%
 \begin{gather*}
-\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(b)\\
-\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(b)
+\mathcal{P}(A \cap B) = \mathcal{P}(A) \cap \mathcal{P}(B)\\
+\mathcal{P}(A \cup B) = \mathcal{P}(A) \cup \mathcal{P}(B)
 \end{gather*}
 If either is not true, can you replace the equals sign with \(\subseteq\) or \(\supseteq\) to get a true statement?%
 \end{enumerate}
@@ -1541,7 +1597,7 @@ If either is not true, can you replace the equals sign with \(\subseteq\) or \(\
 \typeout{Section 11.3 The Basic Laws of Set Theory}
 \typeout{************************************************}
 %
-\begin{sectionptx}{The Basic Laws of Set Theory}{}{The Basic Laws of Set Theory}{}{}{g:section:idm198380984000}
+\begin{sectionptx}{The Basic Laws of Set Theory}{}{The Basic Laws of Set Theory}{}{}{g:section:idm411250737904}
 \begin{tableptx}{\textbf{Basic Laws of Set Theory}}{x:table:table-set-laws}{}%
 \centering
 {\tabularfont%
@@ -1572,7 +1628,7 @@ If either is not true, can you replace the equals sign with \(\subseteq\) or \(\
 \end{tableptx}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 12 Minsets and Duality}
@@ -1587,7 +1643,7 @@ If either is not true, can you replace the equals sign with \(\subseteq\) or \(\
 \typeout{************************************************}
 %
 \begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-12}
-Read Sections 4.3 and 4.4 of \emph{Applied Discrete Structures}%
+Read Sections 4.3 and 4.4 of \emph{Applied Discrete Structures}.%
 \par
 Response Question: To what extend is there any duality in arithmetic of numbers with addition and multiplication?  How does it break down where is doesn't in set theory?%
 \par
@@ -1609,17 +1665,17 @@ Also, turn in solutions to these exercises:%
 \begin{enumerate}[label=\arabic*.]
 \item{}A common way to denote a particular minset generated by a collection of subsets is as follows.  If there are \(k\) subsets, \(B_1, B_2, \dots ,B_k\), and \(b=b_1b_2\cdots b_k\) is any string of \(k\) bits, then%
 \begin{equation*}
-M_b =  M_{b_1b_2\cdots \b_k} = D_1 \cap D_2 \cap \cdots \cap D_k,
+M_b =  M_{b_1b_2\cdots b_k} = D_1 \cap D_2 \cap \cdots \cap D_k,
 \end{equation*}
 where \(D_i\) is either \(B_i\) or \(B_i^c\).  If \(b_i = 1\) then \(D_i =B_i\) and if \(b_i=0\) then \(D_i=B_i^c\).  For example, if \(k=4\), \(M_{0110} = B_1^c \cap B_2 \cap B_3 \cap B_4^c\).%
 \begin{enumerate}[label=(\alph*)]
-\item{}Suppose \(U=\{1, 2, 3, 4, 5\}\), \(k=2\), \(B_1= \{1, 2\}\), and \(B_2 = \{2,3,4\}\).  List the minsets generated by \(B_1\) and \(B_2\) using ``\(M_b\)'' notation. Notice that they form a partition of \(U\).%
-\item{}How does this notation make help us see how many distinct  minsets there could be that are generated by \(k\) subsets of a universe.%
+\item{}Suppose \(U=\{1, 2, 3, 4, 5\}\), \(k=2\), \(B_1= \{1, 2\}\), and \(B_2 = \{2,3,4\}\).  List the nonempty minsets generated by \(B_1\) and \(B_2\) using ``\(M_b\)'' notation. Notice that they form a partition of \(U\).%
+\item{}How does this notation make help us see how many distinct nonempty minsets there could be that are generated by \(k\) subsets of a universe.%
 \end{enumerate}
 %
 \item{}%
 \begin{enumerate}[label=(\alph*)]
-\item{}Partition \(\{1, 2,  \dots, 8\}\) into the minsets generated by \(B_1= \{1, 2\}\), \(B_2 = \{1, 3, 5, 8\}\), and \(B_3 = \{2, 3, 4, 6\}\).%
+\item{}Partition \(\{1, 2,  \dots, 8\}\) into the nonempty minsets generated by \(B_1= \{1, 2\}\), \(B_2 = \{1, 3, 5, 8\}\), and \(B_3 = \{2, 3, 4, 6\}\).%
 \item{}How many different subsets of \(\{1, 2, \dots ,8\}\) can you create using \(B_1, B_2\), and \(B_3\) with the standard set operations?%
 \item{}Do there exist subsets \(C_1, C_2, C_3\) with which you can generate every subset of \(\{1,2, . . . ,8\}\)?  If so, can you find such a collection of subsets?  If not, why?  You might find the Venn diagram below useful for thinking about this problem.%
 \end{enumerate}
@@ -1636,7 +1692,7 @@ where \(D_i\) is either \(B_i\) or \(B_i^c\).  If \(b_i = 1\) then \(D_i =B_i\) 
 \end{figureptx}%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 13 Matrix Operations}
@@ -1827,7 +1883,7 @@ These amounts are ``made up'', so don't used them to do your own baking!%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 14 Matrix Laws and Oddities}
@@ -1849,7 +1905,7 @@ Response Question: Compare Matrix Law (15), The Inverse of Product Rule, with th
 Also, turn in solutions to these exercises:%
 \begin{itemize}[label=\textbullet]
 \item{}Let \(A=\left(\begin{array}{cccc} 0 &1&0&0\\ 0 &0&1&0\\ 0&0&0&1\\ 1 &0&0&0 \end{array}\right)\). Compute \(A^2\), \(A^3\), \(A^4\), and \(A^{-1}\).%
-\item{}Find at least three \(2\times2\) matrices, A, such that \(A^2=A\).%
+\item{}Find at least three \(2\times2\) matrices, \(A\), such that \(A^2=A\).%
 \end{itemize}
 %
 \end{sectionptx}
@@ -1891,7 +1947,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 15 Relations}
@@ -1945,7 +2001,7 @@ Also, turn in solutions to these exercises:%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 16 Properties of Relations}
@@ -1994,7 +2050,7 @@ r = \{(0, 0), (1, 1), (2, 2), (3, 3), (1, 2), (2, 1), (3, 0), (0, 3)\}
 %
 \begin{enumerate}[label=(\alph*)]
 \item{}Verify that \(r\) is an equivalence relation on \(A\).%
-\item{}Let \(a \in A\) and define \(c(a) = \{b \in A \mid a rb\}\). \label{g:notation:idm198360141056} \(c(a)\) is called the \terminology{equivalence class of \(a\) under \(r\)}\index{Equivalence Class}. Find \(c(a)\) for each element \(a \in A\).%
+\item{}Let \(a \in A\) and define \(c(a) = \{b \in A \mid a rb\}\). \label{g:notation:idm411250560944} \(c(a)\) is called the \terminology{equivalence class of \(a\) under \(r\)}\index{Equivalence Class}. Find \(c(a)\) for each element \(a \in A\).%
 \item{}Show that \(\{c(a) \mid  a \in A\}\) forms a partition of \(A\) for this set \(A\).%
 \item{}Let \(r\) be an equivalence relation on an arbitrary set \(A\). Prove that the set of all equivalence classes under \(r\) constitutes a partition of \(A\).%
 \end{enumerate}
@@ -2020,8 +2076,8 @@ For any of these relations that are partial orderings, draw the Hasse diagram fo
 This is a fundamental relation on the set of integers.%
 \begin{definition}{Congruence Modulo \(m\).}{x:definition:def-congruence-mod-m}%
 \index{Congruence Modulo m}%
-\label{g:notation:idm198360115808}%
-\label{g:notation:idm198360114016}%
+\label{g:notation:idm411250538480}%
+\label{g:notation:idm411250536704}%
 Let \(m\) be a positive integer, \(m\geq 2\).  We define \terminology{congruence modulo m} to be the relation \(\equiv_m\) defined on the integers by%
 \begin{equation*}
 a \equiv_m b \Leftrightarrow m \mid (a-b)
@@ -2030,7 +2086,7 @@ a \equiv_m b \Leftrightarrow m \mid (a-b)
 \end{definition}
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 17 Relation Matrices and Closure}
@@ -2180,7 +2236,7 @@ d \\
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 18 Functions and Their Properties}
@@ -2248,7 +2304,7 @@ Suppose \(A = \{a, b, c\}\).%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 19 Function Composition}
@@ -2307,7 +2363,7 @@ Describe each function with a formula.%
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 20 Recursion and Sequences}
@@ -2370,6 +2426,7 @@ n & n\textrm{ odd} \\
 %
 \item{}I'm thinking of a number between 1 and 25.  If I know you will use the binary search algorithm to guess my number and I want you to use as many guesses as possible, what are the best numbers for me to think about?%
 \item{}The length of a string is the number of characters in the string. Let \(v(n)\) be the length of \(L(n)\), which was defined in the the homework problems.  Find a recursive description of \(v(n)\).%
+\item{}\emph{Fun Question}.  This last question comes from the BBC quiz show ``Round Britain''. I expect that you would need to Google some of these references.  If Barker and Corbett encountered, sequentially, Kieslowski's colours, Blyton's adventurers, Tarantino's undesirables and Thurber's timepieces, how many pilots would they meet next?  The answer will appear at the end of the next chapter.%
 \end{enumerate}
 %
 \end{sectionptx}
@@ -2424,7 +2481,7 @@ found in position 4
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 21 Solving Linear Recurrence Relations I}
@@ -2483,9 +2540,11 @@ F_0= 1 \textrm{, } F_1= 1\textrm{ and}
 F_k = F_{k-2} + F_{k-1} \textrm{ for }k\geq 2
 \end{equation*}
 %
+\par
+Answer to the last in-class question in the previous chapter: These clues give you numbers in ascending order: The TWO Ronnies, the THREE colours trilogy, the Famous FIVE, the Hateful EIGHT, Thurber's THIRTEEN clocks. This is a Fibonacci sequence, in which each number is the sum of the previous two. The next number in the sequence (and the answer to the question) must therefore be 21 - as in the rock band, 21 Pilots. This was a question posed at the end of Programme 7 of the 2020 Round Britain Quiz.%
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 22 Solving Linear Recurrence Relations II}
@@ -2507,7 +2566,7 @@ Response Question: An algorithm that sorts files in ``\(n \log{n}\)-time'' is no
 Also, turn in solutions to these exercises:%
 \begin{itemize}[label=\textbullet]
 \item{}Find a closed form solution to \(S(k) - 2 S (k - 1) = 5^k\), with \(>S(0) = 3\)%
-\item{}What form would a particular solution to \(T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^k\) take?  Don't find a solution at this time.%
+\item{}What form would a particular solution to \(T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^k\) take?  Find just a particular solution at this time.%
 \end{itemize}
 %
 \end{sectionptx}
@@ -2541,7 +2600,7 @@ Interest is earned on investments by adding to the invested amount, called the \
 %
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 23 Some Common Recurrence Relations}
@@ -2614,7 +2673,7 @@ Given finite sets \(A_1, A_2, A_3\), then%
 \end{theorem}
 \end{sectionptx}
 \end{chapterptx}
-%
+ %
 %
 \typeout{************************************************}
 \typeout{Chapter 24 Generating Functions}
@@ -2664,6 +2723,126 @@ What sequence has as its generating function \(G(d;z)^2\)?  How is that sequence
 %
 \end{sectionptx}
 \end{chapterptx}
+\end{partptx}
+%
+%
+\typeout{************************************************}
+\typeout{Part II Structures}
+\typeout{************************************************}
+%
+\begin{partptx}{Structures}{}{Structures}{}{}{g:part:idm411251027424}
+ %
+%
+\typeout{************************************************}
+\typeout{Chapter 25 Start of Second Semeser, Review}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Start of Second Semeser, Review}{}{Start of Second Semeser, Review}{}{}{x:chapter:chapter_101}
+\begin{introduction}{}%
+In the first class of the second semester, some time will be taken to review the course format and syllabus.  In the remaining time, work on problems that review some of the fundamental concepts from the first semester.%
+\end{introduction}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 25.1 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-101}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Prove that if \(f\) and \(g\) are bijections on a set \(X\), then \(g \circ f\) is also a bijection on \(X\).%
+\item{}Partition the set \(X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}\) into equivalence classes according to the relation congruence modulo 4, \(\equiv_4\).%
+\item{}Is the following logical argument valid?%
+\begin{quote}%
+Peacham is either in Vermont or New Hampshire. If Peacham is in Vermont, then Peacham is in New England. If Peacham is in New Hamphire, then Peacham is in New England. Therefore, Peacham is in New England.%
+\end{quote}
+\item{}Prove, by mathematical induction, that \(F_0 + F_1 + F_2 + \cdots + F_{n} = F_{n+2} - 1\), where \(F_n\) is the \(n\)th Fibonacci number (\(F_0 = 1\), \(F_1 = 1\) and \(F_n = F_{n-1} + F_{n-2}\) for \(n\geq 2\)).%
+\item{}Prove that if \(n\) is an integer and you divide \(n^2\) by 5, then the remainder is always 0, 1, or 4.%
+\item{}Prove that the square root of 5 is an irrational number.%
+\end{enumerate}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 25.2 Handouts}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Handouts}{}{Handouts}{}{}{x:section:handouts-101}
+None%
+\end{sectionptx}
+\end{chapterptx}
+ %
+%
+\typeout{************************************************}
+\typeout{Chapter 26 Graphs}
+\typeout{************************************************}
+%
+\begin{chapterptx}{Graphs}{}{Graphs}{}{}{x:chapter:chapter_102}
+\index{Graphs}%
+%
+%
+\typeout{************************************************}
+\typeout{Section 26.1 Reading}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Reading}{}{Reading}{}{}{x:section:reading-102}
+Read Section 9.1 of \emph{Applied Discrete Structures}.%
+\par
+Response Question: What have you been doing since you took the first semester of this course?%
+\par
+Also, turn in solutions to these exercises:%
+\begin{itemize}[label=\textbullet]
+\item{}Why is the sum of the degrees of the vertices of any undirected graph always even?%
+\item{}Demonstrate that \((4,3,2,2,1)\) is a graphic sequence.%
+\end{itemize}
+%
+\end{sectionptx}
+%
+%
+\typeout{************************************************}
+\typeout{Section 26.2 In-Class Questions}
+\typeout{************************************************}
+%
+\begin{sectionptx}{In-Class Questions}{}{In-Class Questions}{}{}{x:section:questions-102}
+%
+\begin{enumerate}[label=\arabic*.]
+\item{}Prove that any graph with at least two vertices must have two vertices of the same degree.%
+\item{}Starting at vertex \(s\), any finite path in \hyperref[x:figure:fig-directed-graph-ex1]{Figure~{\xreffont\ref{x:figure:fig-directed-graph-ex1}}} produces a string of bits that are recorded according to the labels on each edge.  For example, the path \(s,a,b,a,b,b,a\) will produce the string 101001.%
+\begin{figureptx}{A model for bit strings with no consecutive 1's}{x:figure:fig-directed-graph-ex1}{}%
+\begin{image}{0.15}{0.7}{0.15}%
+\includegraphics[width=\linewidth]{images/fig-directed-graph-ex1.png}
+\end{image}%
+\tcblower
+\end{figureptx}%
+This graph produces bit strings that contain no consecutive 1's.   Draw a graph similar to it that produces bit strings containing no more than two consecutive 1's.%
+\item{}Find two isomorphisms between the following graphs.%
+\begin{figureptx}{Two Isomorphic Graphs}{x:figure:fig-graphpair}{}%
+\begin{image}{0.15}{0.7}{0.15}%
+\includegraphics[width=\linewidth]{images/fig-graphpair.png}
+\end{image}%
+\tcblower
+\end{figureptx}%
+\item{}%
+\begin{enumerate}[label=(\alph*)]
+\item{}Determine whether the following sequences are graphic. Explain your logic if the answer is ``non'' and draw a graph with the sequence as its degree sequence if it is ``yes.''%
+\begin{enumerate}[label=\roman*]
+\item{}\((5,1,1,1,1,1)\)%
+\item{}\((3,3,3,3)\)%
+\item{}\((3,3,3,3,3)\)%
+\item{}\((4,3,2,1,0)\)%
+\item{}\((2,2,2,1,1)\)%
+\item{}\((3,2,2,2,1)\)%
+\end{enumerate}
+%
+\item{}Based on observations you might have made in from the examples above, describe as many characteristics as you can about graphic sequences.%
+\end{enumerate}
+%
+\end{enumerate}
+%
+\end{sectionptx}
+\end{chapterptx}
+\end{partptx}
 %
 \backmatter
 %
@@ -2677,11 +2856,8 @@ What sequence has as its generating function \(G(d;z)^2\)?  How is that sequence
 \typeout{References  References}
 \typeout{************************************************}
 %
-\begin{references-chapter-numberless}{References}{}{References}{}{}{g:references:idm198378772560}
+\begin{references-chapter-numberless}{References}{}{References}{}{}{g:references:idm411247135360}
 \index{References}%
-\begin{introduction}{}%
-Problems, particulary in-class problems, and ideas have come from several sources.  I've attempted to identify sources of any distinctive ideas or problems here.%
-\end{introduction}%
 %% If this is a top-level references
 %%   you can replace with "thebibliography" environment
 \begin{referencelist}
