@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="chapter_28" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title></title>
 <idx></idx>
-<section xml:id="reading-NN"><title>Reading</title>
+<section xml:id="reading-28"><title>Reading</title>
 <p>Read </p>
 <p>Response Question: </p>
 <p>Also, turn in solutions to these exercises: 
@@ -10,7 +10,7 @@
 		<li></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-NN"><title>In-Class Questions</title>
+<section xml:id="questions-28"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
 	<li><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
@@ -21,7 +21,7 @@
 </ol>
 </p>
 </section>
-<section xml:id="handouts-NN"><title>Handouts</title>
+<section xml:id="handouts-28"><title>Handouts</title>
 <p>None</p>
 </section>
 </chapter>	

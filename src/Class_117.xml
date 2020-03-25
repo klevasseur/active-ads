@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chapter_117" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Cyclic Groups  (117)</title>
+<idx></idx>
+<section xml:id="reading-117"><title>Reading</title>
+<p>Read Sections 15.1 of <em>Applied Discrete Structures</em></p>
+<p>Response Question: Google <q>Chinese Remainder Theorem</q>. Why does the theorem have this name?</p>
+<p>Also, turn in solutions to these exercises: 
+	<ul><li>List all of the distinct cyclic subgroups of the cyclic group <m>\mathbb{Z}_{15}</m>.  Explain why this list is actually a list of <em>all</em> of the subgroups of <m>\mathbb{Z}_{15}</m>.</li>
+		<li>What are the generators of the multiplicative group <m>\{5^k \mid k\in \mathbb{Z}\}</m>?</li>
+		</ul>  </p>
+</section>
+<section xml:id="questions-117"><title>In-Class Questions</title>
+<p>
+<ol label="1.">
+<li><p>What are the generators of the group <m>\mathbb{Z}_{15}</m>?  What relationship do these numbers have with the modulus, 15?</p></li>
+<li><p>Suppose <m>[G;*]</m> is a cyclic group with generator <m>g</m>. If you build a graph of with vertices from the elements of <m>G</m> and edge set <m>E= \{(a, g*a) \mid a\in G\}</m>, what would the graph look like?  If <m>G</m> is a group of even order, what would a graph with edge set <m>E'= \{(a, g^2*a) \mid a\in G\}</m> look like?</p></li>
+<li><p>The function <m>f: \mathbb{Z}_{77} \rightarrow \mathbb{Z}_7\times \mathbb{Z}_{11}</m> defined by <m>f(a)= (a mod 7, a mod 11)</m> is an isomorphism.  Suppose you are given some elements in <m>\mathbb{Z}_{77}</m> and you want there sum (mod 77).  Furthermore, suppose you mapped these numbers, using <m>f</m>, to <m>\mathbb{Z}_7\times \mathbb{Z}_{11}</m> and there sum in the direct product was <m>(1,6)</m>.  What is the sum in <m>\mathbb{Z}_{77}</m>? </p></li>
+</ol>
+</p>
+</section>
+<section xml:id="handouts-117"><title>Handouts</title>
+<p>None</p>
+</section>
+</chapter>	

@@ -3,7 +3,7 @@
 <title>Mathematical Induction</title>
 <idx></idx>
 <section xml:id="reading-9"><title>Reading</title>
-<p>Read Sections 3.6 and 3.7 of Applied Discrete Structures. It is only necessary to read 3.6 through Example 3.6.7.</p>
+<p>Read Sections 3.6 and 3.7 of <em>Applied Discrete Structures</em>. It is only necessary to read 3.6 through Example 3.6.7.</p>
 <p>Response question: You don’t need induction to prove that the sum of the first <m>n</m> Positive integers equals <m>\frac{n(n+1)}{2}</m>. Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read. </p>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li><p> Simplify the expressions 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chapter_NN" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="chapter_24" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Generating Functions</title>
 <idx></idx>
-<section xml:id="reading-NN"><title>Reading</title>
+<section xml:id="reading-24"><title>Reading</title>
 <p>Read the first two subsections of Section 8.5 of <em>Applied Discrete Structures</em>. </p>
 <p>Response Question: (idea taken from <xref ref="biblio-bogart-2017"/>) Suppose we treat addition as logical <em>or</em> and multiplication as logical <em>and</em>.  Furthermore, suppose that <m>B</m> stands for banana.  Then to say you could have as many as two bananas, we could write <m>B^0+B^1+B^2=1+B+B^2</m>.  Suppose that in addition you could have up to three apples (use <m>A</m> for apples) and zero or one pears (use <m>P</m> for pears).  What algebraic expression represents all your choices in selecting fruits?  Identify the part of this expression where you select exactly two pieces of fruit.</p>
 <p>Also, turn in solutions to these exercises: 
@@ -10,7 +10,7 @@
 		<li>How are the generating functions of the sequences <m>S(n)=n^2</m> and <m>T(n)=(n+1)^2</m> related?</li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-NN"><title>In-Class Questions</title>
+<section xml:id="questions-24"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
 <li><p>Let
@@ -26,7 +26,7 @@ What sequence has as its generating function <m>G(d;z)^2</m>?  How is that seque
 </p>
 </section>
 <!-- 
-<section xml:id="handouts-NN"><title>None</title>
+<section xml:id="handouts-24"><title>None</title>
 <p>None</p>
 </section>
  -->
