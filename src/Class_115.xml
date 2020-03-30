@@ -6,7 +6,7 @@
 <p>Read Section 13.3 of <em>Applied Discrete Structures</em></p>
 <p>Response Question:  Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra? </p>
 <p>Also, turn in solutions to these exercises: 
-	<ul><li>Let <m>D_n</m> be the set of positive integers that divide evenly into n.  List the elements of each of the sets <m>D_{6}, D_{16}, D_{12}, and D_{30}</m> </li>
+	<ul><li>Let <m>D_n</m> be the set of positive integers that divide evenly into n.  List the elements of each of the sets <m>D_{6}, D_{16}, D_{12}\textrm{, and }D_{30}</m> </li>
 		<li><p>What is the complement of a logical proposition in the Boolean algebra of logic?</p></li>
 		</ul>  </p>
 </section>

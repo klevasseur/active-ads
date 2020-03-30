@@ -19,7 +19,7 @@ a power set, <m>\mathcal{P}(A)</m>, under <m>\subseteq</m>. Describe a second th
 on <m>\{0, 1\}</m> are determined by the Boolean algebra laws. Write out the operation tables for <m>[\{0, 1\}; \lor , \land, -]</m>.</p></li>
 </ol>
 </p></li>
-<li><p>Consider the Boolean algebra <m>\mathscr{B}=[B_2^6; \lor, \land, - ]</m>, and let <m>E_6</m> be the set of bit strings of length six having an even number of 1's.  Is <m>E_6</m> closed with respect to the operations of <m>\mathscr{B}</m>. </p></li>
+<li><p>Consider the Boolean algebra <m>\mathcal{B} = [B_2^6 ; \lor, \land, \- ]</m>, and let <m>E_6</m> be the set of bit strings of length six having an even number of 1's.  Is <m>E_6</m> closed with respect to the operations of <m>\mathcal{B}</m>. </p></li>
 <li><p>Give an example of a Boolean algebra of order 16 whose elements are certain subsets of the set <m>\{1, 2, 3, 4, 5, 6, 7\}</m></p></li>
 <li><p>Give an example of a Boolean algebra of order 16 whose elements are certain set of strings of the set <m>B_2^6</m></p></li>
 </ol>
