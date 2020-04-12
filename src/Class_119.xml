@@ -6,8 +6,8 @@
 <p>Read the first two subsections of Section 15.3 of <em>Applied Discrete Structures</em>, stopping when you get to  Subsection 15.3.3</p>
 <p>Response Question: Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation.  Who did that?  </p>
 <p>Also, turn in solutions to these exercises: 
-	<ul><li><p>Write the following elements of <m>S_5</m> as a product of disjoint cycles.
-			<ol label="(a)" columns="2">
+	<ol label="1"><li><p>Write the following elements of <m>S_5</m> as a product of disjoint cycles.
+			<ol label="(a)" cols="2">
 				<li><p><m>\alpha=\left(
 					\begin{array}{ccccc}
 					 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
@@ -22,30 +22,23 @@
 					\end{array}
 					\right)</m></p>
 				</li>
-				<li><p><m>\sigma=\left(
-					\begin{array}{ccccc}
-					 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
-					 1 &amp; 4 &amp; 3 &amp; 2 &amp; 5 \\
-					\end{array}
-					\right)</m></p>
-				</li>
 			</ol></p>
 		</li>
-		<li><p>Compute the following using the values of <m>\alpha</m> and <m>\beta</m> above.
-		   <ol label="(a)" columns="2">
-				<li><p><m>\alph \sc \beta</m></p></li>
-				<li><p><m>\beta \sc \alpha</m></p></li>
+		<li><p>Compute the following using the values of <m>\alpha</m> and <m>\beta</m> above.  Write your answer as a product of disjoint cycles.
+		   <ol label="(a)" cols="2">
+				<li><p><m>\alpha \circ \beta</m></p></li>
+				<li><p><m>\beta \circ \alpha</m></p></li>
 				<li><p><m>\alpha^{-1}</m></p></li>
 				<li><p><m>\beta^{-1}</m></p></li>				
 			</ol>
 			</p></li>
-		</ul>  </p>
+		</ol>  </p>
 </section>
 <section xml:id="questions-119"><title>In-Class Questions</title>
 <p>There are advantages to cycle notation.  One is that the order of an element can be determined by its cycle structure.
 <ol label="1.">
 <li><p>What are the orders of the following permutations?
-	<ol label="(a)" columns="3">
+	<ol label="(a)" cols="3">
 				<li><p><m>(1,2,3)</m></p></li>
 				<li><p><m>(1,2,3,4)</m></p></li>
 				<li><p><m>(1,2,3)(4,5)</m></p></li>
@@ -55,15 +48,14 @@
 			</ol>
 	</p></li>
 <li><p>Based on the result in the previous problem, predict the orders of the following permutations without actually computing their powers.
-	<ol label="(a)" columns="3">
+	<ol label="(a)" cols="3">
 				<li><p><m>(1,2,3,4,5,6,7)</m></p></li>
 				<li><p><m>(1,2,3,4)(5,6,7,8)</m></p></li>
 				<li><p><m>(1,2,3,4)(5,6,7)</m></p></li>
-	</p></li>
-</ol>
-</p></li></p>
-<li><p>Among all permutations in <m>S_{10}</m>, what is their largest order?  How about <m>S_{11}</m></p></li>
-<li><p>Prove that if <m>\sigma</m> and <m>\phi</m> are permutations, then the order of <m>\phi \sc \sigma \sc \phi^{-1}</m> is equal to the order of <m>\sigma</m>.</p></li>
+	</ol>
+</p></li>
+<li><p>Among all permutations in <m>S_{10}</m>, what is their largest order?  How about <m>S_{11}</m>?</p></li>
+<li><p>Prove that if <m>\sigma</m> and <m>\phi</m> are permutations, then the order of <m>\phi \circ \sigma \circ \phi^{-1}</m> is equal to the order of <m>\sigma</m>.</p></li>
 </ol></p>
 </section>
 <section xml:id="handouts-119"><title>The order of a group element</title>
