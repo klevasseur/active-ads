@@ -1,0 +1,1017 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     42208,       1009]
+NotebookOptionsPosition[     40410,        970]
+NotebookOutlinePosition[     41017,        991]
+CellTagsIndexPosition[     40913,        986]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.793378343958946*^9, 3.793378380175514*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"bb0ed4b6-5f1c-4cba-8e5f-85617c956dd1"],
+
+Cell[BoxData[
+ FormBox["\<\"/Users/ken_l/Documents/active-ads/images\"\>", 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.793378381514853*^9},
+ CellLabel->"Out[47]=",ExpressionUUID->"fb90bed2-211d-4368-a5da-d8bcbac85e3d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"UndirectedGraph", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<<0>\>\"", "\[UndirectedEdge]", "\"\<<2>\>\""}], ",", 
+      RowBox[{"\"\<<0>\>\"", "\[UndirectedEdge]", "\"\<<3>\>\""}], ",", 
+      RowBox[{"\"\<<2>\>\"", "\[UndirectedEdge]", "\"\<<1>\>\""}], ",", 
+      RowBox[{"\"\<<3>\>\"", "\[UndirectedEdge]", "\"\<<1>\>\""}]}], "}"}], 
+    ",", 
+    RowBox[{"VertexShape", "\[Rule]", "vs"}], ",", 
+    RowBox[{"VertexStyle", "\[Rule]", "White"}], ",", 
+    RowBox[{"VertexSize", "\[Rule]", "Large"}], ",", 
+    RowBox[{"VertexLabels", "\[Rule]", 
+     RowBox[{"Placed", "[", 
+      RowBox[{"\"\<Name\>\"", ",", "Center"}], "]"}]}], ",", 
+    RowBox[{"VertexLabelStyle", "\[Rule]", "Large"}], ",", 
+    RowBox[{"VertexCoordinates", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<<0>\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"\"\<<2>\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1.5"}], "}"}]}], ",", 
+       RowBox[{"\"\<<3>\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1.5"}], "}"}]}], ",", 
+       RowBox[{"\"\<<1>\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "3"}], "}"}]}]}], "}"}]}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", "200"}]}], "]"}], "//", 
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{"\"\<fig-z6-subgroups.png\>\"", ",", "#", ",", "\"\<PNG\>\""}], 
+    "]"}], "&"}]}]], "Input",
+ CellChangeTimes->{{3.793376847617174*^9, 3.7933769704811907`*^9}, {
+  3.793377168249846*^9, 3.7933771931781397`*^9}, {3.793377338104566*^9, 
+  3.7933773904628277`*^9}, {3.793377476727837*^9, 3.793377601034732*^9}, {
+  3.7933776371531773`*^9, 3.793377657886353*^9}, {3.7933779493659353`*^9, 
+  3.7933779663058367`*^9}, {3.793378339751432*^9, 3.793378340974059*^9}, {
+  3.793378392333633*^9, 3.7933784213876057`*^9}, {3.7944995263426313`*^9, 
+  3.7944995263471947`*^9}},ExpressionUUID->"2f76c2d1-ebe4-4570-8ce7-\
+b723b47f8453"],
+
+Cell[BoxData[
+ FormBox["\<\"fig-z6-subgroups.png\"\>", TraditionalForm]], "Output",
+ CellChangeTimes->{
+  3.79337692930267*^9, 3.793376966230442*^9, {3.79337717031041*^9, 
+   3.79337719390617*^9}, {3.793377350999895*^9, 3.793377360433704*^9}, 
+   3.793377392267157*^9, 3.793377485925728*^9, 3.7933775167231417`*^9, 
+   3.793377659236514*^9, {3.793377955478675*^9, 3.793377967406728*^9}, 
+   3.793378423380917*^9},
+ CellLabel->"Out[48]=",ExpressionUUID->"a576a4ee-89f5-4d8f-b3b3-ffc45cbead3c"]
+}, Open  ]],
+
+Cell[BoxData["\[UndirectedEdge]"], "Input",
+ CellChangeTimes->{{3.794499501626154*^9, 3.794499504293458*^9}},
+ EmphasizeSyntaxErrors->True,
+ CellLabel->
+  "In[150]:=",ExpressionUUID->"bde66db2-7647-43f6-bc57-0fc65169e409"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Vertex*"}]], "Input",
+ CellChangeTimes->{{3.794499598255188*^9, 3.7944996508756533`*^9}, {
+   3.794499760363929*^9, 3.794499764906402*^9}, 3.7945219062912083`*^9},
+ CellLabel->
+  "In[163]:=",ExpressionUUID->"37ffe4df-2a0d-41d6-a3b6-57c109f0ead6"],
+
+Cell[BoxData[
+ FormBox[
+  StyleBox[
+   FrameBox[GridBox[{
+      {
+       DynamicModuleBox[{Typeset`open$$ = True}, 
+        PaneSelectorBox[{False->
+         ButtonBox[
+          RowBox[{
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "FEBitmaps", "RightPointerOpener"]], " ", 
+           StyleBox["System`", "InformationGridGroupHeader"]}],
+          Appearance->None,
+          BaseStyle->"InformationGridLink",
+          ButtonFunction:>FEPrivate`Set[Typeset`open$$, True],
+          Evaluator->Automatic,
+          Method->"Preemptive"], True->
+         PaneBox[GridBox[{
+            {
+             ButtonBox[
+              RowBox[{
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "DownPointerOpener"],
+                ImageSizeCache->{15., {4., 11.}}], " ", 
+               StyleBox["System`", "InformationGridGroupHeader"]}],
+              Appearance->None,
+              BaseStyle->"InformationGridLink",
+              ButtonFunction:>FEPrivate`Set[Typeset`open$$, False],
+              Evaluator->Automatic,
+              Method->"Preemptive"]},
+            {
+             PaneBox[GridBox[{
+                {
+                 ButtonBox[
+                  StyleBox["VertexAdd", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexAdd", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexIndex", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexIndex", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCapacity", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCapacity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexJaccardSimilarity", "InformationGridButton"],
+                  
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexJaccardSimilarity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexColors", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexColors", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexLabeling", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexLabeling", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexComponent", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexComponent", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexLabels", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexLabels", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexConnectivity", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexConnectivity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexLabelStyle", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexLabelStyle", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexContract", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexContract", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexList", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexList", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCoordinateRules", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCoordinateRules", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexNormals", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexNormals", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCoordinates", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCoordinates", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexOutComponent", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexOutComponent", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  
+                  StyleBox["VertexCorrelationSimilarity", 
+                   "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCorrelationSimilarity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexOutDegree", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexOutDegree", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCosineSimilarity", "InformationGridButton"],
+                  
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCosineSimilarity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexQ", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexQ", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCount", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCount", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexRenderingFunction", "InformationGridButton"],
+                  
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexRenderingFunction", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexCoverQ", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexCoverQ", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexReplace", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexReplace", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexDataCoordinates", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexDataCoordinates", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexShape", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexShape", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexDegree", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexDegree", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexShapeFunction", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexShapeFunction", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexDelete", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexDelete", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexSize", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexSize", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexDiceSimilarity", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexDiceSimilarity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexStyle", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexStyle", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexEccentricity", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexEccentricity", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  
+                  StyleBox["VertexTextureCoordinates", 
+                   "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexTextureCoordinates", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexInComponent", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexInComponent", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexWeight", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexWeight", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]},
+                {
+                 ButtonBox[
+                  StyleBox["VertexInDegree", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexInDegree", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic], 
+                 ButtonBox[
+                  StyleBox["VertexWeightedGraphQ", "InformationGridButton"],
+                  Appearance->None,
+                  BaseStyle->"InformationGridLink",
+                  
+                  ButtonData:>{
+                   "Info-0141323c-6543-49a4-8305-92fb78ff1d32", {
+                    "VertexWeightedGraphQ", "System`"}, False},
+                  ButtonNote->"System`",
+                  Evaluator->Automatic]}
+               },
+               DefaultBaseStyle->"Text",
+               
+               GridBoxAlignment->{
+                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+               GridBoxItemSize->{"Columns" -> {{
+                    Scaled[0.475]}}}],
+              ImageMargins->{{10, 0}, {0, 2}}]}
+           },
+           GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}],
+          
+          FrameMargins->{{0, 0}, {8, 0}}]}, Dynamic[Typeset`open$$],
+         ImageSize->Automatic]]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+     GridBoxDividers->{"ColumnsIndexed" -> {{False}}, "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], {
+          Offset[0.8]}, 
+         Offset[0.2]}}],
+    BaseStyle->"InformationTitleFrame"], "InformationGridPlain"], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.794499601369659*^9, 3.794499766082161*^9, 
+  3.7945219071443653`*^9},
+ CellLabel->
+  "Out[163]=",ExpressionUUID->"93cede1f-3e90-4615-ae1a-91bc4efa5320"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = True, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{20., {6., 14.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{20., {6., 14.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/VertexStyle",
+              ButtonNote->"paclet:ref/VertexStyle"],
+             "\"paclet:ref/VertexStyle\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"VertexStyle is an option and property for Graph and \
+related functions that specifies what style to use for vertices. \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False, False, False, False, 
+                False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   
+                   TemplateBox[{
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/VertexStyle", 
+                    "paclet:ref/VertexStyle", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"],"\"  \"",StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False],
+                    "\"  \"",TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/VertexStyle.\
+html"], None}, "http://reference.wolfram.com/language/ref/VertexStyle.html", 
+                    "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`VertexStyle\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->6], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"],
+               ImageSizeCache->{15., {2., 13.}}], True->
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"],
+               ImageSizeCache->{15., {2., 13.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{20., {6., 14.}}], True->
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{20., {6., 14.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/VertexStyle",
+              ButtonNote->"paclet:ref/VertexStyle"],
+             "\"paclet:ref/VertexStyle\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"VertexStyle is an option and property for Graph and \
+related functions that specifies what style to use for vertices. \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{15., {2., 13.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{15., {2., 13.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[
+   Association[
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "VertexStyle is an option and property for Graph and related functions \
+that specifies what style to use for vertices. ", "Documentation" -> 
+    Association[
+     "Local" -> "paclet:ref/VertexStyle", "Web" -> 
+      "http://reference.wolfram.com/language/ref/VertexStyle.html"], 
+    "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, "Attributes" -> {Protected}, 
+    "FullName" -> "System`VertexStyle"], False]]], "Print",
+ CellTags->
+  "Info-0141323c-6543-49a4-8305-92fb78ff1d32",ExpressionUUID->"3a09224c-b836-\
+4791-92bb-7f8250adfdbd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Graph", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<0\>\"", "\[UndirectedEdge]", "\"\<1\>\""}], ",", 
+      RowBox[{"\"\<0\>\"", "\[UndirectedEdge]", "\"\<2\>\""}], ",", 
+      RowBox[{"\"\<0\>\"", "\[UndirectedEdge]", "\"\<3\>\""}], ",", 
+      RowBox[{"\"\<1\>\"", "\[UndirectedEdge]", "\"\<4\>\""}], ",", 
+      RowBox[{"\"\<2\>\"", "\[UndirectedEdge]", "\"\<4\>\""}], ",", 
+      RowBox[{"\"\<3\>\"", "\[UndirectedEdge]", "\"\<4\>\""}]}], "}"}], ",", 
+    RowBox[{"VertexStyle", "\[Rule]", 
+     RowBox[{"Directive", "[", 
+      RowBox[{"White", ",", " ", 
+       RowBox[{"EdgeForm", "[", "White", "]"}]}], "]"}]}], ",", 
+    RowBox[{"VertexSize", "\[Rule]", "Large"}], ",", 
+    RowBox[{"VertexLabels", "\[Rule]", 
+     RowBox[{"Placed", "[", 
+      RowBox[{"\"\<Name\>\"", ",", "Center"}], "]"}]}], ",", 
+    RowBox[{"VertexLabelStyle", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"Black", ",", "Large"}], "}"}]}], ",", 
+    RowBox[{"VertexCoordinates", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<0\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"\"\<1\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1.5"}], "}"}]}], ",", 
+       RowBox[{"\"\<2\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1.5"}], "}"}]}], ",", 
+       RowBox[{"\"\<3\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1.5"}], "}"}]}], ",", 
+       RowBox[{"\"\<4\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "3"}], "}"}]}]}], "}"}]}]}], "]"}], "//", 
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{"\"\<diamond_lattice.png\>\"", ",", "#", ",", "\"\<PNG\>\""}], 
+    "]"}], "&"}]}]], "Input",
+ CellChangeTimes->{{3.793376847617174*^9, 3.7933769704811907`*^9}, {
+   3.793377168249846*^9, 3.7933771931781397`*^9}, {3.793377338104566*^9, 
+   3.7933773904628277`*^9}, {3.793377476727837*^9, 3.793377601034732*^9}, {
+   3.7933776371531773`*^9, 3.793377657886353*^9}, {3.7933779493659353`*^9, 
+   3.7933779663058367`*^9}, {3.793378339751432*^9, 3.793378340974059*^9}, {
+   3.793378392333633*^9, 3.7933784213876057`*^9}, 3.7944989911778193`*^9, {
+   3.7944990523071623`*^9, 3.7944991092236843`*^9}, {3.794499237747876*^9, 
+   3.7944992715362053`*^9}, {3.7944993031944017`*^9, 3.794499465647523*^9}, {
+   3.7944995263559017`*^9, 3.794499573909336*^9}, 3.7944996584265957`*^9, {
+   3.794499819285048*^9, 3.794499854895111*^9}, {3.794499928806425*^9, 
+   3.79449993914791*^9}, {3.794521712267304*^9, 3.794521759380355*^9}, {
+   3.794521851781218*^9, 3.794521880684783*^9}, {3.7945219606761293`*^9, 
+   3.794522018607479*^9}},
+ CellLabel->
+  "In[166]:=",ExpressionUUID->"b7093d47-c847-4cba-9bce-692dca9d1149"],
+
+Cell[BoxData[
+ FormBox["\<\"diamond_lattice.png\"\>", TraditionalForm]], "Output",
+ CellChangeTimes->{{3.794499541423538*^9, 3.7944995758380938`*^9}, 
+   3.794499659298052*^9, {3.794499849296754*^9, 3.79449987389916*^9}, 
+   3.794499940239893*^9, 3.794521760449606*^9, {3.7945218590084057`*^9, 
+   3.794521881591482*^9}, {3.7945219659025927`*^9, 3.794521991106927*^9}, 
+   3.794522021640542*^9},
+ CellLabel->
+  "Out[166]=",ExpressionUUID->"3305e7a2-63c7-420f-ae93-64356aab3913"]
+}, Open  ]],
+
+Cell[BoxData[
+ FormBox["", TraditionalForm]], "Input",
+ CellChangeTimes->{{3.794499526422114*^9, 3.794499526442563*^9}, 
+   3.7944998716376333`*^9},ExpressionUUID->"3944b632-4f5b-45d1-9fbb-\
+ad2d5d7baeda"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.793376847617174*^9, 3.7933769704811907`*^9}, {
+   3.793377168249846*^9, 3.7933771931781397`*^9}, {3.793377338104566*^9, 
+   3.7933773904628277`*^9}, {3.793377476727837*^9, 3.793377601034732*^9}, {
+   3.7933776371531773`*^9, 3.793377657886353*^9}, {3.7933779493659353`*^9, 
+   3.7933779663058367`*^9}, {3.793378339751432*^9, 3.793378340974059*^9}, {
+   3.793378392333633*^9, 3.7933784213876057`*^9}, 3.7944989911778193`*^9, {
+   3.7944990523071623`*^9, 3.794499065850089*^9}, 3.794522005212438*^9},
+ EmphasizeSyntaxErrors->
+  True,ExpressionUUID->"097ba778-1c13-43a1-8ab8-f2dde04760bc"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{20, Automatic}, {Automatic, 21}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info-0141323c-6543-49a4-8305-92fb78ff1d32"->{
+  Cell[24081, 582, 12126, 293, 260, "Print",ExpressionUUID->"3a09224c-b836-4791-92bb-7f8250adfdbd",
+   CellTags->"Info-0141323c-6543-49a4-8305-92fb78ff1d32"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info-0141323c-6543-49a4-8305-92fb78ff1d32", 40730, 980}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 268, 5, 47, "Input",ExpressionUUID->"bb0ed4b6-5f1c-4cba-8e5f-85617c956dd1"],
+Cell[851, 29, 227, 4, 41, "Output",ExpressionUUID->"fb90bed2-211d-4368-a5da-d8bcbac85e3d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1115, 38, 2065, 46, 251, "Input",ExpressionUUID->"2f76c2d1-ebe4-4570-8ce7-b723b47f8453"],
+Cell[3183, 86, 492, 8, 41, "Output",ExpressionUUID->"a576a4ee-89f5-4d8f-b3b3-ffc45cbead3c"]
+}, Open  ]],
+Cell[3690, 97, 222, 4, 47, "Input",ExpressionUUID->"bde66db2-7647-43f6-bc57-0fc65169e409"],
+Cell[CellGroupData[{
+Cell[3937, 105, 275, 5, 47, "Input",ExpressionUUID->"37ffe4df-2a0d-41d6-a3b6-57c109f0ead6"],
+Cell[4215, 112, 19863, 468, 588, "Output",ExpressionUUID->"93cede1f-3e90-4615-ae1a-91bc4efa5320"],
+Cell[24081, 582, 12126, 293, 260, "Print",ExpressionUUID->"3a09224c-b836-4791-92bb-7f8250adfdbd",
+ CellTags->"Info-0141323c-6543-49a4-8305-92fb78ff1d32"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36244, 880, 2824, 60, 251, "Input",ExpressionUUID->"b7093d47-c847-4cba-9bce-692dca9d1149"],
+Cell[39071, 942, 478, 8, 41, "Output",ExpressionUUID->"3305e7a2-63c7-420f-ae93-64356aab3913"]
+}, Open  ]],
+Cell[39564, 953, 205, 4, 41, InheritFromParent,ExpressionUUID->"3944b632-4f5b-45d1-9fbb-ad2d5d7baeda"],
+Cell[39772, 959, 634, 9, 47, "Input",ExpressionUUID->"097ba778-1c13-43a1-8ab8-f2dde04760bc"]
+}
+]
+*)
+
