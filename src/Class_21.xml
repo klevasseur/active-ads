@@ -9,7 +9,7 @@
 	<ul>
 	<li><p>Find a closed form expression that for the sequence <m>S(n)</m> if  <m>S(0)=4</m> and <m>S(n)=3 \cdot S(n-1)</m> if <m>n \gt 0</m>.</p></li>
 	<li><p>Find a closed form expression that for the sequence <m>T(n)</m> 
-	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) + 4\cdot T(n-2)=0</m>
+	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) +2 \cdot T(n-2)=0</m>
 	    if <m>n \gt 2</m>.</p></li>
 	</ul>  
 </p>

@@ -4,7 +4,7 @@
 <idx></idx>
 <section xml:id="reading-121"><title>Reading</title>
 <p> Read the definition of <em>Homomorphism</em> in Section 15.4. Then read Section 15.5 of <em>Applied Discrete Structures</em> up to, but not including, subsection 15.5.2 Error Correction  </p>
-<p>Response Question:  If you measure the distance between elements of a set, <m>S</m>, with a function <m>d: S\timesS \rightarrow \mathbb{R}</m>, what general properties this distance function would you normally expect?</p>
+<p>Response Question:  If you measure the distance between elements of a set, <m>S</m>, with a function <m>d: S\times S \rightarrow \mathbb{R}</m>, what general properties this distance function would you normally expect?</p>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1."><li><em>Linear Codes</em>.  Let <m>m</m> and <m>n</m> be positive integers.  Suppose that <m>G</m> is an <m>m \times n</m> matrix of zeros and ones.  Then we can can define a function <m>e:\mathbb{Z}_2^m \rightarrow \mathbb{Z}_2^n</m> by <m>e(a)=a G</m> where we take <m>a \in \mathbb{Z}_2^m</m> to be <m>1\times m</m> matrix and we perform mod 2 arithmetic in computing the product <m>a G</m>.  Prove that <m>e</m> is a homomorphism.</li>
 		<li><p>The <em>Hamming Distance</em>, <m>d_H</m>, between two strings of bits with the same length is the number positions within the two strings where the strings differ.  For example, <m>d_H(11101,10100)=2</m> because the two strings differ in positions 2 and 5.  What is the minimal Hamming distance between any two strings in the set <m>C =\{00000,11011,11100,00111\}</m> </p></li>
@@ -14,16 +14,16 @@
 <p>
 <ol label="1.">
 <li><p>Suppose a two bit message is encoded into a five bit message using the function <m>e(b_{1}b_{2})=b_{1}b_{1}(b_{1}+_2 b_{2})b_{2}b_{2}</m>.  What matrix, <m>G</m>, has the property that <m>e(b_{1}b_{2})=(b_{1} b_{2}) G</m>?</p></li>
-<li><p> Define the two functions  <m>\alpha: \mathbb{Z}_2{}^3\rightarrow  \mathbb{Z}_2{}^4</m>  and <m>\beta :\mathbb{Z}_2{}^4\to \mathbb{Z}_2</m> by
-<m>\alpha\left(a_1,a_2,a_3 \right) = \left(a_1,a_2,a_3 ,a_1+_2 a_2+_2a_3\right)</m>, and
- <m>\beta \left(b_1,b_2,b_3,b_4\right)=b_1+b_2+b_3+b_4</m>.
+<li><p> Define the two functions  <m>g:\mathbb{Z}_2{}^3\rightarrow  \mathbb{Z}_2{}^4</m>  and <m>p:\mathbb{Z}_2{}^4\to \mathbb{Z}_2</m> by
+<m>g\left(a_1,a_2,a_3 \right) = \left(a_1,a_2,a_3 ,a_1+_2 a_2+_2a_3\right)</m>, and
+ <m>p \left(b_1,b_2,b_3,b_4\right)=b_1+b_2+b_3+b_4</m>.
  	<ol label="(a)">
- 		<li><p>The values of <m>\alpha\left(a_1,a_2,a_3 \right)</m> and <m>\beta \left(b_1,b_2,b_3,b_4\right)</m> can be computed as matrix products.  Determine the matrices.</p></li>
- 		<li><p>Describe the function <m>\beta \circ \alpha</m>. Is it a homomorphism?</p></li>
+ 		<li><p>The values of <m>g\left(a_1,a_2,a_3 \right)</m> and <m>p \left(b_1,b_2,b_3,b_4\right)</m> can be computed as matrix products.  Determine the matrices.</p></li>
+ 		<li><p>Describe the function <m>p \circ g</m>. Is it a homomorphism?</p></li>
  	</ol>
  	</p>
  </li>	
-</ol>
+<li><p>Suppose we were to send three bits across a binary symmetric channel by first encoding the bits using the function <m>g</m> from the previous problem, producing a sequence of four bits.   After receiving the four bits, the person at the receiving end applies the function <m>p</m> to those bits.   What can we derivive form the output of <m>p</m>?  </p></li></ol>
 </p>
 </section>
 <!-- 
