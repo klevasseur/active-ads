@@ -9,7 +9,7 @@
 	<ul>
 	<li><p>Find a closed form expression that for the sequence <m>S(n)</m> if  <m>S(0)=4</m> and <m>S(n)=3 \cdot S(n-1)</m> if <m>n \gt 0</m>.</p></li>
 	<li><p>Find a closed form expression that for the sequence <m>T(n)</m> 
-	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) +2 \cdot T(n-2)=0</m>
+	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) -4 \cdot T(n-2)=0</m>
 	    if <m>n \gt 2</m>.</p></li>
 	</ul>  
 </p>
@@ -17,10 +17,10 @@
 <section xml:id="questions-21"><title>In-Class Questions</title>
 <p>
 <ol label="1.">
-<li><p>Find a closed form expression that for the sequence <m>V(n)</m> if  <m>V(0)=2</m>, <m>V(1)= 3</m> and <m>V(n)= \frac{1}{2}\cdot V(n-1)- \frac{1}{2}\cdot V(n-2)</m> if <m>n \gt 2</m>.</p></li>
+<li><p>Find a closed form expression that for the sequence <m>V(n)</m> if  <m>V(0)=2</m>, <m>V(1)= 3</m> and <m>V(n)= \frac{1}{2}\cdot V(n-1)+ \frac{1}{2}\cdot V(n-2)</m> if <m>n \gt 2</m>.</p></li>
 <li><p>Find a closed form expression that for the sequence <m>Q(n)</m> if  <m>Q(0)=3</m>, <m>Q(1)= 0</m> and <m>Q(n)=6\cdot Q(n-1)-9\cdot Q(n-2)</m> if <m>n \gt 2</m>.</p></li>
 <li><p>The recurrence relation <m>R(n)=R(n-1)+2^n</m>, <m>n \geq 1</m> is non-homogeneous.  This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation.  This can be done by replacing <m>n</m> with <m>n-1</m> in the recurrence relation and multiplying that equation by 2.   You can then eliminate the <m>2^n</m> term. Find the general solution to the resulting second order recurrence relation.</p></li>
-<li><p>The <xref ref="ex-fibonacci-sequence" text="title" />  is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if <m>\lambda_1</m> and <m>\lambda_2</m> are its two characteristic roots, then <m>\lambda_1 + \lambda_2 = 1</m> and <m>\lambda_1 \cdot \lambda_2 =-1</m>.  Verify this and then solve for a closed form expression for <m>F_k</m>.</p></li>
+<li><p>The <xref ref="ex-fibonacci-sequence" text="title" />  is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if <m>\alpha</m> and <m>\beta</m> are its two characteristic roots, then <m>\alpha + \beta = 1</m> and <m>\alpha \cdot \beta =-1</m>.  Verify this and then solve for a closed form expression for <m>F_k</m>.</p></li>
 </ol>
 </p>
 </section>
