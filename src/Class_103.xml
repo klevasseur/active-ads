@@ -3,7 +3,7 @@
 <title>Data Structures and Connectivity</title>
 <idx></idx>
 <section xml:id="reading-103"><title>Reading</title>
-<p>Read Section 9.2 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
 <!-- 
 <p>Response Question: In most applications to graph theory, the graphs are really too large to draw. One only imagines the graph. For example, imagine a graph representing the residents of a city of 100,000, with an edge between any two persons who live within 50  m. of one another.  Estimate the number of vertices you might have.  If you wanted to draw the graph, estimate how large a  square piece of paper you would need if the vertices were 1 mm. in radius. </p>
  -->
@@ -32,7 +32,9 @@
 </ol>
 </p>
 </section>
+<!-- 
 <section xml:id="handouts-103"><title>Handouts</title>
 <p>None</p>
 </section>
+ -->
 </chapter>	
