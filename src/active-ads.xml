@@ -50,6 +50,7 @@
 		</part>
 		<part><title>Structures</title>
 		<xi:include href="./Class_101.xml" /> 
+<!-- 
 		<xi:include href="./Class_102.xml" /> 
 		<xi:include href="./Class_103.xml" />                        
 		<xi:include href="./Class_104.xml" />                        
@@ -72,6 +73,7 @@
 		<xi:include href="./Class_120.xml" /> 
  		<xi:include href="./Class_121.xml" /> 
 		<xi:include href="./Class_122.xml" /> 
+ -->
 		</part>		
 		<xi:include href="./backmatter.xml" />            
     </book>

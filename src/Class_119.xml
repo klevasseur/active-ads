@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_119" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Permutation Groups, Part 1 (119)</title>
 <idx></idx>
-<section xml:id="reading-119"><title>Reading</title>
+<section xml:id="reading-119"><title>Reading Assignment</title>
 <p>Read the first two subsections of Section 15.3 of <em>Applied Discrete Structures</em>, stopping when you get to  Subsection 15.3.3</p>
-<p>Response Question: Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation.  Who did that?  </p>
+<question><title>Response Question</title><statement><p>  Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation.  Who did that?   </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1"><li><p>Write the following elements of <m>S_5</m> as a product of disjoint cycles.
 			<ol label="(a)" cols="2">
@@ -34,7 +34,7 @@
 			</p></li>
 		</ol>  </p>
 </section>
-<section xml:id="questions-119"><title>In-Class Questions</title>
+<section xml:id="questions-119"><title>In-Class Exercises</title>
 <p>There are advantages to cycle notation.  One is that the order of an element can be determined by its cycle structure.
 <ol label="1.">
 <li><p>What are the orders of the following permutations?

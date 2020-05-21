@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_117" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Cyclic Groups  (117)</title>
 <idx></idx>
-<section xml:id="reading-117"><title>Reading</title>
+<section xml:id="reading-117"><title>Reading Assignment</title>
 <p>Read Sections 15.1 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Google <q>Chinese Remainder Theorem</q>. Why does the theorem have this name?</p>
+<question><title>Response Question</title><statement><p>  Google <q>Chinese Remainder Theorem</q>. Why does the theorem have this name? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>List all of the distinct cyclic subgroups of the cyclic group <m>\mathbb{Z}_{15}</m>.  Explain why this list is actually a list of <em>all</em> of the subgroups of <m>\mathbb{Z}_{15}</m>.</li>
 		<li>What are the generators of the multiplicative group <m>\{5^k \mid k\in \mathbb{Z}\}</m>?</li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-117"><title>In-Class Questions</title>
+<section xml:id="questions-117"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>What are the generators of the group <m>\mathbb{Z}_{15}</m>?  What relationship do these numbers have with the modulus, 15?</p></li>

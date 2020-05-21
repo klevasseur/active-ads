@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_115" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Boolean Algebras</title>
 <idx>Boolean Algebras</idx>
-<section xml:id="reading-115"><title>Reading</title>
+<section xml:id="reading-115"><title>Reading Assignment</title>
 <p>Read Section 13.3 of <em>Applied Discrete Structures</em></p>
-<p>Response Question:  Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra? </p>
+<question><title>Response Question</title><statement><p>   Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>Let <m>D_n</m> be the set of positive integers that divide evenly into n.  List the elements of each of the sets <m>D_{6}, D_{16}, D_{12}\textrm{, and }D_{30}</m> </li>
 		<li><p>What is the complement of a logical proposition in the Boolean algebra of logic?</p></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-115"><title>In-Class Questions</title>
+<section xml:id="questions-115"><title>In-Class Exercises</title>
 <figure xml:id="fig-z6-subgroups">
 <caption>Lattice of subgroups of <m>\mathbb{Z}_{6}</m></caption>
 <image width="40%" source="images/fig-z6-subgroups.png">

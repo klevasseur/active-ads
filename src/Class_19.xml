@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_19" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Function Composition</title>
 <idx>Function Composition</idx>
-<section xml:id="reading-19"><title>Reading</title>
+<section xml:id="reading-19"><title>Reading Assignment</title>
 <p>Read Section 7.3 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Google <q>linux piping</q> and describe how this technique is related to function composition.</p>
+<question><title>Response Question</title><statement><p>  Google <q>linux piping</q> and describe how this technique is related to function composition. </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1.">		
 			<li><p> Define <m>s</m>, <m>u</m>, and <m>d</m>, all functions on the integers, by 
@@ -20,7 +20,7 @@
 			</ul></p></li>
 		</ol>  </p>
 </section>
-<section xml:id="questions-19"><title>In-Class Questions</title>
+<section xml:id="questions-19"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p> Let <m>A = \{1, 2, 3\}</m>. Define <m>f:A\rightarrow A</m> by <m>f(1) = 2</m>, <m>f(2) = 3</m>, and <m>f(3) = 1</m>. Find <m>f^2</m>, <m>f^3</m>, <m>f^4</m> and

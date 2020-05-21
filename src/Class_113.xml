@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_113" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Isomorphisms (113)</title>
 <idx>Isomorphisms</idx>
-<section xml:id="reading-113"><title>Reading</title>
+<section xml:id="reading-113"><title>Reading Assignment</title>
 <p>Read Section 11.7  of <em>Applied Discrete Structures</em>.</p>
-<p>Response Question: none this time.	 </p>
+<question><title>Response Question</title><statement><p>  none this time.	  </p></statement></question>
 <p>Also, turn in solutions to this exercise: 
 	<ul><li><p><ol label="(a)">
 				<li><p> Write out the operation table for <m>G = [\{1, -1, i, -i \}; \cdot ]</m> where <m>i</m> is the complex number for which <m>i^2 = - 1</m>. Show that <m>G</m> is isomorphic to <m>\left[\mathbb{Z}_4;+_4\right]</m>.</p></li>
@@ -13,7 +13,7 @@
 	</ul>
   </p>
 </section>
-<section xml:id="questions-113"><title>In-Class Questions</title>
+<section xml:id="questions-113"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>Answer the following question:  siedem razy cztery = _____?  Hint: The question is in Polish.</p></li>

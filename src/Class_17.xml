@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_17" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Relation Matrices and Closure</title>
 <idx></idx>
-<section xml:id="reading-17"><title>Reading</title>
+<section xml:id="reading-17"><title>Reading Assignment</title>
 <p>Read Sections 6.4 and 6.5 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Let <m>p</m> be the relation on people where <m>x p y</m> if <m>y</m> is either <m>x</m>'s mother or father.   What is <m>\{z \mid x p^+ z\}</m>, where <m>p^+</m> is the transitive closure of <m>p</m>.</p>
+<question><title>Response Question</title><statement><p>  Let <m>p</m> be the relation on people where <m>x p y</m> if <m>y</m> is either <m>x</m>'s mother or father.   What is <m>\{z \mid x p^+ z\}</m>, where <m>p^+</m> is the transitive closure of <m>p</m>. </p></statement></question>
 <p>Also, turn in solutions to this exercise:</p> 
 	<p>Consider the relation, <m>s</m>, defined by the graph in <xref ref="fig-relation-graph" text="type-global" />.</p>
 					<figure xml:id="fig-relation-graph">
@@ -21,7 +21,7 @@
 			</ol>
 			     </p>
 </section>
-<section xml:id="questions-17"><title>In-Class Questions</title>
+<section xml:id="questions-17"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>Let <m>D</m> be the set of weekdays, Monday through Friday, let <m>W</m> be a set of employees <m>\{1, 2, 3\}</m> of a tutoring center, and let <m>V</m> be a set

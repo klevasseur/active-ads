@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_13" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Matrix Operations</title>
 <idx></idx>
-<section xml:id="reading-13"><title>Reading</title>
+<section xml:id="reading-13"><title>Reading Assignment</title>
 <p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. </p>
-<p>Response Question:  Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case?</p>
+<question><title>Response Question</title><statement><p>   Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li> <p>Let <m>A=\left(
 \begin{array}{cc}
@@ -42,7 +42,7 @@ explain why.</p>
 		</ul>  </p>
 		<p>There is a short video on matrix multiplication at <url href="https://youtu.be/zt-IU1lXFzs"/></p>
 </section>
-<section xml:id="questions-13"><title>In-Class Questions</title>
+<section xml:id="questions-13"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 			<li><p>Let <m>A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)</m> and <m>B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 

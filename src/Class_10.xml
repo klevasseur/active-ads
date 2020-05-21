@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_10" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Quantifiers and Proof Review</title>
 <idx></idx>
-<section xml:id="reading-10"><title>Reading</title>
+<section xml:id="reading-10"><title>Reading Assignment</title>
 <p>Read Sections 3.8 and 3.9 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect.</p>
+<question><title>Response Question</title><statement><p>  In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect. </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li> <p>Let <m>M(x)</m> be <q><m>x</m> is a mammal,</q> let <m>A(x)</m> be <q><m>x</m> is an animal,</q> and let <m>W(x)</m> be <q><m>x</m> is warm-blooded.</q></p>
 <p><ol label="(a)">
@@ -16,7 +16,7 @@
 </p></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-10"><title>In-Class Questions</title>
+<section xml:id="questions-10"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>

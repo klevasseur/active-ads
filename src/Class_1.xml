@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_1" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Binary Representation of Positive Integers</title>
-<idx>Binary Representation of Positive Integers</idx><section xml:id="reading-1"><title>Reading</title>
+<idx>Binary Representation of Positive Integers</idx><section xml:id="reading-1"><title>Reading Assignment</title>
 <p>Since this is the first class meeting, there is no prior reading.  Half of the class is devoted to explaining the way the class will be run.  Then we will explore the binary representation of positive integers, which is in Section 1.4 of Applied Discrete Structures.  A sheet with the base 10 numbers 1 through 64 and their corresponding binary representations is passed out.  Students are asked to identify patterns.</p>
 </section>
-<section xml:id="questions-1"><title>Questions</title>
-<p>
-<ol label="1.">
-<li><p>What base 10 number is equal to <m>101000010_2</m>?</p></li>
-<li><p>What is the base 2 representation of 911?</p></li>
-<li><p>An even number is an (integer) multiple of 2.  For example, 12 is even because <m>12 = 6 \cdot 2</m> but 13 is not even since <m>12 = \frac{13}{2} \cdot 2</m>.  How can you quickly tell whether a number represented in base 10  is even?  How can you quickly tell whether a number represented in base 2  is even?</p></li>
-<li><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 5?  Can you quickly tell whether a number represented in base 2  is a multiple of 5?</p></li>
-<li><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 8?  Can you quickly tell whether a number represented in base 2  is a multiple of 8?</p></li>
-<li><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 9?  Can you quickly tell whether a number represented in base 2  is a multiple of 9?</p></li>
-</ol>
-</p>
+<section xml:id="questions-1"><title>In-class Exercises</title>
+<p>Work on these in class</p>
+<exercises><exercisegroup>
+  		<exercise number="1">
+        <statement><p>Spend a few minutes looking at the tables in <xref ref="handouts-1"/> and make a few observations.</p></statement></exercise>
+
+		<exercise number="2">
+		<statement><p>What base 10 number is equal to <m>101000010_2</m>?</p></statement></exercise>
+
+		<exercise number="3">
+<statement><p>What is the base 2 representation of 911?</p></statement></exercise>
+
+		<exercise number="4">
+<statement><p>An even number is an (integer) multiple of 2.  For example, 12 is even because <m>12 = 6 \cdot 2</m> but 13 is not even since <m>12 = \frac{13}{2} \cdot 2</m>.  How can you quickly tell whether a number represented in base 10  is even?  How can you quickly tell whether a number represented in base 2  is even?</p></statement></exercise>
+
+		<exercise number="5">
+<statement><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 5?  Can you quickly tell whether a number represented in base 2  is a multiple of 5?</p></statement></exercise>
+
+		<exercise number="6">
+<statement><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 8? 
+	 Can you quickly tell whether a number represented in base 2  is a multiple of 8?</p></statement></exercise>
+
+		<exercise number="7">
+<statement><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 9?  Can you quickly tell whether a number represented in base 2  is a multiple of 9?</p></statement></exercise>
+		
+	</exercisegroup></exercises>
 </section>
-<section xml:id="handouts-1"><title>Handouts</title>
+<section xml:id="handouts-1"><title>Binary Conversion Tables</title>
 <p>Look for patterns in these two tables. The second gives the binary form of integers padded with 0's so as to contain exactly 4 bits.</p>
 <sidebyside widths="75% 25%" margins="auto" valign="middle">
 <p><me>\begin{array}{ccccc}

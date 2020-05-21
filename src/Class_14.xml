@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_14" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Matrix Laws and Oddities</title>
 <idx></idx>
-<section xml:id="reading-14"><title>Reading</title>
+<section xml:id="reading-14"><title>Reading Assignment</title>
 <p>Read Sections 5.3 and 5.4 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks.</p>
+<question><title>Response Question</title><statement><p>  Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>Let <m>A=\left(\begin{array}{cccc} 0 &amp;1&amp;0&amp;0\\ 0 &amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;1\\ 1 &amp;0&amp;0&amp;0 \end{array}\right)</m>. Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</li>
 		<li>Find at least three <m>2\times2</m> matrices, <m>A</m>, such that <m>A^2=A</m>.</li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-14"><title>In-Class Questions</title>
+<section xml:id="questions-14"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 			<li><p>Let <m>A</m> and <m>B</m> be <m>n\times n</m> matrices of real numbers. Is <m>A^2-B^2= (A-B)(A+B)</m>?  Explain.</p></li>

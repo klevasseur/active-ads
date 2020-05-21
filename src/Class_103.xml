@@ -2,12 +2,12 @@
 <chapter xml:id="chapter_103" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Data Structures and Connectivity</title>
 <idx></idx>
-<section xml:id="reading-103"><title>Reading</title>
+<section xml:id="reading-103"><title>Reading Assignment</title>
 <p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
 <!-- 
-<p>Response Question: In most applications to graph theory, the graphs are really too large to draw. One only imagines the graph. For example, imagine a graph representing the residents of a city of 100,000, with an edge between any two persons who live within 50  m. of one another.  Estimate the number of vertices you might have.  If you wanted to draw the graph, estimate how large a  square piece of paper you would need if the vertices were 1 mm. in radius. </p>
+<question><title>Response Question</title><statement><p>  In most applications to graph theory, the graphs are really too large to draw. One only imagines the graph. For example, imagine a graph representing the residents of a city of 100,000, with an edge between any two persons who live within 50  m. of one another.  Estimate the number of vertices you might have.  If you wanted to draw the graph, estimate how large a  square piece of paper you would need if the vertices were 1 mm. in radius.  </p></statement></question>
  -->
-<p>Response Question: You're certainly more familiar with the terms diameter, radius and center as they pertain to circles.  Compare their use for circles with their use in graph theory.   How are they similar and how are they different?   </p>
+<question><title>Response Question</title><statement><p>  You're certainly more familiar with the terms diameter, radius and center as they pertain to circles.  Compare their use for circles with their use in graph theory.   How are they similar and how are they different?    </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1."><li><p>Draw the undirected graph that is represented by the following SageMath expression.
 			<c>Graph({1:[2,3,4],2:[3,5],3:[5,7],4:[6,7]})</c></p>
@@ -16,7 +16,7 @@
 		</ol>  
 </p>
 </section>
-<section xml:id="questions-103"><title>In-Class Questions</title>
+<section xml:id="questions-103"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment.</p></li>

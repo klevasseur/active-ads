@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_28" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title></title>
 <idx></idx>
-<section xml:id="reading-28"><title>Reading</title>
+<section xml:id="reading-28"><title>Reading Assignment</title>
 <p>Read </p>
-<p>Response Question: </p>
+<question><title>Response Question</title><statement><p>   </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li></li>
 		<li></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-28"><title>In-Class Questions</title>
+<section xml:id="questions-28"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 	<li><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  

@@ -2,30 +2,30 @@
 <chapter xml:id="chapter_4" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Counting: Product Rule and Permutations</title>
 <idx></idx>
-<section xml:id="reading-4"><title>Reading</title>
+<section xml:id="reading-4"><title>Reading Assignment</title>
 <p>Read Sections 2.1 and 2.2 of <em>Applied Discrete Structures</em></p>
-<p>Response Question:  Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products.</p> 
-<p>Also, turn in solutions to these exercises: 
-      <ul><li><p>  A builder of modular homes would like to impress his potential customers with the variety of styles of his houses. For each house there are blueprints for three different living rooms, four different bedroom configurations, and two different garage styles. In addition, the outside can be finished in cedar shingles or brick. How many different houses can be designed from these plans?</p></li>
-      	<li><p>How many ways can the letters in the word DRACUT be arranged? 
-      			 They don't have to form a real word.</p></li>
-      </ul>
-    </p>
+<question><title>Response Question</title><statement><p>   Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products. </p></statement></question> 
+<p>Also, turn in solutions to these exercises: </p>
+<exercises><exercisegroup>
+<exercise><statement><p>A builder of modular homes would like to impress his potential customers with the variety of styles of his houses. For each house there are blueprints for three different living rooms, four different bedroom configurations, and two different garage styles. In addition, the outside can be finished in cedar shingles or brick. How many different houses can be designed from these plans?</p></statement></exercise>
+      	<exercise><statement><p>How many ways can the letters in the word DRACUT be arranged? 
+      			 They don't have to form a real word.</p></statement></exercise>
+      </exercisegroup></exercises>
 </section>
-<section xml:id="questions-4"><title>In-Class Questions</title>
-<p>
-<ol label="1.">
-<li><p>How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would counted, but 214 would not be counted.</p></li>
-<li><p>How many positive integers divide evenly into <m>67,500=2^2 3^3 5^4</m>? </p></li>
-<li><p>The manager of a baseball team has decide on the batting order of his team.  He has selected the nine batters already.
+<section xml:id="questions-4"><title>In-Class Exercises</title>
+<p></p>
+<exercises><exercisegroup>
+<exercise number="1"><statement><p>How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would be counted, but 214 would not be counted.</p></statement></exercise>
+<exercise number="2"><statement><p>How many positive integers divide evenly into <m>67,500=2^2 3^3 5^4</m>? </p></statement></exercise>
+<exercise number="3"><statement><p>The manager of a baseball team has decide on the batting order of his team.  He has selected the nine batters already.
 		<ol label="(a)">
 			<li>How many ways could he select a batting order?</li>
 			<li>He decides that the catcher must bat before the shortstop?  How many ways can he select a batting order now?</li>
 			<li>In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman.  How many ways can the manager select a batting order now?</li>
 		</ol>
-</p></li>
-<li><p>How many ways can the letters in the word APPLE be arranged?</p></li>
-</ol>
-</p>
+</p></statement></exercise>
+<exercise number="4"><statement><p>How many ways can the letters in the word APPLE be arranged?</p></statement></exercise>
+</exercisegroup></exercises>
+
 </section>
 </chapter>	

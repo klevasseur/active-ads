@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_116" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Atoms and Tuples of Bits</title>
 <idx>Atoms and Tuples of Bits</idx>
-<section xml:id="reading-116"><title>Reading</title>
+<section xml:id="reading-116"><title>Reading Assignment</title>
 <p>Read Sections 13.4 and 13.5 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Consider the lattice of real numbers in the interval <m>[0,1]</m> with the relation <m>\leq</m>.  Does this lattice have any atoms?</p>
+<question><title>Response Question</title><statement><p>  Consider the lattice of real numbers in the interval <m>[0,1]</m> with the relation <m>\leq</m>.  Does this lattice have any atoms? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li><p>What are the atoms of the lattice of subsets of <m>\{1, 2, 3, 4, 5, 6, 7\}</m> with <m>\subseteq</m>?</p></li>
 		<li><p>What are the atoms of the lattice of positive integers with the relation <q>divides?</q></p></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-116"><title>In-Class Questions</title>
+<section xml:id="questions-116"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li> <p><ol label="(a)"><li><p>There are many different, yet isomorphic, Boolean algebras with two elements. Describe one such Boolean algebra that is derived from

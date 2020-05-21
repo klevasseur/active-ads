@@ -2,9 +2,9 @@
 <chapter xml:id="chapter_122" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Algebraic Coding, Part 2</title>
 <idx></idx>
-<section xml:id="reading-122"><title>Reading</title>
+<section xml:id="reading-122"><title>Reading Assignment</title>
 <p>Read the rest of  Section 15.5 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Who is Richard Hamming and why am I asking you about him? </p>
+<question><title>Response Question</title><statement><p>  Who is Richard Hamming and why am I asking you about him?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1."><li></li>
 		<li></li>
@@ -12,7 +12,7 @@
 		<li></li>
 		</ol>  </p>
 </section>
-<section xml:id="questions-122"><title>In-Class Questions</title>
+<section xml:id="questions-122"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>Suppose a two bit message is encoded into a five bit message using the function <m>e(b_{1}b_{2})=b_{1}b_{1}(b_{1}+_2 b_{2})b_{2}b_{2}</m>.  Determine a matrix <m>P</m> such that if a two bit message, <m>b = b_{1}b_{2}</m>, is encoded and <m>e(b)</m> transmitted, then any single bit error in the received string <m>c=c_{1}c_{2}c_{3}c_{4}c_{5}</m> can be identified by whether <m>c P</m> is the zero vector or not.</p></li>

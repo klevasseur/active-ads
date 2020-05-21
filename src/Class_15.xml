@@ -2,7 +2,7 @@
 <chapter xml:id="chapter_15" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Relations</title>
 <idx></idx>
-<section xml:id="reading-15"><title>Reading</title>
+<section xml:id="reading-15"><title>Reading Assignment</title>
 <p>Read Sections 6.1 and 6.2 of <em>Applied Discrete Structures</em></p>
 <p>Response Question: Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
 <ul>
@@ -18,7 +18,7 @@ Discuss any similarities you see between these three relations.<m>\vspace{10pt}<
 		<li><p> Let <m>A = \{1,2,3,4,6,12\}</m>.  Draw a digraph for the relation <q>divides</q> on <m>A</m>.</p></li>
 	</ol>  </p>
 </section>
-<section xml:id="questions-15"><title>In-Class Questions</title>
+<section xml:id="questions-15"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 <li><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least one doorway.</p></li>

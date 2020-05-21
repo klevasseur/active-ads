@@ -2,15 +2,15 @@
 <chapter xml:id="chapter_16" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Properties of Relations</title>
 <idx></idx>
-<section xml:id="reading-16"><title>Reading</title>
+<section xml:id="reading-16"><title>Reading Assignment</title>
 <p>Read Section 6.3 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane?</p>
+<question><title>Response Question</title><statement><p>  Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>Prove that congruence modulo <m>m</m> is a transitive relation on the set of integers. Do this by assuming that <m>a \equiv_m b </m> and <m>b\equiv_m c</m>, and applying the definition for <m>\equiv_m</m> to conclude that <m>a \equiv_m c</m></li>
 		<li>Draw the ordering diagram for the relation <q>divides</q> on the divisors of <m>40=2^3 \cdot 5</m>.</li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-16"><title>In-Class Questions</title>
+<section xml:id="questions-16"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 	<li><p>Let <m>A = \{a, b, c, d\}</m>. Draw the graphs of relations on <m>A</m> where:

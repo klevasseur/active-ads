@@ -3,9 +3,9 @@
 <title>Recursion and Sequences</title>
 <idx>Recursion</idx>
 <idx>Stack</idx>
-<section xml:id="reading-20"><title>Reading</title>
+<section xml:id="reading-20"><title>Reading Assignment</title>
 <p>Read  Sections 8.1 and 8.2 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned. </p>
+<question><title>Response Question</title><statement><p>  Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned.  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul>
 			<li>Consider a sequence of strings, <m>L(n)</m> defined recursively by
@@ -27,7 +27,7 @@
 		</p></li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-20"><title>In-Class Questions</title>
+<section xml:id="questions-20"><title>In-Class Exercises</title>
 <p>
 <ol label="1.">
 		<li><p>What is computed by the following function on the natural numbers?
