@@ -6,6 +6,7 @@
 <question><title>Response Question</title><statement><p>How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?</p></statement></question>
 <exercises><exercisegroup>
 <introduction><p>Also, turn in solutions to these exercises.</p></introduction> 
+<exercise number="1"><statement>
 		<p>  List all elements of the following sets:
 		<ol  label="(a)">
 		<li><p> <m>\{\frac{1}{n} \mid n \in \{3,4,5,6\}\}</m></p></li>
