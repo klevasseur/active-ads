@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_14" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Matrix Laws and Oddities</title>
+<!-- 
 <idx></idx>
+ -->
 <section xml:id="reading-14"><title>Reading Assignment</title>
 <p>Read Sections 5.3 and 5.4 of <em>Applied Discrete Structures</em></p>
 <question><title>Response Question</title><statement><p>  Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li>Let <m>A=\left(\begin{array}{cccc} 0 &amp;1&amp;0&amp;0\\ 0 &amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;1\\ 1 &amp;0&amp;0&amp;0 \end{array}\right)</m>. Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</li>
-		<li>Find at least three <m>2\times2</m> matrices, <m>A</m>, such that <m>A^2=A</m>.</li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p>
+	<exercises><exercisegroup>
+<exercise><statement><p>Let 
+	<m>A=\left(\begin{array}{cccc} 0 &amp;1&amp;0&amp;0\\
+								   0 &amp;0&amp;1&amp;0\\
+								   0&amp;0&amp;0&amp;1\\
+								   1 &amp;0&amp;0&amp;0 \end{array}\right)</m>.
+								    Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</p></statement></exercise>
+		
+<exercise><statement><p>Find at least three <m>2\times2</m> matrices, <m>A</m>, such that <m>A^2=A</m>.</p></statement></exercise>
+		</exercisegroup></exercises> 
 </section>
 <section xml:id="questions-14"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-			<li><p>Let <m>A</m> and <m>B</m> be <m>n\times n</m> matrices of real numbers. Is <m>A^2-B^2= (A-B)(A+B)</m>?  Explain.</p></li>
-			<li><p> Write each of the following systems in the form <m>A X = B</m>, and then solve the systems using matrices.</p>
+<p></p>
+<exercises><exercisegroup>
+			
+<exercise><statement><p>Let <m>A</m> and <m>B</m> be <m>n\times n</m> matrices of real numbers. Is <m>A^2-B^2= (A-B)(A+B)</m>?  Explain.</p></statement></exercise>
+			
+<exercise><statement><p> Write each of the following systems in the form <m>A X = B</m>, and then solve the systems using matrices.</p>
 <p><ol label="(a)" cols="2">
 <li><p> <m>\begin{array}{c}4x_1-6x_2=20\\
 					       3x_1+5x_2= -6\\
@@ -22,19 +33,21 @@
 <li><p> <m>\begin{array}{c}5x_1-1x_2= 11\\
 						  -16x_1 +5x_2= 12\\
 			\end{array}</m></p></li>
-</ol></p></li>
-			<li><p>
+</ol></p></statement></exercise>
+			
+<exercise><statement><p>
 				Suppose that <m>A, P, \textrm{ and } B</m> are all <m>m \times m</m> matrices, <m>m \geq 2</m>, and
 				<m>A= P^{-1} B P</m>. Prove that  <m>A^n = P^{-1} B^n P</m> for all <m>n \geq 1</m>.
-			</p></li>	
-			<li><p> Let <m>M_{n\times n}(\mathbb{R})</m> be the set of real <m>n\times n</m> matrices. Let <m>P \subseteq  M_{n\times n}(\mathbb{R})</m> be the subset of matrices defined by <m>A \in  P</m> if and only if <m>A^2 = A</m>. Let <m>Q \subseteq  P</m> be defined by <m>A\in Q</m> if and only if <m>\det A \neq  0</m>.</p>
+			</p></statement></exercise>	
+			
+<exercise><statement><p> Let <m>M_{n\times n}(\mathbb{R})</m> be the set of real <m>n\times n</m> matrices. Let <m>P \subseteq  M_{n\times n}(\mathbb{R})</m> be the subset of matrices defined by <m>A \in  P</m> if and only if <m>A^2 = A</m>. Let <m>Q \subseteq  P</m> be defined by <m>A\in Q</m> if and only if <m>\det A \neq  0</m>.</p>
 <p><ol label="(a)">
 <li><p> Determine the cardinality of <m>Q</m>.</p></li>
 <li><p> Consider the special case <m>n = 2</m> and prove that a sufficient condition for <m>A \in  P \subseteq  M_{2\times 2}(\mathbb{R})</m> is that <m>A</m> has a zero determinant (i.e., <m>A</m> is singular) and <m>tr(A) = 1</m> where <m>tr(A) = a_{11}+ a _{22}</m> is the sum of the main diagonal elements of <m>A</m>.</p></li>
 <li><p> Is the condition of part b a necessary condition?</p></li>
-</ol></p></li>
-</ol>
-</p>
+</ol></p></statement></exercise>
+</exercisegroup></exercises>
+
 </section>
 <!-- 
 <section xml:id="handouts-14"><title>Handouts</title>

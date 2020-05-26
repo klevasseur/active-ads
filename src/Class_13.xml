@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_13" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Matrix Operations</title>
-<idx></idx>
+<idx>Matrix Operations</idx>
 <section xml:id="reading-13"><title>Reading Assignment</title>
 <p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. </p>
 <question><title>Response Question</title><statement><p>   Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case? </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li> <p>Let <m>A=\left(
+<p>Also, turn in solutions to these exercises: </p>
+	<exercises><exercisegroup>
+<exercise><statement> <p>Let <m>A=\left(
 \begin{array}{cc}
  1 &amp; -1 \\
  2 &amp; 3 \\
@@ -20,8 +21,8 @@
 <p><ol label="(a)">
 <li><p> Compute <m>A B</m> and <m>B A</m>.</p></li>
 <li><p> Compute <m>A + B</m> and <m>B + A</m>.</p></li>
-</ol></p></li>
-		<li><p> For the given matrices <m>A</m> find <m>A^{-1}</m> if it exists and verify that <m>A A^{-1}=A^{-1}A = I</m>. If <m>A^{-1}</m> does not exist
+</ol></p></statement></exercise>		
+<exercise><statement><p> For the given matrices <m>A</m> find <m>A^{-1}</m> if it exists and verify that <m>A A^{-1}=A^{-1}A = I</m>. If <m>A^{-1}</m> does not exist
 explain why.</p>
 <p><ol label="(a)">
 <li> <m>A =\left(
@@ -38,16 +39,21 @@ explain why.</p>
 \end{array}
 \right)</m>
 </li>
-</ol></p></li>
-		</ul>  </p>
-		<p>There is a short video on matrix multiplication at <url href="https://youtu.be/zt-IU1lXFzs"/></p>
+</ol></p></statement></exercise>
+		</exercisegroup>
+			<conclusion><p>There is a short video on matrix multiplication at <url href="https://youtu.be/zt-IU1lXFzs"/></p></conclusion>
+		</exercises>  
+		
 </section>
+
 <section xml:id="questions-13"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-			<li><p>Let <m>A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)</m> and <m>B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 
-			</p></li>
-			<li><idx>Transpose of a matrix</idx>
+<p></p>
+<exercises><exercisegroup>
+			
+<exercise><statement><p>Let <m>A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)</m> and <m>B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 
+			</p></statement></exercise>
+			
+<exercise><idx>Transpose of a matrix</idx><statement>
 				<p>If <m>A</m> is a an <m>m \times n</m> matrix, we define the transpose of A to be the <m>n \times m</m> matrix whose rows are the columns of <m>A</m>.  For example, the transpose of 
 					<me>\left(
 							\begin{array}{ccc}
@@ -77,40 +83,9 @@ explain why.</p>
 									\right) </me>
 							</p></li>
 							</ol></p>
-				</li>
-			<li><p>If <me>A =\left(
-					\begin{array}{cc}
-					 2 &amp; 1 \\
-					 1 &amp; -1 \\
-					\end{array}
-					\right), X =\left(
-					\begin{array}{c}
-					 x_1 \\
-					 x_2 \\
-					\end{array}
-					\right)\textrm{, and }B =\left(
-					\begin{array}{c}
-					 3 \\
-					 1 \\
-					\end{array}
-					\right),</me> show that <m>A X =B</m> is a way of expressing the system  
-			<m>\begin{array}{c}2x_1 + x_2 = 3\\ x_1 - x_2= 1\\
-			\end{array}</m>  using matrices.</p>
-    <p> Express the following systems of equations using matrices:</p>
-		<p>
-		<ol label="(a)" cols="2">				
-			<li><p>  <m>\begin{array}{c}
-			                  2 x_1- x_2= 4\\
-									x_1+ x_2= 0\\
-									\end{array}</m></p></li>
-			<li><p>  <m>\begin{array}{c}
-			   x_1+ x_2+ 2 x_3= 1\\
-				x_1- x_2+ x_3= -1\\
-				x_1+ 3 x_2+x_3= 5\\
-				\end{array}</m></p></li>
-        </ol>
-        </p></li>
-			<li><p> Prove by induction that for <m>n \geq 1</m>, <m>\left(
+				</statement></exercise>
+			
+<exercise><statement><p> Prove by induction that for <m>n \geq 1</m>, <m>\left(
 				\begin{array}{cc}
 				 a &amp; 0 \\
 				 0 &amp; b \\
@@ -121,8 +96,9 @@ explain why.</p>
 				 0 &amp; b^n \\
 				\end{array}
 				\right)</m>.
-				</p></li>
-			<li><p>In this exercise, we propose to show how matrix multiplication is a natural operation.  Suppose a bakery produces bread, cakes and pies every weekday, Monday through Friday. Based on past sales history, the bakery produces various numbers of each product each day, summarized in the <m>5 \times 3</m> matrix <m>D</m>.  It should be noted that the order could be described as <q>number of days by number of products.</q>   For example, on Wednesday (the third day) the number of cakes (second product in our list) that are produced  is  <m>d_{3,2} = 4</m>.
+				</p></statement></exercise>
+			
+<exercise><statement><p>In this exercise, we propose to show how matrix multiplication is a natural operation.  Suppose a bakery produces bread, cakes and pies every weekday, Monday through Friday. Based on past sales history, the bakery produces various numbers of each product each day, summarized in the <m>5 \times 3</m> matrix <m>D</m>.  It should be noted that the order could be described as <q>number of days by number of products.</q>   For example, on Wednesday (the third day) the number of cakes (second product in our list) that are produced  is  <m>d_{3,2} = 4</m>.
 				 <me>D =\left(
 				\begin{array}{ccc}
 				 25 &amp; 5 &amp; 5 \\
@@ -148,9 +124,9 @@ explain why.</p>
 						<li><p> Compute the matrix product <m>D P</m>.   What do you notice? </p></li> 
 						<li><p>Suppose the costs of ingredients are <m>\$0.12</m> for a cup of flour, <m>\$0.15</m> for a cup of sugar and <m>\$0.19</m> for one egg. How can this information be put into a matrix that can meaningfully be multiplied by one of the other matrices in this problem?</p></li>
 				</ol>
-				</p></li>	
-</ol>
-</p>
+				</p></statement></exercise>	
+</exercisegroup></exercises>
+
 </section>
 <!-- 
 <section xml:id="handouts-13"><title>Handouts</title>

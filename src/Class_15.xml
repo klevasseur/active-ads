@@ -4,35 +4,40 @@
 <idx></idx>
 <section xml:id="reading-15"><title>Reading Assignment</title>
 <p>Read Sections 6.1 and 6.2 of <em>Applied Discrete Structures</em></p>
-<p>Response Question: Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
+<question><title>Response Question</title><statement><p> Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
 <ul>
 <li><p>Less than or equal to,<m>\leq</m>, on the integers,</p></li>
 <li><p>Set containment, <m>\subseteq</m>, on the power set of a set,</p></li>
 <li><p>Logical implication, <m>\Rightarrow</m>, on any set of propositions.</p></li>
 </ul>
-Discuss any similarities you see between these three relations.<m>\vspace{10pt}</m>
-</p>	
-<p>Also, turn in solutions to these exercises: 
-	<ol label="1.">
-		<li><p>Consider the two relations on people: <m>M</m>, where <m>aMb</m> if <m>a</m>'s mother is <m>b</m>; and <m>S</m>, where  <m>aSb</m> if <m>a</m> and <m>b</m> are siblings.  Describe, in words, the two relations <m>MS</m> and <m>SM</m>.</p></li>
-		<li><p> Let <m>A = \{1,2,3,4,6,12\}</m>.  Draw a digraph for the relation <q>divides</q> on <m>A</m>.</p></li>
-	</ol>  </p>
+Discuss any similarities you see between these three relations.<m>\vspace{10pt}</m></p>
+</statement></question>
+<p>Also, turn in solutions to these exercises:</p> 
+	<exercises><exercisegroup>
+		
+<exercise><statement><p>Consider the two relations on people: <m>M</m>, where <m>aMb</m> if <m>a</m>'s mother is <m>b</m>; and <m>S</m>, where  <m>aSb</m> if <m>a</m> and <m>b</m> are siblings.  Describe, in words, the two relations <m>MS</m> and <m>SM</m>.</p></statement></exercise>
+		
+<exercise><statement><p> Let <m>A = \{1,2,3,4,6,12\}</m>.  Draw a digraph for the relation <q>divides</q> on <m>A</m>.</p></statement></exercise>
+	</exercisegroup></exercises>
 </section>
 <section xml:id="questions-15"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least one doorway.</p></li>
-<li><p>Given <m>s</m> and <m>t</m>, relations on <m>\mathbb{Z}</m>, <m> s = \{(1, n) : n \in \mathbb{Z}\}</m> and <m>t= \{(n, 1) : n \in  \mathbb{Z}\}</m>,
+<p></p>
+<exercises><exercisegroup>
+
+<exercise><statement><p>Let <m>S</m> be the set of <q>spaces</q> in the floor of your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least one doorway.</p></statement></exercise>
+
+<exercise><statement><p>Given <m>s</m> and <m>t</m>, relations on <m>\mathbb{Z}</m>, <m> s = \{(1, n) : n \in \mathbb{Z}\}</m> and <m>t= \{(n, 1) : n \in  \mathbb{Z}\}</m>,
 what are <m>st</m> and <m>ts</m>? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing
-partial graphs.</p></li>
-<li><p>Let <m>A</m> be the set of strings of 0's and 1's of length 3 or less.
+partial graphs.</p></statement></exercise>
+
+<exercise><statement><p>Let <m>A</m> be the set of strings of 0's and 1's of length 3 or less.
 		<ol label="(a)"><li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 w 100</m>, but <m>01 w 101</m> is false. Draw a digraph for this relation. </li>
 		<li> Do the same for the relation <m>p</m> defined by <m>x p y</m> if <m>x</m> is a prefix of <m>y</m>. For example, <m>10 p 101</m>, but <m>01 p 101</m> is false.</li>
-</ol></p></li>
-<li><p>Consider logical implication, <m>\Rightarrow</m>, on the set of propositions <m>\{0,1,p,q,p\lor q, p\land q, p\land p \}</m>. Draw a digraph of this relation.</p></li>
+</ol></p></statement></exercise>
 
-</ol>
-</p>
+<exercise><statement><p>Consider logical implication, <m>\Rightarrow</m>, on the set of propositions <m>\{0,1,p,q,p\lor q, p\land q, p\land p \}</m>. Draw a digraph of this relation.</p></statement></exercise>
+
+</exercisegroup></exercises>
 </section>
 <!-- 
 <section xml:id="handouts-15"><title>Handouts</title>
