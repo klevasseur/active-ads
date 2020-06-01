@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_104a" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Graph Coloring</title>
+<title>Graph Coloring  (~104a~)</title>
 <idx></idx>
 <section xml:id="reading-104a"><title>Reading Assignment</title>
-<p>Read </p>
+<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li></li>
-		<li></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p> 
+<exercises><exercisegroup>
+		<exercise><statement><p>The graph <m>G</m> has vertices with degree sequence <m>5, 3, 3, 2, 2, 1</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
+		<solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+ 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104a"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p></p></li>
-</ol>
-</p>
+<p></p> 
+<exercises><exercisegroup>
+		<exercise><statement><p>If a planar graph <m>G</m> with 7 vertices divides the plane into 8 regions, how many edges must <m>G</m> have?</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of 5 rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
+	</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="handouts-104a"><title>Handouts</title>
 <p>None</p>

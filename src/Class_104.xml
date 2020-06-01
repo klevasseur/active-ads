@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_104" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Graph Traversals</title>
+<title>Graph Traversals  (~104~)</title>
 <idx></idx>
 <section xml:id="reading-104"><title>Reading Assignment</title>
-<p>Read </p>
+<p>Read Section 9.4 of <em>Applied Discrete Structures</em>.</p>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li></li>
-		<li></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p> 
+<exercises><exercisegroup>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p></p></li>
-</ol>
-</p>
+<p></p> 
+<exercises><exercisegroup>
+		<exercise><statement><p>For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that the numbers every two touching ends have matching numbers?
+		<ol label="(a)">
+		<li><figure><caption/><image width="100%" source="images/dominos1.png">
+			  <description>Twelve dominos with numbered pairs {3,7},{2,6},{1,7},{1,2},{2,3},{1,6},{3,5},{3,6},{2,7},{1,4},{4,5} and {6,7}.</description>
+		 </image></figure>	</li>
+		<li><figure><caption/><image width="100%" source="images/dominos2.png">
+			  <description>Twelve dominos with numbered pairs  		{1,2},{5,7},{1,4},{3,7},{4,5},{1,3},{2,3},{3,5},{3,6},{2,6},{2,7} and {1,5}.</description>
+		 </image></figure></li>
+		</ol></p></statement><solution><p>The answers to both parts can be arrived at by realizing that each domino can be thought of as an edge between vertices having the two numbers on the domino.  We are then asking for an Eulerian circuit or path in the corresponding graph.  A circuit exists  for the first set of dominos, but not the second. For the second, the degrees of four vertices are odd and so the dominos cannot be arranged as desired.	</p></solution></exercise>
+		<exercise><statement><p>King Arthur and his knights are either friends with one another or are enemies.  He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve?</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="handouts-104"><title>Handouts</title>
 <p>None</p>

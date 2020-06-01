@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_102" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Graphs</title>
+<title>Graphs  (~102~)</title>
 <idx>Graphs</idx>
 <section xml:id="reading-102"><title>Reading Assignment</title>
 <p>Read Section 9.1 of <em>Applied Discrete Structures</em>.</p>
@@ -32,7 +32,7 @@
 </li>
 <li><p>
 <ol label="(a)">
-<li><p> Determine whether the following sequences are graphic. Explain your logic if the answer is <q>non</q> and draw a graph with the sequence as its degree sequence if it is <q>yes.</q>
+<li><p> Determine whether the following sequences are graphic. Explain your logic if the answer is <q>no</q> and draw a graph with the sequence as its degree sequence if it is <q>yes.</q>
 <ol label="i">
 <li><p>  <m>(5,1,1,1,1,1)</m></p></li>
 <li><p> <m>(3,3,3,3)</m></p></li>

@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_105" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Trees and Spanning Trees</title>
+<title>Trees and Spanning Trees  (~105~)</title>
 <idx></idx>
 <section xml:id="reading-105"><title>Reading Assignment</title>
-<p>Read </p>
+<p>Read Sections 10.1 and 10.2 of <em>Applied Discrete Structures</em>.</p>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li></li>
-		<li></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p> 
+<exercises><exercisegroup>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-105"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p></p></li>
-</ol>
-</p>
+<p></p> 
+<exercises><exercisegroup>
+		<exercise><statement><p>Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.</p>
+		<figure xml:id="fig-prim-1"><caption/>
+		 <image width="65%" source="images/fig-prim-1.png">
+			  <description>A weighted undirected graph on 10 vertices. The edges are are given by the list of triples [[1,2,8],[1,5,6],[1,9,7],[1,10,10],[3,5,11],[3,7,9],[4,9,13],[5,8,12],[6,7,5],[6,10,13]], where the first two entries are the vertices of the edge and the last entry is its weight.</description>
+		 </image>
+		 </figure>
+		</statement><solution><p>The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}.  This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added.</p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="handouts-105"><title>Handouts</title>
 <p>None</p>

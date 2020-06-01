@@ -5,31 +5,37 @@
 <section xml:id="reading-21"><title>Reading Assignment</title>
 <p>Read the first three subsections of Section 8.3 of <em>Applied Discrete Structures</em>.  This will take you up to, but not including the section titled <q>Solution of Nonhomogeneous Finite Order Linear Relations</q>. </p>
 <question><title>Response Question</title><statement><p>  One of the main reasons why recurrence relations are part of this course is that the time and/or memory needs of a computer algorithm are often measured by first identifying a recurrence relation.  Once solved, many sorting algorithm are found to take a time that is proportional to <m>n^2</m> to sort <m>n</m> items.  If you are using an algorithm of this type, and it takes three minutes to sort a file with 10 million items, how long would you expect the algorithm to take to sort 20 million items? </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul>
-	<li><p>Find a closed form expression that for the sequence <m>S(n)</m> if  <m>S(0)=4</m> and <m>S(n)=3 \cdot S(n-1)</m> if <m>n \gt 0</m>.</p></li>
-	<li><p>Find a closed form expression that for the sequence <m>T(n)</m> 
+<p>Also, turn in solutions to these exercises: </p>
+	<exercises><exercisegroup>
+	
+<exercise><statement><p>Find a closed form expression that for the sequence <m>S(n)</m> if  <m>S(0)=4</m> and <m>S(n)=3 \cdot S(n-1)</m> if <m>n \gt 0</m>.</p></statement></exercise>
+	
+<exercise><statement><p>Find a closed form expression that for the sequence <m>T(n)</m> 
 	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) -4 \cdot T(n-2)=0</m>
-	    if <m>n \gt 2</m>.</p></li>
-	</ul>  
-</p>
+	    if <m>n \gt 2</m>.</p></statement></exercise>
+	</exercisegroup></exercises>  
+
 </section>
 <section xml:id="questions-21"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p>Find a closed form expression that for the sequence <m>V(n)</m> if  <m>V(0)=2</m>, <m>V(1)= 3</m> and <m>V(n)= \frac{1}{2}\cdot V(n-1)+ \frac{1}{2}\cdot V(n-2)</m> if <m>n \gt 2</m>.</p></li>
-<li><p>Find a closed form expression that for the sequence <m>Q(n)</m> if  <m>Q(0)=3</m>, <m>Q(1)= 0</m> and <m>Q(n)=6\cdot Q(n-1)-9\cdot Q(n-2)</m> if <m>n \gt 2</m>.</p></li>
-<li><p>The recurrence relation <m>R(n)=R(n-1)+2^n</m>, <m>n \geq 1</m> is non-homogeneous.  This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation.  This can be done by replacing <m>n</m> with <m>n-1</m> in the recurrence relation and multiplying that equation by 2.   You can then eliminate the <m>2^n</m> term. Find the general solution to the resulting second order recurrence relation.</p></li>
-<li><p>The <xref ref="ex-fibonacci-sequence" text="title" />  is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if <m>\alpha</m> and <m>\beta</m> are its two characteristic roots, then <m>\alpha + \beta = 1</m> and <m>\alpha \cdot \beta =-1</m>.  Verify this and then solve for a closed form expression for <m>F_k</m>.</p></li>
-</ol>
-</p>
+<p></p>
+<exercises><exercisegroup>
+
+<exercise><statement><p>Find a closed form expression that for the sequence <m>V(n)</m> if  <m>V(0)=2</m>, <m>V(1)= 3</m> and <m>V(n)= \frac{1}{2}\cdot V(n-1)+ \frac{1}{2}\cdot V(n-2)</m> if <m>n \gt 2</m>.</p></statement></exercise>
+
+<exercise><statement><p>Find a closed form expression that for the sequence <m>Q(n)</m> if  <m>Q(0)=3</m>, <m>Q(1)= 0</m> and <m>Q(n)=6\cdot Q(n-1)-9\cdot Q(n-2)</m> if <m>n \gt 2</m>.</p></statement></exercise>
+
+<exercise><statement><p>The recurrence relation <m>R(n)=R(n-1)+2^n</m>, <m>n \geq 1</m> is non-homogeneous.  This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation.  This can be done by replacing <m>n</m> with <m>n-1</m> in the recurrence relation and multiplying that equation by 2.   You can then eliminate the <m>2^n</m> term. Find the general solution to the resulting second order recurrence relation.</p></statement></exercise>
+
+<exercise><statement><p>The <xref ref="def-fibonacci-sequence" text="title" />  is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if <m>\alpha</m> and <m>\beta</m> are its two characteristic roots, then <m>\alpha + \beta = 1</m> and <m>\alpha \cdot \beta =-1</m>.  Verify this and then solve for a closed form expression for <m>F_k</m>.</p></statement></exercise>
+</exercisegroup></exercises>
 </section>
-<section xml:id="ex-fibonacci-sequence"><title>Fibonacci Sequence</title><idx>Fibonacci Sequence</idx><p>The Fibonacci Sequence is the sequence <m>F</m> defined by 
+<section xml:id="def-fibonacci-sequence"><title>Fibonacci Sequence</title><idx>Fibonacci Sequence</idx><p>The Fibonacci Sequence is the sequence <m>F</m> defined by 
 
 <me>F_0= 1 \textrm{, } F_1= 1\textrm{ and}</me> 
 
 <me>F_k = F_{k-2} + F_{k-1} \textrm{ for }k\geq 2</me>
 </p>
+<note><p>Some people prefer to start the Fibonacci numbers with 0 and 1 instead of 1 and 1.  that doesn't really change the main properties of the sequence, but indices may need adjusting.</p></note>
 <p>Answer to the last in-class question in the previous chapter: These clues give you numbers in ascending order: The TWO Ronnies, the THREE colours trilogy, the Famous FIVE, the Hateful EIGHT, Thurber's THIRTEEN clocks.
 This is a Fibonacci sequence, in which each number is the sum of the previous two. The next number in the sequence (and the answer to the question) must therefore be 21 - as in the rock band, 21 Pilots. This was a question posed at the end of Programme 7 of the 2020 Round Britain Quiz.</p></section>
 </chapter>	

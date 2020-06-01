@@ -5,20 +5,29 @@
 <section xml:id="reading-23"><title>Reading Assignment</title>
 <p>Read Section 8.4 of <em>Applied Discrete Structures</em>. </p>
 <question><title>Response Question</title><statement><p>  In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list.  What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with <m>n</m> items? </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li> <p>Prove that if <m>n \geq 0</m>, <m>\lfloor n/2\rfloor +\lceil n/2\rceil = n</m>.</p></li>
-		<li><p>One derangement of <m>\{1,2,3,4\}</m> is 2143.  List all others.</p></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises: </p>
+	<exercises><exercisegroup>
+<exercise><statement> <p>Prove that if <m>n \geq 0</m>, <m>\lfloor n/2\rfloor +\lceil n/2\rceil = n</m>.</p></statement></exercise>
+		
+<exercise><statement><p>One derangement of <m>\{1,2,3,4\}</m> is 2143.  List all others.</p></statement></exercise>
+		</exercisegroup></exercises>  
 </section>
 <section xml:id="questions-23"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p>The <em>selection sort</em> algorithm on a list of <m>n</m> proceeds first by finding the largest item in the list and placing it last, exchanging it with the <m>n</m>-th item, if necessary.  Then a selection sort sort of the first <m>n-1</m> items is conducted. Let <m>C(n)</m> be the number of comparisons needed to complete a selection sort of <m>n</m> items.   Find a recurrence relation and initial condition for <m>C</m> and solve it.</p></li>
-<li><p>Suppose <m>n \geq 2</m> and <m>1 \leq k \leq n</m>.  How many permutations of <m>\{1,2, \dots ,n\}</m>,  have the property that <m>k</m> is a fixed point?  The set of all such permutations is called <m>U_k</m> in the next problem.</p></li>
-<li xml:id="p3"><p>Count the number of derangements of <m>\{1,2,3,4\}</m> using <xref ref="s-inclusion-exclusion" text="custom">inclusion-exclusion</xref>. Do this by counting the non-derangements in the union <m>U_1 \cup U_2 \cup U_3 \cup U_4</m>, where <m>U_k</m> is the set of permutations for which <m>k</m> is fixed. You can subtract that result from 4!   Generalize to an arbitrary value of <m>n</m>.</p></li> 
-<li><p>Among all continuous functions on the interval <m>[0,1]</m>, how many are derangements in that they have no fixed points?</p></li>
-</ol>
-</p>
+<p> </p>
+<exercises><exercisegroup>
+<exercise><statement>
+<p>The <em>selection sort</em> algorithm on a list of <m>n</m> proceeds first by finding the largest item in the list and placing it last, exchanging it with the <m>n</m>-th item, if necessary.  Then a selection sort sort of the first <m>n-1</m> items is conducted. Let <m>C(n)</m> be the number of comparisons needed to complete a selection sort of <m>n</m> items.   Find a recurrence relation and initial condition for <m>C</m> and solve it.</p></statement></exercise>
+
+<exercise><statement>
+<p>Suppose <m>n \geq 2</m> and <m>1 \leq k \leq n</m>.  How many permutations of <m>\{1,2, \dots ,n\}</m>,  have the property that <m>k</m> is a fixed point?  The set of all such permutations is called <m>U_k</m> in the next problem.</p></statement></exercise>
+
+<exercise xml:id="p3"><statement>
+<p>Count the number of derangements of <m>\{1,2,3,4\}</m> using <xref ref="s-inclusion-exclusion" text="custom">inclusion-exclusion</xref>. Do this by counting the non-derangements in the union <m>U_1 \cup U_2 \cup U_3 \cup U_4</m>, where <m>U_k</m> is the set of permutations for which <m>k</m> is fixed. You can subtract that result from 4!   Generalize to an arbitrary value of <m>n</m>.</p></statement></exercise> 
+
+<exercise><statement>
+<p>Among all continuous functions on the interval <m>[0,1]</m>, how many are derangements in that they have no fixed points?</p></statement></exercise>
+
+</exercisegroup></exercises>
 </section>
  
 <section xml:id="s-inclusion-exclusion"><title>Inclusion-Exclusion</title>

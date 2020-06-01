@@ -5,25 +5,30 @@
 <section xml:id="reading-24"><title>Reading Assignment</title>
 <p>Read the first two subsections of Section 8.5 of <em>Applied Discrete Structures</em>. </p>
 <question><title>Response Question</title><statement><p>  (idea taken from <xref ref="biblio-bogart-2017"/>) Suppose we treat addition as logical <em>or</em> and multiplication as logical <em>and</em>.  Furthermore, suppose that <m>B</m> stands for banana.  Then to say you could have as many as two bananas, we could write <m>B^0+B^1+B^2=1+B+B^2</m>.  Suppose that in addition you could have up to three apples (use <m>A</m> for apples) and zero or one pears (use <m>P</m> for pears).  What algebraic expression represents all your choices in selecting fruits?  Identify the part of this expression where you select exactly two pieces of fruit. </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li>What sequence has as its generating function <m>\frac{1}{3-2x}</m>?</li>
-		<li>How are the generating functions of the sequences <m>S(n)=n^2</m> and <m>T(n)=(n+1)^2</m> related?</li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:  </p>
+	<exercises><exercisegroup>
+<exercise><statement><p>What sequence has as its generating function <m>\frac{1}{3-2x}</m>?</p></statement></exercise>
+		
+<exercise><statement><p>How are the generating functions of the sequences <m>S(n)=n^2</m> and <m>T(n)=(n+1)^2</m> related?</p></statement></exercise>
+		</exercisegroup></exercises> 
 </section>
 <section xml:id="questions-24"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p>Let
+<p></p>
+<exercises><exercisegroup>
+
+<exercise><statement><p>Let
 		<me>d(n)=
 		\begin{cases}
 			1 &amp; \textrm{if }1 \leq n \leq 6\\
 			0 &amp; \textrm{if }n=0\textrm{ or }n \gt 6
 		\end{cases}.</me> 
-What sequence has as its generating function <m>G(d;z)^2</m>?  How is that sequence related to what you get when you roll two dice and add the top faces? </p></li>
-<li><p>Earlier, we proved that with supplies of five and eight cent stamps, we could make any postage amount of 28 cents or more.  Here, we will look at what smaller amounts can and can't be made.  Let <m>F(z)= \sum_{n=0}^{\infty} (z^{5})^n</m> and <m>E(z)=\sum_{n=0}^{\infty} (z^{8})^n</m>.  Every combination of stamps corresponds with the product of one term from <m>F(z)</m> with one term from <m>E(z)</m>.  For example, the product <m>(z^{5})^{2}\cdot (z^{8})^1= z^{18}</m>  corresponds with combining two five cent stamps and one eight cent stamp.  Compute the first few terms of <m>F(z)\cdot E(z)</m> to  get all terms with degree less than 28. The terms that are missing (have a coefficient of zero) are the ones that correspond with amounts that can't be created.  In general, the coefficient of <m>z^n</m> in the product will be the number of ways that <m>n</m> cents can be made. Do a similar calculation to identify the amounts that cannot created with 7 and 9 cent stamps. </p></li>
-<li><p>How many ways can you give someone fifty cents using any number of nickels, dimes, and quarters?</p></li>
-</ol>
-</p>
+What sequence has as its generating function <m>G(d;z)^2</m>?  How is that sequence related to what you get when you roll two dice and add the top faces? </p></statement></exercise>
+
+<exercise><statement><p>Earlier, we proved that with supplies of five and eight cent stamps, we could make any postage amount of 28 cents or more.  Here, we will look at what smaller amounts can and can't be made.  Let <m>F(z)= \sum_{n=0}^{\infty} (z^{5})^n</m> and <m>E(z)=\sum_{n=0}^{\infty} (z^{8})^n</m>.  Every combination of stamps corresponds with the product of one term from <m>F(z)</m> with one term from <m>E(z)</m>.  For example, the product <m>(z^{5})^{2}\cdot (z^{8})^1= z^{18}</m>  corresponds with combining two five cent stamps and one eight cent stamp.  Compute the first few terms of <m>F(z)\cdot E(z)</m> to  get all terms with degree less than 28. The terms that are missing (have a coefficient of zero) are the ones that correspond with amounts that can't be created.  In general, the coefficient of <m>z^n</m> in the product will be the number of ways that <m>n</m> cents can be made. Do a similar calculation to identify the amounts that cannot created with 7 and 9 cent stamps. </p></statement></exercise>
+
+<exercise><statement><p>How many ways can you give someone fifty cents using any number of nickels, dimes, and quarters?</p></statement></exercise>
+</exercisegroup></exercises>
+
 </section>
 <!-- 
 <section xml:id="handouts-24"><title>None</title>

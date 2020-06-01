@@ -4,17 +4,36 @@
 <idx></idx>
 <section xml:id="reading-107"><title>Reading Assignment</title>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li></li>
-		<li></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p> 
+<exercises><exercisegroup>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+</exercisegroup></exercises>
 </section>
 <section xml:id="questions-107"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p></p></li>
-</ol>
-</p>
+<p></p> 
+<exercises><exercisegroup>
+		<exercise>
+		<statement><p>Consider the  operation <m>\square</m> on the positive integers defined by  <m>a \square b  = a+b-1</m>.  
+	<ol label="(a)">
+		<li><p> Is <m>\square</m> associative?</p></li>
+		<li><p>Does  <m>\square</m> have an identity in the positive integers?</p></li>
+		<li><p> Does  <m>\square</m> have the inverse property?</p></li>
+		</ol></p>
+		</statement>
+		<solution><p>
+		<ol label="(a)">
+		<li><p>Yes, it is associative: 
+		<md>
+		<mrow>(a \squareb)\square c= (a+b-1)\square c = a+b-1+c-1 = a+b+c-2</mrow>
+		<mrow>a \square(b \square c)= a \square(b+c-1) = a+(b+c-1)-1 = a+b+c-2</mrow></md></p></li>
+		<li><p>If <m>e</m> is an identity,  we would need <m>a \square e=a+e-1 = a.</m>  Solving <m>a+e-1 = a</m> for <m>e</m>, we see that 1 is an identity. </p></li>
+		<li><p>No, the inverse of a postitive integer <m>a</m>  would be <m>b</m>   such that <m>a \square b=1</m>.   Therefore <m>a+b-1=1</m>, or <m>b=-a+2</m>.  But since we assume <m>a</m> is a positive integer <m>b</m> is not positive unless <m>a = 1</m>,  and so only 1 have an inverse.</p></li>
+		</ol></p>		
+		</solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		</exercisegroup></exercises>
 </section>
 <section xml:id="handouts-107"><title>Handouts</title>
 <p>None</p>

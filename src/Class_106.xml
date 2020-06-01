@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_106" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Rooted Trees, Binary Trees</title>
+<title>Rooted Trees, Binary Trees  (~106~)</title>
 <idx></idx>
 <section xml:id="reading-106"><title>Reading Assignment</title>
-<p>Read </p>
+<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul><li></li>
-		<li></li>
-		</ul>  </p>
+<p>Also, turn in solutions to these exercises:</p>
+	<exercises><exercisegroup>
+		
+<exercise><statement><p></p></statement></exercise>
+		
+<exercise><statement><p></p></statement></exercise>
+		</exercisegroup></exercises> 
 </section>
 <section xml:id="questions-106"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p></p></li>
-</ol>
-</p>
+<p></p>
+<exercises><exercisegroup>
+	
+<exercise><statement><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
+		<ol label="(a)">
+			<li><p>Draw the <m>\binom{5}{1}</m> and <m>\binom{5}{2}</m> trees.</p></li>
+			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
+		</ol>
+	</p></statement></exercise>
+</exercisegroup></exercises>
+
+
 </section>
 <section xml:id="handouts-106"><title>Handouts</title>
 <p>None</p>

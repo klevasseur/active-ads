@@ -5,21 +5,27 @@
 <section xml:id="reading-22"><title>Reading Assignment</title>
 <p>Read the remainder of Section 8.3 starting with Subsection 8.3.4: “Solution of Nonhomogeneous Finite Order Linear Relations”. </p>
 <question><title>Response Question</title><statement><p>  An algorithm that sorts files in <q><m>n \log{n}</m>-time</q> is normally considered better than one that sorts in <q><m>n^2</m>-time</q>.  However, that's not always the case for smaller files.  The time it takes to sort <m>n</m> items using Algorithms A and B take <m>1200\cdot n \log_2{n}</m> nanoseconds and <m>5 n^2</m> nanoseconds. respectively. How large must a file be to make Algorithm A the preferred one?   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
-	<ul>
-	<li><p>Find a closed form solution to <m>S(k) - 2 S (k - 1) = 5^k</m>, with <m>>S(0) = 3</m></p></li>
-	<li><p>What form would a particular solution to <m>T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^n</m> take?  Find just a particular solution at this time.</p></li>
-	</ul>  </p>
+<p>Also, turn in solutions to these exercises: </p>
+	<exercises><exercisegroup>
+	
+<exercise><statement><p>Find a closed form solution to <m>S(k) - 2 S (k - 1) = 5^k</m>, with <m>>S(0) = 3</m></p></statement></exercise>
+	
+<exercise><statement><p>What form would a particular solution to <m>T(n)-5\cdot T(n-1)+6\cdot T(n-2)=7 \cdot 3^n</m> take?  Find just a particular solution at this time.</p></statement></exercise>
+	</exercisegroup></exercises>  
 </section>
 <section xml:id="questions-22"><title>In-Class Exercises</title>
-<p>
-<ol label="1.">
-<li><p>Suppose that a computer algorithm takes no time to sort a list with one item, but if it is given a list with <m>n</m> items, <m>n \geq 2</m>, then it takes <m>T(n) = T(n-1) + 3\cdot n</m> nanoseconds.  Find a closed form expression for <m>T(n)</m> </p></li>
-<li><p>Find a closed form solution to <m>S(k) - 5S(k - 1) + 6S(k - 2) = 2</m>, with <m>S(0) = -1</m>, and <m>S(1) = 0</m>.</p></li>
-<li><p>Find a closed form solution to <m>S(k) - 5S(k - 1) + 6S(k - 2) = 7 \cdot 3^k</m>, with <m>S(0) = 1</m>, and <m>S(1) = 3</m>.</p></li>
-<li><p>If you were to deposit a certain amount of money at the end of each year for a number of years, this sequence of payments would be called an <em>annuity</em>.  With an annual interest rate of 5 percent, how much would you need to deposit into an annuity to have a value of one million dollars after 18 years?</p></li>
-</ol>
-</p>
+<p></p>
+<exercises><exercisegroup>
+
+<exercise><statement><p>Suppose that a computer algorithm takes no time to sort a list with one item, but if it is given a list with <m>n</m> items, <m>n \geq 2</m>, then it takes <m>T(n) = T(n-1) + 3\cdot n</m> nanoseconds.  Find a closed form expression for <m>T(n)</m> </p></statement></exercise>
+
+<exercise><statement><p>Find a closed form solution to <m>S(k) - 5S(k - 1) + 6S(k - 2) = 2</m>, with <m>S(0) = -1</m>, and <m>S(1) = 0</m>.</p></statement></exercise>
+
+<exercise><statement><p>Find a closed form solution to <m>S(k) - 5S(k - 1) + 6S(k - 2) = 7 \cdot 3^k</m>, with <m>S(0) = 1</m>, and <m>S(1) = 3</m>.</p></statement></exercise>
+
+<exercise><statement><p>If you were to deposit a certain amount of money at the end of each year for a number of years, this sequence of payments would be called an <em>annuity</em>.  With an annual interest rate of 5 percent, how much would you need to deposit into an annuity to have a value of one million dollars after 18 years?</p></statement></exercise>
+</exercisegroup></exercises>
+
 </section>
 <section xml:id="handouts-22"><title>Interest</title>
 <p>Interest is earned on investments by adding to the invested amount, called the <em>principle</em>. An interest rate is a percentage of the principle that is earned.  For example if you invest $2,000 in an investment  that earns 3 percent, your interest in one year would be <m>\$2,000\cdot 0.03 =\$60</m>.  This is added to principle.  The new principle is normally computed in one step by multiplying by <m>1.03</m>.  
