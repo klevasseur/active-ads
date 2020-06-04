@@ -4,15 +4,18 @@
 <idx></idx>
 <section xml:id="reading-105"><title>Reading Assignment</title>
 <p>Read Sections 10.1 and 10.2 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
+<question><title>Response Question</title><statement><p>In general, a family tree isn't really a tree in the sense of graph theory even. Explain why.  You can assume links in the family tree are undirected.</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Given a tree with <m>n</m> vertices, how many leaves (vertices of degree 1) could it have?</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>What can you say about the sum of the entries in the degree sequence of a tree?</p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-105"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
+		<exercise><statement><p>Use the planarity of trees together with <xref ref="theorem-euler-formula-statement" text="title"/> to derive the relationship between the number of vertices and number of edges in a tree.</p>
+		</statement><solution><p></p></solution></exercise>
 		<exercise><statement><p>Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.</p>
 		<figure xml:id="fig-prim-1"><caption/>
 		 <image width="65%" source="images/fig-prim-1.png">
@@ -20,11 +23,41 @@
 		 </image>
 		 </figure>
 		</statement><solution><p>The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}.  This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added.</p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		</exercisegroup></exercises>
+ <exercise>
+    <statement>
+      <p>
+        For each degree sequence below, decide whether it must always, must never, or could possibly be a degree sequence for a tree.  If it is always a tree, is the tree unique?  Justify your answers. (Adapted from <xref ref="biblio-levin-2020"/>.)
+        <ol>
+          <li>
+            <p>
+              <m>(3, 3, 2, 2, 2)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(3, 2, 2, 1, 1, 1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(3, 3, 3, 1, 1, 1)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(4, 4, 1, 1, 1, 1, 1, 1)</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>		</exercisegroup></exercises>
 </section>
-<section xml:id="handouts-105"><title>Handouts</title>
-<p>None</p>
-</section>
+<section xml:id="handouts-105"><title>Euler's Formula</title>
+
+<theorem xml:id="theorem-euler-formula-statement"><title>Euler's Formula</title><idx>Euler's Formula</idx>
+<statement>
+<p>If <m>G = (V, E)</m> is a connected planar graph with <m>r</m> regions, <m>v</m> vertices, and <m>e</m> edges, then
+<me>v + r - e = 2</me></p></statement>
+</theorem></section>
 </chapter>	
