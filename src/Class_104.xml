@@ -3,8 +3,8 @@
 <title>Graph Traversals  (~104~)</title>
 <idx></idx>
 <section xml:id="reading-104"><title>Reading Assignment</title>
-<p>Read Section 9.4 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>In what country is Koenigsberg now?</p></statement></question>
+<p>Read Section 9.4 of <em>Applied Discrete Structures</em>.  In this section, we consider whether certain paths or circuits exist in a given graph.  Our objective will either be to trace every edge once or visit every vertex once.</p>
+<question><title>Response Question</title><statement><p>In the 18th century, Koenigsberg was  part of Prussia. In what country is it now?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>Is every Eulerian graph also Hamiltonian? Justify your answer.</p></statement><solution><p></p></solution></exercise>

@@ -3,8 +3,8 @@
 <title>Trees and Spanning Trees  (~105~)</title>
 <idx></idx>
 <section xml:id="reading-105"><title>Reading Assignment</title>
-<p>Read Sections 10.1 and 10.2 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>In general, a family tree isn't really a tree in the sense of graph theory even. Explain why.  You can assume links in the family tree are undirected.</p></statement></question>
+<p>Read Sections 10.1 and 10.2 of <em>Applied Discrete Structures</em>. In these sections we introduce trees, which are connected graphs without cycles.  We also examine spanning trees of connected graphs, which are the smallest subgraphs which maintain connectedness in a graph.</p>
+<question><title>Response Question</title><statement><p>In general, a family tree isn't really a tree in the sense of graph theory. Explain why.  You can assume links in the family tree are undirected.</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>Given a tree with <m>n</m> vertices, how many leaves (vertices of degree 1) could it have?</p></statement><solution><p></p></solution></exercise>
@@ -16,6 +16,13 @@
 <exercises><exercisegroup>
 		<exercise><statement><p>Use the planarity of trees together with <xref ref="theorem-euler-formula-statement" text="title"/> to derive the relationship between the number of vertices and number of edges in a tree.</p>
 		</statement><solution><p></p></solution></exercise>
+
+		<exercise><statement><p>Proof that every tree is bipartite, i. e., has a 2-coloring.</p>
+		</statement><solution><p></p></solution></exercise>
+
+			<exercise><statement><p>Prove that every connected graph which is not itself a tree must have at last three different spanning trees.</p>
+		</statement><solution><p></p></solution></exercise>
+	
 		<exercise><statement><p>Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.</p>
 		<figure xml:id="fig-prim-1"><caption/>
 		 <image width="65%" source="images/fig-prim-1.png">

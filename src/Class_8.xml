@@ -39,8 +39,8 @@
 					</li>
 			</ol>
 		</p></statement></exercise>
-<commentary><title>Why ask this here?</title><p>This problem looks like it belongs in an earlier class.  It might be argued that it's fine that we are revisting older material, but it is actuall placed here to set up the next topic, proof by induction.  When students complete this problem, they should have come up with a closed form expression for the sum of the squares of the first <m>n</m> positive integers. However the logic is just tricky enough that you could argue that whatever is arrived could be flawed.  This is where proof by induction can naturally be introduced!</p></commentary>		
-<exercise><statement><p>There are <m>n+1</m>, <m>n\ge 1</m> people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:
+			
+<exercise><statement><!-- <commentary><title>Why ask this here?</title> <idx>commentary</idx><p>This problem looks like it belongs in an earlier class.  It might be argued that it's fine that we are revisting older material, but it is actuall placed here to set up the next topic, proof by induction.  When students complete this problem, they should have come up with a closed form expression for the sum of the squares of the first <m>n</m> positive integers. However the logic is just tricky enough that you could argue that whatever is arrived could be flawed.  This is where proof by induction can naturally be introduced!</p></commentary> --><p>There are <m>n+1</m>, <m>n\ge 1</m> people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:
     	<ul>
 			<li>The backstage pass must go to the oldest person who gets a ticket.</li>
 			<li>The person who gets the backstage pass can' t get either of the other two tickets, but the two regular tickets can both go to the same person.</li>

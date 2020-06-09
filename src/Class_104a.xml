@@ -3,26 +3,48 @@
 <title>Graph Coloring  (~104a~)</title>
 <idx></idx>
 <section xml:id="reading-104a"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
+<p>Read Section 9.6 of <em>Applied Discrete Structures</em>. There are two main topics of this section. The first is planarity of graphs, whether a graph can be drawn on paper without having any edges crossing one another.  The second is coloring, the vertices of a graph are assigned colors with the rule that two vertices that are connected by an edge must have different colors.  The two topics are unified by the Four Color Theorem.</p>
+<question><idx>Fáry, István</idx><title>Response Question</title><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>The graph <m>G</m> has vertices with degree sequence <m>5, 3, 3, 2, 2, 1</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
-		<solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>If a planar graph <m>G</m> with 12 vertices divides the plane into 21 regions, how many edges must <m>G</m> have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
+		<exercise><statement><p>Find a coloring of the following graph with as few colors as possible.  Use the numbers <m>1, 2, 3, \dots</m> for colors.</p>
+		<sidebyside>
+		<figure xml:id="fig-colorme-1"><caption/>
+		 <image width="65%" source="images/fig-colorme-1.png">
+			  <description>An undirected graph on 8 vertices. The edges are are given by the set {(1,5), (1,6), (1,7), (1,8), (2,3), (2,6), (2,7), (3,4), (3,5), (3,8), (4,7), (6,7)}.</description>
+		 </image>
+		 </figure>
+		 <p><me>\begin{array}{cccccccc}
+ 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 \\
+ \_\_ &amp; \_\_ &amp; \_\_ &amp; \_\_ &amp; \_\_ &amp;
+   \_\_ &amp; \_\_ &amp; \_\_ \\
+\end{array}</me></p>
+		 </sidebyside></statement><solution><p></p></solution></exercise>
  		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104a"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>If a planar graph <m>G</m> with 7 vertices divides the plane into 8 regions, how many edges must <m>G</m> have?</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of 5 rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
+		<exercise><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
+		<answer><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
+
+		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
 	</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p> Recall that a <m>K_{3,3}</m> is a complete bipartite graph with three vertices in each set. What is the chromatic number of a <m>K_{3,3}</m>? How many different ways could you color a <m>K_{3,3}</m> if you had the minimum number of colors necessary?</p>
+		</statement><solution><p></p></solution></exercise>
+		<exercise><idx>chromatic polynomial of a graph</idx><statement><p>The chromatic polynomial of a graph, <m>G</m> is a polynomial <m>g(x)</m> such that for each positive integer <m>n</m>, <m>g(n)</m> equals the number of different ways you can color <m>G</m> with <m>n</m> colors.  For example, the chromatic polynomial of a <m>K_3</m> is <m>x(x-1)(x-2)</m>.
+		<ol label="(a)">
+		<li><p>What is the chromatic polynomial of a <m>K_4</m>?</p></li>
+		<li><p>What is the chromatic polynomial of a <m>C_4</m>, a cycle with four vertices?</p></li>
+		<li><p>What is the chromatic polynomial of a <m>K_{3,3}</m>?</p></li>
+		</ol></p></statement><solution><p></p></solution></exercise>
+		
 		</exercisegroup></exercises>
 </section>
+<!-- 
 <section xml:id="handouts-104a"><title>Handouts</title>
 <p>None</p>
 </section>
+ -->
 </chapter>	

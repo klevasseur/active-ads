@@ -3,31 +3,78 @@
 <title>Rooted Trees, Binary Trees  (~106~)</title>
 <idx></idx>
 <section xml:id="reading-106"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
+<p>Read Sections 10.3 and 10.4 of <em>Applied Discrete Structures</em>. Here we consider some more structured trees in which a specific vertex is designated as the <em>root</em> of the tree.  We see that there are several applications of these trees.  Special attention is given to binary trees, where no more than two edges branch away from the root and any away other vertex that is reached by the root.</p>
+<question><title>Response Question</title><statement><p>The level of a vertex of a binary tree is the length of the path from the root to that vertex.  What is the maximum number of vertices at level <m>1, 2, 3, \dots</m> of any binary tree?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p>
 	<exercises><exercisegroup>
 		
-<exercise><statement><p></p></statement></exercise>
-		
-<exercise><statement><p></p></statement></exercise>
-		</exercisegroup></exercises> 
+<exercise><statement><p>Draw all different ordered rooted trees with four vertices.</p></statement></exercise>
+<exercise><statement><p>Construct the expression tree for the expression <m>\frac{a\cdot x + b}{c\cdot x + d}</m>.</p></statement></exercise>
+				</exercisegroup></exercises> 
 </section>
 <section xml:id="questions-106"><title>In-Class Exercises</title>
 <p></p>
 <exercises><exercisegroup>
-	
+<exercise><statement><p>Given the list of data <c>[483,569,150,649,659,198,356,241,359,930]</c>, insert the data sequentially into a binary sorting tree.</p></statement></exercise>		
+<exercise><statement><p>List the vertices in a postorder traversal of the  expression tree of <m>\frac{a x + b}{c x + d}</m>.</p></statement></exercise>	
 <exercise><statement><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
 		<ol label="(a)">
 			<li><p>Draw the <m>\binom{5}{1}</m> and <m>\binom{5}{2}</m> trees.</p></li>
 			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
 		</ol>
 	</p></statement></exercise>
+
+<exercise><statement>
+<sidebyside><p>There is a one to one correspondence between ordered rooted trees.  If you start with an ordered rooted tree, <m>T</m>, you can build a binary tree <m>B</m> with an empty right subtree by placing the the root of <m>T</m> at the root of <m>B</m>.  Then for every vertex <m>v</m> from <m>T</m> that has been placed in <m>B</m>, place it's leftmost child (if there is one) <m>v</m>'s left child in <m>B</m>. Make <m>v</m>'s next sibling (if there is one) in <m>T</m> the right child in <m>B</m>.</p>
+		<figure xml:id="fig-ex-ordered-tree"><caption>An ordered rooted tree with root <m>r</m>.</caption>
+		 <image width="25%" source="images/fig-ex-ordered-tree.png">
+			  <description>An ordered rooted tree with root r specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.</description>
+		 </image>
+		 </figure>
+  </sidebyside>
+<sidebyside>
+		<figure xml:id="fig-ex-ordered-tree-linked"><caption>Blue (left) and Red (right) links added to the ordered rooted tree with root r.</caption>
+		 <image width="25%" source="images/fig-ex-ordered-tree-linked.png">
+			  <description>An ordered rooted tree with root r specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}  with colored edges added to indicate the correspondence with a binary tree.</description>
+		 </image>
+		 </figure>
+		 		<figure xml:id="fig-ex-binary-tree"><caption>Binary tree corresponding to the ordered rooted tree.</caption>
+		 <image width="20%" source="images/fig-ex-binary-tree.png">
+			  <description>The binary tree corresponding with the ordered rooted tree rooted at r specified by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.</description>
+		 </image>
+		 </figure>
+</sidebyside>
+<p><ol label="(a)">
+			<li><p>Why will <m>B</m> have no left children in this correspondence?</p></li>
+			<li><p>Draw the binary tree that is produced by the ordered rooted tree in <xref ref="fig-ort-to-bt"/>.</p></li>
+			<li><p>Draw the ordered tree that produces the binary tree in <xref ref="fig-bt-to-ort"/>.</p></li>
+			<li><p>The left subtree of the binary tree in <xref ref="fig-bt-to-ort"/> is one of 5 different binary trees with three vertices.  Draw each of them and also the ordered rooted tree that each corresponds with.</p></li>
+			<li><p>What does this correspondence tell us about how the numbers of different binary trees and ordered rooted trees are related?</p></li>
+</ol></p>
+<sidebyside>
+		<figure xml:id="fig-ort-to-bt"><caption>What binary tree does this correspond with?</caption>
+		 <image width="25%" source="images/fig-ort-to-bt.png">
+			  <description>An ordered rooted tree.</description>
+		 </image>
+		 </figure>
+		 		<figure xml:id="fig-bt-to-ort"><caption>What ordered rooted tree does this correspond with?</caption>
+		 <image width="25%" source="images/fig-bt-to-ort.png">
+			  <description>A binary tree rooted at r with dictionary of left child- right child values {r:[a,nil],a:[b,c],b:[nil,nil],c:[nil,nil]}.</description>
+		 </image>
+		 </figure>
+
+</sidebyside>
+
+
+</statement></exercise>
+
 </exercisegroup></exercises>
 
 
 </section>
+<!-- 
 <section xml:id="handouts-106"><title>Handouts</title>
 <p>None</p>
 </section>
+ -->
 </chapter>	
