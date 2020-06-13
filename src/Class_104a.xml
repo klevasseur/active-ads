@@ -4,7 +4,7 @@
 <idx></idx>
 <section xml:id="reading-104a"><title>Reading Assignment</title>
 <p>Read Section 9.6 of <em>Applied Discrete Structures</em>. There are two main topics of this section. The first is planarity of graphs, whether a graph can be drawn on paper without having any edges crossing one another.  The second is coloring, the vertices of a graph are assigned colors with the rule that two vertices that are connected by an edge must have different colors.  The two topics are unified by the Four Color Theorem.</p>
-<question><idx>Fáry, István</idx><title>Response Question</title><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
+<question><title>Response Question</title><idx>Fáry, István</idx><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>If a planar graph <m>G</m> with 12 vertices divides the plane into 21 regions, how many edges must <m>G</m> have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>

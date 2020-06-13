@@ -3,16 +3,18 @@
 <title>Binary Operations</title>
 <idx></idx>
 <section xml:id="reading-107"><title>Reading Assignment</title>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
+<p>Read Sections 11.1 of <em>Applied Discrete Structures</em>. This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory.   In this first section we review properties of binary operations.</p>
+<question><title>Response Question</title><statement><p>True or False?  Multiplication is an associative operation on the set <m>\{-1,1\}</m>.  Justify your answer.</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Explain why subtraction is not an associative operation on the integers.</p></statement><solution><p>A counterexample to the associative property is all that is needed here, of which there are an infinite number of examples.  One such is <m>1-(2-3)\neq (1-2)-3</m>.</p></solution></exercise>
+		<exercise><statement><p>Write out the operation table for intersection on the <m>\mathcal{P}(\{0,1\})</m>, the power set of <m>\{0,1\}</m>. </p></statement><solution><p></p></solution></exercise>
 </exercisegroup></exercises>
 </section>
 <section xml:id="questions-107"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
+		<exercise><statement><p>What properties that are introduced in Secton 11.1 are true of intersection on the power set of <m>\{0,1\}</m>?.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
 		<statement><p>Consider the  operation <m>\square</m> on the positive integers defined by  <m>a \square b  = a+b-1</m>.  
 	<ol label="(a)">
@@ -31,11 +33,12 @@
 		<li><p>No, the inverse of a postitive integer <m>a</m>  would be <m>b</m>   such that <m>a \square b=1</m>.   Therefore <m>a+b-1=1</m>, or <m>b=-a+2</m>.  But since we assume <m>a</m> is a positive integer <m>b</m> is not positive unless <m>a = 1</m>,  and so only 1 have an inverse.</p></li>
 		</ol></p>		
 		</solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Suppose that <m>V</m> is some finite nonempty set. What would be an example of a binary operation on the set of all undirected graphs with vertices in the set <m>V</m>.</p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
+<!-- 
 <section xml:id="handouts-107"><title>Handouts</title>
 <p>None</p>
 </section>
+ -->
 </chapter>	

@@ -3,15 +3,15 @@
 <title>Algebraic Structures</title>
 <idx></idx>
 <section xml:id="reading-108"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Section 10.2 of <em>Applied Discrete Structures</em>.  In this section we examine some of the basic theorems that follow from the axioms of a group.</p>
 <question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises:</p> 
+<p>Also, turn in solutions to these exercises:</p>
 <exercises><exercisegroup>
 		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-108"><title>In-Class Exercises</title>
-<p></p> 
+<p></p>
 <exercises><exercisegroup>
 		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
@@ -19,4 +19,4 @@
 <section xml:id="handouts-108"><title>Handouts</title>
 <p>None</p>
 </section>
-</chapter>	
+</chapter>
