@@ -4,7 +4,7 @@
 <idx>Graphs</idx>
 <section xml:id="reading-102"><title>Reading Assignment</title>
 <p>Read Section 9.1 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>  What have you been doing since you took the first semester of this course? </p></statement></question>
+<question><title>Response Question</title><statement><p>The original version of the computer language BASIC on Apple II computers used 16 bits for an integer, one of which was used to specify the sign of the integer.  What would have been the maximum size of an integer in that language?</p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul>
 		<li><p>Why is the sum of the degrees of the vertices of any undirected graph always even?</p></li>

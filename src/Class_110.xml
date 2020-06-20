@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_110" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Modular Arithmetic</title>
-<idx></idx>
+<title>Modular Arithmetic  (~110~)</title>
+<idx>Modular Arithmetic</idx>
 <section xml:id="reading-110"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
-<p>Also, turn in solutions to these exercises:</p> 
-<exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
-		</exercisegroup></exercises>
+<p>Read Section 11.4 of <em>Applied Discrete Structures</em>. The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>Z_{12}</m>.</p>
+
+<question><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the number equal zero?</p></statement></question>
+<p>Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
+	<exercises><exercisegroup>
+			<exercise>
+				<statement><p>Compute the greatest common divisor of 2028  and 1001.</p>
+				</statement>
+				<solution><p></p></solution>
+			</exercise>
+			<exercise>
+				<statement><p>Write out the operation table for mod 4 addition on
+				 <m>\mathbb{Z}_4</m>.  Identify the inverse of each element.</p></statement>
+				<solution><p></p></solution>
+			</exercise>
+	</exercisegroup></exercises>
 </section>
 <section xml:id="questions-110"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Determine the additive and multiplicative inverses of 99 mod 1001</p></statement><solution><p></p></solution></exercise>
+		<exercise>
+			<statement><p>Write out the operation table for mod 8 multiplication on
+				 <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
+			</statement>
+			<solution><p></p></solution>
+		</exercise>
+		<exercise>
+			<statement><p>Write out the operation table for mod 10 multiplication on
+				 <m>T=\{0,2,4,6,8\}</m>. Is <m>[T;\times_{10}]</m>	 a monoid? Is it a group?</p>
+			</statement>
+			<solution><p></p></solution>
+		</exercise>
+
+		<exercise>
+			<statement><p>Find a formula for the inverse of the function 
+			<m>g: \mathbb{Z}_{29} \rightarrow  \mathbb{Z}_{29}</m>
+			 where <m>g(a)= 5\times_{29}a +_{29}25</m>.  Suggestion:  You can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
+			</statement>
+			<solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
+<!-- 
 <section xml:id="handouts-110"><title>Handouts</title>
 <p>None</p>
 </section>
+ -->
 </chapter>	

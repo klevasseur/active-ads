@@ -19,7 +19,9 @@
 		<exercise><statement><p>Consider the following set of six  algebraic expressions, each defining a function on the set of real numbers excluding the numbers 0 and 1.  
 		<me>\mathcal{H}=\left\{x,1-x,\frac{1}{1-x},\frac{1}{x},\frac{x-1}{x},\frac{x}{x-1}\right\}
 				=\left\{y_1,y_2,y_3,y_4,y_5,y_6\right\}</me>
-  Write out the operation table for function composition, <m>\circ</m>, on <m>\mathcal{H}</m>. Is <m>[\mathcal{H},\circ]</m> a monoid? Is it a group?</p>
+ We can opperate on any two of these expressions using function composition.  For example,
+ <me>(y_3 \circ y_4)(x) = y_3(y_4(x))=y_3(\frac{1}{x})=\frac{1}{1-\frac{1}{x}}=\frac{x}{x-1}=y_6(x)</me>
+ Therefore, <m>y_3 \circ y_4 = y_6</m>.  Write out the operation table for function composition on <m>\mathcal{H}</m>. Is <m>[\mathcal{H},\circ]</m> a monoid? Is it a group?</p>
   			</statement><solution><p></p></solution></exercise>
 		<exercise><statement><p>Let <m>S</m> be the set of all strings of letters of length zero or more from the set <m>\{a,b,c\}</m> that do not have any consecutive identical letters.  Define <m>*</m> on <m>S</m> by the rule that if <m>x, y \in S</m> then <m>x*y</m> is determined by first concatenating  <m>x</m> and <m>y</m> and then repeatedly removing any occurrences of two identical letters until the result is an element of <m>S</m>.   Is <m>[S,*]</m> a monoid?  Is it a group?  
 		 </p></statement><solution><p></p></solution></exercise>

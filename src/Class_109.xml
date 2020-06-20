@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_109" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Properties of Groups</title>
+<title>Properties of Groups (~109~)</title>
 <idx><h>group</h><h>properties</h></idx>
 <section xml:id="reading-109"><title>Reading Assignment</title>
 <p>Read Section 11.3 of <em>Applied Discrete Structures</em>.  In this section we examine some of the basic theorems that follow immediately from the axioms of a group. Reviewing the proofs is a good exercise in solidifying an understanding of the axioms. In most cases, these theorems are applied in later work without explicitly stating them. </p>
@@ -26,7 +26,7 @@
 </statement></question>
 <p>Also, do these exercises:</p>
 <exercises><exercisegroup>
-	<exercise><statement><p>Suppose <m>[G;*]</m> is a group with <m>a,b,c \in G</m>.   Solve the equation <m>a*x*a^{-1}*b= c</m> for <m>x</m>.</p></statement><solution><p></p></solution></exercise>
+	<exercise><statement><p>Suppose <m>[G;*]</m> is a group with <m>a,b,c \in G</m>.   Solve the equation <me>a*x*a^{-1}*b= c</me	> for <m>x</m>.</p></statement><solution><p></p></solution></exercise>
 	<exercise><statement><p>Notice that <m>\{1,2,3\} \cap \{1,2\} = \{1,2,3,4\} \cap \{1,2\}</m>, yet <m>\{1,2,3\}  \neq \{1,2,3,4\} </m>. Does this contradict the <xref ref="theorem-11-3-cancellation" text="title"/>? Explain your answer.</p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
