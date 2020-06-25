@@ -5,7 +5,7 @@
 <section xml:id="reading-110"><title>Reading Assignment</title>
 <p>Read Section 11.4 of <em>Applied Discrete Structures</em>. The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>Z_{12}</m>.</p>
 
-<question><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the number equal zero?</p></statement></question>
+<question><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the numbers equal zero?</p></statement></question>
 <p>Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
 	<exercises><exercisegroup>
 			<exercise>
