@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_112" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Products</title>
-<idx></idx>
+<idx>Direct Products</idx>
 <section xml:id="reading-112"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
-<question><title>Response Question</title><statement><p>   </p></statement></question>
+<p>Read Section 11.6 of <em>Applied Discrete Structures</em>. At some point, you may have seen an <q>addition</q> of pairs that looked something like this:<me>(2,9)+(1,-3) = (2+1,9+(-3))=(3,6).</me>  This is an example of <q>coordinate-wise addition,</q> where the first coordinate of the sum depends only on the two first coordinates of the terms on the left. This is exactly the way direct products work in general. In this section you will see what is produced from direct products of groups.</p>
+<question><title>Response Question</title><statement><p>A fraction can be though of as an ordered pair, <m>a/b</m>, where <m>a</m> is the numerator and nonzero <m>b</m> is the denominator.  Is addition of fractions a coordinate-wise operaton?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
