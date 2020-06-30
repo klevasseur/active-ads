@@ -7,8 +7,9 @@
 <question><title>Response Question</title><statement><p>Chris says (incorrectly) that <m>[\{1,-1\};\cdot]</m> is not a group because <q>... the <xref ref="def-associative-property" text="title" /> needs three elements to be true.</q>  How would you respond to Chris?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>True or false?:  The set of all bit strings that begin with a 1 form a submonoid of the monoid of all bit strings with concatination.</p></statement><solution><p>The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set.</p></solution></exercise>
-		<exercise><statement><p></p></statement><solution><p>True or false?: <m>\{0,25,50,75\}</m> is a subgroup of the additive group <m>\mathbb{Z}_{100}</m>.</p></solution></exercise>
+		<exercise><statement><p>True or false?:  The set of all bit strings that begin with a 1 form a submonoid of the monoid of all bit strings with concatination.</p></statement>
+		<solution><p>The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set.</p></solution></exercise>
+		<exercise><statement><p><p>True or false?: <m>\{0,25,50,75\}</m> is a subgroup of the additive group <m>\mathbb{Z}_{100}</m>.</p></p></statement><solution></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-111"><title>In-Class Exercises</title>
@@ -19,7 +20,7 @@
 		<exercise><statement><p>In this exercise, we will consider the orders of the additive groups of integers modulo <m>n</m> for three different values of <m>n</m>, and then speculate on some general results.
 		<ol label="(a)">
 		<li><p>Determine the orders of different elements of the group <m>\mathbb{Z}_{5}</m>.</p></li>
-		<li><p>Determine the orders of different elements of the group<m>\mathbb{Z}_{15}</m>.</p></li>
+		<li><p>Determine the orders of different elements of the group <m>\mathbb{Z}_{15}</m>.</p></li>
 		<li><p>Determine the orders of different elements of the group <m>\mathbb{Z}_{16}</m>.</p></li>
 		<li><p>Comparing the results you got above, hypothesize on what you would expect for different moduli</p></li>
 		</ol></p></statement>

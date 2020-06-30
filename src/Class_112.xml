@@ -5,7 +5,7 @@
 <section xml:id="reading-112"><title>Reading Assignment</title>
 <p>Read Section 11.6 of <em>Applied Discrete Structures</em>. At some point, you may have seen an <q>addition</q> of pairs that looked something like this:<me>(2,9)+(1,-3) = (2+1,9+(-3))=(3,6).</me>  This is an example of <q>coordinate-wise addition,</q> where the first coordinate of the sum depends only on the two first coordinates of the terms on the left. This is exactly the way direct products work in general. In this section you will see what is produced from direct products of groups.</p>
 <question><title>Response Question</title><statement><p>A fraction can be though of as an ordered pair, <m>a/b</m>, where <m>a</m> is the numerator and nonzero <m>b</m> is the denominator.  Is addition of fractions a coordinate-wise operaton?</p></statement></question>
-<p>Also, turn in solutions to these exercise:</p> 
+<p>Also, turn in solutions to this exercise:</p> 
 <exercises><exercisegroup>
 
 		<exercise><statement><p>Write out the operation table for the group <m>\mathbb{Z}_2 \times \mathbb{Z}_2 </m></p></statement><solution><p></p></solution></exercise>

@@ -3,7 +3,7 @@
 <title>Counting: Product Rule and Permutations</title>
 <idx></idx>
 <section xml:id="reading-4"><title>Reading Assignment</title>
-<p>Read Sections 2.1 and 2.2 of <em>Applied Discrete Structures</em></p>
+<p>Read Sections 2.1 and 2.2 of <em>Applied Discrete Structures</em>.  You will learn about the Rule of Products, which is one of the fundamental rules of counting.  In Section 2.2 we will apply to the rule of products to a very common situation, when we want to know how many ways we can put a set of objects in order.</p>
 <question><title>Response Question</title><statement><p>   Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products. </p></statement></question> 
 <p>Also, turn in solutions to these exercises: </p>
 <exercises><exercisegroup>

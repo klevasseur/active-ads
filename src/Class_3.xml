@@ -5,7 +5,7 @@
 <idx>Power Set</idx>
 <idx>Summation Notation</idx>
 <section xml:id="reading-3"><title>Reading Assignment</title>
-<p>Read Sections 1.3 and 1.5 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Sections 1.3 and 1.5 of <em>Applied Discrete Structures</em> There are three main topics in the readings.  In the next chapter, we will be counting things.  Cartesian products of sets and the power set of a set are two structures that will will be used in some of the counting.  Be sure to understand the distinction between the two topics.  A Cartesian product involves of two or more sets and is a set of ordered pairs (or triples, quadruples,...); while a power set is of a single set and is the set of all subsets of that set.    The third topic, summation notation, may very well be review for many readers. It also will appear in the counting process on several occasions..</p>
 <question><title>Response Question</title><statement><p>   If <m>A</m> is a finite set, why is the number of elements in the power set of <m>A</m> a power of 2?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 <exercises><exercisegroup>

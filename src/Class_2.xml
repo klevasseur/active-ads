@@ -2,7 +2,7 @@
 <chapter xml:id="chapter_2" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Sets and Operations on them</title>
 <idx>Sets, and operations on them</idx><section xml:id="reading-2"><title>Reading Assignment</title>
-<p>Before class, read Sections 1.1 and 1.2 of <em>Applied Discrete Structures</em>. </p>
+<p>Before class, read Sections 1.1 and 1.2 of <em>Applied Discrete Structures</em>. There is a lot of terminology and notation in these two sections that is used throughout the book. Whatever aids you personally use to remember them, by all means use them.  </p>
 <question><title>Response Question</title><statement><p>How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?</p></statement></question>
 <exercises><exercisegroup>
 <introduction><p>Also, turn in solutions to these exercises.</p></introduction> 

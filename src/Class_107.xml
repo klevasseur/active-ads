@@ -27,7 +27,7 @@
 		<ol label="(a)">
 		<li><p>Yes, it is associative: 
 		<md>
-		<mrow>(a \squareb)\square c= (a+b-1)\square c = a+b-1+c-1 = a+b+c-2</mrow>
+		<mrow>(a \square b)\square c= (a+b-1)\square c = a+b-1+c-1 = a+b+c-2</mrow>
 		<mrow>a \square(b \square c)= a \square(b+c-1) = a+(b+c-1)-1 = a+b+c-2</mrow></md></p></li>
 		<li><p>If <m>e</m> is an identity,  we would need <m>a \square e=a+e-1 = a.</m>  Solving <m>a+e-1 = a</m> for <m>e</m>, we see that 1 is an identity. </p></li>
 		<li><p>No, the inverse of a postitive integer <m>a</m>  would be <m>b</m>   such that <m>a \square b=1</m>.   Therefore <m>a+b-1=1</m>, or <m>b=-a+2</m>.  But since we assume <m>a</m> is a positive integer <m>b</m> is not positive unless <m>a = 1</m>,  and so only 1 have an inverse.</p></li>
