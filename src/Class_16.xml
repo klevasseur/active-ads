@@ -3,7 +3,7 @@
 <title>Properties of Relations</title>
 <idx></idx>
 <section xml:id="reading-16"><title>Reading Assignment</title>
-<p>Read Section 6.3 of <em>Applied Discrete Structures</em></p>
+<p>Read Section 6.3 of <em>Applied Discrete Structures</em>.  You will read about four properties that are satisfied by certain relations.  Two combinations of these properties, when true, characterize relations that are particularly important.  They are partial orderings and equivalence relations. Make an effort to memorize the terms in this section - they will appear throughout the rest of the book.</p>
 <question><title>Response Question</title><statement><p>  Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane? </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>

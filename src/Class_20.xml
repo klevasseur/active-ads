@@ -4,7 +4,7 @@
 <idx>Recursion</idx>
 <idx>Stack</idx>
 <section xml:id="reading-20"><title>Reading Assignment</title>
-<p>Read  Sections 8.1 and 8.2 of <em>Applied Discrete Structures</em></p>
+<p>Read  Sections 8.1 and 8.2 of <em>Applied Discrete Structures</em>.  You will see a variety of things that are most easily described through self-reference.  Most computer languages allow recursion, which can be a powerful tool when used properly. </p>
 <question><title>Response Question</title><statement><p>  Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned.  </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>

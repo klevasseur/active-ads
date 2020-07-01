@@ -3,7 +3,7 @@
 <title>Functions and Their Properties</title>
 <idx>Function Properties</idx>
 <section xml:id="reading-18"><title>Reading Assignment</title>
-<p>Read Sections 7.1 and 7.2 of <em>Applied Discrete Structures</em></p>
+<p>Read Sections 7.1 and 7.2 of <em>Applied Discrete Structures</em>.  You may think you know about functions if you've taken calculus, but the approach to functions in Chapter 7, which is the more formal approach, is different. So make an effort to memorize the terms!  The good news is that there are only two key properties that are introduced in Section 7.2.</p>
 <question><title>Response Question</title><statement><p>  In programming, a <em>function</em> is a named section of a program that performs a specific task and returns a value.  How does this compare with the definition of a function in mathematics?    </p></statement></question>
 <p>Also, turn in solutions to these exercises:  </p>
 	<exercises><exercisegroup>

@@ -2,7 +2,7 @@
 <chapter xml:id="chapter_11" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Set Theory Logic</title>
 <section xml:id="reading-11"><title>Reading Assignment</title>
-<p>Read Sections 4.1  and 4.2 of <em>Applied Discrete Structures</em></p>
+<p>Read Sections 4.1  and 4.2 of <em>Applied Discrete Structures</em>.  In these sections, we revisit some of the set theory from Chapter 1, applying some of the logic in Chapter 3. Be aware of the types of objects that are in the sets involved in a proof.  One example is that when you are proving something about Cartesian products, the objects usually need to be identified as ordered pairs, not simply as single variables.</p>
 <question><title>Response Question</title><statement><p>  Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws.  </p></statement></question>
 <p>Also, turn in solutions to these exercises:</p>
     <exercises><exercisegroup>

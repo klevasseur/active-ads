@@ -3,7 +3,7 @@
 <title>Minsets and Duality</title>
 <idx></idx>
 <section xml:id="reading-12"><title>Reading Assignment</title>
-<p>Read Sections 4.3 and 4.4 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Sections 4.3 and 4.4 of <em>Applied Discrete Structures</em>. Minsets help answer the question of what sets can be created if you start with a certain collection of sets and apply basic set operations to them.   Duality is an organizing principle that set theory shares with logic and a few other mathematical structures.</p>
 <question><title>Response Question</title><statement><p>  To what extend is there any duality in arithmetic of numbers with addition and multiplication?  How does it break down where is doesn't in set theory?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>

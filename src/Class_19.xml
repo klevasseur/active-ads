@@ -3,8 +3,8 @@
 <title>Function Composition</title>
 <idx>Function Composition</idx>
 <section xml:id="reading-19"><title>Reading Assignment</title>
-<p>Read Section 7.3 of <em>Applied Discrete Structures</em></p>
-<question><title>Response Question</title><statement><p>  Google <q>linux piping</q> and describe how this technique is related to function composition. </p></statement></question>
+<p>Read Section 7.3 of <em>Applied Discrete Structures</em>.  The key concept in this section is function composition, which is fundamental in mathematics and computer science. Be sure to learn how it works and you'll be in good shape for the rest of the book!</p>
+<question><title>Response Question</title><idx>piping</idx><statement><p>  Google <q>linux piping</q> and describe how this technique is related to function composition. </p></statement></question>
 <p>Also, turn in solutions to these exercises:  </p>
 	<exercises><exercisegroup>		
 			

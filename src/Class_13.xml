@@ -3,7 +3,7 @@
 <title>Matrix Operations</title>
 <idx>Matrix Operations</idx>
 <section xml:id="reading-13"><title>Reading Assignment</title>
-<p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. </p>
+<p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. Matrix algebra serves as a contrasting system to logic and set theory but is also needed in the study of relations in Chapter 6.  In these two sections, we review matrix operations and some special matrices.</p>
 <question><title>Response Question</title><statement><p>   Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case? </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>

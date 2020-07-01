@@ -3,7 +3,7 @@
 <title>Solving Linear Recurrence Relations II</title>
 <idx></idx>
 <section xml:id="reading-22"><title>Reading Assignment</title>
-<p>Read the remainder of Section 8.3 starting with Subsection 8.3.4: “Solution of Nonhomogeneous Finite Order Linear Relations”. </p>
+<p>Read the remainder of Section 8.3 starting with Subsection 8.3.4: “Solution of Nonhomogeneous Finite Order Linear Relations”. Once you've completed this section - it's a long one - you should be able to solve many recurrence relations that appear in mathematics and computer science.   Not all of them though!</p>
 <question><title>Response Question</title><statement><p>  An algorithm that sorts files in <q><m>n \log{n}</m>-time</q> is normally considered better than one that sorts in <q><m>n^2</m>-time</q>.  However, that's not always the case for smaller files.  The time it takes to sort <m>n</m> items using Algorithms A and B take <m>1200\cdot n \log_2{n}</m> nanoseconds and <m>5 n^2</m> nanoseconds. respectively. How large must a file be to make Algorithm A the preferred one?   </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>

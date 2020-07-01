@@ -3,7 +3,7 @@
 <title>Relations</title>
 <idx></idx>
 <section xml:id="reading-15"><title>Reading Assignment</title>
-<p>Read Sections 6.1 and 6.2 of <em>Applied Discrete Structures</em></p>
+<p>Read Sections 6.1 and 6.2 of <em>Applied Discrete Structures</em>.  Relations are propositions between two variables that are boolean - they are either true or false.   You've used them many times in the past without necessarily calling them by that name.  For example, <q>less than</q> is a relation on the integers.  <m>3 \lt 6</m> is true, while <m>6 \lt 3</m> is false.  If we imagine all pairs of integers, <m>(a,b)</m>, that make <m>a \lt b</m>  true, that set is identified as the relation <q>less than</q>.</p>
 <question><title>Response Question</title><statement><p> Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones.  Three examples of very important relations are
 <ul>
 <li><p>Less than or equal to,<m>\leq</m>, on the integers,</p></li>
