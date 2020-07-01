@@ -5,7 +5,7 @@
 <idx>Implication</idx>
 <idx>Laws of Logic</idx>
 <section xml:id="reading-7"><title>Reading Assignment</title>
-<p>Read sections 3.3 and 3.4 of Applied Discrete Structures.</p>
+<p>Read sections 3.3 and 3.4 of Applied Discrete Structures. Two propositions may be totally unrelated.  For example, <q>It snowed today.</q> and <q>I played chess today.</q> are likely to be unrelated.  Yet <q>It snowed today.</q> and <q>I played golf today.</q> are two propositions that are related in that it is unlikely that both are true.  In these two sections we introduce the ideas of equivalence and implication, which give us a precise way to talk about how propositions are related.</p>
 <question><title>Response Question</title><statement><p>  Explain why every proposition implies a tautology. </p></statement></question>
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>
