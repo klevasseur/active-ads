@@ -3,7 +3,7 @@
 <title>Atoms and Tuples of Bits</title>
 <idx>Atoms and Tuples of Bits</idx>
 <section xml:id="reading-116"><title>Reading Assignment</title>
-<p>Read Sections 13.4 and 13.5 of <em>Applied Discrete Structures</em></p>
+<p>Read Sections 13.4 and 13.5 of <em>Applied Discrete Structures</em>. For any positive integer, <m>n</m>, the number of different groups of order  <m>n</m> can vary quite a bit. In contrast, the number of Boolean Algebras of order  <m>n</m> is either zero or one. In these two sections, you will see why. </p>
 <question><title>Response Question</title><statement><p>  Consider the lattice of real numbers in the interval <m>[0,1]</m> with the relation <m>\leq</m>.  Does this lattice have any atoms? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li><p>What are the atoms of the lattice of subsets of <m>\{1, 2, 3, 4, 5, 6, 7\}</m> with <m>\subseteq</m>?</p></li>

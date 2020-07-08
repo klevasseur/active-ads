@@ -2,7 +2,7 @@
 <chapter xml:id="chapter_1" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Binary Representation of Positive Integers</title>
 <idx>Binary Representation of Positive Integers</idx><section xml:id="reading-1"><title>Reading Assignment</title>
-<p>Since this is the first class meeting, there is no prior reading.  Half of the class is devoted to explaining the way the class will be run.  Then we will explore the binary representation of positive integers, which is in Section 1.4 of Applied Discrete Structures.  A sheet with the base 10 numbers 1 through 64 and their corresponding binary representations is passed out.  Students are asked to identify patterns.</p>
+<p>Since this is the first class meeting, there is no prior reading.  Half of the class is devoted to explaining the way the class will be run.  Then we will explore the binary representation of positive integers, which is in Section 1.4 of <em>Applied Discrete Structures</em>.  A sheet with the base 10 numbers 1 through 64 and their corresponding binary representations is passed out.  Students are asked to identify patterns.</p>
 </section>
 <section xml:id="questions-1"><title>In-class Exercises</title>
 <p>Work on these in class</p>
