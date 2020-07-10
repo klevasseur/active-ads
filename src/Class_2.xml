@@ -3,10 +3,13 @@
 <title>Sets and Operations on them</title>
 <idx>Sets, and operations on them</idx><section xml:id="reading-2"><title>Reading Assignment</title>
 <p>Before class, read Sections 1.1 and 1.2 of <em>Applied Discrete Structures</em>. There is a lot of terminology and notation in these two sections that is used throughout the book. Whatever aids you personally use to remember them, by all means use them.  </p>
-<question><title>Response Question</title><statement><p>How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?</p></statement></question>
+<!-- 
 <exercises><exercisegroup>
-<introduction><p>Also, turn in solutions to these exercises.</p></introduction> 
-<exercise number="1"><statement>
+ -->
+ <reading-questions>
+<introduction><p>Turn in solutions to these exercises.</p></introduction> 
+<exercise><title>Response Question</title><statement><p>How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?</p></statement></exercise>
+<exercise><statement>
 		<p>  List all elements of the following sets:
 		<ol  label="(a)">
 		<li><p> <m>\{\frac{1}{n} \mid n \in \{3,4,5,6\}\}</m></p></li>
@@ -14,7 +17,7 @@
 		<li><p> <m>\{n^2 \mid  n = -2, -1, 0, 1, 2\}</m></p></li>
 		<li><p> <m>\{n \in  \mathbb{P} \mid n \textrm{ is a  factor of  24 }\}</m></p></li>
 		</ol></p></statement></exercise>
-		<exercise number="2"><statement><p> Let <m>A = \{0, 2, 3\}</m>, <m>B = \{2, 3\}</m>, <m>C = \{1, 5, 9\}</m>, <m>D = \{3, 2\}</m>, and <m>E = \{2, 3, 2\}</m>. Assume that the universal set is <m>U = \{0, 1, 2, . . . , 9\}</m>. Determine which of the
+		<exercise><statement><p> Let <m>A = \{0, 2, 3\}</m>, <m>B = \{2, 3\}</m>, <m>C = \{1, 5, 9\}</m>, <m>D = \{3, 2\}</m>, and <m>E = \{2, 3, 2\}</m>. Assume that the universal set is <m>U = \{0, 1, 2, . . . , 9\}</m>. Determine which of the
 		following are true. Give reasons for your decisions. 
 		<ol cols="2" label="(a)">
 		<li><p>  <m>A = B</m> </p></li>
@@ -27,7 +30,11 @@
 		<li><p>  <m>A \oplus  B = B \oplus  A</m> </p></li>
 		  </ol>
 		</p></statement></exercise>
+</reading-questions>
+
+<!-- 
 	 </exercisegroup></exercises>
+ -->
 </section>
 <section xml:id="questions-2"><title>In-Class Exercises</title>
 <p></p><exercises><exercisegroup>
