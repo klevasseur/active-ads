@@ -73,8 +73,10 @@
 \usetikzlibrary{shapes}
 \usetikzlibrary{through,intersections,decorations,shadows,fadings}
 
+<!-- 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.15}
+ -->
 <!-- 
     \usepackage{tikz}
     \usetikzlibrary{backgrounds}
