@@ -3,7 +3,7 @@
 <title>Algebraic Coding, Part 2</title>
 <idx></idx>
 <section xml:id="reading-122"><title>Reading Assignment</title>
-<p>Read the rest of  Section 15.5 of <em>Applied Discrete Structures</em></p>
+<p>Read the rest of  Section 15.5 of <em>Applied Discrete Structures</em>.  We consider how to correct transmission errors by using redundant information in a coded message.  This avoids having to ask for a message to be resent from the sender.</p>
 <question><title>Response Question</title><statement><p>  Who is Richard Hamming and why am I asking you about him?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ol label="1."><li></li>
