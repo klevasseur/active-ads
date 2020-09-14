@@ -16,8 +16,8 @@
 					</figure>
 <p>		<ol label="(a)">
 				<li><p>Determine the adjacency matrix of <m>s</m>.</p></li>
-				<li><p>Use the matrix you have constructed, find the matrix of <m>s^2</m> using matrix multiplication.</p></li>
-				<li><p>Draw the graph of defined by the matrix product and verify that it is the graph of <m>s^2</m>.</p></li>
+				<li><p>Use the matrix you have constructed to find the matrix of <m>s^2</m>.</p></li>
+				<li><p>Draw the graph defined by the matrix product and verify that it is the graph of <m>s^2</m>.</p></li>
 				<li><p>Determine the matrix of the transitive closure of <m>s</m>.</p></li>
 			</ol>
 			     </p></statement></exercise>
