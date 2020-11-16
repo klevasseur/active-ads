@@ -15,7 +15,7 @@
 			<li><p> <m>s \circ  u\circ  d</m></p></li>
 			<li><p> <m>d \circ  s \circ  u</m></p></li>
 			</ol>
-			Describe each function with a formula.</p></statement></exercise>
+			Describe each function with a formula similar to the way that individual functions <m>s, u \textrm{ and } d</m> were defined.</p></statement></exercise>
 			
 <exercise><statement><p><ul><li><p>Does <m>f:\mathbb{Z} \rightarrow \mathbb{Z}</m> defined by <m>f(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
 			<li><p>Does <m>g:\mathbb{R} \rightarrow \mathbb{R}</m> defined by <m>g(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
@@ -26,8 +26,7 @@
 <p></p>
 <exercises><exercisegroup>
 
-<exercise><statement><p> Let <m>A = \{1, 2, 3\}</m>. Define <m>f:A\rightarrow A</m> by <m>f(1) = 2</m>, <m>f(2) = 3</m>, and <m>f(3) = 1</m>. Find <m>f^2</m>, <m>f^3</m>, <m>f^4</m> and
-<m>f^{-1}</m>.  Describe each of these functions as being equal to a previous one, or in the same manner as <m>f</m> has been described.</p></statement></exercise>
+<exercise><statement><p> Let <m>A = \{1, 2, 3, 4\}</m>. Define <m>f:A\rightarrow A</m> by <m>f(1) = 2</m>, <m>f(2) = 3</m>, <m>f(3) = 4</m>, and <m>f(4) = 1</m>. Find <m>f^2</m>, <m>f^3</m>, <m>f^4</m> and <m>f^{-1}</m>.  You can describe each of these functions as being equal to a previous one, or in the same manner as <m>f</m> was originally described.</p></statement></exercise>
 
 <exercise><statement><p>Prove that if a function has an inverse, that inverse must be unique.</p></statement></exercise>
 
