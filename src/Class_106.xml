@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_106" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Rooted Trees, Binary Trees  (~106~)</title>
+<title>Rooted Trees, Binary Trees  </title>
 <idx></idx>
 <section xml:id="reading-106"><title>Reading Assignment</title>
 <p>Read Sections 10.3 and 10.4 of <em>Applied Discrete Structures</em>. Here we consider some more structured trees in which a specific vertex is designated as the <em>root</em> of the tree.  We see that there are several applications of these trees.  Special attention is given to binary trees, where no more than two edges branch away from the root and any away other vertex that is reached by the root.</p>
@@ -9,7 +9,7 @@
 	<exercises><exercisegroup>
 		
 <exercise><statement><p>Draw all different ordered rooted trees with four vertices.</p></statement></exercise>
-<exercise><statement><p>Construct the expression tree for the expression <m>\frac{a\cdot x + b}{c\cdot x + d}</m>.</p></statement></exercise>
+<exercise><statement><p>Construct the expression trees for the expressions <m>\frac{a\cdot x + b}{c\cdot x + d}</m> and and <m>\frac{a}{c}+\frac{r}{c\cdot x + d}</m>.</p></statement></exercise>
 				</exercisegroup></exercises> 
 </section>
 <section xml:id="questions-106"><title>In-Class Exercises</title>
@@ -25,10 +25,10 @@
 	</p></statement></exercise>
 
 <exercise><statement>
-<sidebyside><p>There is a one to one correspondence between ordered rooted trees.  If you start with an ordered rooted tree, <m>T</m>, you can build a binary tree <m>B</m> with an empty right subtree by placing the the root of <m>T</m> at the root of <m>B</m>.  Then for every vertex <m>v</m> from <m>T</m> that has been placed in <m>B</m>, place it's leftmost child (if there is one) <m>v</m>'s left child in <m>B</m>. Make <m>v</m>'s next sibling (if there is one) in <m>T</m> the right child in <m>B</m>.</p>
+<sidebyside><p>There is a one to one correspondence between ordered rooted trees and binary trees.  If you start with an ordered rooted tree, <m>T</m>, you can build a binary tree <m>B</m> with an empty right subtree by placing the the root of <m>T</m> at the root of <m>B</m>.  Then for every vertex <m>v</m> from <m>T</m> that has been placed in <m>B</m>, place it's leftmost child (if there is one) as <m>v</m>'s left child in <m>B</m>. Make <m>v</m>'s next sibling (if there is one) in <m>T</m> the right child in <m>B</m>.</p>
 		<figure xml:id="fig-ex-ordered-tree"><caption>An ordered rooted tree with root <m>r</m>.</caption>
 		 <image width="25%" source="images/fig-ex-ordered-tree.png">
-			  <description>An ordered rooted tree with root r specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.</description>
+			  <description>An ordered rooted tree with root <m>r</m> specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.</description>
 		 </image>
 		 </figure>
   </sidebyside>

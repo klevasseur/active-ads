@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<publisher>
+--stringparam exercise.divisional.solution "no" 
+--stringparam exercise.divisional.answer  "no"
+</publisher>	

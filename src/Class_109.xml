@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_109" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Properties of Groups (~109~)</title>
+<title>Properties of Groups </title>
 <idx><h>group</h><h>properties</h></idx>
 <section xml:id="reading-109"><title>Reading Assignment</title>
 <p>Read Section 11.3 of <em>Applied Discrete Structures</em>.  In this section we examine some of the basic theorems that follow immediately from the axioms of a group. Reviewing the proofs is a good exercise in solidifying an understanding of the axioms. In most cases, these theorems are applied in later work without explicitly stating them. </p>

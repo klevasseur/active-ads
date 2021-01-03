@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_113" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Isomorphisms (~113~)</title>
+<title>Isomorphisms </title>
 <idx>Isomorphism</idx>
 <section xml:id="reading-113"><title>Reading Assignment</title>
 <p>Read Section 11.7  of <em>Applied Discrete Structures</em>.  We've seen several different groups of order two. Two of them are the group <m>\mathbb{Z}_2</m> and <m>[\{1,-1\}; \cdot]</m>.  There is no denying that these groups are different but from an algebraic point of view, they have all the same properties.   This section makes this observation more precise.  Based on the definitions, these two groups (and all other groups with two elements) are <em>isomorphic</em>.  In studying groups, this is essentially saying they are all equal.</p>

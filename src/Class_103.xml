@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_103" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Data Structures and Connectivity   (~103~)</title>
+<title>Data Structures and Connectivity   </title>
 <idx></idx>
 <section xml:id="reading-103"><title>Reading Assignment</title>
-<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>. The topics in these sections are data structures for graphs and connectivity between vertices in a graph.</p>
 <!-- 
 <question><title>Response Question</title><statement><p>  In most applications to graph theory, the graphs are really too large to draw. One only imagines the graph. For example, imagine a graph representing the residents of a city of 100,000, with an edge between any two persons who live within 50  m. of one another.  Estimate the number of vertices you might have.  If you wanted to draw the graph, estimate how large a  square piece of paper you would need if the vertices were 1 mm. in radius.  </p></statement></question>
  -->

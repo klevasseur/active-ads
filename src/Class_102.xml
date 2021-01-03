@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_102" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Graphs  (~102~)</title>
+<title>Graphs</title>
 <idx>Graphs</idx>
 <section xml:id="reading-102"><title>Reading Assignment</title>
-<p>Read Section 9.1 of <em>Applied Discrete Structures</em>.</p>
+<p>Read Section 9.1 of <em>Applied Discrete Structures</em>. This section introduces some basic terminology and properties of graphs.</p>
 <question><title>Response Question</title><statement><p>The original version of the computer language BASIC on Apple II computers used 16 bits for an integer, one of which was used to specify the sign of the integer.  What would have been the maximum size of an integer in that language?</p>	</statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul>

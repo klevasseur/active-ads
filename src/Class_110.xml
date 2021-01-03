@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_110" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Modular Arithmetic  (~110~)</title>
+<title>Modular Arithmetic  </title>
 <idx>Modular Arithmetic</idx>
 <section xml:id="reading-110"><title>Reading Assignment</title>
 <p>Read Section 11.4 of <em>Applied Discrete Structures</em>. The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>Z_{12}</m>.</p>

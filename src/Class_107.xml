@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_107" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Binary Operations(~107~)</title>
+<title>Binary Operations</title>
 <idx></idx>
 <section xml:id="reading-107"><title>Reading Assignment</title>
-<p>Read Sections 11.1 of <em>Applied Discrete Structures</em>. This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory.   In this first section we review properties of binary operations.</p>
+<p>Read Section 11.1 of <em>Applied Discrete Structures</em>. This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory.   In this first section we review properties of binary operations.</p>
 <question><title>Response Question</title><statement><p>True or False?  Multiplication is an associative operation on the set <m>\{-1,1\}</m>.  Justify your answer.</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
