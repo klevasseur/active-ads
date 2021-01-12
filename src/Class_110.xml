@@ -9,7 +9,7 @@
 <p>Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
 	<exercises><exercisegroup>
 			<exercise>
-				<statement><p>Compute the greatest common divisor of 2028  and 1001.</p>
+				<statement><p>Compute by hand the greatest common divisor of <m>2028</m>  and <m>1001</m>.  Show the calculations you did to get your answer.</p>
 				</statement>
 				<solution><p></p></solution>
 			</exercise>
@@ -23,7 +23,7 @@
 <section xml:id="questions-110"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>Determine the additive and multiplicative inverses of 99 mod 1001</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Compute by hand the additive and multiplicative inverses of 99 mod 1001. Show the calculations you did to get your answer.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
 			<statement><p>Write out the operation table for mod 8 multiplication on
 				 <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
