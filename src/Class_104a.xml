@@ -32,6 +32,12 @@
 			<exercise><statement><p>If a planar graph <m>G</m> with 12 vertices divides the plane into 21 regions, how many edges must <m>G</m> have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
 	<exercise><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
 		<answer><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
+	<exercise><statement><p>Suppose an undirected planar graph <m>G</m> has the following properties:
+	<ul><li><p>All vertices have degree three (this called a <term>cubic graph</term>)</p></li>
+	<li><p>All faces of the graph's planar embedding are hexagons and pentagons; i. e,, they is made up of either five or six edges.</p></li></ul>
+	What can be said about the numbers of hexagons and pentagons in the graph?</p></statement>
+		<answer><p>There must be 12 pentagons. The number of hexagons cannot be determined.</p></answer></exercise>
+		
 
 		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
 	</p></statement><solution><p></p></solution></exercise>

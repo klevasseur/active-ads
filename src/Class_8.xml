@@ -10,7 +10,8 @@
 		
 <exercise><statement><p>Put the following into symbolic form and check its validity: If I am a good person, nothing bad will happen to me. Nothing happened to me. Therefore, I am a good person.</p></statement></exercise>
 		
-<exercise><statement><p>	
+<exercise><statement><p>Give  a direct or indirect proof of:
+<me>p\rightarrow  q, \neg r\rightarrow  \neg q, \neg r \Rightarrow  \neg p</me>	
 		</p></statement></exercise>
 		</exercisegroup></exercises> 
 </section>

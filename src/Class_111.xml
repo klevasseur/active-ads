@@ -3,13 +3,13 @@
 <title>Subsystems</title>
 <idx>Subsystem</idx><idx>Subgroup</idx><idx>Cyclic Subgroup</idx>
 <section xml:id="reading-111"><title>Reading Assignment</title>
-<p>Read Sections 11.5 of <em>Applied Discrete Structures</em>. The main idea is that there are certain subsets of groups that qualify as groups in their own right.  This is an instance of a more general situation in mathematics where a structure can contain smaller structures.  The idea of a subset is the most simple case of this, but we have also seen subgraphs in the study of graphs and trees.  Finding all subgroups of a group isn't always easy, but describing and finding the cyclic subgroups of a group is not too difficult.  Pay close attention how this is done!</p>
-<question><title>Response Question</title><statement><p>Chris says (incorrectly) that <m>[\{1,-1\};\cdot]</m> is not a group because <q>... the <xref ref="def-associative-property" text="title" /> needs three elements to be true.</q>  How would you respond to Chris?</p></statement></question>
+<p>Read Section 11.5 of <em>Applied Discrete Structures</em>. The main idea is that there are certain subsets of groups that qualify as groups in their own right.  This is an instance of a more general situation in mathematics where a structure can contain smaller structures.  The idea of a subset is the most simple case of this, but we have also seen subgraphs in the study of graphs and trees.  Finding all subgroups of a group isn't always easy, but describing and finding the cyclic subgroups of a group is not too difficult.  Pay close attention how this is done!</p>
+<question><title>Response Question</title><statement><p>Let <m>m \mathbb{Z} = \{m \cdot k \mid k \in \mathbb{Z}\}</m>. Chris says that <m>7 \mathbb{Z}</m> is a subgroup of <m>14 \mathbb{Z}</m> because <m>7 \leq 14</m>.   How would you respond to Chris?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>True or false?:  The set of all bit strings that begin with a 1 form a submonoid of the monoid of all bit strings with concatination.</p></statement>
-		<solution><p>The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set.</p></solution></exercise>
-		<exercise><statement><p>True or false?: <m>\{0,25,50,75\}</m> is a subgroup of the additive group <m>\mathbb{Z}_{100}</m>.</p></statement><solution><p></p></solution></exercise>
+		<solution><p>The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set. Explain your answer.</p></solution></exercise>
+		<exercise><statement><p>True or false?: <m>\{0,25,50,75\}</m> is a subgroup of the additive group <m>\mathbb{Z}_{100}</m>. Explain your answer.</p></statement><solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-111"><title>In-Class Exercises</title>
