@@ -4,10 +4,10 @@
 <idx></idx>
 <section xml:id="reading-121"><title>Reading Assignment</title>
 <p> Read the definition of <em>Homomorphism</em> in Section 15.4. Then read Section 15.5 of <em>Applied Discrete Structures</em> up to, but not including, Subsection 15.5.2 Error Correction. After outlining the objectives behind coding theory we first consider how to effectively detect transmission errors.</p>
-<question><title>Response Question</title><statement><p>   If you measure the distance between elements of a set, <m>S</m>, with a function <m>d: S\times S \rightarrow \mathbb{R}</m>, what general properties this distance function would you normally expect? </p></statement></question>
+<question><title>Response Question</title><statement><p>If you measure the distance between elements of a set, <m>S</m>, with a function <m>d: S\times S \rightarrow \mathbb{R}</m>, what general distance properties would you expect of this function?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
-	<ol label="1."><li><em>Linear Codes</em>.  Let <m>m</m> and <m>n</m> be positive integers.  Suppose that <m>G</m> is an <m>m \times n</m> matrix of zeros and ones.  Then we can can define a function <m>e:\mathbb{Z}_2^m \rightarrow \mathbb{Z}_2^n</m> by <m>e(a)=a G</m> where we take <m>a \in \mathbb{Z}_2^m</m> to be a 	<m>1\times m</m> matrix and we perform mod 2 arithmetic in computing the product <m>a G</m>.  Prove that <m>e</m> is a homomorphism.</li>
-		<li><p>The <em>Hamming Distance</em>, <m>d_H</m>, between two strings of bits with the same length is the number positions within the two strings where the strings differ.  For example, <m>d_H(11101,10100)=2</m> because the two strings differ in positions 2 and 5.  What is the minimal Hamming distance between any two strings in the set <m>C =\{00000,11011,11100,00111\}</m> </p></li>
+	<ol label="1."><li><em>Interogating a Liar</em>.  I'm a liar, but not a big one.  In my responses to your yes/no questions, I promise not to lie more than one time.  I'm thinking of a number, either 0 or 1.  How many yes/no questions do you need to ask in order to find out my number? Explain your logic. </li>
+		<li><p>The <em>Hamming Distance</em>, <m>d_H</m>, between two strings of bits with the same length is the number positions within the two strings where the strings differ.  For instance, <m>d_H(11101,10100)=2</m> because the two strings differ in positions 2 and 5.  What is the minimal Hamming distance between any two strings in the set <me>C =\{00000,11011,11100,00111\}?</me> </p></li>
 		</ol>  </p>
 </section>
 <section xml:id="questions-121"><title>In-Class Exercises</title>
@@ -23,7 +23,8 @@
  	</ol>
  	</p>
  </li>	
-<li><p>Suppose we were to send three bits across a binary symmetric channel by first encoding the bits using the function <m>g</m> from the previous problem, producing a sequence of four bits.   After receiving the four bits, the person at the receiving end applies the function <m>p</m> to those bits.   What can we derivive form the output of <m>p</m>?  </p></li></ol>
+<li><p>Suppose we were to send three bits across a binary symmetric channel by first encoding the bits using the function <m>g</m> from the previous problem, producing a sequence of four bits.   After receiving the four bits, the person at the receiving end applies the function <m>p</m> to those bits.   What can we derivive form the output of <m>p</m>?  </p></li>
+<li><em>Linear Codes</em>.  Let <m>m</m> and <m>n</m> be positive integers.  Suppose that <m>G</m> is an <m>m \times n</m> matrix of zeros and ones.  Then we can can define a function <m>e:\mathbb{Z}_2^m \rightarrow \mathbb{Z}_2^n</m> by <m>e(a)=a G</m> where we take <m>a \in \mathbb{Z}_2^m</m> to be a 	<m>1\times m</m> matrix and we perform mod 2 arithmetic in computing the product <m>a G</m>.  Prove that <m>e</m> is a homomorphism.</li></ol>
 </p>
 </section>
 <!-- 
