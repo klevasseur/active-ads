@@ -23,6 +23,7 @@
 			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
 		</ol>
 	</p></statement></exercise>
+<exercise><statement><p>How many binary trees are there having <m>n</m> vertices and an empty right subtree?</p></statement><hint><p>Use the formula for the number of binary trees with <m>n</m> vertices.</p></hint><answer><m>\frac{1}{n} \binom{2(n-1)}{n-1}</m>.</answer></exercise>	
 
 <exercise><statement>
 <sidebyside><p>There is a one to one correspondence between ordered rooted trees and binary trees.  If you start with an ordered rooted tree, <m>T</m>, you can build a binary tree <m>B</m> with an empty right subtree by placing the the root of <m>T</m> at the root of <m>B</m>.  Then for every vertex <m>v</m> from <m>T</m> that has been placed in <m>B</m>, place it's leftmost child (if there is one) as <m>v</m>'s left child in <m>B</m>. Make <m>v</m>'s next sibling (if there is one) in <m>T</m> the right child in <m>B</m>.</p>
@@ -45,7 +46,7 @@
 		 </figure>
 </sidebyside>
 <p><ol label="(a)">
-			<li><p>Why will <m>B</m> have no left children in this correspondence?</p></li>
+			<li><p>Why will <m>B</m> have no right children in this correspondence?</p></li>
 			<li><p>Draw the binary tree that is produced by the ordered rooted tree in <xref ref="fig-ort-to-bt"/>.</p></li>
 			<li><p>Draw the ordered tree that produces the binary tree in <xref ref="fig-bt-to-ort"/>.</p></li>
 			<li><p>The left subtree of the binary tree in <xref ref="fig-bt-to-ort"/> is one of 5 different binary trees with three vertices.  Draw each of them and also the ordered rooted tree that each corresponds with.</p></li>
@@ -66,7 +67,24 @@
 </sidebyside>
 
 
-</statement></exercise>
+</statement>
+<solution>
+<p><ol label="(a)">
+			<li><p>The root of <m>B</m> is the root of the corresponding ordered rooted tree, which as no siblings.</p></li>
+			<li><figure xml:id="fig-ort-to-bt_sol"><caption></caption>
+		 <image  width="40%" source="images/fig-ort-to-bt_sol.png">
+			  <description>Two columns of five graphs</description>
+		 </image>
+		 </figure></li>
+			<li><p>See below</p></li>
+			<li><figure xml:id="fig-tree_correspondence"><caption></caption>
+		 <image  width="70%" source="images/fig-tree_correspondence.png">
+			  <description>Two columns of five graphs</description>
+		 </image>
+		 </figure>	</li>
+			<li><p>The number of ordered rooted trees with <m>n</m> vertices is equal to the number of binary trees with <m>n-1</m> vertices, <m>\frac{1}{n} \binom{2(n-1)}{n-1}</m></p></li>
+</ol></p>
+</solution></exercise>
 
 </exercisegroup></exercises>
 
