@@ -49,8 +49,8 @@
 <statement><p>If <m>a</m>, <m>b</m>, and <m>c</m> are elements of group <m>G</m>, then
  <me>
  \begin{array}{lc}
- \textrm{left cancellation:}&amp; (a * b = a * c)  \Rightarrow b = c\\
- \textrm{right cancellation:}&amp;  (b * a = c * a) \Rightarrow b = c\\
+ \textrm{left cancellation: }&amp; (a * b = a * c)  \Rightarrow b = c\\
+ \textrm{right cancellation: }&amp;  (b * a = c * a) \Rightarrow b = c\\
  \end{array}
  </me>
 </p></statement>
