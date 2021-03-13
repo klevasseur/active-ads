@@ -23,7 +23,17 @@
 			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
 		</ol>
 	</p></statement></exercise>
-<exercise><statement><p>How many binary trees are there having <m>n</m> vertices and an empty right subtree?</p></statement><hint><p>Use the formula for the number of binary trees with <m>n</m> vertices.</p></hint><answer><m>\frac{1}{n} \binom{2(n-1)}{n-1}</m>.</answer></exercise>	
+<exercise>
+	<statement>
+		<p>How many binary trees are there having <m>n</m> vertices and an empty right subtree?</p>
+	</statement>
+	<hint>
+		<p>Use the formula for the number of binary trees with <m>n</m> vertices.</p>
+	</hint>
+	<answer>
+		<p><m>\frac{1}{n} \binom{2(n-1)}{n-1}</m></p>
+	</answer>
+</exercise>	
 
 <exercise><statement>
 <sidebyside><p>There is a one to one correspondence between ordered rooted trees and binary trees.  If you start with an ordered rooted tree, <m>T</m>, you can build a binary tree <m>B</m> with an empty right subtree by placing the the root of <m>T</m> at the root of <m>B</m>.  Then for every vertex <m>v</m> from <m>T</m> that has been placed in <m>B</m>, place it's leftmost child (if there is one) as <m>v</m>'s left child in <m>B</m>. Make <m>v</m>'s next sibling (if there is one) in <m>T</m> the right child in <m>B</m>.</p>

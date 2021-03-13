@@ -21,11 +21,13 @@
 	</exercisegroup></exercises>
 </section>
 <section xml:id="questions-110"><title>In-Class Exercises</title>
-<p></p> 
-<exercises><exercisegroup>
-		<exercise><statement><p>Let <m>n</m> be a positive integer greater than 1.  Show that <m>n-1</m> has a multiplicative inverse mod <m>n</m>. </p></statement><solution><p>Since <m>gcd(n,n-1)=gcd(n-1,1)=1</m>, <m>n-1</m> has a mod <m>n</m> inverse.  In fact, it is its own inverse.</p></solution></exercise>
-		<exercise>
-		<exercise><statement><p>Compute by hand the additive and multiplicative inverses of 653 mod 1001. Show the calculations you did to get your answer.</p></statement><solution><p></p></solution></exercise>
+<p>  </p> 
+<exercises>
+	<exercisegroup>
+		<exercise><statement><p>Let <m>n</m> be a positive integer greater than 1.  Show that <m>n-1</m> has a multiplicative inverse mod <m>n</m>. </p></statement>
+		<solution><p>Since <m>gcd(n,n-1)=gcd(n-1,1)=1</m>, <m>n-1</m> has a mod <m>n</m> inverse.  In fact, it is its own inverse.</p></solution></exercise>
+		<exercise><statement><p>Compute by hand the additive and multiplicative inverses of 653 mod 1001. Show the calculations you did to get your answer.</p></statement>
+		<solution><p></p></solution></exercise>
 		<exercise>
 			<statement><p>Write out the operation table for the multiplicative group of integers mod 8  on
 				 <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
@@ -38,12 +40,11 @@
 			</statement>
 			<solution><p></p></solution>
 		</exercise>
-
 		<exercise>
 			<statement><p>Find a formula for the inverse of the function 
 			<m>g: \mathbb{Z}_{29} \rightarrow  \mathbb{Z}_{29}</m>
 			 where <m>g(a)= 5\times_{29}a +_{29}25</m>.  Suggestion:  You can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
-			</statement>
+			</statement><answer><p><m>g^{-1}(a) = 6 \times_{29}(a +_{29} 4)</m></p></answer>
 			<solution><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>

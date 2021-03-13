@@ -7,7 +7,7 @@
 <question><title>Response Question</title><idx>Fáry, István</idx><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>Although a <m>K_{3,3}</m> it is not planar, it can be embedded on a torus without any edge crossings.  This is demonstrated in the video <url ref="https://www.youtube.com/watch?v=k2O0Av_8_fo">https://www.youtube.com/watch?v=k2O0Av_8_fo</url>.  Watch the video and then dermine whether you can embed a <m>K_5</m> on a torus without any edge crossings.</p></statement><solution><p>_</p></solution></exercise>
+		<exercise><statement><p>Although a <m>K_{3,3}</m> it is not planar, it can be embedded on a torus without any edge crossings.  This is demonstrated in the video <url href="https://www.youtube.com/watch?v=k2O0Av_8_fo">https://www.youtube.com/watch?v=k2O0Av_8_fo</url>.  Watch the video and then dermine whether you can embed a <m>K_5</m> on a torus without any edge crossings.</p></statement><solution><p>_</p></solution></exercise>
 		<exercise><statement><p>Find a coloring of the following graph with as few colors as possible.  Use the letters <m>A,B,C,  \dots</m>> for colors and submit your answer in the form of a partition of <m>\{1,2,\dots, 8\}</m>:
 <me>\{\textrm{set of vertices with color }A, \textrm{set of vertices with color }B, \dots\}</me> 
 
