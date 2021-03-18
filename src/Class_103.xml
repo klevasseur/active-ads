@@ -42,8 +42,8 @@
  2 &amp; 1 &amp; 3 &amp; 3 &amp; 3 &amp; 2 &amp; 1 &amp; 4 &amp; 2 &amp; 2 &amp; 3 &amp; 0 \\
 \end{array}
 \right)
-Can you construct the graph form this matrix?	</me>
-	</p></statement><answer><p>The diameter is 5, the radius is 3, and the center is <m>\{4,11\}</m>.</p></answer></exercise>
+</me>
+Can you construct the graph from this matrix?</p></statement><answer><p>The diameter is 5, the radius is 3, and the center is <m>\{4,11\}</m>.</p></answer></exercise>
 
 	
 	
