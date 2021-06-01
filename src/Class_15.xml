@@ -15,7 +15,7 @@ Discuss any similarities you see between these three relations.<m>\vspace{10pt}<
 <p>Also, turn in solutions to these exercises:</p> 
 	<exercises><exercisegroup>
 		
-<exercise><statement><p>Consider the two relations on people: <m>M</m>, where <m>aMb</m> if <m>a</m>'s mother is <m>b</m>; and <m>S</m>, where  <m>aSb</m> if <m>a</m> and <m>b</m> are siblings.  Describe, in words, the two relations <m>MS</m> and <m>SM</m>.</p></statement></exercise>
+<exercise><statement><p>Consider the two relations on people: <m>M</m>, where <m>aMb</m> if <m>a</m>'s mother is <m>b</m>; and <m>S</m>, where  <m>aSb</m> if <m>a</m> and <m>b</m> are siblings.  Describe, in words, the two relations <m>MS</m> and <m>SM</m> in simple English terms.</p></statement></exercise>
 		
 <exercise><statement><p> Let <m>A = \{1,2,3,4,6,12\}</m>.  Draw a digraph for the relation <q>divides</q> on <m>A</m>.</p></statement></exercise>
 	</exercisegroup></exercises>
