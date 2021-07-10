@@ -25,7 +25,7 @@
 	</titlepage>
 
 	<colophon>
-		<edition> version 0.1</edition>
+		<edition> version 1.0</edition>
 		<website>
 			<name>discretemath.org</name>
 			<address>http://discretemath.org</address>
@@ -33,7 +33,7 @@
 
 
 		<copyright>
-			<year>2020</year>
+			<year>2021</year>
 			<holder>Ken Levasseur</holder>
 			<minilicense>Creative Commons Attribution-Noncommercial-ShareAlike 3.0 United States License. 2011-2017</minilicense>
 <!-- 
