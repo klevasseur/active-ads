@@ -23,7 +23,7 @@
  	</ol>
  	</p>
  </li>	
-<li><p>Suppose we were to send three bits across a binary symmetric channel by first encoding the bits using the function <m>g</m> from the previous problem, producing a sequence of four bits.   After receiving the four bits, the person at the receiving end applies the function <m>p</m> to those bits.   What can we derivive form the output of <m>p</m>?  </p></li>
+<li><p>Suppose we were to send three bits across a binary symmetric channel by first encoding the bits using the function <m>g</m> from the previous problem, producing a sequence of four bits.   After receiving the four bits, the person at the receiving end applies the function <m>p</m> to those bits.   What can we derive from the output of <m>p</m>?  </p></li>
 <li><em>Linear Codes</em>.  Let <m>m</m> and <m>n</m> be positive integers.  Suppose that <m>G</m> is an <m>m \times n</m> matrix of zeros and ones.  Then we can can define a function <m>e:\mathbb{Z}_2^m \rightarrow \mathbb{Z}_2^n</m> by <m>e(a)=a G</m> where we take <m>a \in \mathbb{Z}_2^m</m> to be a 	<m>1\times m</m> matrix and we perform mod 2 arithmetic in computing the product <m>a G</m>.  Prove that <m>e</m> is a homomorphism.</li></ol>
 </p>
 </section>
