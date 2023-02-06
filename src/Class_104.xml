@@ -8,13 +8,13 @@
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>In answering the question <q>Is every Eulerian graph also Hamiltonian?</q> Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once.  He concluded that this graph can't be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is <q>No!</q> Is his answer correct? Is his reasoning correct?  Explain your answers.</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>How many different Hamiltonian circuits are there of a <m>K_n</m>, <m>k \geq 3</m>, that start with the edge <m>(1,2)</m>?</p></statement><solution><p>There are <m>(n-2)!</m> circuits as described. </p></solution></exercise>
+		<exercise><statement><p>How many different Hamiltonian circuits are there of a <m>K_n</m>, <m>n \geq 3</m>, that start with the edge <m>(1,2)</m>?</p></statement><solution><p>There are <m>(n-2)!</m> circuits as described. </p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
-		<exercise><statement><p>For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that the numbers every two touching ends have matching numbers?
+		<exercise><statement><p>For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that touching ends have matching numbers and the numbers at the two ends of the line match?
 		<ol label="(a)">
 		<li><figure><caption/><image width="100%" source="images/dominos1.png">
 			  <description>Twelve dominos with numbered pairs {3,7},{2,6},{1,7},{1,2},{2,3},{1,6},{3,5},{3,6},{2,7},{1,4},{4,5} and {6,7}.</description>

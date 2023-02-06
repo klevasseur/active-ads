@@ -26,8 +26,7 @@
 		 </sidebyside></statement><solution><p></p></solution></exercise>
  		</exercisegroup></exercises>
 </section>
-<section xml:id="questions-104a"><title>In-Class Exercises</title>
-<p></p> 
+<section xml:id="questions-104a"><title>In-Class Exercises</title> 
 <exercises><exercisegroup>
 			<exercise><statement><p>If a planar graph <m>G</m> with 12 vertices divides the plane into 21 regions, how many edges must <m>G</m> have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
 	<exercise><idx>Cubic Graph</idx><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
@@ -44,7 +43,7 @@
 		<exercise><idx>chromatic polynomial of a graph</idx><statement><p>The chromatic polynomial of a graph, <m>G</m> is a polynomial <m>g(x)</m> such that for each positive integer <m>n</m>, <m>g(n)</m> equals the number of different ways you can color <m>G</m> with <m>n</m> colors.  For example, the chromatic polynomial of a <m>K_3</m> is <m>x(x-1)(x-2)</m>.
 		<ol label="(a)">
 		<li><p>What is the chromatic polynomial of a <m>K_4</m>?</p></li>
-		<li><p>What is the chromatic polynomial of a <m>C_4</m>, a cycle with four vertices?</p></li>
+		<li><p>What is the chromatic polynomial of a <m>C_4</m>, a 4-cycle?</p></li>
 		<li><p>What is the chromatic polynomial of a <m>K_{3,3}</m>?</p></li>
 		<li><p>How are the chromatic number and the chromatic polynomial of a graph related?</p></li>
 		</ol></p></statement><solution><p><ol label="(a)">
