@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math"><div class="solution solution-like">
+<div class="para">Let <span class="process-math">\(p(n)\)</span> be the proposition <span class="process-math">\(\sum_{k=0}^{n} 2^k = 2^{n+1}-1\text{,}\)</span> <span class="process-math">\(n\geq 0\text{.}\)</span>  The basis of an induction proof that this proposition is a tautology is to observe that if <span class="process-math">\(n=0\)</span> we have <span class="process-math">\(2^0 = 2^{0+1}-1\text{,}\)</span> which is true.</div> <div class="para logical">
+<div class="para">Now the induction step of the proof calls for assuming that for some <span class="process-math">\(n \geq 0\text{,}\)</span> <span class="process-math">\(p(n)\)</span> is true (this is the “induction hypothesis”).   We then proof that <span class="process-math">\(p(n+1)\)</span> follows from the induction hypothesis.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{split}
+\sum_{k=0}^{n+1} {2^k} &amp;= \sum_{k=0}^n {2^k} +2^{n+1}\\
+&amp;= (2^{n+1}-1) + 2^{n+1} \quad\quad\textrm{by the induction hypothesis}\\
+&amp;= 2^{n+2}-1\\ 
+&amp;= 2^{(n+1)+1}-1
+\end{split}
+\end{equation*}
+</div>
+<div class="para">and we are done!</div>
+</div>
+</div></body>
+</html>
