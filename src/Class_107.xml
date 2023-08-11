@@ -17,14 +17,14 @@
 		<exercise><statement><p>What properties that are introduced in Secton 11.1 are true of intersection on the power set of <m>\{0,1\}</m>?.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
 		<statement><p>Consider the  operation <m>\square</m> on the  integers defined by  <me>a \square b  = a+b-1.</me>  
-	<ol label="(a)">
+	<ol marker="(a)">
 		<li><p> Is <m>\square</m> associative?</p></li>
 		<li><p>Does  <m>\square</m> have an identity in the positive integers?</p></li>
 		<li><p> Does  <m>\square</m> have the inverse property?</p></li>
 		</ol></p>
 		</statement>
 		<solution><p>
-		<ol label="(a)">
+		<ol marker="(a)">
 		<li><p>Yes, it is associative: 
 		<md>
 		<mrow>(a \square b)\square c= (a+b-1)\square c = a+b-1+c-1 = a+b+c-2</mrow>

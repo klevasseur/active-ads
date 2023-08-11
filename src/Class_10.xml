@@ -8,7 +8,7 @@
 <p>Also, turn in solutions to these exercises: </p>
 	<exercises><exercisegroup>
 <exercise><statement> <p>Let <m>M(x)</m> be <q><m>x</m> is a mammal,</q> let <m>A(x)</m> be <q><m>x</m> is an animal,</q> and let <m>W(x)</m> be <q><m>x</m> is warm-blooded.</q></p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p>Translate into a formula: Every mammal is warm-blooded.</p></li>
 <li><p>Translate into English: <m>(\exists x)(A(x) \land  (\neg M(x)))</m>.</p></li>
 </ol>
@@ -24,7 +24,7 @@
 
 <exercise><statement><p>
         Translate the following statement over the positive integers into symbols. Use <m>E(x)</m> for <q><m>x</m> is even</q> and <m>O(x)</m> for <q><m>x</m> is odd</q> in the first three parts.
-       <ol label="(a)">
+       <ol marker="(a)">
           <li><p>No number is both even and odd. </p></li>
           <li><p>One more than any even number is an odd number.</p></li>
           <li><p>There is prime number that is even. </p></li>

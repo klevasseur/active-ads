@@ -12,9 +12,9 @@
 </section>
 <section xml:id="questions-28"><title>In-Class Exercises</title>
 <p>
-<ol label="1.">
+<ol marker="1.">
 	<li><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
-		<ol label="(a)">
+		<ol marker="(a)">
 			<li><p>Draw the <m>\binom{5}{1}</m> and <m>\binom{5}{2}</m> trees.</p></li>
 			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
 	</p></li>

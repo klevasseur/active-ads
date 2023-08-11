@@ -9,7 +9,7 @@
 <exercises><exercisegroup>
 	<exercise><statement><p>
 For each of the following propositions, identify simple propositions, express the compound proposition in symbolic form, and determine whether it is true or false:</p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p>The world is flat or zero is an even integer.</p></li>
 <li><p>If 432,802 is a multiple of 4, then 432,802 is even.</p></li>
 <li><p>5 is a prime number and 6 is not divisible by 4. </p></li>
@@ -18,7 +18,7 @@ For each of the following propositions, identify simple propositions, express th
 <li><p>The sum of two even integers is even and the sum of two odd integers is odd.</p></li>
 </ol></p></statement></exercise>
 		<exercise><statement><p>Construct the truth tables of:
-<ol label="(a)" cols="2">
+<ol marker="(a)" cols="2">
 <li><p>  <m>\neg (p\land  q )</m></p></li>
 <li><p> <m>(p \land q)\land r</m> </p></li>
 </ol></p></statement></exercise>
@@ -28,7 +28,7 @@ For each of the following propositions, identify simple propositions, express th
 <p></p>
 <exercises><exercisegroup>
   <exercise><statement><p>Reword the following statements into <q>If...then</q> statements.
-		<ol label="(a)">
+		<ol marker="(a)">
 		<li><p>No resident of Chelmsford likes hot peppers.</p></li>
 		<li><p>For 3+7=10, it is necessary that cows fly.</p></li>
 		<li><p>For 3+7=10, it is sufficient that cows fly.</p></li>
@@ -39,7 +39,7 @@ For each of the following propositions, identify simple propositions, express th
   <exercise><statement> <p>Construct the truth table for <m>(p \lor q) \land (p\lor \neg q)</m>.   Notice anything about the result?</p></statement></exercise>
    <exercise><statement><p>
 Consider the statement “If Boris visits Hampton Beach, then he eats fried clams.”
-			<ol label="(a)">
+			<ol marker="(a)">
 				<li> <p>Write the converse of the statement.</p></li>
 				<li> <p>Write the contrapositive of the statement.</p></li>
 				<li> <p>Is it possible for the contrapositive to be false? If it was, what would that tell you?</p></li>
@@ -50,7 +50,7 @@ Consider the statement “If Boris visits Hampton Beach, then he eats fried clam
 <exercise><statement> <p>
         Consider the statement,
         <q>If a number is triangular or square, then it is not prime</q>
-        <ol label="(a)">
+        <ol marker="(a)">
           <li><p>Make a truth table for the statement <m>(T \vee S) \rightarrow \neg P</m>.</p> </li>
           <li> <p>If you believed the statement was false,
               what properties would a counterexample need to possess?

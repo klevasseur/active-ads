@@ -18,7 +18,7 @@
 <p> </p>
 <exercises>
 <exercise><statement><p>Consider the poset <m>(D_{50},\mid)</m>, where <m>D_{50} = \{1,2,5,10,25,50\}</m>.
-<ol label="(a)">
+<ol marker="(a)">
 <li><p>   Find all lower bounds of 10 and 25.</p></li>
 <li><p>   Find the greatest lower bound  of 10 and 25.</p></li>
 <li><p>   Find all upper bounds of 10 and 25.</p></li>
@@ -31,7 +31,7 @@
 <exercise>
 <statement><p> We naturally order the numbers in <m>A_m = \{1, 2, . . . , m\}</m> with <q>less than or equal to,</q> which is a partial ordering. We define an ordering, <m>\preceq</m>  on the elements of <m>A_m \times  A_n</m> by
  <me>(a, b) \preceq  (a', b') \Leftrightarrow a \leq  a' \textrm{ and } b \leq  b'</me>
-<ol label="(a)">
+<ol marker="(a)">
 <li><p> Prove that <m>\preceq</m> is a partial ordering on <m>A_m \times  A_n</m>.</p></li>
 <li><p> Draw the ordering diagrams for <m>\preceq</m> on <m>A_2 \times  A_2</m>, <m>A_2\times  A_3</m>, and <m>A_3 \times  A_3</m>.</p></li>
 <li><p>In general, how does one determine the least upper bound  and greatest lower bound of two elements of <m>A_m \times  A_n</m>, <m>(a, b)</m> and <m>(a',b')</m>?</p></li>

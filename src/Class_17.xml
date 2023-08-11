@@ -14,7 +14,7 @@
 					<description>A graph with six vertices defined by the dictionary {1:[3,5],2:[4],3:[4],4:[6],5:[4],6:[2]}</description>
 					</image>
 					</figure>
-<p>		<ol label="(a)">
+<p>		<ol marker="(a)">
 				<li><p>Determine the adjacency matrix of <m>s</m>.</p></li>
 				<li><p>Use the matrix you have constructed to find the matrix of <m>s^2</m>.</p></li>
 				<li><p>Draw the graph defined by the matrix product and verify that it is the graph of <m>s^2</m>.</p></li>
@@ -83,7 +83,7 @@ S =
 </p>
 
 
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p> compute <m>S R</m> using Boolean arithmetic and give an interpretation of the relation it defines, and</p></li>
 <li><p> compute <m>S R</m> using regular arithmetic and give an interpretation of what the result describes.</p></li>
 </ol></p></statement></exercise>
@@ -112,18 +112,18 @@ S =
 \end{array}
 \right) \\
 \end{array}</m></p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p> Explain why <m>r</m> is a partial ordering on <m>A</m>.</p></li>
 <li><p> Draw its Hasse diagram.</p></li>
 </ol></p></statement></exercise>
 
 <exercise><statement><p> What common relations on <m>\mathbb{Z}</m> are the transitive closures of the following relations?</p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p> <m>a S b</m> if and only if <m>a + 1 = b</m>.</p></li>
 <li><p> <m>a R b</m> if and only if <m>| a - b | = 2</m>.</p></li>
 </ol></p></statement></exercise>
 
-<exercise><statement><p><ol label="(a)">
+<exercise><statement><p><ol marker="(a)">
 <li><p>Prove that if <m>r</m> is a transitive relation on a set <m>A</m>, then <m>r^2 \subseteq  r</m>. </p></li>
 <li><p> Find an example of a transitive relation for which <m>r^2\neq r</m>.</p></li>
 </ol></p></statement></exercise>

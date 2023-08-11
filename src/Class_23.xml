@@ -37,7 +37,7 @@
  <idx>Inclusion-Exclusion, Laws of </idx>
 <statement>
 <p>Given finite sets <m>A_1, A_2, A_3</m>, then
-<ol label="(a)">
+<ol marker="(a)">
 <li xml:id="ie2"><p>The Two Set Inclusion-Exclusion Law:<me> \lvert A_1 \cup A_2 \rvert =\lvert A_1 \rvert + \lvert A_2 \rvert - \lvert A_1 \cap A_2 \rvert  </me></p></li>
 <li xml:id="ie3"><p>The Three Set Inclusion-Exclusion Law:
 <me> 

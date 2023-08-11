@@ -26,7 +26,7 @@
 		
 <exercise><statement><p>
 		In these two Lewis Carroll puzzles, you are given premises and are expected to form your own conclusion.  In each of them, convert the premises to symbolic form, draw a conclusion, and then translate back to English.
-			<ol label="(a)"><li>
+			<ol marker="(a)"><li>
 					<ul><li>No bald creature needs a hairbrush.</li>
 						<li>No lizards have hair.</li></ul>
 					</li>

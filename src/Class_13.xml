@@ -18,13 +18,13 @@
  3 &amp; -5 \\
 \end{array}
 \right)</m> </p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li><p> Compute <m>A B</m> and <m>B A</m>.</p></li>
 <li><p> Compute <m>A + B</m> and <m>B + A</m>.</p></li>
 </ol></p></statement></exercise>		
 <exercise><statement><p> For the given matrices <m>A</m> find <m>A^{-1}</m> if it exists and verify that <m>A A^{-1}=A^{-1}A = I</m>. If <m>A^{-1}</m> does not exist
 explain why.</p>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 <li> <m>A =\left(
 \begin{array}{cc}
  2 &amp; -1 \\
@@ -69,7 +69,7 @@ explain why.</p>
 										\end{array}
 										\right).</me>
 						The notation <m>A^t</m> is used for the transpose of <m>A</m>.
-			          <ol label="(a)">
+			          <ol marker="(a)">
 			          		<li><p>If <m>A</m> is an <m>m \times n</m> matrix, are the products <m>A A^t</m>
 			          		 and <m>A^t A </m> defined?  What are the orders of the products that are 
 			          		 defined?</p></li>
@@ -118,7 +118,7 @@ explain why.</p>
 				\right)</me>
 				These amounts are <q>made up</q>, so don't used them to do your own baking!</p>
 				<p>
-				<ol  label="(a)">
+				<ol  marker="(a)">
 						<li><p>How many cups of flour will the bakery need every Monday?  Pay close attention to how you compute your answer and the units of each number.</p></li>
 						<li><p>How many eggs will the bakery need every Wednesday?</p></li>
 						<li><p> Compute the matrix product <m>D P</m>.   What do you notice? </p></li> 

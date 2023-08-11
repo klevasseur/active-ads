@@ -19,7 +19,7 @@
 <p></p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>  Determine the following values in the group <m>\mathbb{Z}_3 \times  \mathbb{R}^*</m>.  First, make sure you know what operations are involved in the two <q>factors</q> of this direct product.
-		<ol label="(a)">
+		<ol marker="(a)">
 		<li><p> <m>(2,1)* (1,2)</m></p></li>
 		<li><p>  the identity element</p></li>
 		<li><p> <m>(1, 1/2)^{-1}</m></p></li> 

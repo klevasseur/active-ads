@@ -21,7 +21,7 @@
 		</p>
 		<p>The function <m>\chi_S</m> is called the <term>characteristic function</term><idx>Characteristic function</idx> of <m>S</m>.</p>
 		<p>Suppose <m>A = \{a, b, c\}</m>.
-		<ol label="(a)"> 
+		<ol marker="(a)"> 
 		<li><p>If  <m>S = \{a, b\}</m>, list the elements of <m>\chi_S</m> .</p></li>
 		<li><p>What are <m>\chi_{\emptyset}</m> and <m>\chi_A</m>?</p></li>
 		</ol></p>
@@ -33,7 +33,7 @@
 <exercises><exercisegroup>
 	
 <exercise><statement><p>Define functions on the positive integers, <m>\mathbb{P}</m>, if they exist, that have the properties specified below.
-	      <ol label="(a)">
+	      <ol marker="(a)">
 			<li><p> A function that is one-to-one and onto.</p></li>
 			<li><p> A function that is neither one-to-one nor onto.</p></li>
 			<li><p> A function that is one-to-one but not onto.</p></li>

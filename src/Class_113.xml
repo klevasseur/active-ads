@@ -26,7 +26,7 @@
 		<p>Although <m>\mathbb{Z}_6</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_3</m> are both groups of order six and are isomophic, <m>\mathbb{Z}_8</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_4</m> are not isomophic even though they both have order eight.  Find a reason why this is the case.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
 		<statement><p>Think about how you might represent a file of nonzero real numbers that you plan to multiply together with a computer so that the sign of each number is seperate from its magnitude.
-		<ol label="(a)">
+		<ol marker="(a)">
 			<li><p>Prove that <m>\mathbb{R}^*</m> is isomorphic to <m>\mathbb{Z}_2 \times  \mathbb{R}</m>.</p></li>
 			<li><p> Describe how multiplication of nonzero real numbers can be accomplished doing only additions. </p></li>
 		</ol></p></statement></exercise>

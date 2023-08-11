@@ -7,7 +7,7 @@
 <question><title>Response Question</title><statement><p>Who was Claude Shannon and what is his connection with coding theory?  </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	
-<ol label="1.">
+<ol marker="1.">
 		<li><p>What is the minimum Hamming distance between code words in the set <m>\{11100,00111,10001,01010\}</m>?  	
 				Without doing any calculation, how can you tell 
 					<me>\{11100,00111,10001,01010\}</me> 
@@ -21,7 +21,7 @@
 </section>
 <section xml:id="questions-122"><title>In-Class Exercises</title>
 <p>
-<ol label="1.">
+<ol marker="1.">
 <li><p>Suppose a two bit message is encoded into a five bit message using the function <m>e(b_{1}b_{2})=b_{1}b_{1}(b_{1}+_2 b_{2})b_{2}b_{2}</m>.  Determine a matrix <m>P</m> such that if a two bit message, <m>b = b_{1}b_{2}</m>, is encoded and <m>e(b)</m> transmitted, then any single bit error in the received string <m>c=c_{1}c_{2}c_{3}c_{4}c_{5}</m> can be identified by whether <m>c P</m> is the zero vector or not.</p></li>
 
 <li><p>Consider the  linear code defined by the generator matrix
@@ -32,7 +32,7 @@
 \end{array}
 \right)</me></p>
 <p>
-<ol label="(a)">
+<ol marker="(a)">
 <li><p>  What size blocks does this code encode and what is the length of the code words?</p></li>
 <li><p>  What are the code words for this code?</p></li>
 <li><p>  With this code, can you detect single bit errors?  Can you correct all, some, or no single bit errors?</p></li>
@@ -60,9 +60,9 @@
 \end{array}</me>
 and the code word is the string 11001110.</p>
 <p>
-<ol label="(a)">
+<ol marker="(a)">
 <li><p>Suppose that you were sent four bit messages using this code and you received the following strings.  What were the messages, assuming no more than one error in the transmission of coded data?
-			<ol label="(i)" cols="3">
+			<ol marker="(i)" cols="3">
 			<li><p>11011000</p></li>
 			<li><p>01110010</p></li>
 			<li><p>10001111</p></li>

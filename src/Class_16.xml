@@ -17,7 +17,7 @@
 <exercises><exercisegroup>
 	
 <exercise><statement><p>Let <m>A = \{a, b, c, d\}</m>. Draw the graphs of relations on <m>A</m> where:
-			<ol label="(a)">
+			<ol marker="(a)">
 			<li><p> The first relation is  reflexive, symmetric, but not transitive.</p></li>
 			<li><p> The second relation is transitive, but not symmetric and not reflexive.</p></li>
 			<li><p> The third relation is both an equivalence relation and a partial ordering.</p></li>
@@ -26,7 +26,7 @@
 	
 <exercise><statement><p> Let <m>A = \{0, 1, 2, 3\}</m> and let
 <me>r = \{(0, 0), (1, 1), (2, 2), (3, 3), (1, 2), (2, 1), (3, 0), (0, 3)\}</me>
-<ol label="(a)">
+<ol marker="(a)">
 <li><p>Verify that <m>r</m> is an equivalence relation on <m>A</m>.</p></li>
 <li><p>Let <m>a \in A</m> and define <m>c(a) = \{b \in A \mid a rb\}</m>.
 <notation><usage>c(a)</usage><description>the equivalence class of <m>a</m> under <m>r</m></description></notation> <m>c(a)</m> is called the <term>equivalence class of <m>a</m> under <m>r</m></term><idx>Equivalence Class</idx>. Find <m>c(a)</m> for each element <m>a \in A</m>.</p></li>
@@ -38,7 +38,7 @@
 <exercise><statement><p>Describe the equivalence classes under the relation congruence modulo 10 on the integers.</p></statement></exercise>
 	
 <exercise><statement><p>Let <m>A</m> be the set of strings of 0's and 1's of length 3 or less; and let <m>B</m> be the set of strings of 0's and 1's of length 3. What properties do the following relations have? 
-			<ol label="(a)"><li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 w 100</m>, but <m>01 w 101</m> is false. </li>
+			<ol marker="(a)"><li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 w 100</m>, but <m>01 w 101</m> is false. </li>
 			<li>Define the the relation <m>d</m>  on <m>B</m> defined by <m>x d y</m> if <m>x</m> differs from <m>y</m> in exactly one position. For example, <m>100 d 101</m>, but <m>100 d 111</m> is false.</li>
 			<li>Define the the relation <m>c</m> defined  on <m>A</m> by <m>x c y</m> if <m>x</m> is contained within <m>y</m>. For example, <m>10 c 101</m>, but <m>11 c 101</m> is false.</li>
 			</ol>

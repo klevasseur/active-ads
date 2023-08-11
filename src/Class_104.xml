@@ -15,7 +15,7 @@
 <p></p> 
 <exercises><exercisegroup>
 		<exercise><statement><p>For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that touching ends have matching numbers and the numbers at the two ends of the line match?
-		<ol label="(a)">
+		<ol marker="(a)">
 		<li><figure><caption/><image width="100%" source="images/dominos1.png">
 			  <description>Twelve dominos with numbered pairs {3,7},{2,6},{1,7},{1,2},{2,3},{1,6},{3,5},{3,6},{2,7},{1,4},{4,5} and {6,7}.</description>
 		 </image></figure>	</li>

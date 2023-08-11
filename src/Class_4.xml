@@ -18,7 +18,7 @@
 <exercise number="1"><statement><p>How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would be counted, but 214 would not be counted.</p></statement></exercise>
 <exercise number="2"><statement><p>How many positive integers divide evenly into <m>67,500=2^2 3^3 5^4</m>? </p></statement></exercise>
 <exercise number="3"><statement><p>The manager of a baseball team has decide on the batting order of his team.  He has selected the nine batters already.
-		<ol label="(a)">
+		<ol marker="(a)">
 			<li>How many ways could he select a batting order?</li>
 			<li>He decides that the catcher must bat before the shortstop?  How many ways can he select a batting order now?</li>
 			<li>In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman.  How many ways can the manager select a batting order now?</li>

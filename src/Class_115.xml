@@ -17,9 +17,9 @@
 <description>A diamond-shaped lattice with four vertices.</description></image>
 </figure>
 <p>
-<ol label="1.">
+<ol marker="1.">
 <li> <p>Consider the lattices of divisors of 6, 12, 16, and 30, with the partial ordering <q>divides</q>.
-<ol label="(a)">
+<ol marker="(a)">
 <li><p>Determine which elements of <m>D_6</m> have a complement.</p></li>
 <li><p>Determine which elements of <m>D_{12}</m> have a complement.</p></li>
 <li><p>Determine which elements of <m>D_{16}</m> have a complement.</p></li>

@@ -18,7 +18,7 @@
 <exercise><statement><p>Given the list of data <c>[483,569,150,649,659,198,356,241,359,930]</c>, insert the data sequentially into a binary sorting tree.</p></statement></exercise>		
 <exercise><statement><p>List the vertices in a postorder traversal of the  expression tree of <m>\frac{a x + b}{c x + d}</m>.</p></statement></exercise>	
 <exercise><statement><p>Suppose <m>0 \lt k \lt n</m>. Define the <m>\binom{n}{k}</m>-tree to be the binary tree with <m>\binom{n}{k}</m> at its root and left and right subtrees having roots <m>\binom{n-1}{k-1}</m> and <m>\binom{n-1}{k}</m>, respectively. If <m>k=0</m> or <m>k=n</m>, then the <m>\binom{n}{k}</m>-tree is a leaf containing the number 1.  
-		<ol label="(a)">
+		<ol marker="(a)">
 			<li><p>Draw the <m>\binom{5}{1}</m> and <m>\binom{5}{2}</m> trees.</p></li>
 			<li><p>How many leaves does a <m>\binom{n}{k}</m>-tree contain?  Prove your answer.</p></li>
 		</ol>
@@ -55,7 +55,7 @@
 		 </image>
 		 </figure>
 </sidebyside>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 			<li><p>Why will <m>B</m> have no right children in this correspondence?</p></li>
 			<li><p>Draw the binary tree that is produced by the ordered rooted tree in <xref ref="fig-ort-to-bt"/>.</p></li>
 			<li><p>Draw the ordered tree that produces the binary tree in <xref ref="fig-bt-to-ort"/>.</p></li>
@@ -79,7 +79,7 @@
 
 </statement>
 <solution>
-<p><ol label="(a)">
+<p><ol marker="(a)">
 			<li><p>The root of <m>B</m> is the root of the corresponding ordered rooted tree, which as no siblings.</p></li>
 			<li><figure xml:id="fig-ort-to-bt_sol"><caption></caption>
 		 <image  width="40%" source="images/fig-ort-to-bt_sol.png">

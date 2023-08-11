@@ -31,7 +31,7 @@ what are <m>st</m> and <m>ts</m>? Hint: Even when a relation involves infinite s
 partial graphs.</p></statement></exercise>
 
 <exercise><statement><p>Let <m>A</m> be the set of strings of 0's and 1's of length 3 or less.  This includes the empty string, <m>\lambda</m>, which is the only string of length zero.	
-		<ol label="(a)"><li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 w 100</m>, but <m>01 w 101</m> is false. Draw a digraph for this relation. </li>
+		<ol marker="(a)"><li>Define the relation of <m>w</m> on <m>A</m> by <m>x w y</m> if <m>x</m> has the same number of 1's as <m>y</m>. For example, <m>01 w 100</m>, but <m>01 w 101</m> is false. Draw a digraph for this relation. </li>
 		<li> Do the same for the relation <m>p</m> defined by <m>x p y</m> if <m>x</m> is a prefix of <m>y</m>. For example, <m>10 p 101</m>, but <m>01 p 101</m> is false.</li>
 </ol></p></statement></exercise>
 

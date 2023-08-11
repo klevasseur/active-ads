@@ -13,7 +13,7 @@
 </section>
 <section xml:id="questions-102"><title>In-Class Exercises</title>
 <p>
-<ol label="1.">
+<ol marker="1.">
 <li><p>Prove that any graph with at least two vertices must have two vertices of the same degree.</p></li>
 <li><p>Starting at vertex <m>s</m>, any finite path in <xref ref="fig-directed-graph-ex1" text="type-global"/> produces a string of bits that are recorded according to the labels on each edge.  For example, the path <m>s,a,b,a,b,b,a</m> will produce the string 101001.</p>				<figure xml:id="fig-directed-graph-ex1">
 					<caption>A model for bit strings with no consecutive 1's</caption>
@@ -31,9 +31,9 @@
 					</figure>
 </li>
 <li><p>
-<ol label="(a)">
+<ol marker="(a)">
 <li><p> Determine whether the following sequences are graphic. Explain your logic if the answer is <q>no</q> and draw a graph with the sequence as its degree sequence if it is <q>yes.</q>
-<ol label="i">
+<ol marker="i">
 <li><p>  <m>(5,1,1,1,1,1)</m></p></li>
 <li><p> <m>(3,3,3,3)</m></p></li>
 <li><p> <m>(3,3,3,3,3)</m></p></li>

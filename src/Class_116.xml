@@ -12,8 +12,8 @@
 </section>
 <section xml:id="questions-116"><title>In-Class Exercises</title>
 <p>
-<ol label="1.">
-<li> <p><ol label="(a)"><li><p>There are many different, yet isomorphic, Boolean algebras with two elements. Describe one such Boolean algebra that is derived from
+<ol marker="1.">
+<li> <p><ol marker="(a)"><li><p>There are many different, yet isomorphic, Boolean algebras with two elements. Describe one such Boolean algebra that is derived from
 a power set, <m>\mathcal{P}(A)</m>, under <m>\subseteq</m>. Describe a second that is described from <m>D_n</m>, for some <m>n \in  P</m>, under <q>divides.</q></p></li>
 <li><p>  Since the elements of a two-element Boolean algebra must be the greatest and least elements, 1 and 0, the tables for the operations
 on <m>\{0, 1\}</m> are determined by the Boolean algebra laws. Write out the operation tables for <m>[\{0, 1\}; \lor , \land, -]</m>.</p></li>
