@@ -19,7 +19,7 @@
 
   		<xi:include href="./bookinfo.xml" />    <!--ISBN, website, other metadata -->
     
-	<book xml:id="index.html">
+	<book xml:id="index">
         <title>Active Applied Discrete Structures</title>    
          <xi:include href="./frontmatter.xml" /> 
       <part><title>Fundamentals</title>
