@@ -12,7 +12,30 @@
 </head>
 <body class="ignore-math">
 <h6 class="heading"><span class="type">Paragraph</span></h6>
-<div class="para">If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if <span class="process-math">\(i\)</span> appears in the list of neighbors of <span class="process-math">\(j\text{,}\)</span> then we don’t need to list <span class="process-math">\(j\)</span> in the list of neighbors of <span class="process-math">\(i\text{.}\)</span>
+<div class="para logical">
+<div class="para">Determine the diameter, radius, and center of the graph with the following distance matrix, where <span class="process-math">\(D_{i,j}\)</span> is the length of the shortest path from <span class="process-math">\(i\)</span> to <span class="process-math">\(j\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+D=\left(
+\begin{array}{cccccccccccc}
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 3 &amp; 1 &amp; 1 &amp; 3 &amp; 3 &amp; 1 &amp; 2 &amp; 2 \\
+2 &amp; 0 &amp; 3 &amp; 3 &amp; 2 &amp; 2 &amp; 1 &amp; 4 &amp; 1 &amp; 2 &amp; 2 &amp; 1 \\
+2 &amp; 3 &amp; 0 &amp; 2 &amp; 5 &amp; 3 &amp; 2 &amp; 3 &amp; 4 &amp; 1 &amp; 4 &amp; 3 \\
+2 &amp; 3 &amp; 2 &amp; 0 &amp; 3 &amp; 1 &amp; 2 &amp; 1 &amp; 3 &amp; 1 &amp; 2 &amp; 3 \\
+3 &amp; 2 &amp; 5 &amp; 3 &amp; 0 &amp; 2 &amp; 3 &amp; 4 &amp; 1 &amp; 4 &amp; 1 &amp; 3 \\
+1 &amp; 2 &amp; 3 &amp; 1 &amp; 2 &amp; 0 &amp; 1 &amp; 2 &amp; 2 &amp; 2 &amp; 1 &amp; 2 \\
+1 &amp; 1 &amp; 2 &amp; 2 &amp; 3 &amp; 1 &amp; 0 &amp; 3 &amp; 2 &amp; 1 &amp; 2 &amp; 1 \\
+3 &amp; 4 &amp; 3 &amp; 1 &amp; 4 &amp; 2 &amp; 3 &amp; 0 &amp; 4 &amp; 2 &amp; 3 &amp; 4 \\
+3 &amp; 1 &amp; 4 &amp; 3 &amp; 1 &amp; 2 &amp; 2 &amp; 4 &amp; 0 &amp; 3 &amp; 1 &amp; 2 \\
+1 &amp; 2 &amp; 1 &amp; 1 &amp; 4 &amp; 2 &amp; 1 &amp; 2 &amp; 3 &amp; 0 &amp; 3 &amp; 2 \\
+2 &amp; 2 &amp; 4 &amp; 2 &amp; 1 &amp; 1 &amp; 2 &amp; 3 &amp; 1 &amp; 3 &amp; 0 &amp; 3 \\
+2 &amp; 1 &amp; 3 &amp; 3 &amp; 3 &amp; 2 &amp; 1 &amp; 4 &amp; 2 &amp; 2 &amp; 3 &amp; 0 \\
+\end{array}
+\right)
+\end{equation*}
+</div>
+<div class="para">Can you construct the graph from this matrix?</div>
 </div>
 <span class="incontext"><a href="questions-103.html#p-474" class="internal">in-context</a></span>
 </body>

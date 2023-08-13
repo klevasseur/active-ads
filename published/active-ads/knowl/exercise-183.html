@@ -12,11 +12,14 @@
 </head>
 <body class="ignore-math">
 <article class="exercise exercise-like"><h5 class="heading">
-<span class="type">Exercise</span><span class="space"> </span><span class="codenumber">4<span class="period">.</span></span>
+<span class="type">Exercise</span><span class="space"> </span><span class="codenumber">3<span class="period">.</span></span>
 </h5>
-<div class="para">How many binary trees are there having <span class="process-math">\(n\)</span> vertices and an empty right subtree?</div>
-<div class="solutions">
-<a href="" class="hint-knowl original" data-knowl="./knowl/hint-1-hidden.html" title="Hint 31.2.4.1"><span class="type">Hint</span><span class="period">.</span></a><a href="" class="answer-knowl original" data-knowl="./knowl/answer-8-hidden.html" title="Answer 31.2.4.1"><span class="type">Answer</span><span class="period">.</span></a>
+<div class="para logical">
+<div class="para">Suppose <span class="process-math">\(0 \lt k \lt n\text{.}\)</span> Define the <span class="process-math">\(\binom{n}{k}\)</span>-tree to be the binary tree with <span class="process-math">\(\binom{n}{k}\)</span> at its root and left and right subtrees having roots <span class="process-math">\(\binom{n-1}{k-1}\)</span> and <span class="process-math">\(\binom{n-1}{k}\text{,}\)</span> respectively. If <span class="process-math">\(k=0\)</span> or <span class="process-math">\(k=n\text{,}\)</span> then the <span class="process-math">\(\binom{n}{k}\)</span>-tree is a leaf containing the number 1.</div>
+<ol class="lower-alpha">
+<li><div class="para">Draw the <span class="process-math">\(\binom{5}{1}\)</span> and <span class="process-math">\(\binom{5}{2}\)</span> trees.</div></li>
+<li><div class="para">How many leaves does a <span class="process-math">\(\binom{n}{k}\)</span>-tree contain?  Prove your answer.</div></li>
+</ol>
 </div></article><span class="incontext"><a href="questions-106.html#exercise-183" class="internal">in-context</a></span>
 </body>
 </html>

@@ -12,8 +12,9 @@
 </head>
 <body class="ignore-math">
 <article class="li"><h6 class="heading">
-<span class="type">Item</span><span class="space"> </span><span class="codenumber">30.2.5.b</span><span class="period">.</span>
+<span class="type">Item</span><span class="space"> </span><span class="codenumber">29.2.5.b</span><span class="period">.</span>
 </h6>
-<div class="para"><span class="process-math">\(\displaystyle (3, 2, 2, 1, 1, 1)\)</span></div></article><span class="incontext"><a href="questions-105.html#li-207" class="internal">in-context</a></span>
+<div class="para">The chromatic polynomial of a <span class="process-math">\(C_4\)</span> is a bit more difficult to determine.   If we number the vertices 1 through 4 and start be coloring vertex 1, it can colored <span class="process-math">\(x\)</span> ways.  Then going around a cycle of any length we color the next vertex so as to differ from the previous one.  However we run into a problem when we reach the last two vertices before reaching the start of the cycle.  For the <span class="process-math">\(4\)</span>-cycle, vertex 1 can be colored <span class="process-math">\(x\)</span> ways and vertex 2 can be colored <span class="process-math">\(x-1\)</span> ways. We need to to partition the possibilities according to whether vertex 3 has the same color as vertex 1 or a different color.  If they have the same color, then there are <span class="process-math">\(x-1\)</span> ways to color vertex 4.  If they differ in color, then there are <span class="process-math">\(x-2\)</span> ways to color vertex 3, and then <span class="process-math">\(x-2\)</span> ways to finish up coloring vertex 4. Therefore the chromatic polynomial is <span class="process-math">\(x(x-1)((x-1)+(x-2)^2)= x(x-1)(x^2-3x+3)\text{.}\)</span>
+</div></article><span class="incontext"><a href="questions-104a.html#li-207" class="internal">in-context</a></span>
 </body>
 </html>

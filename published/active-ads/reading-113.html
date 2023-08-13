@@ -97,7 +97,7 @@ eBookConfig.allow_pairs = ~._ allow_pairs _.~;
 eBookConfig.enableScratchAC = true;
 eBookConfig.acDefaultLanguage = 'python';
 eBookConfig.new_server_prefix = "/ns";
-eBookConfig.runestone_version = '7.0.8';
+eBookConfig.runestone_version = '7.1.0';
 </script>
 <script src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script><style>.dropdown {
     position: relative;
@@ -143,8 +143,8 @@ eBookConfig.runestone_version = '7.0.8';
 }
 </style>
 <!--*** Runestone Services ***-->
-<script type="text/javascript" src="_static/prefix-runtime.d4a299de0bc899db.bundle.js"></script><script type="text/javascript" src="_static/prefix-347.193e36c07abd0197.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.38e22bcb54aca054.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8d2f742bc74f4a41.css">
+<script type="text/javascript" src="_static/prefix-runtime.6f0528865cd47dcd.bundle.js"></script><script type="text/javascript" src="_static/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.3a5641c4e1fe869e.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.e1d331afa8369f4c.css">
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -307,7 +307,7 @@ eBookConfig.runestone_version = '7.0.8';
 
 \newcommand{\card}[1]{\left| #1 \right|}
 \newcommand{\twoline}[2]{\begin{pmatrix}#1 \\ #2 \end{pmatrix}}
-\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,label=#1:#2]{}}
+\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,marker=#1:#2]{}}
 \newcommand{\va}[1]{\vtx{above}{#1}}
 \newcommand{\vb}[1]{\vtx{below}{#1}}
 \newcommand{\vr}[1]{\vtx{right}{#1}}
@@ -347,7 +347,7 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-2.html#reading-questions-1" class="internal"><span class="codenumber">2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-2.html#setops-reading-questions" class="internal"><span class="codenumber">2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">In-Class Exercises</span></a></div>
@@ -360,7 +360,7 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-3.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-3.html#exercises-3" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-3.html#summation-reading-questions" class="internal"><span class="codenumber">3.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="questions-3.html" class="internal"><span class="codenumber">3.2</span> <span class="title">In-Class Exercises</span></a></div></li>
 </ul>
@@ -370,11 +370,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-4.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-4.html#exercises-4" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-4.html#exercises-3" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-4.html" class="internal"><span class="codenumber">4.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-4.html#exercises-5" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-4.html#exercises-4" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -383,11 +383,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-5.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-5.html#exercises-6" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-5.html#exercises-5" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-5.html" class="internal"><span class="codenumber">5.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-5.html#exercises-7" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-5.html#exercises-6" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-5.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Some Lattices</span></a></div></li>
 </ul>
@@ -397,11 +397,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-6.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-6.html#exercises-8" class="internal"><span class="codenumber">6.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-6.html#exercises-7" class="internal"><span class="codenumber">6.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-6.html" class="internal"><span class="codenumber">6.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-6.html#exercises-9" class="internal"><span class="codenumber">6.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-6.html#exercises-8" class="internal"><span class="codenumber">6.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -410,11 +410,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-7.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-7.html#exercises-10" class="internal"><span class="codenumber">7.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-7.html#exercises-9" class="internal"><span class="codenumber">7.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-7.html" class="internal"><span class="codenumber">7.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-7.html#exercises-11" class="internal"><span class="codenumber">7.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-7.html#exercises-10" class="internal"><span class="codenumber">7.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-7.html" class="internal"><span class="codenumber">7.3</span> <span class="title">The Sheffer Stroke</span></a></div></li>
 </ul>
@@ -424,11 +424,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-8.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-8.html#exercises-12" class="internal"><span class="codenumber">8.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-8.html#exercises-11" class="internal"><span class="codenumber">8.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-8.html" class="internal"><span class="codenumber">8.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-8.html#exercises-13" class="internal"><span class="codenumber">8.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-8.html#exercises-12" class="internal"><span class="codenumber">8.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-8.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Basic Logical Inferences</span></a></div></li>
 </ul>
@@ -438,11 +438,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-9.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-9.html#exercises-14" class="internal"><span class="codenumber">9.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-9.html#exercises-13" class="internal"><span class="codenumber">9.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-9.html" class="internal"><span class="codenumber">9.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-9.html#exercises-15" class="internal"><span class="codenumber">9.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-9.html#exercises-14" class="internal"><span class="codenumber">9.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -451,11 +451,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-10.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-10.html#exercises-16" class="internal"><span class="codenumber">10.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-10.html#exercises-15" class="internal"><span class="codenumber">10.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-10.html" class="internal"><span class="codenumber">10.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-10.html#exercises-17" class="internal"><span class="codenumber">10.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-10.html#exercises-16" class="internal"><span class="codenumber">10.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -464,11 +464,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-11.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-11.html#exercises-18" class="internal"><span class="codenumber">11.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-11.html#exercises-17" class="internal"><span class="codenumber">11.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-11.html" class="internal"><span class="codenumber">11.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-11.html#exercises-19" class="internal"><span class="codenumber">11.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-11.html#exercises-18" class="internal"><span class="codenumber">11.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="section-27.html" class="internal"><span class="codenumber">11.3</span> <span class="title">The Basic Laws of Set Theory</span></a></div></li>
 </ul>
@@ -478,11 +478,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-12.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-12.html#exercises-20" class="internal"><span class="codenumber">12.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-12.html#exercises-19" class="internal"><span class="codenumber">12.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-12.html" class="internal"><span class="codenumber">12.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-12.html#exercises-21" class="internal"><span class="codenumber">12.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-12.html#exercises-20" class="internal"><span class="codenumber">12.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -491,11 +491,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-13.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-13.html#exercises-22" class="internal"><span class="codenumber">13.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-13.html#exercises-21" class="internal"><span class="codenumber">13.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-13.html" class="internal"><span class="codenumber">13.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-13.html#exercises-23" class="internal"><span class="codenumber">13.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-13.html#exercises-22" class="internal"><span class="codenumber">13.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -504,11 +504,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-14.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-14.html#exercises-24" class="internal"><span class="codenumber">14.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-14.html#exercises-23" class="internal"><span class="codenumber">14.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-14.html" class="internal"><span class="codenumber">14.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-14.html#exercises-25" class="internal"><span class="codenumber">14.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-14.html#exercises-24" class="internal"><span class="codenumber">14.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -517,11 +517,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-15.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-15.html#exercises-26" class="internal"><span class="codenumber">15.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-15.html#exercises-25" class="internal"><span class="codenumber">15.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-15.html" class="internal"><span class="codenumber">15.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-15.html#exercises-27" class="internal"><span class="codenumber">15.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-15.html#exercises-26" class="internal"><span class="codenumber">15.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -530,11 +530,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-16.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-16.html#exercises-28" class="internal"><span class="codenumber">16.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-16.html#exercises-27" class="internal"><span class="codenumber">16.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-16.html" class="internal"><span class="codenumber">16.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-16.html#exercises-29" class="internal"><span class="codenumber">16.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-16.html#exercises-28" class="internal"><span class="codenumber">16.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-16.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Congruence Modulo <span class="process-math">\(n\)</span></span></a></div></li>
 </ul>
@@ -544,11 +544,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-17.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-17.html#exercises-30" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-17.html#exercises-29" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-17.html" class="internal"><span class="codenumber">17.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-17.html#exercises-31" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-17.html#exercises-30" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -557,11 +557,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-18.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-18.html#exercises-32" class="internal"><span class="codenumber">18.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-18.html#exercises-31" class="internal"><span class="codenumber">18.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-18.html" class="internal"><span class="codenumber">18.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-18.html#exercises-33" class="internal"><span class="codenumber">18.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-18.html#exercises-32" class="internal"><span class="codenumber">18.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -570,11 +570,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-19.html" class="internal"><span class="codenumber">19.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-19.html#exercises-34" class="internal"><span class="codenumber">19.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-19.html#exercises-33" class="internal"><span class="codenumber">19.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-19.html" class="internal"><span class="codenumber">19.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-19.html#exercises-35" class="internal"><span class="codenumber">19.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-19.html#exercises-34" class="internal"><span class="codenumber">19.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -583,11 +583,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-20.html" class="internal"><span class="codenumber">20.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-20.html#exercises-36" class="internal"><span class="codenumber">20.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-20.html#exercises-35" class="internal"><span class="codenumber">20.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-20.html" class="internal"><span class="codenumber">20.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-20.html#exercises-37" class="internal"><span class="codenumber">20.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-20.html#exercises-36" class="internal"><span class="codenumber">20.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="s-bsa.html" class="internal"><span class="codenumber">20.3</span> <span class="title">Binary Search Algorithm</span></a></div></li>
 </ul>
@@ -597,11 +597,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-21.html" class="internal"><span class="codenumber">21.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-21.html#exercises-38" class="internal"><span class="codenumber">21.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-21.html#exercises-37" class="internal"><span class="codenumber">21.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-21.html" class="internal"><span class="codenumber">21.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-21.html#exercises-39" class="internal"><span class="codenumber">21.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-21.html#exercises-38" class="internal"><span class="codenumber">21.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="def-fibonacci-sequence.html" class="internal"><span class="codenumber">21.3</span> <span class="title">Fibonacci Sequence</span></a></div></li>
 </ul>
@@ -611,11 +611,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-22.html" class="internal"><span class="codenumber">22.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-22.html#exercises-40" class="internal"><span class="codenumber">22.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-22.html#exercises-39" class="internal"><span class="codenumber">22.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-22.html" class="internal"><span class="codenumber">22.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-22.html#exercises-41" class="internal"><span class="codenumber">22.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-22.html#exercises-40" class="internal"><span class="codenumber">22.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-22.html" class="internal"><span class="codenumber">22.3</span> <span class="title">Interest</span></a></div></li>
 </ul>
@@ -625,11 +625,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-23.html" class="internal"><span class="codenumber">23.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-23.html#exercises-42" class="internal"><span class="codenumber">23.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-23.html#exercises-41" class="internal"><span class="codenumber">23.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-23.html" class="internal"><span class="codenumber">23.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-23.html#exercises-43" class="internal"><span class="codenumber">23.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-23.html#exercises-42" class="internal"><span class="codenumber">23.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="s-inclusion-exclusion.html" class="internal"><span class="codenumber">23.3</span> <span class="title">Inclusion-Exclusion</span></a></div></li>
 </ul>
@@ -639,11 +639,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-24.html" class="internal"><span class="codenumber">24.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-24.html#exercises-44" class="internal"><span class="codenumber">24.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-24.html#exercises-43" class="internal"><span class="codenumber">24.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-24.html" class="internal"><span class="codenumber">24.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-24.html#exercises-45" class="internal"><span class="codenumber">24.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-24.html#exercises-44" class="internal"><span class="codenumber">24.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -656,7 +656,7 @@ eBookConfig.runestone_version = '7.0.8';
 <div class="toc-item"><a href="chapter_101.html" class="internal"><span class="codenumber">25</span> <span class="title">Start of Second Semeser, Review</span></a></div>
 <ul class="structural"><li>
 <div class="toc-item"><a href="questions-101.html" class="internal"><span class="codenumber">25.1</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-101.html#exercises-46" class="internal"><span class="codenumber">25.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-101.html#exercises-45" class="internal"><span class="codenumber">25.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li></ul>
 </li>
 <li>
@@ -671,11 +671,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-103.html" class="internal"><span class="codenumber">27.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-103.html#exercises-47" class="internal"><span class="codenumber">27.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-103.html#exercises-46" class="internal"><span class="codenumber">27.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-103.html" class="internal"><span class="codenumber">27.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-103.html#exercises-48" class="internal"><span class="codenumber">27.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-103.html#exercises-47" class="internal"><span class="codenumber">27.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -684,11 +684,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-104.html" class="internal"><span class="codenumber">28.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-104.html#exercises-49" class="internal"><span class="codenumber">28.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-104.html#exercises-48" class="internal"><span class="codenumber">28.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-104.html" class="internal"><span class="codenumber">28.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-104.html#exercises-50" class="internal"><span class="codenumber">28.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-104.html#exercises-49" class="internal"><span class="codenumber">28.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -697,11 +697,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-104a.html" class="internal"><span class="codenumber">29.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-104a.html#exercises-51" class="internal"><span class="codenumber">29.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-104a.html#exercises-50" class="internal"><span class="codenumber">29.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-104a.html" class="internal"><span class="codenumber">29.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-104a.html#exercises-52" class="internal"><span class="codenumber">29.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-104a.html#exercises-51" class="internal"><span class="codenumber">29.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -710,11 +710,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-105.html" class="internal"><span class="codenumber">30.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-105.html#exercises-53" class="internal"><span class="codenumber">30.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-105.html#exercises-52" class="internal"><span class="codenumber">30.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-105.html" class="internal"><span class="codenumber">30.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-105.html#exercises-54" class="internal"><span class="codenumber">30.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-105.html#exercises-53" class="internal"><span class="codenumber">30.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-105.html" class="internal"><span class="codenumber">30.3</span> <span class="title">Euler’s Formula</span></a></div></li>
 </ul>
@@ -724,11 +724,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-106.html" class="internal"><span class="codenumber">31.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-106.html#exercises-55" class="internal"><span class="codenumber">31.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-106.html#exercises-54" class="internal"><span class="codenumber">31.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-106.html" class="internal"><span class="codenumber">31.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-106.html#exercises-56" class="internal"><span class="codenumber">31.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-106.html#exercises-55" class="internal"><span class="codenumber">31.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -737,11 +737,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-107.html" class="internal"><span class="codenumber">32.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-107.html#exercises-57" class="internal"><span class="codenumber">32.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-107.html#exercises-56" class="internal"><span class="codenumber">32.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-107.html" class="internal"><span class="codenumber">32.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-107.html#exercises-58" class="internal"><span class="codenumber">32.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-107.html#exercises-57" class="internal"><span class="codenumber">32.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -750,11 +750,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-108.html" class="internal"><span class="codenumber">33.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-108.html#exercises-59" class="internal"><span class="codenumber">33.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-108.html#exercises-58" class="internal"><span class="codenumber">33.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-108.html" class="internal"><span class="codenumber">33.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-108.html#exercises-60" class="internal"><span class="codenumber">33.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-108.html#exercises-59" class="internal"><span class="codenumber">33.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -763,11 +763,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-109.html" class="internal"><span class="codenumber">34.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-109.html#exercises-61" class="internal"><span class="codenumber">34.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-109.html#exercises-60" class="internal"><span class="codenumber">34.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-109.html" class="internal"><span class="codenumber">34.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-109.html#exercises-62" class="internal"><span class="codenumber">34.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-109.html#exercises-61" class="internal"><span class="codenumber">34.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-109.html" class="internal"><span class="codenumber">34.3</span> <span class="title">Some Theorems</span></a></div></li>
 </ul>
@@ -777,11 +777,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-110.html" class="internal"><span class="codenumber">35.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-110.html#exercises-63" class="internal"><span class="codenumber">35.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-110.html#exercises-62" class="internal"><span class="codenumber">35.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-110.html" class="internal"><span class="codenumber">35.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-110.html#exercises-64" class="internal"><span class="codenumber">35.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-110.html#exercises-63" class="internal"><span class="codenumber">35.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -790,11 +790,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-111.html" class="internal"><span class="codenumber">36.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-111.html#exercises-65" class="internal"><span class="codenumber">36.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-111.html#exercises-64" class="internal"><span class="codenumber">36.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-111.html" class="internal"><span class="codenumber">36.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-111.html#exercises-66" class="internal"><span class="codenumber">36.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-111.html#exercises-65" class="internal"><span class="codenumber">36.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-111.html" class="internal"><span class="codenumber">36.3</span> <span class="title">Handouts</span></a></div></li>
 </ul>
@@ -804,11 +804,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-112.html" class="internal"><span class="codenumber">37.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-112.html#exercises-67" class="internal"><span class="codenumber">37.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-112.html#exercises-66" class="internal"><span class="codenumber">37.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-112.html" class="internal"><span class="codenumber">37.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-112.html#exercises-68" class="internal"><span class="codenumber">37.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-112.html#exercises-67" class="internal"><span class="codenumber">37.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -817,11 +817,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li class="active">
 <div class="toc-item"><a href="reading-113.html" class="internal"><span class="codenumber">38.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-113.html#exercises-69" class="internal"><span class="codenumber">38.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-113.html#exercises-68" class="internal"><span class="codenumber">38.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-113.html" class="internal"><span class="codenumber">38.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-113.html#exercises-70" class="internal"><span class="codenumber">38.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-113.html#exercises-69" class="internal"><span class="codenumber">38.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-113.html" class="internal"><span class="codenumber">38.3</span> <span class="title">The Slide Rule</span></a></div></li>
 </ul>
@@ -831,11 +831,11 @@ eBookConfig.runestone_version = '7.0.8';
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="reading-114.html" class="internal"><span class="codenumber">39.1</span> <span class="title">Reading Assignment</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="reading-114.html#exercises-71" class="internal"><span class="codenumber">39.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="reading-114.html#exercises-70" class="internal"><span class="codenumber">39.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="questions-114.html" class="internal"><span class="codenumber">39.2</span> <span class="title">In-Class Exercises</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="questions-114.html#exercises-72" class="internal"><span class="codenumber">39.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural"><li><div class="toc-item"><a href="questions-114.html#exercises-71" class="internal"><span class="codenumber">39.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li><div class="toc-item"><a href="handouts-114.html" class="internal"><span class="codenumber">39.3</span> <span class="title">Nondistributive lattices</span></a></div></li>
 </ul>
@@ -910,26 +910,26 @@ eBookConfig.runestone_version = '7.0.8';
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="reading-113"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">38.1</span> <span class="title">Reading Assignment</span>
 </h2>
-<div class="para" id="p-689">Read Section 11.7  of <em class="emphasis">Applied Discrete Structures</em>.  We’ve seen several different groups of order two. Two of them are the group <span class="process-math">\(\mathbb{Z}_2\)</span> and <span class="process-math">\([\{1,-1\}; \cdot]\text{.}\)</span>  There is no denying that these groups are different but from an algebraic point of view, they have all the same properties.   This section makes this observation more precise.  Based on the definitions, these two groups (and all other groups with two elements) are <em class="emphasis">isomorphic</em>.  In studying groups, this is essentially saying they are all equal.</div>
-<article class="question example-like" id="question-35"><a href="" data-knowl="" class="id-ref question-knowl original" data-refid="hk-question-35"><h3 class="heading">
+<div class="para" id="p-695">Read Section 11.7  of <em class="emphasis">Applied Discrete Structures</em>.  We’ve seen several different groups of order two. Two of them are the group <span class="process-math">\(\mathbb{Z}_2\)</span> and <span class="process-math">\([\{1,-1\}; \cdot]\text{.}\)</span>  There is no denying that these groups are different but from an algebraic point of view, they have all the same properties.   This section makes this observation more precise.  Based on the definitions, these two groups (and all other groups with two elements) are <em class="emphasis">isomorphic</em>.  In studying groups, this is essentially saying they are all equal.</div>
+<article class="question example-like" id="question-34"><a href="" data-knowl="" class="id-ref question-knowl original" data-refid="hk-question-34"><h3 class="heading">
 <span class="type">Question</span><span class="space"> </span><span class="codenumber">38.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Response Question.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-question-35"><article class="question example-like"><div class="para" id="p-690">How is the topic of isomorphisms related to the <a href="" class="xref" data-knowl="./knowl/fig-slide-rule.html" title="Figure 38.3.1: Slide Rule">Slide Rule</a>, an analog computing device that was in common usage up until the 1970’s.</div></article></div>
-<div class="para" id="p-691">Also, turn in solutions to this exercise:</div>
-<section class="exercises" id="exercises-69"><h3 class="heading hide-type">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-question-34"><article class="question example-like"><div class="para" id="p-696">How is the topic of isomorphisms related to the <a href="" class="xref" data-knowl="./knowl/fig-slide-rule.html" title="Figure 38.3.1: Slide Rule">Slide Rule</a>, an analog computing device that was in common usage up until the 1970’s.</div></article></div>
+<div class="para" id="p-697">Also, turn in solutions to this exercise:</div>
+<section class="exercises" id="exercises-68"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Exercises</span>
 </h3>
-<div class="exercisegroup" id="exercisegroup-69">
+<div class="exercisegroup" id="exercisegroup-68">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="exercise-219"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para" id="p-692">Answer the following question:  siedem razy cztery = _____?</div>
+<article class="exercise exercise-like" id="exercise-220"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="p-698">Answer the following question:  siedem razy cztery = _____?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><div class="para" id="p-693">The question is in Polish.</div></div></div>
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-49" id="solution-49"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-49"><div class="solution solution-like"><div class="para" id="p-694"></div></div></div>
-</div></article><article class="exercise exercise-like" id="exercise-220"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para" id="p-695">The two groups <span class="process-math">\(\mathbb{Z}_4\)</span> and <span class="process-math">\(\mathbb{U}_8\)</span> have the same order but are not isomorphic.  Give a reason why.</div>
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><div class="para" id="p-699">The question is in Polish.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-49" id="solution-49"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-49"><div class="solution solution-like"><div class="para" id="p-700"></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-221"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-701">The two groups <span class="process-math">\(\mathbb{Z}_4\)</span> and <span class="process-math">\(\mathbb{U}_8\)</span> have the same order but are not isomorphic.  Give a reason why.</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like"><div class="para" id="p-696"></div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like"><div class="para" id="p-702"></div></div></div>
 </div></article>
 </div>
 </div></section><div id="scprogresscontainer">You have attempted <span id="scprogresstotal"></span> of <span id="scprogressposs"></span> activities on this page.<div id="subchapterprogress" aria-label="Page progress"></div>

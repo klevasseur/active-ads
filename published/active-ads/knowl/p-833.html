@@ -12,23 +12,7 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para logical">
-<div class="para">To build a <dfn class="terminology">rectangular code</dfn>, you partition your message into blocks of length <span class="process-math">\(m\)</span> and then factor <span class="process-math">\(m\)</span> into <span class="process-math">\(k_1\cdot k_2\)</span>  and arrange the bits in a  <span class="process-math">\(k_1 \times k_2\)</span> rectangular array as in the figure below.  Then you add parity bits along the right side and bottom of the rows and columns.   The code word is then read row by row.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\begin{array}{cccccc}
-\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
-\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
-\vdots  &amp; \vdots  &amp; \vdots  &amp;   &amp; \vdots  &amp; \vdots  \\
-\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
-\square  &amp; \square  &amp; \square  &amp; \cdots  &amp; \square  &amp;   \\
-\end{array}  \quad \begin{array}{c}
-\textrm{      }\blacksquare  = \textrm{ message} \textrm{ bit} \\
-\square  =\textrm{ parity} \textrm{ bit} \\
-\end{array}
-\end{equation*}
-</div>
-</div>
+<div class="para">Suppose a two bit message is encoded into a five bit message using the function <span class="process-math">\(e(b_{1}b_{2})=b_{1}b_{1}(b_{1}+_2 b_{2})b_{2}b_{2}\text{.}\)</span>  Determine a matrix <span class="process-math">\(P\)</span> such that if a two bit message, <span class="process-math">\(b = b_{1}b_{2}\text{,}\)</span> is encoded and <span class="process-math">\(e(b)\)</span> transmitted, then any single bit error in the received string <span class="process-math">\(c=c_{1}c_{2}c_{3}c_{4}c_{5}\)</span> can be identified by whether <span class="process-math">\(c P\)</span> is the zero vector or not.</div>
 <span class="incontext"><a href="questions-122.html#p-833" class="internal">in-context</a></span>
 </body>
 </html>

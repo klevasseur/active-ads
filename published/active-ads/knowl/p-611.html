@@ -11,8 +11,24 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">SageMath can be used to explore concrete groups.  It can’t be used to prove significant theorems, but you can verify that the theorems are true.  Here is one particular group’s operation table generated using Sage. The group, with domain <code class="code-inline tex2jax_ignore">[a,b,c,d,e,f,g,h]</code>, is in a family called the dihedral groups, and will be encountered in Section 15.3. For the purposes of this question, notice that in the body of the table, each element appears exactly once in each row and column.  Which theorem guarantees that this is always true for a group’s operation table?</div>
-<span class="incontext"><a href="reading-109.html#p-611" class="internal">in-context</a></span>
+<h6 class="heading"><span class="type">Paragraph</span></h6>
+<div class="para logical">
+<div class="para">Consider the following set of six  algebraic expressions, each defining a function on the set of real numbers excluding the numbers 0 and 1.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathcal{H}=\left\{x,1-x,\frac{1}{1-x},\frac{1}{x},\frac{x-1}{x},\frac{x}{x-1}\right\}
+=\left\{y_1,y_2,y_3,y_4,y_5,y_6\right\}
+\end{equation*}
+</div>
+<div class="para">We can opperate on any two of these expressions using function composition.  For example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(y_3 \circ y_4)(x) = y_3(y_4(x))=y_3(\frac{1}{x})=\frac{1}{1-\frac{1}{x}}=\frac{x}{x-1}=y_6(x)
+\end{equation*}
+</div>
+<div class="para">Therefore, <span class="process-math">\(y_3 \circ y_4 = y_6\text{.}\)</span>  Complete the following operation table for function composition on <span class="process-math">\(\mathcal{H}\text{.}\)</span>
+</div>
+</div>
+<span class="incontext"><a href="questions-108.html#p-611" class="internal">in-context</a></span>
 </body>
 </html>

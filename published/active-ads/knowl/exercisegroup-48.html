@@ -13,51 +13,17 @@
 <body class="ignore-math">
 <div class="exercisegroup">
 <h4 class="heading">
-<span class="type">Exercise Group</span><span class="space"> </span><span class="codenumber">27.2.1–3</span><span class="period">.</span>
+<span class="type">Exercise Group</span><span class="space"> </span><span class="codenumber">28.1.1–2</span><span class="period">.</span>
 </h4>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para">Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment.</div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para logical">
-<div class="para">Determine the diameter, radius, and center of the graph with the following distance matrix, where <span class="process-math">\(D_{i,j}\)</span> is the length of the shortest path from <span class="process-math">\(i\)</span> to <span class="process-math">\(j\text{.}\)</span>
+<div class="para">In answering the question “Is every Eulerian graph also Hamiltonian?” Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once.  He concluded that this graph can’t be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is “No!” Is his answer correct? Is his reasoning correct?  Explain your answers.</div>
+<div class="solutions"><a href="" class="solution-knowl original" data-knowl="./knowl/solution-2-hidden.html" title="Solution 28.1.1.1"><span class="type">Solution</span><span class="period">.</span></a></div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para">How many different Hamiltonian circuits are there of a <span class="process-math">\(K_n\text{,}\)</span> <span class="process-math">\(n \geq 3\text{,}\)</span> that start with the edge <span class="process-math">\((1,2)\text{?}\)</span>
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-D=\left(
-\begin{array}{cccccccccccc}
-0 &amp; 2 &amp; 2 &amp; 2 &amp; 3 &amp; 1 &amp; 1 &amp; 3 &amp; 3 &amp; 1 &amp; 2 &amp; 2 \\
-2 &amp; 0 &amp; 3 &amp; 3 &amp; 2 &amp; 2 &amp; 1 &amp; 4 &amp; 1 &amp; 2 &amp; 2 &amp; 1 \\
-2 &amp; 3 &amp; 0 &amp; 2 &amp; 5 &amp; 3 &amp; 2 &amp; 3 &amp; 4 &amp; 1 &amp; 4 &amp; 3 \\
-2 &amp; 3 &amp; 2 &amp; 0 &amp; 3 &amp; 1 &amp; 2 &amp; 1 &amp; 3 &amp; 1 &amp; 2 &amp; 3 \\
-3 &amp; 2 &amp; 5 &amp; 3 &amp; 0 &amp; 2 &amp; 3 &amp; 4 &amp; 1 &amp; 4 &amp; 1 &amp; 3 \\
-1 &amp; 2 &amp; 3 &amp; 1 &amp; 2 &amp; 0 &amp; 1 &amp; 2 &amp; 2 &amp; 2 &amp; 1 &amp; 2 \\
-1 &amp; 1 &amp; 2 &amp; 2 &amp; 3 &amp; 1 &amp; 0 &amp; 3 &amp; 2 &amp; 1 &amp; 2 &amp; 1 \\
-3 &amp; 4 &amp; 3 &amp; 1 &amp; 4 &amp; 2 &amp; 3 &amp; 0 &amp; 4 &amp; 2 &amp; 3 &amp; 4 \\
-3 &amp; 1 &amp; 4 &amp; 3 &amp; 1 &amp; 2 &amp; 2 &amp; 4 &amp; 0 &amp; 3 &amp; 1 &amp; 2 \\
-1 &amp; 2 &amp; 1 &amp; 1 &amp; 4 &amp; 2 &amp; 1 &amp; 2 &amp; 3 &amp; 0 &amp; 3 &amp; 2 \\
-2 &amp; 2 &amp; 4 &amp; 2 &amp; 1 &amp; 1 &amp; 2 &amp; 3 &amp; 1 &amp; 3 &amp; 0 &amp; 3 \\
-2 &amp; 1 &amp; 3 &amp; 3 &amp; 3 &amp; 2 &amp; 1 &amp; 4 &amp; 2 &amp; 2 &amp; 3 &amp; 0 \\
-\end{array}
-\right)
-\end{equation*}
-</div>
-<div class="para">Can you construct the graph from this matrix?</div>
-</div>
-<div class="solutions"><a href="" class="answer-knowl original" data-knowl="./knowl/answer-4-hidden.html" title="Answer 27.2.2.1"><span class="type">Answer</span><span class="period">.</span></a></div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div class="para logical">
-<div class="para">A classroom has 5 rows of desks, with 7 desks in each row.   Suppose we want to represent this rectangular arrangement of desks in an undirected graph, where each desk is connected to the neighboring desks to it’s front, back, left and right.  Of course, some desks have fewer than four neighbors.</div>
-<ol class="lower-alpha">
-<li><div class="para">How many edges will the graph have?</div></li>
-<li><div class="para">Determine the possible eccentricities of vertices in this graph. What is the diameter, radius and center of the graph.</div></li>
-<li><div class="para">If an adjacency matrix is constructed for this graph with one bit (0/1) for each entry, how many bits would be needed?  Assume we only store the part of the matrix that appears to the top right of the main diagonal of the matrix since its symmetric.</div></li>
-<li><div class="para">If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if <span class="process-math">\(i\)</span> appears in the list of neighbors of <span class="process-math">\(j\text{,}\)</span> then we don’t need to list <span class="process-math">\(j\)</span> in the list of neighbors of <span class="process-math">\(i\text{.}\)</span>
-</div></li>
-<li><div class="para">If a list of ordered pairs is used, where each pair requires 16 bit, how many bits would be needed?  Assume that for any two vertices, <span class="process-math">\(i\)</span> and <span class="process-math">\(j\text{,}\)</span> only one of the pairs <span class="process-math">\((i,j)\)</span> and <span class="process-math">\((j,i)\)</span> need to be listed.</div></li>
-</ol>
-</div>
-<div class="solutions"><a href="" class="answer-knowl original" data-knowl="./knowl/answer-5-hidden.html" title="Answer 27.2.3.1"><span class="type">Answer</span><span class="period">.</span></a></div></article>
+<div class="solutions"><a href="" class="solution-knowl original" data-knowl="./knowl/solution-3-hidden.html" title="Solution 28.1.2.1"><span class="type">Solution</span><span class="period">.</span></a></div></article>
 </div>
 </div>
-<span class="incontext"><a href="questions-103.html#exercisegroup-48" class="internal">in-context</a></span>
+<span class="incontext"><a href="reading-104.html#exercisegroup-48" class="internal">in-context</a></span>
 </body>
 </html>

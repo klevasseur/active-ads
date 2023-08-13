@@ -13,25 +13,39 @@
 <body class="ignore-math">
 <div class="exercisegroup">
 <h4 class="heading">
-<span class="type">Exercise Group</span><span class="space"> </span><span class="codenumber">20.1.1–2</span><span class="period">.</span>
+<span class="type">Exercise Group</span><span class="space"> </span><span class="codenumber">20.2.1–5</span><span class="period">.</span>
 </h4>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para">Consider a sequence of strings, <span class="process-math">\(L(n)\)</span> defined recursively by <span class="process-math">\(L(n)=L(n-2)+L(n-2)+L(n-1)\)</span> with <span class="process-math">\(L(0)="1"\)</span> and <span class="process-math">\(L(1)="0"\text{.}\)</span> Here, the plus sign is taken as concatenation of strings.  Determine <span class="process-math">\(L(4)\text{.}\)</span>
+<div class="para logical">
+<div class="para">What is computed by the following function on the natural numbers?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(n)=\begin{cases} 
+2 f(n-1)+1 &amp; n \gt 0 \\
+1			 &amp; n=0
+\end{cases}
+\end{equation*}
+</div>
 </div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para">Consider sequence <span class="process-math">\(Q\)</span> defined by <span class="process-math">\(Q(k) = 2k + 9\text{,}\)</span> <span class="process-math">\(k \geq  1\text{.}\)</span> Complete the table below and determine a recurrence relation that describes <span class="process-math">\(Q\text{.}\)</span> <span class="process-math">\(\begin{array}{c|c|c}
-k &amp; Q(k)  &amp; Q(k)-Q(k-1) \\
-\hline
-2 &amp;   &amp;   \\
-3 &amp;   &amp;   \\
-4 &amp; \text{  } &amp;   \\
-5 &amp;   &amp;   \\
-6 &amp;   &amp;   \\
-7 &amp;   &amp;   \\
-\end{array}\)</span>
-</div></article>
+<div class="para logical">
+<div class="para">Describe what the following function, <span class="process-math">\(f\text{,}\)</span> does on the positive integers.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(n)=\begin{cases} 
+n &amp; n\textrm{ odd} \\
+3\cdot f(n/2) &amp; n\textrm{ even}
+\end{cases}
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para">I’m thinking of a number between 1 and 25.  If I know you will use the binary search algorithm to guess my number and I want you to use as many guesses as possible, what are the best numbers for me to think about?</div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para">The length of a string is the number of characters in the string. Let <span class="process-math">\(v(n)\)</span> be the length of <span class="process-math">\(L(n)\text{,}\)</span> which was defined in the the homework problems.  Find a recursive description of <span class="process-math">\(v(n)\text{.}\)</span>
+</div></article><article class="exercise exercise-like"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para">
+<em class="emphasis">Fun Question</em>.  This last question comes from the BBC quiz show “Round Britain”. I expect that you would need to Google some of these references.  If Barker and Corbett encountered, sequentially, Kieslowski’s colours, Blyton’s adventurers, Tarantino’s undesirables and Thurber’s timepieces, how many pilots would they meet next?  The answer will appear at the end of the next chapter.</div></article>
 </div>
 </div>
-<span class="incontext"><a href="reading-20.html#exercisegroup-36" class="internal">in-context</a></span>
+<span class="incontext"><a href="questions-20.html#exercisegroup-36" class="internal">in-context</a></span>
 </body>
 </html>

@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Reading Assignment",
-  "body": "Reading Assignment  Before class, read Sections 1.1 and 1.2 of Applied Discrete Structures . There is a lot of terminology and notation in these two sections that is used throughout the book. Whatever aids you personally use to remember them, by all means use them.    Turn in solutions to these exercises.  Response Question How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?   List all elements of the following sets:           Let , , , , and . Assume that the universal set is . Determine which of the following are true. Give reasons for your decisions.                            "
+  "body": "Reading Assignment  Before class, read Sections 1.1 and 1.2 of Applied Discrete Structures . There is a lot of terminology and notation in these two sections that is used throughout the book. Whatever aids you personally use to remember them, by all means use them.   Turn in solutions to these exercises.  Response Question How are the set operations union and intersection similar to the operations addition and multiplication on numbers, and how are they different?   List all elements of the following sets:           List all elements of the following sets:           Let , , , , and . Assume that the universal set is . Determine which of the following are true. Give reasons for your decisions.                           "
 },
 {
   "id": "exercise-8",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Reading Question",
   "number": "2.1.2",
   "title": "",
-  "body": " List all elements of the following sets:          "
+  "body": " List all elements of the following sets:           List all elements of the following sets:          "
 },
 {
   "id": "exercise-10",
@@ -214,32 +214,32 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Reading Assignment",
-  "body": "Reading Assignment  Read Sections 1.3 and 1.5 of Applied Discrete Structures There are three main topics in the readings. In the next chapter, we will be counting things. Cartesian products of sets and the power set of a set are two structures that will will be used in some of the counting. Be sure to understand the distinction between the two topics. A Cartesian product involves of two or more sets and is a set of ordered pairs (or triples, quadruples,...); while a power set is of a single set and is the set of all subsets of that set. The third topic, summation notation, may very well be review for many readers. It also will appear in the counting process on several occasions..  Response Question If is a finite set, why is the number of elements in the power set of a power of 2?  Also, turn in solutions to these exercises:   Let . List elements of , and .  Calculate , , and . Do you see a pattern?    "
-},
-{
-  "id": "question-1",
-  "level": "2",
-  "url": "reading-3.html#question-1",
-  "type": "Question",
-  "number": "3.1.1",
-  "title": "Response Question.",
-  "body": "Response Question If is a finite set, why is the number of elements in the power set of a power of 2? "
+  "body": "Reading Assignment  Read Sections 1.3 and 1.5 of Applied Discrete Structures There are three main topics in the readings. In the next chapter, we will be counting things. Cartesian products of sets and the power set of a set are two structures that will will be used in some of the counting. Be sure to understand the distinction between the two topics. A Cartesian product involves of two or more sets and is a set of ordered pairs (or triples, quadruples,...); while a power set is of a single set and is the set of all subsets of that set. The third topic, summation notation, may very well be review for many readers. It also will appear in the counting process on several occasions..  Also, turn in solutions to these exercises:   Response Question If is a finite set, why is the number of elements in the power set of a power of 2?  Let . List elements of , and . , , and   Calculate , , and . Do you see a pattern?   "
 },
 {
   "id": "exercise-17",
   "level": "2",
   "url": "reading-3.html#exercise-17",
-  "type": "Exercise",
+  "type": "Reading Question",
   "number": "3.1.1",
-  "title": "",
-  "body": "Let . List elements of , and . "
+  "title": "Response Question.",
+  "body": "Response Question If is a finite set, why is the number of elements in the power set of a power of 2? "
 },
 {
   "id": "exercise-18",
   "level": "2",
   "url": "reading-3.html#exercise-18",
-  "type": "Exercise",
+  "type": "Reading Question",
   "number": "3.1.2",
+  "title": "",
+  "body": "Let . List elements of , and . , , and  "
+},
+{
+  "id": "exercise-19",
+  "level": "2",
+  "url": "reading-3.html#exercise-19",
+  "type": "Reading Question",
+  "number": "3.1.3",
   "title": "",
   "body": "Calculate , , and . Do you see a pattern? "
 },
@@ -262,27 +262,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 2.1 and 2.2 of Applied Discrete Structures . You will learn about the Rule of Products, which is one of the fundamental rules of counting. In Section 2.2 we will apply to the rule of products to a very common situation, when we want to know how many ways we can put a set of objects in order.  Response Question Suppose and are finite sets. Explain how the cardinality the Cartesian product can be determined using the Rule of Products.  Also, turn in solutions to these exercises:   A builder of modular homes would like to impress his potential customers with the variety of styles of his houses. For each house there are blueprints for three different living rooms, four different bedroom configurations, and two different garage styles. In addition, the outside can be finished in cedar shingles or brick. How many different houses can be designed from these plans?  How many ways can the letters in the word DRACUT be arranged? They don't have to form a real word.   "
 },
 {
-  "id": "question-2",
+  "id": "question-1",
   "level": "2",
-  "url": "reading-4.html#question-2",
+  "url": "reading-4.html#question-1",
   "type": "Question",
   "number": "4.1.1",
   "title": "Response Question.",
   "body": "Response Question Suppose and are finite sets. Explain how the cardinality the Cartesian product can be determined using the Rule of Products. "
 },
 {
-  "id": "exercise-19",
+  "id": "exercise-20",
   "level": "2",
-  "url": "reading-4.html#exercise-19",
+  "url": "reading-4.html#exercise-20",
   "type": "Exercise",
   "number": "4.1.1",
   "title": "",
   "body": "A builder of modular homes would like to impress his potential customers with the variety of styles of his houses. For each house there are blueprints for three different living rooms, four different bedroom configurations, and two different garage styles. In addition, the outside can be finished in cedar shingles or brick. How many different houses can be designed from these plans? "
 },
 {
-  "id": "exercise-20",
+  "id": "exercise-21",
   "level": "2",
-  "url": "reading-4.html#exercise-20",
+  "url": "reading-4.html#exercise-21",
   "type": "Exercise",
   "number": "4.1.2",
   "title": "",
@@ -298,36 +298,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would be counted, but 214 would not be counted.  How many positive integers divide evenly into ?  The manager of a baseball team has decide on the batting order of his team. He has selected the nine batters already.  How many ways could he select a batting order?  He decides that the catcher must bat before the shortstop? How many ways can he select a batting order now?  In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman. How many ways can the manager select a batting order now?    How many ways can the letters in the word APPLE be arranged?   "
 },
 {
-  "id": "exercise-21",
+  "id": "exercise-22",
   "level": "2",
-  "url": "questions-4.html#exercise-21",
+  "url": "questions-4.html#exercise-22",
   "type": "Exercise",
   "number": "4.2.1",
   "title": "",
   "body": "How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would be counted, but 214 would not be counted. "
 },
 {
-  "id": "exercise-22",
+  "id": "exercise-23",
   "level": "2",
-  "url": "questions-4.html#exercise-22",
+  "url": "questions-4.html#exercise-23",
   "type": "Exercise",
   "number": "4.2.2",
   "title": "",
   "body": "How many positive integers divide evenly into ? "
 },
 {
-  "id": "exercise-23",
+  "id": "exercise-24",
   "level": "2",
-  "url": "questions-4.html#exercise-23",
+  "url": "questions-4.html#exercise-24",
   "type": "Exercise",
   "number": "4.2.3",
   "title": "",
   "body": "The manager of a baseball team has decide on the batting order of his team. He has selected the nine batters already.  How many ways could he select a batting order?  He decides that the catcher must bat before the shortstop? How many ways can he select a batting order now?  In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman. How many ways can the manager select a batting order now?   "
 },
 {
-  "id": "exercise-24",
+  "id": "exercise-25",
   "level": "2",
-  "url": "questions-4.html#exercise-24",
+  "url": "questions-4.html#exercise-25",
   "type": "Exercise",
   "number": "4.2.4",
   "title": "",
@@ -343,27 +343,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 2.3 and 2.4 of Applied Discrete Structures. In Section 2.3, you will learn about the Law of Addition, which is another fundamental counting principle. Finally, we turn to the problem of counting subsets of a set with a fixed size. The numbers we arrive at happen to be binomial coefficients, which you may have seen in another context, the expansion of an expression like to a power.  Response Question In mathematics, the word partition is used in two contexts. One is for partitions of sets, as described in Section 2.3. The other is for partitions of a positive integer. An example of a partition of is , a sum of positive integers equal to . It is customary to write the terms of the sum in non-increasing order since is considered the same partition of . The other partitions of 5 are , , , , , and . How might a listing of all partitions of an integer like help in listing all partitions of a set with that many elements?  Exercises to do and turn in:   Which of the following collections of subsets of the plane, , are partitions?   The set of all circles in  The set of all circles in centered at the origin together with the set    The congressional committees on mathematics and computer science are made up of five representatives each, and a congressional rule is that the two committees must be disjoint. If there are 385 members of congress, how many ways could the committees be selected?   "
 },
 {
-  "id": "question-3",
+  "id": "question-2",
   "level": "2",
-  "url": "reading-5.html#question-3",
+  "url": "reading-5.html#question-2",
   "type": "Question",
   "number": "5.1.1",
   "title": "Response Question.",
   "body": "Response Question In mathematics, the word partition is used in two contexts. One is for partitions of sets, as described in Section 2.3. The other is for partitions of a positive integer. An example of a partition of is , a sum of positive integers equal to . It is customary to write the terms of the sum in non-increasing order since is considered the same partition of . The other partitions of 5 are , , , , , and . How might a listing of all partitions of an integer like help in listing all partitions of a set with that many elements? "
 },
 {
-  "id": "exercise-25",
+  "id": "exercise-26",
   "level": "2",
-  "url": "reading-5.html#exercise-25",
+  "url": "reading-5.html#exercise-26",
   "type": "Exercise",
   "number": "5.1.1",
   "title": "",
   "body": "Which of the following collections of subsets of the plane, , are partitions?   The set of all circles in  The set of all circles in centered at the origin together with the set   "
 },
 {
-  "id": "exercise-26",
+  "id": "exercise-27",
   "level": "2",
-  "url": "reading-5.html#exercise-26",
+  "url": "reading-5.html#exercise-27",
   "type": "Exercise",
   "number": "5.1.2",
   "title": "",
@@ -379,63 +379,63 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises     A group of 30 students were surveyed and it was found that 18 of them took Calculus and 12 took Physics. If all students took at least one course, how many took both Calculus and Physics? Illustrate using a Venn diagram.  What is the answer to the question in part (a) if five students did not take either of the two courses? Illustrate using a Venn diagram.   How many different partitions are there of the set  How many ways can you arrange the letters in the word BOOKKEEPER?  Explain in words why the following equalities are true based on number of subsets, and then verify the equalities using the formula for binomial coefficients.     ,   Lattice Paths The image below shows a 6 by 6 grid and an example of a lattice path that could be taken from to , which is a path taken by traveling along grid lines going only to the right and up. How many different lattice paths are there of this type? Generalize to the case of lattice paths from to for any nonnegative integers and .   How many of the lattice paths from to pass through as the one in does?   A lattice path   An example of a lattice path    Consider the set of lattice paths from to . You should know one quick formula for the cardinality of that set. However, counting a different way can lead to an interesting identity involving binomial coefficients. Notice that any path goes through exactly one of the points . Count the number of lattice paths that go through each of those 9 points - leave the expression in terms of binomial coefficients. Even more interesting is what you get if generalize to a destination of , .   "
 },
 {
-  "id": "exercise-27",
+  "id": "exercise-28",
   "level": "2",
-  "url": "questions-5.html#exercise-27",
+  "url": "questions-5.html#exercise-28",
   "type": "Exercise",
   "number": "5.2.1",
   "title": "",
   "body": " A group of 30 students were surveyed and it was found that 18 of them took Calculus and 12 took Physics. If all students took at least one course, how many took both Calculus and Physics? Illustrate using a Venn diagram.  What is the answer to the question in part (a) if five students did not take either of the two courses? Illustrate using a Venn diagram.  "
 },
 {
-  "id": "exercise-28",
+  "id": "exercise-29",
   "level": "2",
-  "url": "questions-5.html#exercise-28",
+  "url": "questions-5.html#exercise-29",
   "type": "Exercise",
   "number": "5.2.2",
   "title": "",
   "body": "How many different partitions are there of the set "
 },
 {
-  "id": "exercise-29",
+  "id": "exercise-30",
   "level": "2",
-  "url": "questions-5.html#exercise-29",
+  "url": "questions-5.html#exercise-30",
   "type": "Exercise",
   "number": "5.2.3",
   "title": "",
   "body": "How many ways can you arrange the letters in the word BOOKKEEPER? "
 },
 {
-  "id": "exercise-30",
+  "id": "exercise-31",
   "level": "2",
-  "url": "questions-5.html#exercise-30",
+  "url": "questions-5.html#exercise-31",
   "type": "Exercise",
   "number": "5.2.4",
   "title": "",
   "body": "Explain in words why the following equalities are true based on number of subsets, and then verify the equalities using the formula for binomial coefficients.     ,  "
 },
 {
-  "id": "exercise-31",
+  "id": "exercise-32",
   "level": "2",
-  "url": "questions-5.html#exercise-31",
+  "url": "questions-5.html#exercise-32",
   "type": "Exercise",
   "number": "5.2.5",
   "title": "",
   "body": "Lattice Paths The image below shows a 6 by 6 grid and an example of a lattice path that could be taken from to , which is a path taken by traveling along grid lines going only to the right and up. How many different lattice paths are there of this type? Generalize to the case of lattice paths from to for any nonnegative integers and .  "
 },
 {
-  "id": "exercise-32",
+  "id": "exercise-33",
   "level": "2",
-  "url": "questions-5.html#exercise-32",
+  "url": "questions-5.html#exercise-33",
   "type": "Exercise",
   "number": "5.2.6",
   "title": "",
   "body": "How many of the lattice paths from to pass through as the one in does?   A lattice path   An example of a lattice path   "
 },
 {
-  "id": "exercise-33",
+  "id": "exercise-34",
   "level": "2",
-  "url": "questions-5.html#exercise-33",
+  "url": "questions-5.html#exercise-34",
   "type": "Exercise",
   "number": "5.2.7",
   "title": "",
@@ -478,27 +478,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read sections 3.1 and 3.2 of Applied Discrete Structures. In Logic, we focus on the truth values of propositions, which are declarative sentences that are either true or false. Later we will consider propositions that involve variables that determine the truth of a proposition. But for now, we focus on how propositions can be combined to create new propositions, much as we combine numbers to get other numbers.  Response Question Suppose you were given a proposition generated by 100 propositional variables and you are asked whether there is at least one assignment of truth values that you could assign to these variables to make the proposition true. Why is constructing a truth table not practical. If you decided to examine all possible assignments of truth values and your computer could check one million cases per second, approximately how long would it take to check all cases?  Also, turn in solutions to these exercises:   For each of the following propositions, identify simple propositions, express the compound proposition in symbolic form, and determine whether it is true or false:   The world is flat or zero is an even integer.  If 432,802 is a multiple of 4, then 432,802 is even.  5 is a prime number and 6 is not divisible by 4.  and .  and .  The sum of two even integers is even and the sum of two odd integers is odd.   Construct the truth tables of:         "
 },
 {
-  "id": "question-4",
+  "id": "question-3",
   "level": "2",
-  "url": "reading-6.html#question-4",
+  "url": "reading-6.html#question-3",
   "type": "Question",
   "number": "6.1.1",
   "title": "Response Question.",
   "body": "Response Question Suppose you were given a proposition generated by 100 propositional variables and you are asked whether there is at least one assignment of truth values that you could assign to these variables to make the proposition true. Why is constructing a truth table not practical. If you decided to examine all possible assignments of truth values and your computer could check one million cases per second, approximately how long would it take to check all cases? "
 },
 {
-  "id": "exercise-34",
+  "id": "exercise-35",
   "level": "2",
-  "url": "reading-6.html#exercise-34",
+  "url": "reading-6.html#exercise-35",
   "type": "Exercise",
   "number": "6.1.1",
   "title": "",
   "body": "For each of the following propositions, identify simple propositions, express the compound proposition in symbolic form, and determine whether it is true or false:   The world is flat or zero is an even integer.  If 432,802 is a multiple of 4, then 432,802 is even.  5 is a prime number and 6 is not divisible by 4.  and .  and .  The sum of two even integers is even and the sum of two odd integers is odd.  "
 },
 {
-  "id": "exercise-35",
+  "id": "exercise-36",
   "level": "2",
-  "url": "reading-6.html#exercise-35",
+  "url": "reading-6.html#exercise-36",
   "type": "Exercise",
   "number": "6.1.2",
   "title": "",
@@ -514,36 +514,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Reword the following statements into If...then statements.  No resident of Chelmsford likes hot peppers.  For 3+7=10, it is necessary that cows fly.  For 3+7=10, it is sufficient that cows fly.  Lowell is the oldest city in Massachusetts unless mermaids exist.  I carry an umbrella when it rains.     Construct the truth table for . Notice anything about the result?  Consider the statement “If Boris visits Hampton Beach, then he eats fried clams.”   Write the converse of the statement.   Write the contrapositive of the statement.   Is it possible for the contrapositive to be false? If it was, what would that tell you?   Suppose the original statement is true, and that Boris eats fried clams. Can you conclude anything (about his travels)?   Suppose the original statement is true, and that Boris does not eat fried clams. Can you conclude anything (about his travels)?     Consider the statement, If a number is triangular or square, then it is not prime   Make a truth table for the statement .    If you believed the statement was false, what properties would a counterexample need to possess? Explain by referencing your truth table.   If the statement were true, what could you conclude about the number 5657, which is definitely prime? Again, explain using the truth table.       "
 },
 {
-  "id": "exercise-36",
+  "id": "exercise-37",
   "level": "2",
-  "url": "questions-6.html#exercise-36",
+  "url": "questions-6.html#exercise-37",
   "type": "Exercise",
   "number": "6.2.1",
   "title": "",
   "body": "Reword the following statements into If...then statements.  No resident of Chelmsford likes hot peppers.  For 3+7=10, it is necessary that cows fly.  For 3+7=10, it is sufficient that cows fly.  Lowell is the oldest city in Massachusetts unless mermaids exist.  I carry an umbrella when it rains.   "
 },
 {
-  "id": "exercise-37",
+  "id": "exercise-38",
   "level": "2",
-  "url": "questions-6.html#exercise-37",
+  "url": "questions-6.html#exercise-38",
   "type": "Exercise",
   "number": "6.2.2",
   "title": "",
   "body": " Construct the truth table for . Notice anything about the result? "
 },
 {
-  "id": "exercise-38",
+  "id": "exercise-39",
   "level": "2",
-  "url": "questions-6.html#exercise-38",
+  "url": "questions-6.html#exercise-39",
   "type": "Exercise",
   "number": "6.2.3",
   "title": "",
   "body": "Consider the statement “If Boris visits Hampton Beach, then he eats fried clams.”   Write the converse of the statement.   Write the contrapositive of the statement.   Is it possible for the contrapositive to be false? If it was, what would that tell you?   Suppose the original statement is true, and that Boris eats fried clams. Can you conclude anything (about his travels)?   Suppose the original statement is true, and that Boris does not eat fried clams. Can you conclude anything (about his travels)?   "
 },
 {
-  "id": "exercise-39",
+  "id": "exercise-40",
   "level": "2",
-  "url": "questions-6.html#exercise-39",
+  "url": "questions-6.html#exercise-40",
   "type": "Exercise",
   "number": "6.2.4",
   "title": "",
@@ -559,27 +559,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read sections 3.3 and 3.4 of Applied Discrete Structures. Two propositions may be totally unrelated. For example, It snowed today. and I played chess today. are likely to be unrelated. Yet It snowed today. and I played golf today. are two propositions that are related in that it is unlikely that both are true. In these two sections we introduce the ideas of equivalence and implication, which give us a precise way to talk about how propositions are related.  Response Question Explain why every proposition implies a tautology.  Also, turn in solutions to these exercises:    Construct the truth table for .  Find an example other than itself of a proposition generated by , , and that is equivalent to .  Find an example of a proposition that is not equivalent to or a contradiction that implies .  Find an example of a proposition that is not equivalent to or a tautology that is implied by .   Show that the common fallacy is not a law of logic.   "
 },
 {
-  "id": "question-5",
+  "id": "question-4",
   "level": "2",
-  "url": "reading-7.html#question-5",
+  "url": "reading-7.html#question-4",
   "type": "Question",
   "number": "7.1.1",
   "title": "Response Question.",
   "body": "Response Question Explain why every proposition implies a tautology. "
 },
 {
-  "id": "exercise-40",
+  "id": "exercise-41",
   "level": "2",
-  "url": "reading-7.html#exercise-40",
+  "url": "reading-7.html#exercise-41",
   "type": "Exercise",
   "number": "7.1.1",
   "title": "",
   "body": " Construct the truth table for .  Find an example other than itself of a proposition generated by , , and that is equivalent to .  Find an example of a proposition that is not equivalent to or a contradiction that implies .  Find an example of a proposition that is not equivalent to or a tautology that is implied by .  "
 },
 {
-  "id": "exercise-41",
+  "id": "exercise-42",
   "level": "2",
-  "url": "reading-7.html#exercise-41",
+  "url": "reading-7.html#exercise-42",
   "type": "Exercise",
   "number": "7.1.2",
   "title": "",
@@ -595,36 +595,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Find a proposition that is equivalent to and uses only conjunction and negation.  Frankie Fib was telling you what he consumed yesterday afternoon. He tells you, I had either popcorn or raisins. Also, if I had cucumber sandwiches, then I had soda. But I didn't drink soda or tea. Of course you know that Frankie is the worlds worst liar, and everything he says is false. What did Frankie have to eat and drink?  Construct the truth table for . Notice anything about the result?  The significance of the Sheffer Stroke is that it is a universal operation in that all other logical operations can be built from it.  Prove that is equivalent to .  Prove that .  Build using only the Sheffer Stroke.  Build using only the Sheffer Stroke.   "
 },
 {
-  "id": "exercise-42",
+  "id": "exercise-43",
   "level": "2",
-  "url": "questions-7.html#exercise-42",
+  "url": "questions-7.html#exercise-43",
   "type": "Exercise",
   "number": "7.2.1",
   "title": "",
   "body": "Find a proposition that is equivalent to and uses only conjunction and negation. "
 },
 {
-  "id": "exercise-43",
+  "id": "exercise-44",
   "level": "2",
-  "url": "questions-7.html#exercise-43",
+  "url": "questions-7.html#exercise-44",
   "type": "Exercise",
   "number": "7.2.2",
   "title": "",
   "body": "Frankie Fib was telling you what he consumed yesterday afternoon. He tells you, I had either popcorn or raisins. Also, if I had cucumber sandwiches, then I had soda. But I didn't drink soda or tea. Of course you know that Frankie is the worlds worst liar, and everything he says is false. What did Frankie have to eat and drink? "
 },
 {
-  "id": "exercise-44",
+  "id": "exercise-45",
   "level": "2",
-  "url": "questions-7.html#exercise-44",
+  "url": "questions-7.html#exercise-45",
   "type": "Exercise",
   "number": "7.2.3",
   "title": "",
   "body": "Construct the truth table for . Notice anything about the result? "
 },
 {
-  "id": "exercise-45",
+  "id": "exercise-46",
   "level": "2",
-  "url": "questions-7.html#exercise-45",
+  "url": "questions-7.html#exercise-46",
   "type": "Exercise",
   "number": "7.2.4",
   "title": "",
@@ -658,27 +658,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read section 3.5 of Applied Discrete Structures. We can say that there are various relationships between propositions, but it might not be obvious that what we say is really true. A proof is meant to be a means by which one can be convinced that such a relationship is true. Proofs are central to mathematics and appear in all remaining chapters in this book. In Section 3.5 we start by identifying two basic types of proof: direct and indirect.  Response Question A proposition, , generated by a set of propositional variables is said to be satisfiable if there is at least one way to assign truth values to all of the variables so that Is true. Explain why is satisfiable as long as is not a tautology.  Also, turn in solutions to these exercises.   Put the following into symbolic form and check its validity: If I am a good person, nothing bad will happen to me. Nothing happened to me. Therefore, I am a good person.  Give a direct or indirect proof of:    "
 },
 {
-  "id": "question-6",
+  "id": "question-5",
   "level": "2",
-  "url": "reading-8.html#question-6",
+  "url": "reading-8.html#question-5",
   "type": "Question",
   "number": "8.1.1",
   "title": "Response Question.",
   "body": "Response Question A proposition, , generated by a set of propositional variables is said to be satisfiable if there is at least one way to assign truth values to all of the variables so that Is true. Explain why is satisfiable as long as is not a tautology. "
 },
 {
-  "id": "exercise-46",
+  "id": "exercise-47",
   "level": "2",
-  "url": "reading-8.html#exercise-46",
+  "url": "reading-8.html#exercise-47",
   "type": "Exercise",
   "number": "8.1.1",
   "title": "",
   "body": "Put the following into symbolic form and check its validity: If I am a good person, nothing bad will happen to me. Nothing happened to me. Therefore, I am a good person. "
 },
 {
-  "id": "exercise-47",
+  "id": "exercise-48",
   "level": "2",
-  "url": "reading-8.html#exercise-47",
+  "url": "reading-8.html#exercise-48",
   "type": "Exercise",
   "number": "8.1.2",
   "title": "",
@@ -694,27 +694,27 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Prove either directly or indirectly:   In these two Lewis Carroll puzzles, you are given premises and are expected to form your own conclusion. In each of them, convert the premises to symbolic form, draw a conclusion, and then translate back to English.  No bald creature needs a hairbrush.  No lizards have hair.    Promise breakers are untrustworthy.  Wine drinkers are very communicative.  A man who keeps his promises is honest.  No teetotalers are pawnbrokers.  One can always trust a very communicative person.     There are , people who want to go to a concert. All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:  The backstage pass must go to the oldest person who gets a ticket.  The person who gets the backstage pass can' t get either of the other two tickets, but the two regular tickets can both go to the same person.  How many ways can you give away the tickets? There are two ways to count. Find both and equate them.    "
 },
 {
-  "id": "exercise-48",
+  "id": "exercise-49",
   "level": "2",
-  "url": "questions-8.html#exercise-48",
+  "url": "questions-8.html#exercise-49",
   "type": "Exercise",
   "number": "8.2.1",
   "title": "",
   "body": "Prove either directly or indirectly:  "
 },
 {
-  "id": "exercise-49",
+  "id": "exercise-50",
   "level": "2",
-  "url": "questions-8.html#exercise-49",
+  "url": "questions-8.html#exercise-50",
   "type": "Exercise",
   "number": "8.2.2",
   "title": "",
   "body": "In these two Lewis Carroll puzzles, you are given premises and are expected to form your own conclusion. In each of them, convert the premises to symbolic form, draw a conclusion, and then translate back to English.  No bald creature needs a hairbrush.  No lizards have hair.    Promise breakers are untrustworthy.  Wine drinkers are very communicative.  A man who keeps his promises is honest.  No teetotalers are pawnbrokers.  One can always trust a very communicative person.    "
 },
 {
-  "id": "exercise-50",
+  "id": "exercise-51",
   "level": "2",
-  "url": "questions-8.html#exercise-50",
+  "url": "questions-8.html#exercise-51",
   "type": "Exercise",
   "number": "8.2.3",
   "title": "",
@@ -748,27 +748,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 3.6 and 3.7 of Applied Discrete Structures . It is only necessary to read 3.6 through Example 3.6.7. The main idea in this reading is Mathematical Induction, which is a proof technique for propositions that have an integer variable. This type of proof is used throughout mathematics and is particularly prevalent in discrete settings.  Response Question You don’t need induction to prove that the sum of the first Positive integers equals . Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read.  Also, turn in solutions to these exercises.   Simplify the expressions        Prove that for , . Let be the proposition , . The basis of an induction proof that this proposition is a tautology is to observe that if we have , which is true.  Now the induction step of the proof calls for assuming that for some , is true (this is the induction hypothesis ). We then proof that follows from the induction hypothesis. and we are done!   "
 },
 {
-  "id": "question-7",
+  "id": "question-6",
   "level": "2",
-  "url": "reading-9.html#question-7",
+  "url": "reading-9.html#question-6",
   "type": "Question",
   "number": "9.1.1",
   "title": "Response Question.",
   "body": "Response Question You don’t need induction to prove that the sum of the first Positive integers equals . Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read. "
 },
 {
-  "id": "exercise-51",
+  "id": "exercise-52",
   "level": "2",
-  "url": "reading-9.html#exercise-51",
+  "url": "reading-9.html#exercise-52",
   "type": "Exercise",
   "number": "9.1.1",
   "title": "",
   "body": "Simplify the expressions       "
 },
 {
-  "id": "exercise-52",
+  "id": "exercise-53",
   "level": "2",
-  "url": "reading-9.html#exercise-52",
+  "url": "reading-9.html#exercise-53",
   "type": "Exercise",
   "number": "9.1.2",
   "title": "",
@@ -784,9 +784,9 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Prove that for ,  Prove that it is possible to make up any postage of 28 cents or more using only five-cent and eight-cent stamps.  Suppose that a particular real number has the property that is an integer. Prove that is an integer for all natural numbers .   "
 },
 {
-  "id": "exercise-53",
+  "id": "exercise-54",
   "level": "2",
-  "url": "questions-9.html#exercise-53",
+  "url": "questions-9.html#exercise-54",
   "type": "Exercise",
   "number": "9.2.1",
   "title": "",
@@ -802,9 +802,9 @@ var ptx_lunr_docs = [
   "body": "Prove that it is possible to make up any postage of 28 cents or more using only five-cent and eight-cent stamps. "
 },
 {
-  "id": "exercise-55",
+  "id": "exercise-56",
   "level": "2",
-  "url": "questions-9.html#exercise-55",
+  "url": "questions-9.html#exercise-56",
   "type": "Exercise",
   "number": "9.2.3",
   "title": "",
@@ -820,27 +820,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 3.8 and 3.9 of Applied Discrete Structures . Quantifiers are used to say something about the truth sets of propositions. You will read about two basic ones (Universal and Existential). Individually, they are fairly simple. Where things can be tricky is when when you have more than one variable and you mix the two types of quantifiers, or you negate a quantified expression. Pay close attention to these situations.  Response Question In reviewing a certain local coffee roaster, a writer stated \"...but all of its coffee is not fair trade.\" The writer was rebutting a claim by the roaster that \"All of our coffee is fair trade.\" Explain why the reviewer's statement was incorrect.  Also, turn in solutions to these exercises:    Let be is a mammal, let be is an animal, and let be is warm-blooded.   Translate into a formula: Every mammal is warm-blooded.  Translate into English: .    Write out a complete proof that if is an integer, is even if and only if is even.   "
 },
 {
-  "id": "question-8",
+  "id": "question-7",
   "level": "2",
-  "url": "reading-10.html#question-8",
+  "url": "reading-10.html#question-7",
   "type": "Question",
   "number": "10.1.1",
   "title": "Response Question.",
   "body": "Response Question In reviewing a certain local coffee roaster, a writer stated \"...but all of its coffee is not fair trade.\" The writer was rebutting a claim by the roaster that \"All of our coffee is fair trade.\" Explain why the reviewer's statement was incorrect. "
 },
 {
-  "id": "exercise-56",
+  "id": "exercise-57",
   "level": "2",
-  "url": "reading-10.html#exercise-56",
+  "url": "reading-10.html#exercise-57",
   "type": "Exercise",
   "number": "10.1.1",
   "title": "",
   "body": " Let be is a mammal, let be is an animal, and let be is warm-blooded.   Translate into a formula: Every mammal is warm-blooded.  Translate into English: .   "
 },
 {
-  "id": "exercise-57",
+  "id": "exercise-58",
   "level": "2",
-  "url": "reading-10.html#exercise-57",
+  "url": "reading-10.html#exercise-58",
   "type": "Exercise",
   "number": "10.1.2",
   "title": "",
@@ -856,54 +856,54 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Translate the following statement over the positive integers into symbols. Use for is even and for is odd in the first three parts.  No number is both even and odd.  One more than any even number is an odd number.  There is prime number that is even.  Between any two numbers there is a third number.  There is no number between a number and one more than that number.    Use quantifiers to state that for every positive integer, there is a larger positive integer.  One of the following is true and the other is false. Identify the true one says and explain why the other one is false.   Prove that the sum of of an odd integer and and even integer is odd.  Prove that if you divide 4 into a perfect square, , the remainder will be either 0 or 1.  Prove that the cube root of is an irrational number.   "
 },
 {
-  "id": "exercise-58",
+  "id": "exercise-59",
   "level": "2",
-  "url": "questions-10.html#exercise-58",
+  "url": "questions-10.html#exercise-59",
   "type": "Exercise",
   "number": "10.2.1",
   "title": "",
   "body": "Translate the following statement over the positive integers into symbols. Use for is even and for is odd in the first three parts.  No number is both even and odd.  One more than any even number is an odd number.  There is prime number that is even.  Between any two numbers there is a third number.  There is no number between a number and one more than that number.   "
 },
 {
-  "id": "exercise-59",
+  "id": "exercise-60",
   "level": "2",
-  "url": "questions-10.html#exercise-59",
+  "url": "questions-10.html#exercise-60",
   "type": "Exercise",
   "number": "10.2.2",
   "title": "",
   "body": "Use quantifiers to state that for every positive integer, there is a larger positive integer. "
 },
 {
-  "id": "exercise-60",
+  "id": "exercise-61",
   "level": "2",
-  "url": "questions-10.html#exercise-60",
+  "url": "questions-10.html#exercise-61",
   "type": "Exercise",
   "number": "10.2.3",
   "title": "",
   "body": "One of the following is true and the other is false. Identify the true one says and explain why the other one is false.  "
 },
 {
-  "id": "exercise-61",
+  "id": "exercise-62",
   "level": "2",
-  "url": "questions-10.html#exercise-61",
+  "url": "questions-10.html#exercise-62",
   "type": "Exercise",
   "number": "10.2.4",
   "title": "",
   "body": "Prove that the sum of of an odd integer and and even integer is odd. "
 },
 {
-  "id": "exercise-62",
+  "id": "exercise-63",
   "level": "2",
-  "url": "questions-10.html#exercise-62",
+  "url": "questions-10.html#exercise-63",
   "type": "Exercise",
   "number": "10.2.5",
   "title": "",
   "body": "Prove that if you divide 4 into a perfect square, , the remainder will be either 0 or 1. "
 },
 {
-  "id": "exercise-63",
+  "id": "exercise-64",
   "level": "2",
-  "url": "questions-10.html#exercise-63",
+  "url": "questions-10.html#exercise-64",
   "type": "Exercise",
   "number": "10.2.6",
   "title": "",
@@ -919,27 +919,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 4.1 and 4.2 of Applied Discrete Structures . In these sections, we revisit some of the set theory from Chapter 1, applying some of the logic in Chapter 3. Be aware of the types of objects that are in the sets involved in a proof. One example is that when you are proving something about Cartesian products, the objects usually need to be identified as ordered pairs, not simply as single variables.  Response Question Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures. Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws.  Also, turn in solutions to these exercises:   Write the converse of the following true statements and prove or disprove them.  Let , , and be sets. If and , then .  Let be sets. If ( and ) then .  Let be sets with . If then .     Prove the Identity Law for sets with a membership table.  Prove the Involution Law for sets using basic definitions.    "
 },
 {
-  "id": "question-9",
+  "id": "question-8",
   "level": "2",
-  "url": "reading-11.html#question-9",
+  "url": "reading-11.html#question-8",
   "type": "Question",
   "number": "11.1.1",
   "title": "Response Question.",
   "body": "Response Question Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures. Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws. "
 },
 {
-  "id": "exercise-64",
+  "id": "exercise-65",
   "level": "2",
-  "url": "reading-11.html#exercise-64",
+  "url": "reading-11.html#exercise-65",
   "type": "Exercise",
   "number": "11.1.1",
   "title": "",
   "body": "Write the converse of the following true statements and prove or disprove them.  Let , , and be sets. If and , then .  Let be sets. If ( and ) then .  Let be sets with . If then .   "
 },
 {
-  "id": "exercise-65",
+  "id": "exercise-66",
   "level": "2",
-  "url": "reading-11.html#exercise-65",
+  "url": "reading-11.html#exercise-66",
   "type": "Exercise",
   "number": "11.1.2",
   "title": "",
@@ -955,27 +955,27 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    What can one say about the sets and if we know the following? Back up your answers with proofs.           Given the following sets of integers, , find the set of elements that belong to exactly one of the three sets.  Prove that for any three sets, , is the set of all elements that belong to exactly one of the three sets. Verify this fact first with the example in the previous part, where you assume that the universe is .  Find a similar expression for the set of elements that belong to exactly one of any four sets    Recall that the power set of any set is the set of all subsets of and is denoted . Which of the following are true? If either is not true, can you replace the equals sign with or to get a true statement?   "
 },
 {
-  "id": "exercise-66",
+  "id": "exercise-67",
   "level": "2",
-  "url": "questions-11.html#exercise-66",
+  "url": "questions-11.html#exercise-67",
   "type": "Exercise",
   "number": "11.2.1",
   "title": "",
   "body": "What can one say about the sets and if we know the following? Back up your answers with proofs.        "
 },
 {
-  "id": "exercise-67",
+  "id": "exercise-68",
   "level": "2",
-  "url": "questions-11.html#exercise-67",
+  "url": "questions-11.html#exercise-68",
   "type": "Exercise",
   "number": "11.2.2",
   "title": "",
   "body": "  Given the following sets of integers, , find the set of elements that belong to exactly one of the three sets.  Prove that for any three sets, , is the set of all elements that belong to exactly one of the three sets. Verify this fact first with the example in the previous part, where you assume that the universe is .  Find a similar expression for the set of elements that belong to exactly one of any four sets   "
 },
 {
-  "id": "exercise-68",
+  "id": "exercise-69",
   "level": "2",
-  "url": "questions-11.html#exercise-68",
+  "url": "questions-11.html#exercise-69",
   "type": "Exercise",
   "number": "11.2.3",
   "title": "",
@@ -1009,27 +1009,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 4.3 and 4.4 of Applied Discrete Structures . Minsets help answer the question of what sets can be created if you start with a certain collection of sets and apply basic set operations to them. Duality is an organizing principle that set theory shares with logic and a few other mathematical structures.  Response Question To what extend is there any duality in arithmetic of numbers with addition and multiplication? How does it break down where it doesn't in set theory?  Also, turn in solutions to these exercises:   Consider the subsets , , where . List the nonempty minsets generated by .  What is the dual of ?   "
 },
 {
-  "id": "question-10",
+  "id": "question-9",
   "level": "2",
-  "url": "reading-12.html#question-10",
+  "url": "reading-12.html#question-9",
   "type": "Question",
   "number": "12.1.1",
   "title": "Response Question.",
   "body": "Response Question To what extend is there any duality in arithmetic of numbers with addition and multiplication? How does it break down where it doesn't in set theory? "
 },
 {
-  "id": "exercise-69",
+  "id": "exercise-70",
   "level": "2",
-  "url": "reading-12.html#exercise-69",
+  "url": "reading-12.html#exercise-70",
   "type": "Exercise",
   "number": "12.1.1",
   "title": "",
   "body": "Consider the subsets , , where . List the nonempty minsets generated by . "
 },
 {
-  "id": "exercise-70",
+  "id": "exercise-71",
   "level": "2",
-  "url": "reading-12.html#exercise-70",
+  "url": "reading-12.html#exercise-71",
   "type": "Exercise",
   "number": "12.1.2",
   "title": "",
@@ -1045,36 +1045,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises     A common way to denote a particular minset generated by a collection of subsets is as follows. If there are subsets, , and is any string of bits, then where is either or . If then and if then . For example, if , .  Suppose , , , and . List the nonempty minsets generated by and using notation. Notice that they form a partition of .  How does this notation make help us see how many distinct nonempty minsets there could be that are generated by subsets of a universe.      Partition into the nonempty minsets generated by , , and .  How many different subsets of can you create using , and with the standard set operations?  Do there exist subsets with which you can generate every subset of ? If so, can you find such a collection of subsets? If not, why? You might find the Venn diagram below useful for thinking about this problem.    A three set Venn diagram   Three interlocking circles labeled, from top left and clockwise, A, B and C     What is the dual of a minset? These sets are called maxsets Find the maxsets generated by the two sets in part (a) of the first problem. Why do you suppose they are called maxsets?  The descriptions of duality in Section 4.4 is not complete. If you expand expressions involving subsets, such as the expression , which is a true statement in set theory. What should be the dual? How should we treat the subset symbol?   "
 },
 {
-  "id": "exercise-71",
+  "id": "exercise-72",
   "level": "2",
-  "url": "questions-12.html#exercise-71",
+  "url": "questions-12.html#exercise-72",
   "type": "Exercise",
   "number": "12.2.1",
   "title": "",
   "body": " A common way to denote a particular minset generated by a collection of subsets is as follows. If there are subsets, , and is any string of bits, then where is either or . If then and if then . For example, if , .  Suppose , , , and . List the nonempty minsets generated by and using notation. Notice that they form a partition of .  How does this notation make help us see how many distinct nonempty minsets there could be that are generated by subsets of a universe.   "
 },
 {
-  "id": "exercise-72",
+  "id": "exercise-73",
   "level": "2",
-  "url": "questions-12.html#exercise-72",
+  "url": "questions-12.html#exercise-73",
   "type": "Exercise",
   "number": "12.2.2",
   "title": "",
   "body": "  Partition into the nonempty minsets generated by , , and .  How many different subsets of can you create using , and with the standard set operations?  Do there exist subsets with which you can generate every subset of ? If so, can you find such a collection of subsets? If not, why? You might find the Venn diagram below useful for thinking about this problem.    A three set Venn diagram   Three interlocking circles labeled, from top left and clockwise, A, B and C    "
 },
 {
-  "id": "exercise-73",
+  "id": "exercise-74",
   "level": "2",
-  "url": "questions-12.html#exercise-73",
+  "url": "questions-12.html#exercise-74",
   "type": "Exercise",
   "number": "12.2.3",
   "title": "",
   "body": "What is the dual of a minset? These sets are called maxsets Find the maxsets generated by the two sets in part (a) of the first problem. Why do you suppose they are called maxsets? "
 },
 {
-  "id": "exercise-74",
+  "id": "exercise-75",
   "level": "2",
-  "url": "questions-12.html#exercise-74",
+  "url": "questions-12.html#exercise-75",
   "type": "Exercise",
   "number": "12.2.4",
   "title": "",
@@ -1090,27 +1090,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 5.1 and 5.2 of Applied Discrete Structures. Matrix algebra serves as a contrasting system to logic and set theory but is also needed in the study of relations in Chapter 6. In these two sections, we review matrix operations and some special matrices.  Response Question Let . Select any 2 by 2 matrix with nonzero entries and call it . Compute the products What effect does have on in each case?  Also, turn in solutions to these exercises:    Let and    Compute and .  Compute and .   For the given matrices find if it exists and verify that . If does not exist explain why.           There is a short video on matrix multiplication at   "
 },
 {
-  "id": "question-11",
+  "id": "question-10",
   "level": "2",
-  "url": "reading-13.html#question-11",
+  "url": "reading-13.html#question-10",
   "type": "Question",
   "number": "13.1.1",
   "title": "Response Question.",
   "body": "Response Question Let . Select any 2 by 2 matrix with nonzero entries and call it . Compute the products What effect does have on in each case? "
 },
 {
-  "id": "exercise-75",
+  "id": "exercise-76",
   "level": "2",
-  "url": "reading-13.html#exercise-75",
+  "url": "reading-13.html#exercise-76",
   "type": "Exercise",
   "number": "13.1.1",
   "title": "",
   "body": " Let and    Compute and .  Compute and .  "
 },
 {
-  "id": "exercise-76",
+  "id": "exercise-77",
   "level": "2",
-  "url": "reading-13.html#exercise-76",
+  "url": "reading-13.html#exercise-77",
   "type": "Exercise",
   "number": "13.1.2",
   "title": "",
@@ -1126,36 +1126,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let and . Compute the product . Based on this result, what is .  Transpose of a matrix  If is a an matrix, we define the transpose of A to be the matrix whose rows are the columns of . For example, the transpose of The notation is used for the transpose of .  If is an matrix, are the products and defined? What are the orders of the products that are defined?  Given the following matrix, what useful information might you get from the products or .?     Prove by induction that for , .  In this exercise, we propose to show how matrix multiplication is a natural operation. Suppose a bakery produces bread, cakes and pies every weekday, Monday through Friday. Based on past sales history, the bakery produces various numbers of each product each day, summarized in the matrix . It should be noted that the order could be described as number of days by number of products. For example, on Wednesday (the third day) the number of cakes (second product in our list) that are produced is .  The main ingredients of these products are flour, sugar and eggs. We assume that other ingredients are always in ample supply, but we need to be sure to have the three main ones available. For each of the three products, The amount of each ingredient that is needed is summarized in the , or number of products by number of ingredients matrix . For example, to bake a cake (second product) we need cups of flour (first ingredient). Regarding units: flour and sugar are given in cups per unit of each product, while eggs are given in individual eggs per unit of each product. These amounts are made up , so don't used them to do your own baking!    How many cups of flour will the bakery need every Monday? Pay close attention to how you compute your answer and the units of each number.  How many eggs will the bakery need every Wednesday?  Compute the matrix product . What do you notice?  Suppose the costs of ingredients are for a cup of flour, for a cup of sugar and for one egg. How can this information be put into a matrix that can meaningfully be multiplied by one of the other matrices in this problem?     "
 },
 {
-  "id": "exercise-77",
+  "id": "exercise-78",
   "level": "2",
-  "url": "questions-13.html#exercise-77",
+  "url": "questions-13.html#exercise-78",
   "type": "Exercise",
   "number": "13.2.1",
   "title": "",
   "body": "Let and . Compute the product . Based on this result, what is . "
 },
 {
-  "id": "exercise-78",
+  "id": "exercise-79",
   "level": "2",
-  "url": "questions-13.html#exercise-78",
+  "url": "questions-13.html#exercise-79",
   "type": "Exercise",
   "number": "13.2.2",
   "title": "",
   "body": "Transpose of a matrix  If is a an matrix, we define the transpose of A to be the matrix whose rows are the columns of . For example, the transpose of The notation is used for the transpose of .  If is an matrix, are the products and defined? What are the orders of the products that are defined?  Given the following matrix, what useful information might you get from the products or .?    "
 },
 {
-  "id": "exercise-79",
+  "id": "exercise-80",
   "level": "2",
-  "url": "questions-13.html#exercise-79",
+  "url": "questions-13.html#exercise-80",
   "type": "Exercise",
   "number": "13.2.3",
   "title": "",
   "body": "Prove by induction that for , . "
 },
 {
-  "id": "exercise-80",
+  "id": "exercise-81",
   "level": "2",
-  "url": "questions-13.html#exercise-80",
+  "url": "questions-13.html#exercise-81",
   "type": "Exercise",
   "number": "13.2.4",
   "title": "",
@@ -1171,27 +1171,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 5.3 and 5.4 of Applied Discrete Structures . In these two sections we concentrate on the algebraic laws of set theory and some of the laws that are missing (because they are false!).  Response Question Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks.  Also, turn in solutions to these exercises:   Let . Compute , , , and .  Find at least three matrices, , such that .   "
 },
 {
-  "id": "question-12",
+  "id": "question-11",
   "level": "2",
-  "url": "reading-14.html#question-12",
+  "url": "reading-14.html#question-11",
   "type": "Question",
   "number": "14.1.1",
   "title": "Response Question.",
   "body": "Response Question Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. "
 },
 {
-  "id": "exercise-81",
+  "id": "exercise-82",
   "level": "2",
-  "url": "reading-14.html#exercise-81",
+  "url": "reading-14.html#exercise-82",
   "type": "Exercise",
   "number": "14.1.1",
   "title": "",
   "body": "Let . Compute , , , and . "
 },
 {
-  "id": "exercise-82",
+  "id": "exercise-83",
   "level": "2",
-  "url": "reading-14.html#exercise-82",
+  "url": "reading-14.html#exercise-83",
   "type": "Exercise",
   "number": "14.1.2",
   "title": "",
@@ -1207,36 +1207,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let and be matrices of real numbers. Is ? Explain.  Write each of the following systems in the form , and then solve the systems using matrices.        Suppose that are all matrices, , and . Prove that for all .  Let be the set of real matrices. Let be the subset of matrices defined by if and only if . Let be defined by if and only if .   Determine the cardinality of .  Consider the special case and prove that a sufficient condition for is that has a zero determinant (i.e., is singular) and where is the sum of the main diagonal elements of .  Is the condition of part b a necessary condition?    "
 },
 {
-  "id": "exercise-83",
+  "id": "exercise-84",
   "level": "2",
-  "url": "questions-14.html#exercise-83",
+  "url": "questions-14.html#exercise-84",
   "type": "Exercise",
   "number": "14.2.1",
   "title": "",
   "body": "Let and be matrices of real numbers. Is ? Explain. "
 },
 {
-  "id": "exercise-84",
+  "id": "exercise-85",
   "level": "2",
-  "url": "questions-14.html#exercise-84",
+  "url": "questions-14.html#exercise-85",
   "type": "Exercise",
   "number": "14.2.2",
   "title": "",
   "body": "Write each of the following systems in the form , and then solve the systems using matrices.       "
 },
 {
-  "id": "exercise-85",
+  "id": "exercise-86",
   "level": "2",
-  "url": "questions-14.html#exercise-85",
+  "url": "questions-14.html#exercise-86",
   "type": "Exercise",
   "number": "14.2.3",
   "title": "",
   "body": "Suppose that are all matrices, , and . Prove that for all . "
 },
 {
-  "id": "exercise-86",
+  "id": "exercise-87",
   "level": "2",
-  "url": "questions-14.html#exercise-86",
+  "url": "questions-14.html#exercise-87",
   "type": "Exercise",
   "number": "14.2.4",
   "title": "",
@@ -1252,27 +1252,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 6.1 and 6.2 of Applied Discrete Structures . Relations are propositions between two variables that are boolean - they are either true or false. You've used them many times in the past without necessarily calling them by that name. For example, less than is a relation on the integers. is true, while is false. If we imagine all pairs of integers, , that make true, that set is identified as the relation less than .  Response Question Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones. Three examples of very important relations are  Less than or equal to, , on the integers,  Set containment, , on the power set of a set,  Logical implication, , on any set of propositions.  Discuss any similarities you see between these three relations.   Also, turn in solutions to these exercises:   Consider the two relations on people: , where if 's mother is ; and , where if and are siblings. Describe, in words, the two relations and in simple English terms.  Let . Draw a digraph for the relation divides on .   "
 },
 {
-  "id": "question-13",
+  "id": "question-12",
   "level": "2",
-  "url": "reading-15.html#question-13",
+  "url": "reading-15.html#question-12",
   "type": "Question",
   "number": "15.1.1",
   "title": "Response Question.",
   "body": "Response Question Although any subset of a cartesian product of a set with itself can be a relation on that set, in the long run we are most concerned with a few important ones. Three examples of very important relations are  Less than or equal to, , on the integers,  Set containment, , on the power set of a set,  Logical implication, , on any set of propositions.  Discuss any similarities you see between these three relations.  "
 },
 {
-  "id": "exercise-87",
+  "id": "exercise-88",
   "level": "2",
-  "url": "reading-15.html#exercise-87",
+  "url": "reading-15.html#exercise-88",
   "type": "Exercise",
   "number": "15.1.1",
   "title": "",
   "body": "Consider the two relations on people: , where if 's mother is ; and , where if and are siblings. Describe, in words, the two relations and in simple English terms. "
 },
 {
-  "id": "exercise-88",
+  "id": "exercise-89",
   "level": "2",
-  "url": "reading-15.html#exercise-88",
+  "url": "reading-15.html#exercise-89",
   "type": "Exercise",
   "number": "15.1.2",
   "title": "",
@@ -1288,36 +1288,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let be the set of spaces in the floor of your classroom. Draw a digraph of the relation , where if and only if is connected to with at least one doorway.  Given and , relations on , and , what are and ? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing partial graphs.  Let be the set of strings of 0's and 1's of length 3 or less. This includes the empty string, , which is the only string of length zero. Define the relation of on by if has the same number of 1's as . For example, , but is false. Draw a digraph for this relation.  Do the same for the relation defined by if is a prefix of . For example, , but is false.   Consider logical implication, , on the set of propositions . Draw a digraph of this relation.   "
 },
 {
-  "id": "exercise-89",
+  "id": "exercise-90",
   "level": "2",
-  "url": "questions-15.html#exercise-89",
+  "url": "questions-15.html#exercise-90",
   "type": "Exercise",
   "number": "15.2.1",
   "title": "",
   "body": "Let be the set of spaces in the floor of your classroom. Draw a digraph of the relation , where if and only if is connected to with at least one doorway. "
 },
 {
-  "id": "exercise-90",
+  "id": "exercise-91",
   "level": "2",
-  "url": "questions-15.html#exercise-90",
+  "url": "questions-15.html#exercise-91",
   "type": "Exercise",
   "number": "15.2.2",
   "title": "",
   "body": "Given and , relations on , and , what are and ? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing partial graphs. "
 },
 {
-  "id": "exercise-91",
+  "id": "exercise-92",
   "level": "2",
-  "url": "questions-15.html#exercise-91",
+  "url": "questions-15.html#exercise-92",
   "type": "Exercise",
   "number": "15.2.3",
   "title": "",
   "body": "Let be the set of strings of 0's and 1's of length 3 or less. This includes the empty string, , which is the only string of length zero. Define the relation of on by if has the same number of 1's as . For example, , but is false. Draw a digraph for this relation.  Do the same for the relation defined by if is a prefix of . For example, , but is false.  "
 },
 {
-  "id": "exercise-92",
+  "id": "exercise-93",
   "level": "2",
-  "url": "questions-15.html#exercise-92",
+  "url": "questions-15.html#exercise-93",
   "type": "Exercise",
   "number": "15.2.4",
   "title": "",
@@ -1333,27 +1333,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 6.3 of Applied Discrete Structures . You will read about four properties that are satisfied by certain relations. Two combinations of these properties, when true, characterize relations that are particularly important. They are partial orderings and equivalence relations. Make an effort to memorize the terms in this section - they will appear throughout the rest of the book.  Response Question Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane?  Also, turn in solutions to these exercises:   Prove that congruence modulo is a transitive relation on the set of integers. Do this by assuming that and , and applying the definition for to conclude that .  Draw the ordering diagram for the relation divides on the divisors of .   "
 },
 {
-  "id": "question-14",
+  "id": "question-13",
   "level": "2",
-  "url": "reading-16.html#question-14",
+  "url": "reading-16.html#question-13",
   "type": "Question",
   "number": "16.1.1",
   "title": "Response Question.",
   "body": "Response Question Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane? "
 },
 {
-  "id": "exercise-93",
+  "id": "exercise-94",
   "level": "2",
-  "url": "reading-16.html#exercise-93",
+  "url": "reading-16.html#exercise-94",
   "type": "Exercise",
   "number": "16.1.1",
   "title": "",
   "body": "Prove that congruence modulo is a transitive relation on the set of integers. Do this by assuming that and , and applying the definition for to conclude that . "
 },
 {
-  "id": "exercise-94",
+  "id": "exercise-95",
   "level": "2",
-  "url": "reading-16.html#exercise-94",
+  "url": "reading-16.html#exercise-95",
   "type": "Exercise",
   "number": "16.1.2",
   "title": "",
@@ -1369,36 +1369,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let . Draw the graphs of relations on where:  The first relation is reflexive, symmetric, but not transitive.  The second relation is transitive, but not symmetric and not reflexive.  The third relation is both an equivalence relation and a partial ordering.    Let and let   Verify that is an equivalence relation on .  Let and define . the equivalence class of under  is called the equivalence class of under Equivalence Class . Find for each element .  Show that forms a partition of for this set .  Let be an equivalence relation on an arbitrary set . Prove that the set of all equivalence classes under constitutes a partition of .   Describe the equivalence classes under the relation congruence modulo 10 on the integers.  Let be the set of strings of 0's and 1's of length 3 or less; and let be the set of strings of 0's and 1's of length 3. What properties do the following relations have? Define the relation of on by if has the same number of 1's as . For example, , but is false.  Define the the relation on defined by if differs from in exactly one position. For example, , but is false.  Define the the relation defined on by if is contained within . For example, , but is false.  For any of these relations that are partial orderings, draw the Hasse diagram for that relation. For any of them that is an equivalence relation, identify the equivalence classes.   "
 },
 {
-  "id": "exercise-95",
+  "id": "exercise-96",
   "level": "2",
-  "url": "questions-16.html#exercise-95",
+  "url": "questions-16.html#exercise-96",
   "type": "Exercise",
   "number": "16.2.1",
   "title": "",
   "body": "Let . Draw the graphs of relations on where:  The first relation is reflexive, symmetric, but not transitive.  The second relation is transitive, but not symmetric and not reflexive.  The third relation is both an equivalence relation and a partial ordering.   "
 },
 {
-  "id": "exercise-96",
+  "id": "exercise-97",
   "level": "2",
-  "url": "questions-16.html#exercise-96",
+  "url": "questions-16.html#exercise-97",
   "type": "Exercise",
   "number": "16.2.2",
   "title": "",
   "body": "Let and let   Verify that is an equivalence relation on .  Let and define . the equivalence class of under  is called the equivalence class of under Equivalence Class . Find for each element .  Show that forms a partition of for this set .  Let be an equivalence relation on an arbitrary set . Prove that the set of all equivalence classes under constitutes a partition of .  "
 },
 {
-  "id": "exercise-97",
+  "id": "exercise-98",
   "level": "2",
-  "url": "questions-16.html#exercise-97",
+  "url": "questions-16.html#exercise-98",
   "type": "Exercise",
   "number": "16.2.3",
   "title": "",
   "body": "Describe the equivalence classes under the relation congruence modulo 10 on the integers. "
 },
 {
-  "id": "exercise-98",
+  "id": "exercise-99",
   "level": "2",
-  "url": "questions-16.html#exercise-98",
+  "url": "questions-16.html#exercise-99",
   "type": "Exercise",
   "number": "16.2.4",
   "title": "",
@@ -1432,18 +1432,18 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 6.4 and 6.5 of Applied Discrete Structures . Although some relations can be computed (e. g. determining whether ), some are more efficiently represented in a matrix. We introduce the matrix representation of relations in Section 6.4, and then transitive closure in Section 6.5.  Response Question Let be the relation on people where if is either 's mother or father. What is , where is the transitive closure of .  Also, turn in solutions to this exercise:   Consider the relation, , defined by the graph in .   Digraph of   A graph with six vertices defined by the dictionary {1:[3,5],2:[4],3:[4],4:[6],5:[4],6:[2]}      Determine the adjacency matrix of .  Use the matrix you have constructed to find the matrix of .  Draw the graph defined by the matrix product and verify that it is the graph of .  Determine the matrix of the transitive closure of .     "
 },
 {
-  "id": "question-15",
+  "id": "question-14",
   "level": "2",
-  "url": "reading-17.html#question-15",
+  "url": "reading-17.html#question-14",
   "type": "Question",
   "number": "17.1.1",
   "title": "Response Question.",
   "body": "Response Question Let be the relation on people where if is either 's mother or father. What is , where is the transitive closure of . "
 },
 {
-  "id": "exercise-99",
+  "id": "exercise-100",
   "level": "2",
-  "url": "reading-17.html#exercise-99",
+  "url": "reading-17.html#exercise-100",
   "type": "Exercise",
   "number": "17.1.1",
   "title": "",
@@ -1459,36 +1459,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let be the set of weekdays, Monday through Friday, let be a set of employees of a tutoring center, and let be a set of computer languages for which tutoring is offered, . We define (schedule) from into by if is scheduled to work on day . We also define from into by if can tutor students in language . If and are defined by matrices      compute using Boolean arithmetic and give an interpretation of the relation it defines, and  compute using regular arithmetic and give an interpretation of what the result describes.   Let . Let be the relation on with adjacency matrix   Explain why is a partial ordering on .  Draw its Hasse diagram.   What common relations on are the transitive closures of the following relations?    if and only if .   if and only if .    Prove that if is a transitive relation on a set , then .  Find an example of a transitive relation for which .    "
 },
 {
-  "id": "exercise-100",
+  "id": "exercise-101",
   "level": "2",
-  "url": "questions-17.html#exercise-100",
+  "url": "questions-17.html#exercise-101",
   "type": "Exercise",
   "number": "17.2.1",
   "title": "",
   "body": "Let be the set of weekdays, Monday through Friday, let be a set of employees of a tutoring center, and let be a set of computer languages for which tutoring is offered, . We define (schedule) from into by if is scheduled to work on day . We also define from into by if can tutor students in language . If and are defined by matrices      compute using Boolean arithmetic and give an interpretation of the relation it defines, and  compute using regular arithmetic and give an interpretation of what the result describes.  "
 },
 {
-  "id": "exercise-101",
+  "id": "exercise-102",
   "level": "2",
-  "url": "questions-17.html#exercise-101",
+  "url": "questions-17.html#exercise-102",
   "type": "Exercise",
   "number": "17.2.2",
   "title": "",
   "body": "Let . Let be the relation on with adjacency matrix   Explain why is a partial ordering on .  Draw its Hasse diagram.  "
 },
 {
-  "id": "exercise-102",
+  "id": "exercise-103",
   "level": "2",
-  "url": "questions-17.html#exercise-102",
+  "url": "questions-17.html#exercise-103",
   "type": "Exercise",
   "number": "17.2.3",
   "title": "",
   "body": "What common relations on are the transitive closures of the following relations?    if and only if .   if and only if .  "
 },
 {
-  "id": "exercise-103",
+  "id": "exercise-104",
   "level": "2",
-  "url": "questions-17.html#exercise-103",
+  "url": "questions-17.html#exercise-104",
   "type": "Exercise",
   "number": "17.2.4",
   "title": "",
@@ -1504,27 +1504,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 7.1 and 7.2 of Applied Discrete Structures . You may think you know about functions if you've taken calculus, but the approach to functions in Chapter 7, which is the more formal approach, is different. So make an effort to memorize the terms! The good news is that there are only two key properties that are introduced in Section 7.2.  Response Question In programming, a function is a named section of a program that performs a specific task and returns a value. How does this compare with the definition of a function in mathematics?  Also, turn in solutions to these exercises:   At the end of the semester a teacher assigns letter grades to each of her 45 students. Is this a function? If so, what sets make up the domain and codomain, and is the function injective, surjective, bijective, or neither?  Let be a set and let be any subset of . Let be defined by   The function is called the characteristic function Characteristic function of .  Suppose .  If , list the elements of .  What are and ?     "
 },
 {
-  "id": "question-16",
+  "id": "question-15",
   "level": "2",
-  "url": "reading-18.html#question-16",
+  "url": "reading-18.html#question-15",
   "type": "Question",
   "number": "18.1.1",
   "title": "Response Question.",
   "body": "Response Question In programming, a function is a named section of a program that performs a specific task and returns a value. How does this compare with the definition of a function in mathematics? "
 },
 {
-  "id": "exercise-104",
+  "id": "exercise-105",
   "level": "2",
-  "url": "reading-18.html#exercise-104",
+  "url": "reading-18.html#exercise-105",
   "type": "Exercise",
   "number": "18.1.1",
   "title": "",
   "body": "At the end of the semester a teacher assigns letter grades to each of her 45 students. Is this a function? If so, what sets make up the domain and codomain, and is the function injective, surjective, bijective, or neither? "
 },
 {
-  "id": "exercise-105",
+  "id": "exercise-106",
   "level": "2",
-  "url": "reading-18.html#exercise-105",
+  "url": "reading-18.html#exercise-106",
   "type": "Exercise",
   "number": "18.1.2",
   "title": "",
@@ -1540,36 +1540,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises     Define functions on the positive integers, , if they exist, that have the properties specified below.  A function that is one-to-one and onto.  A function that is neither one-to-one nor onto.  A function that is one-to-one but not onto.  A function that is onto but not one-to-one.    Prove that in a room with people, , at least two people know exactly the same number of people. Assume knowing is a symmetric relation: If Paul knows Pat, then Pat knows Paul.  Infinite Acres Spa and Math Camp has an infinite number of single occupancy rooms, numbered with each positive integer. You are the night manager. The spa is fully booked for the weekend and all rooms are occupied. A bus arrives late Friday night. You find that the manager has booked an additional infinite busload of customers, with confirmation codes numbered . Can you accomodate the new arrivals?  Prove that the set of finite strings of 0's and 1's is countable.    "
 },
 {
-  "id": "exercise-106",
+  "id": "exercise-107",
   "level": "2",
-  "url": "questions-18.html#exercise-106",
+  "url": "questions-18.html#exercise-107",
   "type": "Exercise",
   "number": "18.2.1",
   "title": "",
   "body": "Define functions on the positive integers, , if they exist, that have the properties specified below.  A function that is one-to-one and onto.  A function that is neither one-to-one nor onto.  A function that is one-to-one but not onto.  A function that is onto but not one-to-one.   "
 },
 {
-  "id": "exercise-107",
+  "id": "exercise-108",
   "level": "2",
-  "url": "questions-18.html#exercise-107",
+  "url": "questions-18.html#exercise-108",
   "type": "Exercise",
   "number": "18.2.2",
   "title": "",
   "body": "Prove that in a room with people, , at least two people know exactly the same number of people. Assume knowing is a symmetric relation: If Paul knows Pat, then Pat knows Paul. "
 },
 {
-  "id": "exercise-108",
+  "id": "exercise-109",
   "level": "2",
-  "url": "questions-18.html#exercise-108",
+  "url": "questions-18.html#exercise-109",
   "type": "Exercise",
   "number": "18.2.3",
   "title": "",
   "body": "Infinite Acres Spa and Math Camp has an infinite number of single occupancy rooms, numbered with each positive integer. You are the night manager. The spa is fully booked for the weekend and all rooms are occupied. A bus arrives late Friday night. You find that the manager has booked an additional infinite busload of customers, with confirmation codes numbered . Can you accomodate the new arrivals? "
 },
 {
-  "id": "exercise-109",
+  "id": "exercise-110",
   "level": "2",
-  "url": "questions-18.html#exercise-109",
+  "url": "questions-18.html#exercise-110",
   "type": "Exercise",
   "number": "18.2.4",
   "title": "",
@@ -1585,27 +1585,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 7.3 of Applied Discrete Structures . The key concept in this section is function composition, which is fundamental in mathematics and computer science. Be sure to learn how it works and you'll be in good shape for the rest of the book!  Response Question piping Google linux piping and describe how this technique is related to function composition.  Also, turn in solutions to these exercises:   Define , , and , all functions on the integers, by , , and . Determine:        Describe each function with a formula similar to the way that individual functions were defined.  Does defined by have an inverse? If it does, what is it? If it doesn't, why?  Does defined by have an inverse? If it does, what is it? If it doesn't, why?    "
 },
 {
-  "id": "question-17",
+  "id": "question-16",
   "level": "2",
-  "url": "reading-19.html#question-17",
+  "url": "reading-19.html#question-16",
   "type": "Question",
   "number": "19.1.1",
   "title": "Response Question.",
   "body": "Response Question piping Google linux piping and describe how this technique is related to function composition. "
 },
 {
-  "id": "exercise-110",
+  "id": "exercise-111",
   "level": "2",
-  "url": "reading-19.html#exercise-110",
+  "url": "reading-19.html#exercise-111",
   "type": "Exercise",
   "number": "19.1.1",
   "title": "",
   "body": "Define , , and , all functions on the integers, by , , and . Determine:        Describe each function with a formula similar to the way that individual functions were defined. "
 },
 {
-  "id": "exercise-111",
+  "id": "exercise-112",
   "level": "2",
-  "url": "reading-19.html#exercise-111",
+  "url": "reading-19.html#exercise-112",
   "type": "Exercise",
   "number": "19.1.2",
   "title": "",
@@ -1621,36 +1621,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let . Define by , , , and . Find , , and . You can describe each of these functions as being equal to a previous one, or in the same manner as was originally described.  Prove that if a function has an inverse, that inverse must be unique.  Let and be functions whose inverses exist. Prove that .  Our definition of cardinality states that two sets, and , have the same cardinality if there exists a bijection between the two sets. Why does it not matter whether the bijection is from into or into ?  Prove that has the same cardinality as is an equivalence relation on sets.    "
 },
 {
-  "id": "exercise-112",
+  "id": "exercise-113",
   "level": "2",
-  "url": "questions-19.html#exercise-112",
+  "url": "questions-19.html#exercise-113",
   "type": "Exercise",
   "number": "19.2.1",
   "title": "",
   "body": "Let . Define by , , , and . Find , , and . You can describe each of these functions as being equal to a previous one, or in the same manner as was originally described. "
 },
 {
-  "id": "exercise-113",
+  "id": "exercise-114",
   "level": "2",
-  "url": "questions-19.html#exercise-113",
+  "url": "questions-19.html#exercise-114",
   "type": "Exercise",
   "number": "19.2.2",
   "title": "",
   "body": "Prove that if a function has an inverse, that inverse must be unique. "
 },
 {
-  "id": "exercise-114",
+  "id": "exercise-115",
   "level": "2",
-  "url": "questions-19.html#exercise-114",
+  "url": "questions-19.html#exercise-115",
   "type": "Exercise",
   "number": "19.2.3",
   "title": "",
   "body": "Let and be functions whose inverses exist. Prove that . "
 },
 {
-  "id": "exercise-115",
+  "id": "exercise-116",
   "level": "2",
-  "url": "questions-19.html#exercise-115",
+  "url": "questions-19.html#exercise-116",
   "type": "Exercise",
   "number": "19.2.4",
   "title": "",
@@ -1666,27 +1666,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 8.1 and 8.2 of Applied Discrete Structures . You will see a variety of things that are most easily described through self-reference. Most computer languages allow recursion, which can be a powerful tool when used properly.  Response Question Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a stack to allow a function to call itself, such as in the python definition for the . Google \"what is a stack\" and briefly describe, in your own words, what you've learned.  Also, turn in solutions to these exercises:   Consider a sequence of strings, defined recursively by with and . Here, the plus sign is taken as concatenation of strings. Determine .  Consider sequence defined by , . Complete the table below and determine a recurrence relation that describes .    "
 },
 {
-  "id": "question-18",
+  "id": "question-17",
   "level": "2",
-  "url": "reading-20.html#question-18",
+  "url": "reading-20.html#question-17",
   "type": "Question",
   "number": "20.1.1",
   "title": "Response Question.",
   "body": "Response Question Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a stack to allow a function to call itself, such as in the python definition for the . Google \"what is a stack\" and briefly describe, in your own words, what you've learned. "
 },
 {
-  "id": "exercise-116",
+  "id": "exercise-117",
   "level": "2",
-  "url": "reading-20.html#exercise-116",
+  "url": "reading-20.html#exercise-117",
   "type": "Exercise",
   "number": "20.1.1",
   "title": "",
   "body": "Consider a sequence of strings, defined recursively by with and . Here, the plus sign is taken as concatenation of strings. Determine . "
 },
 {
-  "id": "exercise-117",
+  "id": "exercise-118",
   "level": "2",
-  "url": "reading-20.html#exercise-117",
+  "url": "reading-20.html#exercise-118",
   "type": "Exercise",
   "number": "20.1.2",
   "title": "",
@@ -1702,45 +1702,45 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    What is computed by the following function on the natural numbers?   Describe what the following function, , does on the positive integers.  I'm thinking of a number between 1 and 25. If I know you will use the binary search algorithm to guess my number and I want you to use as many guesses as possible, what are the best numbers for me to think about?  The length of a string is the number of characters in the string. Let be the length of , which was defined in the the homework problems. Find a recursive description of .  Fun Question . This last question comes from the BBC quiz show Round Britain . I expect that you would need to Google some of these references. If Barker and Corbett encountered, sequentially, Kieslowski's colours, Blyton's adventurers, Tarantino's undesirables and Thurber's timepieces, how many pilots would they meet next? The answer will appear at the end of the next chapter.   "
 },
 {
-  "id": "exercise-118",
+  "id": "exercise-119",
   "level": "2",
-  "url": "questions-20.html#exercise-118",
+  "url": "questions-20.html#exercise-119",
   "type": "Exercise",
   "number": "20.2.1",
   "title": "",
   "body": "What is computed by the following function on the natural numbers?  "
 },
 {
-  "id": "exercise-119",
+  "id": "exercise-120",
   "level": "2",
-  "url": "questions-20.html#exercise-119",
+  "url": "questions-20.html#exercise-120",
   "type": "Exercise",
   "number": "20.2.2",
   "title": "",
   "body": "Describe what the following function, , does on the positive integers. "
 },
 {
-  "id": "exercise-120",
+  "id": "exercise-121",
   "level": "2",
-  "url": "questions-20.html#exercise-120",
+  "url": "questions-20.html#exercise-121",
   "type": "Exercise",
   "number": "20.2.3",
   "title": "",
   "body": "I'm thinking of a number between 1 and 25. If I know you will use the binary search algorithm to guess my number and I want you to use as many guesses as possible, what are the best numbers for me to think about? "
 },
 {
-  "id": "exercise-121",
+  "id": "exercise-122",
   "level": "2",
-  "url": "questions-20.html#exercise-121",
+  "url": "questions-20.html#exercise-122",
   "type": "Exercise",
   "number": "20.2.4",
   "title": "",
   "body": "The length of a string is the number of characters in the string. Let be the length of , which was defined in the the homework problems. Find a recursive description of . "
 },
 {
-  "id": "exercise-122",
+  "id": "exercise-123",
   "level": "2",
-  "url": "questions-20.html#exercise-122",
+  "url": "questions-20.html#exercise-123",
   "type": "Exercise",
   "number": "20.2.5",
   "title": "",
@@ -1765,27 +1765,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the first three subsections of Section 8.3 of Applied Discrete Structures . This will take you up to, but not including the section titled Solution of Nonhomogeneous Finite Order Linear Relations . Again, the key is to make sure you become familiar with the terms that are introduced in this section.  Response Question One of the main reasons why recurrence relations are part of this course is that the time and\/or memory needs of a computer algorithm are often measured by first identifying a recurrence relation. Once solved, many sorting algorithm are found to take a time that is proportional to to sort items. If you are using an algorithm of this type, and it takes three minutes to sort a file with 10 million items, how long would you expect the algorithm to take to sort 20 million items?  Also, turn in solutions to these exercises:   Find a closed form expression that for the sequence if and if .  Find a closed form expression that for the sequence if , and if .   "
 },
 {
-  "id": "question-19",
+  "id": "question-18",
   "level": "2",
-  "url": "reading-21.html#question-19",
+  "url": "reading-21.html#question-18",
   "type": "Question",
   "number": "21.1.1",
   "title": "Response Question.",
   "body": "Response Question One of the main reasons why recurrence relations are part of this course is that the time and\/or memory needs of a computer algorithm are often measured by first identifying a recurrence relation. Once solved, many sorting algorithm are found to take a time that is proportional to to sort items. If you are using an algorithm of this type, and it takes three minutes to sort a file with 10 million items, how long would you expect the algorithm to take to sort 20 million items? "
 },
 {
-  "id": "exercise-123",
+  "id": "exercise-124",
   "level": "2",
-  "url": "reading-21.html#exercise-123",
+  "url": "reading-21.html#exercise-124",
   "type": "Exercise",
   "number": "21.1.1",
   "title": "",
   "body": "Find a closed form expression that for the sequence if and if . "
 },
 {
-  "id": "exercise-124",
+  "id": "exercise-125",
   "level": "2",
-  "url": "reading-21.html#exercise-124",
+  "url": "reading-21.html#exercise-125",
   "type": "Exercise",
   "number": "21.1.2",
   "title": "",
@@ -1801,20 +1801,11 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Find a closed form expression that for the sequence if , and if .  Find a closed form expression that for the sequence if , and if .  The recurrence relation , is non-homogeneous. This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation. This can be done by replacing with in the recurrence relation and multiplying that equation by 2. You can then eliminate the term. Find the general solution to the resulting second order recurrence relation.  The is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if and are its two characteristic roots, then and . Verify this and then solve for a closed form expression for .   "
 },
 {
-  "id": "exercise-125",
-  "level": "2",
-  "url": "questions-21.html#exercise-125",
-  "type": "Exercise",
-  "number": "21.2.1",
-  "title": "",
-  "body": "Find a closed form expression that for the sequence if , and if . "
-},
-{
   "id": "exercise-126",
   "level": "2",
   "url": "questions-21.html#exercise-126",
   "type": "Exercise",
-  "number": "21.2.2",
+  "number": "21.2.1",
   "title": "",
   "body": "Find a closed form expression that for the sequence if , and if . "
 },
@@ -1823,14 +1814,23 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "questions-21.html#exercise-127",
   "type": "Exercise",
-  "number": "21.2.3",
+  "number": "21.2.2",
   "title": "",
-  "body": "The recurrence relation , is non-homogeneous. This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation. This can be done by replacing with in the recurrence relation and multiplying that equation by 2. You can then eliminate the term. Find the general solution to the resulting second order recurrence relation. "
+  "body": "Find a closed form expression that for the sequence if , and if . "
 },
 {
   "id": "exercise-128",
   "level": "2",
   "url": "questions-21.html#exercise-128",
+  "type": "Exercise",
+  "number": "21.2.3",
+  "title": "",
+  "body": "The recurrence relation , is non-homogeneous. This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation. This can be done by replacing with in the recurrence relation and multiplying that equation by 2. You can then eliminate the term. Find the general solution to the resulting second order recurrence relation. "
+},
+{
+  "id": "exercise-129",
+  "level": "2",
+  "url": "questions-21.html#exercise-129",
   "type": "Exercise",
   "number": "21.2.4",
   "title": "",
@@ -1864,27 +1864,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the remainder of Section 8.3 starting with Subsection 8.3.4: Solution of Nonhomogeneous Finite Order Linear Relations. Once you've completed this section - it's a long one - you should be able to solve many recurrence relations that appear in mathematics and computer science. Not all of them though!  Response Question An algorithm that sorts files in -time is normally considered better than one that sorts in -time . However, that's not always the case for smaller files. The time it takes to sort items using Algorithms A and B take nanoseconds and nanoseconds. respectively. How large must a file be to make Algorithm A the preferred one?  Also, turn in solutions to these exercises:   Find a closed form solution to , with  What form would a particular solution to take? Find just a particular solution at this time.   "
 },
 {
-  "id": "question-20",
+  "id": "question-19",
   "level": "2",
-  "url": "reading-22.html#question-20",
+  "url": "reading-22.html#question-19",
   "type": "Question",
   "number": "22.1.1",
   "title": "Response Question.",
   "body": "Response Question An algorithm that sorts files in -time is normally considered better than one that sorts in -time . However, that's not always the case for smaller files. The time it takes to sort items using Algorithms A and B take nanoseconds and nanoseconds. respectively. How large must a file be to make Algorithm A the preferred one? "
 },
 {
-  "id": "exercise-129",
+  "id": "exercise-130",
   "level": "2",
-  "url": "reading-22.html#exercise-129",
+  "url": "reading-22.html#exercise-130",
   "type": "Exercise",
   "number": "22.1.1",
   "title": "",
   "body": "Find a closed form solution to , with "
 },
 {
-  "id": "exercise-130",
+  "id": "exercise-131",
   "level": "2",
-  "url": "reading-22.html#exercise-130",
+  "url": "reading-22.html#exercise-131",
   "type": "Exercise",
   "number": "22.1.2",
   "title": "",
@@ -1900,29 +1900,20 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Suppose that a computer algorithm takes no time to sort a list with one item, but if it is given a list with items, , then it takes nanoseconds. Find a closed form expression for   Find a closed form solution to , with , and .  Find a closed form solution to , with , and .  If you were to deposit a certain amount of money at the end of each year for a number of years, this sequence of payments would be called an annuity . With an annual interest rate of 5 percent, how much would you need to deposit into an annuity to have a value of one million dollars after 18 years?   "
 },
 {
-  "id": "exercise-131",
+  "id": "exercise-132",
   "level": "2",
-  "url": "questions-22.html#exercise-131",
+  "url": "questions-22.html#exercise-132",
   "type": "Exercise",
   "number": "22.2.1",
   "title": "",
   "body": "Suppose that a computer algorithm takes no time to sort a list with one item, but if it is given a list with items, , then it takes nanoseconds. Find a closed form expression for  "
 },
 {
-  "id": "exercise-132",
-  "level": "2",
-  "url": "questions-22.html#exercise-132",
-  "type": "Exercise",
-  "number": "22.2.2",
-  "title": "",
-  "body": "Find a closed form solution to , with , and . "
-},
-{
   "id": "exercise-133",
   "level": "2",
   "url": "questions-22.html#exercise-133",
   "type": "Exercise",
-  "number": "22.2.3",
+  "number": "22.2.2",
   "title": "",
   "body": "Find a closed form solution to , with , and . "
 },
@@ -1930,6 +1921,15 @@ var ptx_lunr_docs = [
   "id": "exercise-134",
   "level": "2",
   "url": "questions-22.html#exercise-134",
+  "type": "Exercise",
+  "number": "22.2.3",
+  "title": "",
+  "body": "Find a closed form solution to , with , and . "
+},
+{
+  "id": "exercise-135",
+  "level": "2",
+  "url": "questions-22.html#exercise-135",
   "type": "Exercise",
   "number": "22.2.4",
   "title": "",
@@ -1954,27 +1954,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 8.4 of Applied Discrete Structures . There is no general method for solving all recurrence relations. In this section we consider a few cases for which the method in Section 8.3 cannot be applied.  Response Question In this section we study algorithms for searching and sorting. If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list. What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with items?  Also, turn in solutions to these exercises:    Prove that if , .  One derangement of is 2143. List all others.   "
 },
 {
-  "id": "question-21",
+  "id": "question-20",
   "level": "2",
-  "url": "reading-23.html#question-21",
+  "url": "reading-23.html#question-20",
   "type": "Question",
   "number": "23.1.1",
   "title": "Response Question.",
   "body": "Response Question In this section we study algorithms for searching and sorting. If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list. What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with items? "
 },
 {
-  "id": "exercise-135",
+  "id": "exercise-136",
   "level": "2",
-  "url": "reading-23.html#exercise-135",
+  "url": "reading-23.html#exercise-136",
   "type": "Exercise",
   "number": "23.1.1",
   "title": "",
   "body": " Prove that if , . "
 },
 {
-  "id": "exercise-136",
+  "id": "exercise-137",
   "level": "2",
-  "url": "reading-23.html#exercise-136",
+  "url": "reading-23.html#exercise-137",
   "type": "Exercise",
   "number": "23.1.2",
   "title": "",
@@ -1990,18 +1990,18 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises      The selection sort algorithm on a list of proceeds first by finding the largest item in the list and placing it last, exchanging it with the -th item, if necessary. Then a selection sort sort of the first items is conducted. Let be the number of comparisons needed to complete a selection sort of items. Find a recurrence relation and initial condition for and solve it.   Suppose and . How many permutations of , have the property that is a fixed point? The set of all such permutations is called in the next problem.   Count the number of derangements of using inclusion-exclusion . Do this by counting the non-derangements in the union , where is the set of permutations for which is fixed. You can subtract that result from 4! Generalize to an arbitrary value of .   Among all continuous functions on the interval , how many are derangements in that they have no fixed points?   "
 },
 {
-  "id": "exercise-137",
+  "id": "exercise-138",
   "level": "2",
-  "url": "questions-23.html#exercise-137",
+  "url": "questions-23.html#exercise-138",
   "type": "Exercise",
   "number": "23.2.1",
   "title": "",
   "body": " The selection sort algorithm on a list of proceeds first by finding the largest item in the list and placing it last, exchanging it with the -th item, if necessary. Then a selection sort sort of the first items is conducted. Let be the number of comparisons needed to complete a selection sort of items. Find a recurrence relation and initial condition for and solve it. "
 },
 {
-  "id": "exercise-138",
+  "id": "exercise-139",
   "level": "2",
-  "url": "questions-23.html#exercise-138",
+  "url": "questions-23.html#exercise-139",
   "type": "Exercise",
   "number": "23.2.2",
   "title": "",
@@ -2017,9 +2017,9 @@ var ptx_lunr_docs = [
   "body": " Count the number of derangements of using inclusion-exclusion . Do this by counting the non-derangements in the union , where is the set of permutations for which is fixed. You can subtract that result from 4! Generalize to an arbitrary value of . "
 },
 {
-  "id": "exercise-140",
+  "id": "exercise-141",
   "level": "2",
-  "url": "questions-23.html#exercise-140",
+  "url": "questions-23.html#exercise-141",
   "type": "Exercise",
   "number": "23.2.4",
   "title": "",
@@ -2053,27 +2053,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the first two subsections of Section 8.5 of Applied Discrete Structures . Generating functions can serve as an alternative to the algorithm we introduced in Section 8.3, but also is a tool for solving other problems.  Response Question (adopteds from ) Suppose we treat addition as logical or and multiplication as logical and . Furthermore, suppose that stands for banana. Then to say you could have as many as two bananas, we could write . Suppose that in addition you could have up to three apples (use for apples) and zero or one pears (use for pears). What algebraic expression represents all your choices in selecting fruits? Identify the part of this expression where you select exactly two pieces of fruit.  Also, turn in solutions to these exercises:   What sequence has as its generating function ?  How are the generating functions of the sequences and related?   "
 },
 {
-  "id": "question-22",
+  "id": "question-21",
   "level": "2",
-  "url": "reading-24.html#question-22",
+  "url": "reading-24.html#question-21",
   "type": "Question",
   "number": "24.1.1",
   "title": "Response Question.",
   "body": "Response Question (adopteds from ) Suppose we treat addition as logical or and multiplication as logical and . Furthermore, suppose that stands for banana. Then to say you could have as many as two bananas, we could write . Suppose that in addition you could have up to three apples (use for apples) and zero or one pears (use for pears). What algebraic expression represents all your choices in selecting fruits? Identify the part of this expression where you select exactly two pieces of fruit. "
 },
 {
-  "id": "exercise-141",
+  "id": "exercise-142",
   "level": "2",
-  "url": "reading-24.html#exercise-141",
+  "url": "reading-24.html#exercise-142",
   "type": "Exercise",
   "number": "24.1.1",
   "title": "",
   "body": "What sequence has as its generating function ? "
 },
 {
-  "id": "exercise-142",
+  "id": "exercise-143",
   "level": "2",
-  "url": "reading-24.html#exercise-142",
+  "url": "reading-24.html#exercise-143",
   "type": "Exercise",
   "number": "24.1.2",
   "title": "",
@@ -2089,27 +2089,27 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let What sequence has as its generating function ? How is that sequence related to what you get when you roll two dice and add the top faces?  Earlier, we proved that with supplies of five and eight cent stamps, we could make any postage amount of 28 cents or more. Here, we will look at what smaller amounts can and can't be made. Let and . Every combination of stamps corresponds with the product of one term from with one term from . For example, the product corresponds with combining two five cent stamps and one eight cent stamp. Compute the first few terms of to get all terms with degree less than 28. The terms that are missing (have a coefficient of zero) are the ones that correspond with amounts that can't be created. In general, the coefficient of in the product will be the number of ways that cents can be made. Do a similar calculation to identify the amounts that cannot created with 7 and 9 cent stamps.  How many ways can you give someone fifty cents using any number of nickels, dimes, and quarters?   "
 },
 {
-  "id": "exercise-143",
+  "id": "exercise-144",
   "level": "2",
-  "url": "questions-24.html#exercise-143",
+  "url": "questions-24.html#exercise-144",
   "type": "Exercise",
   "number": "24.2.1",
   "title": "",
   "body": "Let What sequence has as its generating function ? How is that sequence related to what you get when you roll two dice and add the top faces? "
 },
 {
-  "id": "exercise-144",
+  "id": "exercise-145",
   "level": "2",
-  "url": "questions-24.html#exercise-144",
+  "url": "questions-24.html#exercise-145",
   "type": "Exercise",
   "number": "24.2.2",
   "title": "",
   "body": "Earlier, we proved that with supplies of five and eight cent stamps, we could make any postage amount of 28 cents or more. Here, we will look at what smaller amounts can and can't be made. Let and . Every combination of stamps corresponds with the product of one term from with one term from . For example, the product corresponds with combining two five cent stamps and one eight cent stamp. Compute the first few terms of to get all terms with degree less than 28. The terms that are missing (have a coefficient of zero) are the ones that correspond with amounts that can't be created. In general, the coefficient of in the product will be the number of ways that cents can be made. Do a similar calculation to identify the amounts that cannot created with 7 and 9 cent stamps. "
 },
 {
-  "id": "exercise-145",
+  "id": "exercise-146",
   "level": "2",
-  "url": "questions-24.html#exercise-145",
+  "url": "questions-24.html#exercise-146",
   "type": "Exercise",
   "number": "24.2.3",
   "title": "",
@@ -2125,54 +2125,54 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Prove that if and are bijections on a set , then is also a bijection on .  Partition the set into equivalence classes according to the relation congruence modulo 4, .  Is the following logical argument valid?   Peacham is either in Vermont or New Hampshire. If Peacham is in Vermont, then Peacham is in New England. If Peacham is in New Hamphire, then Peacham is in New England. Therefore, Peacham is in New England.   Yes, this argument is valid. Symbolically, it is which can be proven correct.  Prove, by mathematical induction, that , where is the th number in the .   Prove that if is an integer and you divide by 5, then the remainder is always 0, 1, or 4.  Prove that the square root of 5 is an irrational number.   "
 },
 {
-  "id": "exercise-146",
+  "id": "exercise-147",
   "level": "2",
-  "url": "questions-101.html#exercise-146",
+  "url": "questions-101.html#exercise-147",
   "type": "Exercise",
   "number": "25.1.1",
   "title": "",
   "body": "Prove that if and are bijections on a set , then is also a bijection on . "
 },
 {
-  "id": "exercise-147",
+  "id": "exercise-148",
   "level": "2",
-  "url": "questions-101.html#exercise-147",
+  "url": "questions-101.html#exercise-148",
   "type": "Exercise",
   "number": "25.1.2",
   "title": "",
   "body": "Partition the set into equivalence classes according to the relation congruence modulo 4, . "
 },
 {
-  "id": "exercise-148",
+  "id": "exercise-149",
   "level": "2",
-  "url": "questions-101.html#exercise-148",
+  "url": "questions-101.html#exercise-149",
   "type": "Exercise",
   "number": "25.1.3",
   "title": "",
   "body": "Is the following logical argument valid?   Peacham is either in Vermont or New Hampshire. If Peacham is in Vermont, then Peacham is in New England. If Peacham is in New Hamphire, then Peacham is in New England. Therefore, Peacham is in New England.   Yes, this argument is valid. Symbolically, it is which can be proven correct. "
 },
 {
-  "id": "exercise-149",
+  "id": "exercise-150",
   "level": "2",
-  "url": "questions-101.html#exercise-149",
+  "url": "questions-101.html#exercise-150",
   "type": "Exercise",
   "number": "25.1.4",
   "title": "",
   "body": "Prove, by mathematical induction, that , where is the th number in the .  "
 },
 {
-  "id": "exercise-150",
+  "id": "exercise-151",
   "level": "2",
-  "url": "questions-101.html#exercise-150",
+  "url": "questions-101.html#exercise-151",
   "type": "Exercise",
   "number": "25.1.5",
   "title": "",
   "body": "Prove that if is an integer and you divide by 5, then the remainder is always 0, 1, or 4. "
 },
 {
-  "id": "exercise-151",
+  "id": "exercise-152",
   "level": "2",
-  "url": "questions-101.html#exercise-151",
+  "url": "questions-101.html#exercise-152",
   "type": "Exercise",
   "number": "25.1.6",
   "title": "",
@@ -2188,9 +2188,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 9.1 of Applied Discrete Structures . This section introduces some basic terminology and properties of graphs.  Response Question The original version of the computer language BASIC on Apple II computers used 16 bits for an integer, one of which was used to specify the sign of the integer. What would have been the maximum size of an integer in that language?   Also, turn in solutions to these exercises:  Why is the sum of the degrees of the vertices of any undirected graph always even?  Demonstrate that is a graphic sequence.    "
 },
 {
-  "id": "question-23",
+  "id": "question-22",
   "level": "2",
-  "url": "reading-102.html#question-23",
+  "url": "reading-102.html#question-22",
   "type": "Question",
   "number": "26.1.1",
   "title": "Response Question.",
@@ -2233,27 +2233,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 9.2 and 9.3 of Applied Discrete Structures . The topics in these sections are data structures for graphs and connectivity between vertices in a graph.   Response Question You're certainly more familiar with the terms diameter, radius and center as they pertain to circles. Compare their use for circles with their use in graph theory. How are they similar and how are they different?  Also, turn in solutions to these exercises:   Draw the undirected graph that is represented by the following SageMath expression. Graph({1:[2,3,4],2:[3,5],3:[5,7],4:[6,7]})   In a breadth first search starting at vertex 2 of the graph in the previous problem, what would be the depth sets?   "
 },
 {
-  "id": "question-24",
+  "id": "question-23",
   "level": "2",
-  "url": "reading-103.html#question-24",
+  "url": "reading-103.html#question-23",
   "type": "Question",
   "number": "27.1.1",
   "title": "Response Question.",
   "body": "Response Question You're certainly more familiar with the terms diameter, radius and center as they pertain to circles. Compare their use for circles with their use in graph theory. How are they similar and how are they different? "
 },
 {
-  "id": "exercise-152",
+  "id": "exercise-153",
   "level": "2",
-  "url": "reading-103.html#exercise-152",
+  "url": "reading-103.html#exercise-153",
   "type": "Exercise",
   "number": "27.1.1",
   "title": "",
   "body": "Draw the undirected graph that is represented by the following SageMath expression. Graph({1:[2,3,4],2:[3,5],3:[5,7],4:[6,7]})  "
 },
 {
-  "id": "exercise-153",
+  "id": "exercise-154",
   "level": "2",
-  "url": "reading-103.html#exercise-153",
+  "url": "reading-103.html#exercise-154",
   "type": "Exercise",
   "number": "27.1.2",
   "title": "",
@@ -2269,18 +2269,18 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment.  Determine the diameter, radius, and center of the graph with the following distance matrix, where is the length of the shortest path from to . Can you construct the graph from this matrix? The diameter is 5, the radius is 3, and the center is .  A classroom has 5 rows of desks, with 7 desks in each row. Suppose we want to represent this rectangular arrangement of desks in an undirected graph, where each desk is connected to the neighboring desks to it's front, back, left and right. Of course, some desks have fewer than four neighbors.  How many edges will the graph have?  Determine the possible eccentricities of vertices in this graph. What is the diameter, radius and center of the graph.  If an adjacency matrix is constructed for this graph with one bit (0\/1) for each entry, how many bits would be needed? Assume we only store the part of the matrix that appears to the top right of the main diagonal of the matrix since its symmetric.  If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if appears in the list of neighbors of , then we don't need to list in the list of neighbors of .  If a list of ordered pairs is used, where each pair requires 16 bit, how many bits would be needed? Assume that for any two vertices, and , only one of the pairs and need to be listed.    There are edges.  Clearly the longest distance between pairs of desks is . The shortest longest distance from any desk is 5, which is the distance from the desk in the middle of the room, the fourth desk in row 3. There are vertices with eccentricities for all integers between 5 and 10. The radius is 5 and the diameter is 10. The center contains only one desk, the middle one.  If an adjacency matrix is constructed for this graph with one bit (0\/1) for each entry, how many bits would be needed? Assume we only store the part of the matrix that appears to the top right of the main diagonal of the matrix since its symmetric.  If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if appears in the list of neighbors of , then we don't need to list in the list of neighbors of .  If a list of ordered pairs is used, where each pair requires 16 bit, how many bits would be needed? Assume that for any two vertices, and , only one of the pairs and need to be listed.    "
 },
 {
-  "id": "exercise-154",
+  "id": "exercise-155",
   "level": "2",
-  "url": "questions-103.html#exercise-154",
+  "url": "questions-103.html#exercise-155",
   "type": "Exercise",
   "number": "27.2.1",
   "title": "",
   "body": "Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment. "
 },
 {
-  "id": "exercise-155",
+  "id": "exercise-156",
   "level": "2",
-  "url": "questions-103.html#exercise-155",
+  "url": "questions-103.html#exercise-156",
   "type": "Exercise",
   "number": "27.2.2",
   "title": "",
@@ -2305,27 +2305,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 9.4 of Applied Discrete Structures . In this section, we consider whether certain paths or circuits exist in a given graph. Our objective will either be to trace every edge once or visit every vertex once.  Response Question In the 18th century, Koenigsberg was part of Prussia. In what country is it now? Besides its bridges, find one other fact about Koenigsberg.  Also, turn in solutions to these exercises:   In answering the question Is every Eulerian graph also Hamiltonian? Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once. He concluded that this graph can't be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is No! Is his answer correct? Is his reasoning correct? Explain your answers.  How many different Hamiltonian circuits are there of a , , that start with the edge ? There are circuits as described.   "
 },
 {
-  "id": "question-25",
+  "id": "question-24",
   "level": "2",
-  "url": "reading-104.html#question-25",
+  "url": "reading-104.html#question-24",
   "type": "Question",
   "number": "28.1.1",
   "title": "Response Question.",
   "body": "Response Question In the 18th century, Koenigsberg was part of Prussia. In what country is it now? Besides its bridges, find one other fact about Koenigsberg. "
 },
 {
-  "id": "exercise-157",
+  "id": "exercise-158",
   "level": "2",
-  "url": "reading-104.html#exercise-157",
+  "url": "reading-104.html#exercise-158",
   "type": "Exercise",
   "number": "28.1.1",
   "title": "",
   "body": "In answering the question Is every Eulerian graph also Hamiltonian? Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once. He concluded that this graph can't be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is No! Is his answer correct? Is his reasoning correct? Explain your answers. "
 },
 {
-  "id": "exercise-158",
+  "id": "exercise-159",
   "level": "2",
-  "url": "reading-104.html#exercise-158",
+  "url": "reading-104.html#exercise-159",
   "type": "Exercise",
   "number": "28.1.2",
   "title": "",
@@ -2341,45 +2341,45 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that touching ends have matching numbers and the numbers at the two ends of the line match?   Twelve dominos with numbered pairs {3,7},{2,6},{1,7},{1,2},{2,3},{1,6},{3,5},{3,6},{2,7},{1,4},{4,5} and {6,7}.     Twelve dominos with numbered pairs {1,2},{5,7},{1,4},{3,7},{4,5},{1,3},{2,3},{3,5},{3,6},{2,6},{2,7} and {1,5}.   The answers to both parts can be arrived at by realizing that each domino can be thought of as an edge between vertices having the two numbers on the domino. We are then asking for an Eulerian circuit or path in the corresponding graph. A circuit exists for the first set of dominos, but not the second. For the second, the degrees of four vertices are odd and so the dominos cannot be arranged as desired.  A telephone company employee needs to check the telephone lines hanging from telephone poles for a cut in the line over a grid of streets in a city without service. What graph theory problem is she going to have to solve if she wants to do this efficiently?  King Arthur and his knights are either friends with one another or are enemies. He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve?  The Gray code for the 3-cube is not unique in that there are other Hamiltonian circuits that are not equal to or its reverse. Find one. Is it your different in shape from ? For the -cube, , are there Hamiltonian paths that are different in shape from ?  Assume we number positions in the Gray Code from 0 to . What is the bit string of in position 20 in the Gray code for the 6-cube? Where will you find 000101 in ? In what position in will you find 0010010000?   "
 },
 {
-  "id": "exercise-159",
+  "id": "exercise-160",
   "level": "2",
-  "url": "questions-104.html#exercise-159",
+  "url": "questions-104.html#exercise-160",
   "type": "Exercise",
   "number": "28.2.1",
   "title": "",
   "body": "For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that touching ends have matching numbers and the numbers at the two ends of the line match?   Twelve dominos with numbered pairs {3,7},{2,6},{1,7},{1,2},{2,3},{1,6},{3,5},{3,6},{2,7},{1,4},{4,5} and {6,7}.     Twelve dominos with numbered pairs {1,2},{5,7},{1,4},{3,7},{4,5},{1,3},{2,3},{3,5},{3,6},{2,6},{2,7} and {1,5}.   The answers to both parts can be arrived at by realizing that each domino can be thought of as an edge between vertices having the two numbers on the domino. We are then asking for an Eulerian circuit or path in the corresponding graph. A circuit exists for the first set of dominos, but not the second. For the second, the degrees of four vertices are odd and so the dominos cannot be arranged as desired. "
 },
 {
-  "id": "exercise-160",
+  "id": "exercise-161",
   "level": "2",
-  "url": "questions-104.html#exercise-160",
+  "url": "questions-104.html#exercise-161",
   "type": "Exercise",
   "number": "28.2.2",
   "title": "",
   "body": "A telephone company employee needs to check the telephone lines hanging from telephone poles for a cut in the line over a grid of streets in a city without service. What graph theory problem is she going to have to solve if she wants to do this efficiently? "
 },
 {
-  "id": "exercise-161",
+  "id": "exercise-162",
   "level": "2",
-  "url": "questions-104.html#exercise-161",
+  "url": "questions-104.html#exercise-162",
   "type": "Exercise",
   "number": "28.2.3",
   "title": "",
   "body": "King Arthur and his knights are either friends with one another or are enemies. He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve? "
 },
 {
-  "id": "exercise-162",
+  "id": "exercise-163",
   "level": "2",
-  "url": "questions-104.html#exercise-162",
+  "url": "questions-104.html#exercise-163",
   "type": "Exercise",
   "number": "28.2.4",
   "title": "",
   "body": "The Gray code for the 3-cube is not unique in that there are other Hamiltonian circuits that are not equal to or its reverse. Find one. Is it your different in shape from ? For the -cube, , are there Hamiltonian paths that are different in shape from ? "
 },
 {
-  "id": "exercise-163",
+  "id": "exercise-164",
   "level": "2",
-  "url": "questions-104.html#exercise-163",
+  "url": "questions-104.html#exercise-164",
   "type": "Exercise",
   "number": "28.2.5",
   "title": "",
@@ -2395,27 +2395,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 9.6 of Applied Discrete Structures . There are two main topics of this section. The first is planarity of graphs, whether a graph can be drawn on paper without having any edges crossing one another. The second is coloring, the vertices of a graph are assigned colors with the rule that two vertices that are connected by an edge must have different colors. The two topics are unified by the Four Color Theorem.  Response Question Fáry, István Who was István Fáry and what did he prove about planar graphs?  Also, turn in solutions to these exercises:   Although a it is not planar, it can be embedded on a torus without any edge crossings. This is demonstrated in the video https:\/\/www.youtube.com\/watch?v=k2O0Av_8_fo . Watch the video and then dermine whether you can embed a on a torus without any edge crossings. _  Find a coloring of the following graph with as few colors as possible. Use the letters > for colors and submit your answer in the form of a partition of :      An undirected graph on 8 vertices. The edges are are given by the set {(1,5), (1,6), (1,7), (1,8), (2,3), (2,6), (2,7), (3,4), (3,5), (3,8), (4,7), (6,7)}.       "
 },
 {
-  "id": "question-26",
+  "id": "question-25",
   "level": "2",
-  "url": "reading-104a.html#question-26",
+  "url": "reading-104a.html#question-25",
   "type": "Question",
   "number": "29.1.1",
   "title": "Response Question.",
   "body": "Response Question Fáry, István Who was István Fáry and what did he prove about planar graphs? "
 },
 {
-  "id": "exercise-164",
+  "id": "exercise-165",
   "level": "2",
-  "url": "reading-104a.html#exercise-164",
+  "url": "reading-104a.html#exercise-165",
   "type": "Exercise",
   "number": "29.1.1",
   "title": "",
   "body": "Although a it is not planar, it can be embedded on a torus without any edge crossings. This is demonstrated in the video https:\/\/www.youtube.com\/watch?v=k2O0Av_8_fo . Watch the video and then dermine whether you can embed a on a torus without any edge crossings. _ "
 },
 {
-  "id": "exercise-165",
+  "id": "exercise-166",
   "level": "2",
-  "url": "reading-104a.html#exercise-165",
+  "url": "reading-104a.html#exercise-166",
   "type": "Exercise",
   "number": "29.1.2",
   "title": "",
@@ -2431,45 +2431,45 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises   If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must have? Using Euler's formula, since ,   Cubic Graph The graph has vertices with degree sequence . How many edges does it have? If it is planar, into how many regions of the plane does it divide? Does have an Eulerian path? The degree sequence indicates that and . Since , .  Suppose an undirected planar graph has the following properties: All vertices have degree three (this called a cubic graph )  All faces of the graph's planar embedding are hexagons and pentagons; i. e, they is made up of either five or six edges. What can be said about the numbers of hexagons and pentagons in the graph? There must be 12 pentagons. The number of hexagons cannot be determined.  A teacher decides to have their students grade one another's quizzes. The scheme that is devised is that when a bell is rung, each student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves. Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade? It is not possible to arrange grading as described. If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks.  chromatic polynomial of a graph The chromatic polynomial of a graph, is a polynomial such that for each positive integer , equals the number of different ways you can color with colors. For example, the chromatic polynomial of a is .  What is the chromatic polynomial of a ?  What is the chromatic polynomial of a , a 4-cycle?  What is the chromatic polynomial of a ?  How are the chromatic number and the chromatic polynomial of a graph related?   The chromatic polynomial of a is . This follows from the fact that each vertex must be colored differently.  The chromatic polynomial of a is a bit more difficult to determine. If we number the vertices 1 through 4 and start be coloring vertex 1, it can colored ways. Then going around a cycle of any length we color the next vertex so as to differ from the previous one. However we run into a problem when we reach the last two vertices before reaching the start of the cycle. For the -cycle, vertex 1 can be colored ways and vertex 2 can be colored ways. We need to to partition the possibilities according to whether vertex 3 has the same color as vertex 1 or a different color. If they have the same color, then there are ways to color vertex 4. If they differ in color, then there are ways to color vertex 3, and then ways to finish up coloring vertex 4. Therefore the chromatic polynomial is .  The chromatic polynomial of a is . One way to derive this is as follows. We partition the possible ways to color the left side of the graph according to how many different colors are used. It's possible to use the same color for all vertices, two colors for them or three different colors. If the same color is used on the left, there are ways to do that, and then ways to color the right. If there are two colors used on the left, there are three ways to select the vertex that has a unique color and then there are ways to select the two colors. This second possible scheme is finished by coloring the right side in one of ways. Finally, if all three of the left side vertices are colored differently, this can be done ways and the right side can then be colored in one of ways. To sum up the total number of ways to color our graph is   The chromatic number is the least positive integer such that the chromatic polynomial evaluated at is nonzero. For example, the chomatic polynomial of the is zero when , but its value when is 2, which is consistant with the fact that a is bipartite.    "
 },
 {
-  "id": "exercise-166",
+  "id": "exercise-167",
   "level": "2",
-  "url": "questions-104a.html#exercise-166",
+  "url": "questions-104a.html#exercise-167",
   "type": "Exercise",
   "number": "29.2.1",
   "title": "",
   "body": "If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must have? Using Euler's formula, since ,  "
 },
 {
-  "id": "exercise-167",
+  "id": "exercise-168",
   "level": "2",
-  "url": "questions-104a.html#exercise-167",
+  "url": "questions-104a.html#exercise-168",
   "type": "Exercise",
   "number": "29.2.2",
   "title": "",
   "body": "Cubic Graph The graph has vertices with degree sequence . How many edges does it have? If it is planar, into how many regions of the plane does it divide? Does have an Eulerian path? The degree sequence indicates that and . Since , . "
 },
 {
-  "id": "exercise-168",
+  "id": "exercise-169",
   "level": "2",
-  "url": "questions-104a.html#exercise-168",
+  "url": "questions-104a.html#exercise-169",
   "type": "Exercise",
   "number": "29.2.3",
   "title": "",
   "body": "Suppose an undirected planar graph has the following properties: All vertices have degree three (this called a cubic graph )  All faces of the graph's planar embedding are hexagons and pentagons; i. e, they is made up of either five or six edges. What can be said about the numbers of hexagons and pentagons in the graph? There must be 12 pentagons. The number of hexagons cannot be determined. "
 },
 {
-  "id": "exercise-169",
+  "id": "exercise-170",
   "level": "2",
-  "url": "questions-104a.html#exercise-169",
+  "url": "questions-104a.html#exercise-170",
   "type": "Exercise",
   "number": "29.2.4",
   "title": "",
   "body": "A teacher decides to have their students grade one another's quizzes. The scheme that is devised is that when a bell is rung, each student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves. Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade? It is not possible to arrange grading as described. If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks. "
 },
 {
-  "id": "exercise-170",
+  "id": "exercise-171",
   "level": "2",
-  "url": "questions-104a.html#exercise-170",
+  "url": "questions-104a.html#exercise-171",
   "type": "Exercise",
   "number": "29.2.5",
   "title": "",
@@ -2485,27 +2485,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 10.1 and 10.2 of Applied Discrete Structures . In these sections we introduce trees, which are connected graphs without cycles. We also examine spanning trees of connected graphs, which are the smallest subgraphs which maintain connectedness in a graph.  Response Question In general, a family tree isn't really a tree in the sense of graph theory. Explain why. You can assume links in the family tree are undirected.  Also, turn in solutions to these exercises:   Given a tree with vertices, , how many leaves (vertices of degree 1) could it have?  What can you say about the sum of the entries in the degree sequence of a tree?   "
 },
 {
-  "id": "question-27",
+  "id": "question-26",
   "level": "2",
-  "url": "reading-105.html#question-27",
+  "url": "reading-105.html#question-26",
   "type": "Question",
   "number": "30.1.1",
   "title": "Response Question.",
   "body": "Response Question In general, a family tree isn't really a tree in the sense of graph theory. Explain why. You can assume links in the family tree are undirected. "
 },
 {
-  "id": "exercise-171",
+  "id": "exercise-172",
   "level": "2",
-  "url": "reading-105.html#exercise-171",
+  "url": "reading-105.html#exercise-172",
   "type": "Exercise",
   "number": "30.1.1",
   "title": "",
   "body": "Given a tree with vertices, , how many leaves (vertices of degree 1) could it have? "
 },
 {
-  "id": "exercise-172",
+  "id": "exercise-173",
   "level": "2",
-  "url": "reading-105.html#exercise-172",
+  "url": "reading-105.html#exercise-173",
   "type": "Exercise",
   "number": "30.1.2",
   "title": "",
@@ -2521,45 +2521,45 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Use the planarity of trees together with to derive the relationship between the number of vertices and number of edges in a tree.   Prove that every tree is bipartite, i. e., has a 2-coloring.   Prove that every connected graph which is not itself a tree must have at last three different spanning trees.   Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.    A weighted undirected graph on 10 vertices. The edges are are given by the list of triples [[1,2,8],[1,5,6],[1,9,7],[1,10,10],[3,5,11],[3,7,9],[4,9,13],[5,8,12],[6,7,5],[6,10,13]], where the first two entries are the vertices of the edge and the last entry is its weight.    The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}. This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added.   For each degree sequence below, decide whether it must always, must never, or could possibly be a degree sequence for a tree. If it is always a tree, is the tree unique? Justify your answers. (Adapted from .)                          "
 },
 {
-  "id": "exercise-173",
+  "id": "exercise-174",
   "level": "2",
-  "url": "questions-105.html#exercise-173",
+  "url": "questions-105.html#exercise-174",
   "type": "Exercise",
   "number": "30.2.1",
   "title": "",
   "body": "Use the planarity of trees together with to derive the relationship between the number of vertices and number of edges in a tree.  "
 },
 {
-  "id": "exercise-174",
+  "id": "exercise-175",
   "level": "2",
-  "url": "questions-105.html#exercise-174",
+  "url": "questions-105.html#exercise-175",
   "type": "Exercise",
   "number": "30.2.2",
   "title": "",
   "body": "Prove that every tree is bipartite, i. e., has a 2-coloring.  "
 },
 {
-  "id": "exercise-175",
+  "id": "exercise-176",
   "level": "2",
-  "url": "questions-105.html#exercise-175",
+  "url": "questions-105.html#exercise-176",
   "type": "Exercise",
   "number": "30.2.3",
   "title": "",
   "body": "Prove that every connected graph which is not itself a tree must have at last three different spanning trees.  "
 },
 {
-  "id": "exercise-176",
+  "id": "exercise-177",
   "level": "2",
-  "url": "questions-105.html#exercise-176",
+  "url": "questions-105.html#exercise-177",
   "type": "Exercise",
   "number": "30.2.4",
   "title": "",
   "body": "Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.    A weighted undirected graph on 10 vertices. The edges are are given by the list of triples [[1,2,8],[1,5,6],[1,9,7],[1,10,10],[3,5,11],[3,7,9],[4,9,13],[5,8,12],[6,7,5],[6,10,13]], where the first two entries are the vertices of the edge and the last entry is its weight.    The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}. This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added. "
 },
 {
-  "id": "exercise-177",
+  "id": "exercise-178",
   "level": "2",
-  "url": "questions-105.html#exercise-177",
+  "url": "questions-105.html#exercise-178",
   "type": "Exercise",
   "number": "30.2.5",
   "title": "",
@@ -2593,27 +2593,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 10.3 and 10.4 of Applied Discrete Structures . Here we consider some more structured trees in which a specific vertex is designated as the root of the tree. We see that there are several applications of these trees. Special attention is given to binary trees, where no more than two edges branch away from the root and any away other vertex that is reached by the root.  Response Question The level of a vertex of a binary tree is the length of the path from the root to that vertex. What is the maximum number of vertices at levels of any binary tree?  Also, turn in solutions to these exercises:   Draw all different ordered rooted trees with four vertices.  Construct the expression trees for the expressions and and .   "
 },
 {
-  "id": "question-28",
+  "id": "question-27",
   "level": "2",
-  "url": "reading-106.html#question-28",
+  "url": "reading-106.html#question-27",
   "type": "Question",
   "number": "31.1.1",
   "title": "Response Question.",
   "body": "Response Question The level of a vertex of a binary tree is the length of the path from the root to that vertex. What is the maximum number of vertices at levels of any binary tree? "
 },
 {
-  "id": "exercise-178",
+  "id": "exercise-179",
   "level": "2",
-  "url": "reading-106.html#exercise-178",
+  "url": "reading-106.html#exercise-179",
   "type": "Exercise",
   "number": "31.1.1",
   "title": "",
   "body": "Draw all different ordered rooted trees with four vertices. "
 },
 {
-  "id": "exercise-179",
+  "id": "exercise-180",
   "level": "2",
-  "url": "reading-106.html#exercise-179",
+  "url": "reading-106.html#exercise-180",
   "type": "Exercise",
   "number": "31.1.2",
   "title": "",
@@ -2629,45 +2629,45 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Given the list of data [483,569,150,649,659,198,356,241,359,930] , insert the data sequentially into a binary sorting tree.  List the vertices in a postorder traversal of the expression tree of .  Suppose . Define the -tree to be the binary tree with at its root and left and right subtrees having roots and , respectively. If or , then the -tree is a leaf containing the number 1.  Draw the and trees.  How many leaves does a -tree contain? Prove your answer.     How many binary trees are there having vertices and an empty right subtree?   Use the formula for the number of binary trees with vertices.      There is a one to one correspondence between ordered rooted trees and binary trees. If you start with an ordered rooted tree, , you can build a binary tree with an empty right subtree by placing the the root of at the root of . Then for every vertex from that has been placed in , place it's leftmost child (if there is one) as 's left child in . Make 's next sibling (if there is one) in the right child in .  An ordered rooted tree with root .   An ordered rooted tree with root specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.      Blue (left) and Red (right) links added to the ordered rooted tree with root r.   An ordered rooted tree with root r specifed by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]} with colored edges added to indicate the correspondence with a binary tree.    Binary tree corresponding to the ordered rooted tree.   The binary tree corresponding with the ordered rooted tree rooted at r specified by the dictionary of children {r:[a,d,c],a:[b,c],e:[f,g,h]}.      Why will have no right children in this correspondence?  Draw the binary tree that is produced by the ordered rooted tree in .  Draw the ordered tree that produces the binary tree in .  The left subtree of the binary tree in is one of 5 different binary trees with three vertices. Draw each of them and also the ordered rooted tree that each corresponds with.  What does this correspondence tell us about how the numbers of different binary trees and ordered rooted trees are related?    What binary tree does this correspond with?   An ordered rooted tree.    What ordered rooted tree does this correspond with?   A binary tree rooted at r with dictionary of left child- right child values {r:[a,nil],a:[b,c],b:[nil,nil],c:[nil,nil]}.       The root of is the root of the corresponding ordered rooted tree, which as no siblings.    Two columns of five graphs    See below    Two columns of five graphs     The number of ordered rooted trees with vertices is equal to the number of binary trees with vertices,     "
 },
 {
-  "id": "exercise-180",
+  "id": "exercise-181",
   "level": "2",
-  "url": "questions-106.html#exercise-180",
+  "url": "questions-106.html#exercise-181",
   "type": "Exercise",
   "number": "31.2.1",
   "title": "",
   "body": "Given the list of data [483,569,150,649,659,198,356,241,359,930] , insert the data sequentially into a binary sorting tree. "
 },
 {
-  "id": "exercise-181",
+  "id": "exercise-182",
   "level": "2",
-  "url": "questions-106.html#exercise-181",
+  "url": "questions-106.html#exercise-182",
   "type": "Exercise",
   "number": "31.2.2",
   "title": "",
   "body": "List the vertices in a postorder traversal of the expression tree of . "
 },
 {
-  "id": "exercise-182",
+  "id": "exercise-183",
   "level": "2",
-  "url": "questions-106.html#exercise-182",
+  "url": "questions-106.html#exercise-183",
   "type": "Exercise",
   "number": "31.2.3",
   "title": "",
   "body": "Suppose . Define the -tree to be the binary tree with at its root and left and right subtrees having roots and , respectively. If or , then the -tree is a leaf containing the number 1.  Draw the and trees.  How many leaves does a -tree contain? Prove your answer.   "
 },
 {
-  "id": "exercise-183",
+  "id": "exercise-184",
   "level": "2",
-  "url": "questions-106.html#exercise-183",
+  "url": "questions-106.html#exercise-184",
   "type": "Exercise",
   "number": "31.2.4",
   "title": "",
   "body": " How many binary trees are there having vertices and an empty right subtree?   Use the formula for the number of binary trees with vertices.    "
 },
 {
-  "id": "exercise-184",
+  "id": "exercise-185",
   "level": "2",
-  "url": "questions-106.html#exercise-184",
+  "url": "questions-106.html#exercise-185",
   "type": "Exercise",
   "number": "31.2.5",
   "title": "",
@@ -2683,27 +2683,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.1 of Applied Discrete Structures . This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory. In this first section we review properties of binary operations.  Response Question True or False? Multiplication is an associative operation on the set . Justify your answer.  Also, turn in solutions to these exercises:   Explain why subtraction is not an associative operation on the integers. A counterexample to the associative property is all that is needed here, of which there are an infinite number of examples. One such is .  Write out the operation table for intersection on the , the power set of .   "
 },
 {
-  "id": "question-29",
+  "id": "question-28",
   "level": "2",
-  "url": "reading-107.html#question-29",
+  "url": "reading-107.html#question-28",
   "type": "Question",
   "number": "32.1.1",
   "title": "Response Question.",
   "body": "Response Question True or False? Multiplication is an associative operation on the set . Justify your answer. "
 },
 {
-  "id": "exercise-185",
+  "id": "exercise-186",
   "level": "2",
-  "url": "reading-107.html#exercise-185",
+  "url": "reading-107.html#exercise-186",
   "type": "Exercise",
   "number": "32.1.1",
   "title": "",
   "body": "Explain why subtraction is not an associative operation on the integers. A counterexample to the associative property is all that is needed here, of which there are an infinite number of examples. One such is . "
 },
 {
-  "id": "exercise-186",
+  "id": "exercise-187",
   "level": "2",
-  "url": "reading-107.html#exercise-186",
+  "url": "reading-107.html#exercise-187",
   "type": "Exercise",
   "number": "32.1.2",
   "title": "",
@@ -2719,27 +2719,27 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    What properties that are introduced in Secton 11.1 are true of intersection on the power set of ?.  Consider the operation on the integers defined by   Is associative?  Does have an identity in the positive integers?  Does have the inverse property?     Yes, it is associative:  If is an identity, we would need Solving for , we see that 1 is an identity.  No, the inverse of a postitive integer would be such that . Therefore , or . But since we assume is a positive integer is not positive unless , and so only 1 have an inverse.    This question is open-ended, with no specific right answer. Suppose that is some finite nonempty set. What would be an example of a binary operation on the set of all undirected graphs with vertex set ?    "
 },
 {
-  "id": "exercise-187",
+  "id": "exercise-188",
   "level": "2",
-  "url": "questions-107.html#exercise-187",
+  "url": "questions-107.html#exercise-188",
   "type": "Exercise",
   "number": "32.2.1",
   "title": "",
   "body": "What properties that are introduced in Secton 11.1 are true of intersection on the power set of ?. "
 },
 {
-  "id": "exercise-188",
+  "id": "exercise-189",
   "level": "2",
-  "url": "questions-107.html#exercise-188",
+  "url": "questions-107.html#exercise-189",
   "type": "Exercise",
   "number": "32.2.2",
   "title": "",
   "body": "Consider the operation on the integers defined by   Is associative?  Does have an identity in the positive integers?  Does have the inverse property?     Yes, it is associative:  If is an identity, we would need Solving for , we see that 1 is an identity.  No, the inverse of a postitive integer would be such that . Therefore , or . But since we assume is a positive integer is not positive unless , and so only 1 have an inverse.   "
 },
 {
-  "id": "exercise-189",
+  "id": "exercise-190",
   "level": "2",
-  "url": "questions-107.html#exercise-189",
+  "url": "questions-107.html#exercise-190",
   "type": "Exercise",
   "number": "32.2.3",
   "title": "",
@@ -2755,27 +2755,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 10.2 of Applied Discrete Structures . We start by introducing the idea of levels of abstraction as they apply to monoids. We then introduce groups, which is the main type of system we focus on in this chapter.  Response Question Discuss the connection between groups and monoids. Is every monoid a group? Is every group a monoid?  Also, turn in solutions to these exercises:   Write out the operation table for multiplication on the set .  How many different commutative binary operations are there on any two element set?   "
 },
 {
-  "id": "question-30",
+  "id": "question-29",
   "level": "2",
-  "url": "reading-108.html#question-30",
+  "url": "reading-108.html#question-29",
   "type": "Question",
   "number": "33.1.1",
   "title": "Response Question.",
   "body": "Response Question Discuss the connection between groups and monoids. Is every monoid a group? Is every group a monoid? "
 },
 {
-  "id": "exercise-190",
+  "id": "exercise-191",
   "level": "2",
-  "url": "reading-108.html#exercise-190",
+  "url": "reading-108.html#exercise-191",
   "type": "Exercise",
   "number": "33.1.1",
   "title": "",
   "body": "Write out the operation table for multiplication on the set . "
 },
 {
-  "id": "exercise-191",
+  "id": "exercise-192",
   "level": "2",
-  "url": "reading-108.html#exercise-191",
+  "url": "reading-108.html#exercise-192",
   "type": "Exercise",
   "number": "33.1.2",
   "title": "",
@@ -2791,36 +2791,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Let be a any set. Prove that, , defined by is an associative operation on .  Let be a any set. Prove that, is a group.  Consider the following set of six algebraic expressions, each defining a function on the set of real numbers excluding the numbers 0 and 1. We can opperate on any two of these expressions using function composition. For example, Therefore, . Complete the following operation table for function composition on .  Partially completed operation table for   Partially completed operation table for the composition of function x, 1\/x,...     Is a monoid? Is it a group?   Let be the set of all strings of letters of length zero or more from the set that do not have any consecutive identical letters. Define on by the rule that if then is determined by first concatenating and and then repeatedly removing any occurrences of two identical letters until the result is an element of . Is a monoid? Is it a group?   "
 },
 {
-  "id": "exercise-192",
+  "id": "exercise-193",
   "level": "2",
-  "url": "questions-108.html#exercise-192",
+  "url": "questions-108.html#exercise-193",
   "type": "Exercise",
   "number": "33.2.1",
   "title": "",
   "body": "Let be a any set. Prove that, , defined by is an associative operation on . "
 },
 {
-  "id": "exercise-193",
+  "id": "exercise-194",
   "level": "2",
-  "url": "questions-108.html#exercise-193",
+  "url": "questions-108.html#exercise-194",
   "type": "Exercise",
   "number": "33.2.2",
   "title": "",
   "body": "Let be a any set. Prove that, is a group. "
 },
 {
-  "id": "exercise-194",
+  "id": "exercise-195",
   "level": "2",
-  "url": "questions-108.html#exercise-194",
+  "url": "questions-108.html#exercise-195",
   "type": "Exercise",
   "number": "33.2.3",
   "title": "",
   "body": "Consider the following set of six algebraic expressions, each defining a function on the set of real numbers excluding the numbers 0 and 1. We can opperate on any two of these expressions using function composition. For example, Therefore, . Complete the following operation table for function composition on .  Partially completed operation table for   Partially completed operation table for the composition of function x, 1\/x,...     Is a monoid? Is it a group?  "
 },
 {
-  "id": "exercise-195",
+  "id": "exercise-196",
   "level": "2",
-  "url": "questions-108.html#exercise-195",
+  "url": "questions-108.html#exercise-196",
   "type": "Exercise",
   "number": "33.2.4",
   "title": "",
@@ -2836,27 +2836,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.3 of Applied Discrete Structures . In this section we examine some of the basic theorems that follow immediately from the axioms of a group. Reviewing the proofs is a good exercise in solidifying an understanding of the axioms. In most cases, these theorems are applied in later work without explicitly stating them.  Response Question SageMath can be used to explore concrete groups. It can't be used to prove significant theorems, but you can verify that the theorems are true. Here is one particular group's operation table generated using Sage. The group, with domain [a,b,c,d,e,f,g,h] , is in a family called the dihedral groups, and will be encountered in Section 15.3. For the purposes of this question, notice that in the body of the table, each element appears exactly once in each row and column. Which theorem guarantees that this is always true for a group's operation table?    Any of of the following theorems could be applied to make this observation: Cancellation Laws, Linear Equations in a Groups, or the Pigeonhole Principle.  Also, do these exercises:   Suppose is a group with . Solve the equation for .  Notice that , yet . Does this contradict the ? Explain your answer. A   "
 },
 {
-  "id": "question-31",
+  "id": "question-30",
   "level": "2",
-  "url": "reading-109.html#question-31",
+  "url": "reading-109.html#question-30",
   "type": "Question",
   "number": "34.1.1",
   "title": "Response Question.",
   "body": "Response Question SageMath can be used to explore concrete groups. It can't be used to prove significant theorems, but you can verify that the theorems are true. Here is one particular group's operation table generated using Sage. The group, with domain [a,b,c,d,e,f,g,h] , is in a family called the dihedral groups, and will be encountered in Section 15.3. For the purposes of this question, notice that in the body of the table, each element appears exactly once in each row and column. Which theorem guarantees that this is always true for a group's operation table?    Any of of the following theorems could be applied to make this observation: Cancellation Laws, Linear Equations in a Groups, or the Pigeonhole Principle. "
 },
 {
-  "id": "exercise-196",
+  "id": "exercise-197",
   "level": "2",
-  "url": "reading-109.html#exercise-196",
+  "url": "reading-109.html#exercise-197",
   "type": "Exercise",
   "number": "34.1.1",
   "title": "",
   "body": "Suppose is a group with . Solve the equation for . "
 },
 {
-  "id": "exercise-197",
+  "id": "exercise-198",
   "level": "2",
-  "url": "reading-109.html#exercise-197",
+  "url": "reading-109.html#exercise-198",
   "type": "Exercise",
   "number": "34.1.2",
   "title": "",
@@ -2872,27 +2872,27 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Prove that if for all elements in a group , then must be abelian. Given , apply the premise to .  Suppose is a group and . Define by . If we compose two such functions, and where , what function do we get for ?   This problem anticipates a future topic that you can plausibly discover on your own. Functions like the ones in the previous problem can be of use in this one.  Suppose is a finite group of order . The in Section 10.3 states that if , there exists a positive integer, less than such that . Prove that the least such positive integer is a divisor of . You can partition into subsets of equal cardinality. Let be the set of distinct powers of .  This is a finite set since it's a subset of a finite set.  Pick any element of that's not in .  The function from the last problem of the week is a one-to-one function (this implied by the cancellation laws).  The range of ,   , has the same cardinality as .  Keep repeating the process, at each stage selecting an element of that's not appeared in or any of the ranges of functions from previous steps.   This process has to end in a finite number of steps and produces a partition of into subsets all of the same cardinality as .   "
 },
 {
-  "id": "exercise-198",
+  "id": "exercise-199",
   "level": "2",
-  "url": "questions-109.html#exercise-198",
+  "url": "questions-109.html#exercise-199",
   "type": "Exercise",
   "number": "34.2.1",
   "title": "",
   "body": "Prove that if for all elements in a group , then must be abelian. Given , apply the premise to . "
 },
 {
-  "id": "exercise-199",
+  "id": "exercise-200",
   "level": "2",
-  "url": "questions-109.html#exercise-199",
+  "url": "questions-109.html#exercise-200",
   "type": "Exercise",
   "number": "34.2.2",
   "title": "",
   "body": "Suppose is a group and . Define by . If we compose two such functions, and where , what function do we get for ? "
 },
 {
-  "id": "exercise-200",
+  "id": "exercise-201",
   "level": "2",
-  "url": "questions-109.html#exercise-200",
+  "url": "questions-109.html#exercise-201",
   "type": "Exercise",
   "number": "34.2.3",
   "title": "",
@@ -2935,27 +2935,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.4 of Applied Discrete Structures . When you get to Investigation 11.4.1, skip down to Section 11.4.3 Modular Arithmetic.  The definitions of modular addition and multiplication in this section are really important . They are used throughout the rest of the book. The section starts with a review of division properties for integers in order to set up the modular operations. Generally, the mod operations are operations only on either , or a subset of . For example, it wouldn't make sense to do mod 10 addition on .  Response Question If the product of two numbers is zero, must one of the numbers equal zero?  Also, turn in solutions to the following exercises. Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.   Compute by hand the greatest common divisor of and . Show the calculations you did to get your answer.   Write out the operation table for mod 4 addition on . Identify the inverse of each element.   "
 },
 {
-  "id": "question-32",
+  "id": "question-31",
   "level": "2",
-  "url": "reading-110.html#question-32",
+  "url": "reading-110.html#question-31",
   "type": "Question",
   "number": "35.1.1",
   "title": "Response Question.",
   "body": "Response Question If the product of two numbers is zero, must one of the numbers equal zero? "
 },
 {
-  "id": "exercise-201",
+  "id": "exercise-202",
   "level": "2",
-  "url": "reading-110.html#exercise-201",
+  "url": "reading-110.html#exercise-202",
   "type": "Exercise",
   "number": "35.1.1",
   "title": "",
   "body": "Compute by hand the greatest common divisor of and . Show the calculations you did to get your answer.  "
 },
 {
-  "id": "exercise-202",
+  "id": "exercise-203",
   "level": "2",
-  "url": "reading-110.html#exercise-202",
+  "url": "reading-110.html#exercise-203",
   "type": "Exercise",
   "number": "35.1.2",
   "title": "",
@@ -2971,36 +2971,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises      Let be a positive integer greater than 1. Show that has a multiplicative inverse mod . Since , has a mod inverse. In fact, it is its own inverse.   Write out the operation table for the multiplicative group of integers mod 8 on . Identify the inverse of each element.   Write out the operation table for mod 10 multiplication on . Is a monoid? Is it a group?   Find a formula for the inverse of the function where . Suggestion: You can use the symbols and in your work instead of and as long as we agree that they stand for mod 29 operations.    "
 },
 {
-  "id": "exercise-203",
+  "id": "exercise-204",
   "level": "2",
-  "url": "questions-110.html#exercise-203",
+  "url": "questions-110.html#exercise-204",
   "type": "Exercise",
   "number": "35.2.1",
   "title": "",
   "body": "Let be a positive integer greater than 1. Show that has a multiplicative inverse mod . Since , has a mod inverse. In fact, it is its own inverse. "
 },
 {
-  "id": "exercise-204",
+  "id": "exercise-205",
   "level": "2",
-  "url": "questions-110.html#exercise-204",
+  "url": "questions-110.html#exercise-205",
   "type": "Exercise",
   "number": "35.2.2",
   "title": "",
   "body": "Write out the operation table for the multiplicative group of integers mod 8 on . Identify the inverse of each element.  "
 },
 {
-  "id": "exercise-205",
+  "id": "exercise-206",
   "level": "2",
-  "url": "questions-110.html#exercise-205",
+  "url": "questions-110.html#exercise-206",
   "type": "Exercise",
   "number": "35.2.3",
   "title": "",
   "body": "Write out the operation table for mod 10 multiplication on . Is a monoid? Is it a group?  "
 },
 {
-  "id": "exercise-206",
+  "id": "exercise-207",
   "level": "2",
-  "url": "questions-110.html#exercise-206",
+  "url": "questions-110.html#exercise-207",
   "type": "Exercise",
   "number": "35.2.4",
   "title": "",
@@ -3016,27 +3016,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.5 of Applied Discrete Structures . The main idea is that there are certain subsets of groups that qualify as groups in their own right. This is an instance of a more general situation in mathematics where a structure can contain smaller structures. The idea of a subset is the most simple case of this, but we have also seen subgraphs in the study of graphs and trees. Finding all subgroups of a group isn't always easy, but describing and finding the cyclic subgroups of a group is not too difficult. Pay close attention how this is done!  Response Question Let . Chris says that is a subgroup of because . How would you respond to Chris?  Also, turn in solutions to these exercises:   True or false?: The set of all bit strings that begin with a 1 form a submonoid of the monoid of all bit strings with concatination. The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set. Explain your answer.  True or false?: is a subgroup of the additive group . Explain your answer.   "
 },
 {
-  "id": "question-33",
+  "id": "question-32",
   "level": "2",
-  "url": "reading-111.html#question-33",
+  "url": "reading-111.html#question-32",
   "type": "Question",
   "number": "36.1.1",
   "title": "Response Question.",
   "body": "Response Question Let . Chris says that is a subgroup of because . How would you respond to Chris? "
 },
 {
-  "id": "exercise-207",
+  "id": "exercise-208",
   "level": "2",
-  "url": "reading-111.html#exercise-207",
+  "url": "reading-111.html#exercise-208",
   "type": "Exercise",
   "number": "36.1.1",
   "title": "",
   "body": "True or false?: The set of all bit strings that begin with a 1 form a submonoid of the monoid of all bit strings with concatination. The statement is false because the empty string doesn't start with a 1 and so the identity element is not in the given set. Explain your answer. "
 },
 {
-  "id": "exercise-208",
+  "id": "exercise-209",
   "level": "2",
-  "url": "reading-111.html#exercise-208",
+  "url": "reading-111.html#exercise-209",
   "type": "Exercise",
   "number": "36.1.2",
   "title": "",
@@ -3052,20 +3052,11 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Determine the cyclic subgroup generated by 4 in the group  Determine the cyclic subgroup generated by 4 in the group  In this exercise, we will consider the orders of the additive groups of integers modulo for three different values of , and then speculate on some general results.  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Comparing the results you got above, hypothesize on what you would expect for different moduli   Assume that is a group and is a nonempty subset of . Suppose that we are told that for , we are guaranteed that . Prove that is a subgroup of . Prove the identity, inverses and closure properties of a subgroup, in that order.   "
 },
 {
-  "id": "exercise-209",
-  "level": "2",
-  "url": "questions-111.html#exercise-209",
-  "type": "Exercise",
-  "number": "36.2.1",
-  "title": "",
-  "body": "Determine the cyclic subgroup generated by 4 in the group "
-},
-{
   "id": "exercise-210",
   "level": "2",
   "url": "questions-111.html#exercise-210",
   "type": "Exercise",
-  "number": "36.2.2",
+  "number": "36.2.1",
   "title": "",
   "body": "Determine the cyclic subgroup generated by 4 in the group "
 },
@@ -3074,14 +3065,23 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "questions-111.html#exercise-211",
   "type": "Exercise",
-  "number": "36.2.3",
+  "number": "36.2.2",
   "title": "",
-  "body": "In this exercise, we will consider the orders of the additive groups of integers modulo for three different values of , and then speculate on some general results.  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Comparing the results you got above, hypothesize on what you would expect for different moduli  "
+  "body": "Determine the cyclic subgroup generated by 4 in the group "
 },
 {
   "id": "exercise-212",
   "level": "2",
   "url": "questions-111.html#exercise-212",
+  "type": "Exercise",
+  "number": "36.2.3",
+  "title": "",
+  "body": "In this exercise, we will consider the orders of the additive groups of integers modulo for three different values of , and then speculate on some general results.  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Determine the orders of different elements of the group .  Comparing the results you got above, hypothesize on what you would expect for different moduli  "
+},
+{
+  "id": "exercise-213",
+  "level": "2",
+  "url": "questions-111.html#exercise-213",
   "type": "Exercise",
   "number": "36.2.4",
   "title": "",
@@ -3115,27 +3115,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.6 of Applied Discrete Structures . At some point, you may have seen an addition of pairs that looked something like this: This is an example of coordinate-wise addition, where the first coordinate of the sum depends only on the two first coordinates of the terms on the left. This is exactly the way direct products work in general. In this section you will see what is produced from direct products of groups.  Response Question A fraction can be though of as an ordered pair, , where is the numerator and nonzero is the denominator. Is addition of fractions a coordinate-wise operaton?  Also, turn in solutions to this exercise:   Write out the operation table for the group  Find all elements of the cyclic subgroup generated by in the group .   "
 },
 {
-  "id": "question-34",
+  "id": "question-33",
   "level": "2",
-  "url": "reading-112.html#question-34",
+  "url": "reading-112.html#question-33",
   "type": "Question",
   "number": "37.1.1",
   "title": "Response Question.",
   "body": "Response Question A fraction can be though of as an ordered pair, , where is the numerator and nonzero is the denominator. Is addition of fractions a coordinate-wise operaton? "
 },
 {
-  "id": "exercise-213",
+  "id": "exercise-214",
   "level": "2",
-  "url": "reading-112.html#exercise-213",
+  "url": "reading-112.html#exercise-214",
   "type": "Exercise",
   "number": "37.1.1",
   "title": "",
   "body": "Write out the operation table for the group "
 },
 {
-  "id": "exercise-214",
+  "id": "exercise-215",
   "level": "2",
-  "url": "reading-112.html#exercise-214",
+  "url": "reading-112.html#exercise-215",
   "type": "Exercise",
   "number": "37.1.2",
   "title": "",
@@ -3151,36 +3151,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Determine the following values in the group . First, make sure you know what operations are involved in the two factors of this direct product.    the identity element      Describe the elements of the cyclic subgroup generated by in the group as simply as possible.  In the text, it was observed that if , then is subgroup of . Prove that this is true, and show that the similar set is not a subgroup when .  A symmetric linked list in a five bit computer contains four nodes with the machine address of first node being . The link fields for the nodes in the list from first to last are . Assume the nil pointer value is 00000. What are the machine addresses of the nodes 2, 3 and 4? The addresses of nodes 2 through 4 are .   "
 },
 {
-  "id": "exercise-215",
+  "id": "exercise-216",
   "level": "2",
-  "url": "questions-112.html#exercise-215",
+  "url": "questions-112.html#exercise-216",
   "type": "Exercise",
   "number": "37.2.1",
   "title": "",
   "body": "Determine the following values in the group . First, make sure you know what operations are involved in the two factors of this direct product.    the identity element     "
 },
 {
-  "id": "exercise-216",
+  "id": "exercise-217",
   "level": "2",
-  "url": "questions-112.html#exercise-216",
+  "url": "questions-112.html#exercise-217",
   "type": "Exercise",
   "number": "37.2.2",
   "title": "",
   "body": "Describe the elements of the cyclic subgroup generated by in the group as simply as possible. "
 },
 {
-  "id": "exercise-217",
+  "id": "exercise-218",
   "level": "2",
-  "url": "questions-112.html#exercise-217",
+  "url": "questions-112.html#exercise-218",
   "type": "Exercise",
   "number": "37.2.3",
   "title": "",
   "body": "In the text, it was observed that if , then is subgroup of . Prove that this is true, and show that the similar set is not a subgroup when . "
 },
 {
-  "id": "exercise-218",
+  "id": "exercise-219",
   "level": "2",
-  "url": "questions-112.html#exercise-218",
+  "url": "questions-112.html#exercise-219",
   "type": "Exercise",
   "number": "37.2.4",
   "title": "",
@@ -3196,27 +3196,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 11.7 of Applied Discrete Structures . We've seen several different groups of order two. Two of them are the group and . There is no denying that these groups are different but from an algebraic point of view, they have all the same properties. This section makes this observation more precise. Based on the definitions, these two groups (and all other groups with two elements) are isomorphic . In studying groups, this is essentially saying they are all equal.  Response Question How is the topic of isomorphisms related to the , an analog computing device that was in common usage up until the 1970's.  Also, turn in solutions to this exercise:    Answer the following question: siedem razy cztery = _____?  The question is in Polish.  The two groups and have the same order but are not isomorphic. Give a reason why.   "
 },
 {
-  "id": "question-35",
+  "id": "question-34",
   "level": "2",
-  "url": "reading-113.html#question-35",
+  "url": "reading-113.html#question-34",
   "type": "Question",
   "number": "38.1.1",
   "title": "Response Question.",
   "body": "Response Question How is the topic of isomorphisms related to the , an analog computing device that was in common usage up until the 1970's. "
 },
 {
-  "id": "exercise-219",
+  "id": "exercise-220",
   "level": "2",
-  "url": "reading-113.html#exercise-219",
+  "url": "reading-113.html#exercise-220",
   "type": "Exercise",
   "number": "38.1.1",
   "title": "",
   "body": " Answer the following question: siedem razy cztery = _____?  The question is in Polish. "
 },
 {
-  "id": "exercise-220",
+  "id": "exercise-221",
   "level": "2",
-  "url": "reading-113.html#exercise-220",
+  "url": "reading-113.html#exercise-221",
   "type": "Exercise",
   "number": "38.1.2",
   "title": "",
@@ -3232,36 +3232,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises     Write out the operation table for where is the complex number for which . Show that is isomorphic to .  Solve in by first translating the equation to , solving the equation in , and then translating back to .   Although and are both groups of order six and are isomophic, and are not isomophic even though they both have order eight. Find a reason why this is the case.  Think about how you might represent a file of nonzero real numbers that you plan to multiply together with a computer so that the sign of each number is seperate from its magnitude.  Prove that is isomorphic to .  Describe how multiplication of nonzero real numbers can be accomplished doing only additions.    "
 },
 {
-  "id": "exercise-221",
+  "id": "exercise-222",
   "level": "2",
-  "url": "questions-113.html#exercise-221",
+  "url": "questions-113.html#exercise-222",
   "type": "Exercise",
   "number": "38.2.1",
   "title": "",
   "body": " Write out the operation table for where is the complex number for which . Show that is isomorphic to . "
 },
 {
-  "id": "exercise-222",
+  "id": "exercise-223",
   "level": "2",
-  "url": "questions-113.html#exercise-222",
+  "url": "questions-113.html#exercise-223",
   "type": "Exercise",
   "number": "38.2.2",
   "title": "",
   "body": "Solve in by first translating the equation to , solving the equation in , and then translating back to . "
 },
 {
-  "id": "exercise-223",
+  "id": "exercise-224",
   "level": "2",
-  "url": "questions-113.html#exercise-223",
+  "url": "questions-113.html#exercise-224",
   "type": "Exercise",
   "number": "38.2.3",
   "title": "",
   "body": " Although and are both groups of order six and are isomophic, and are not isomophic even though they both have order eight. Find a reason why this is the case. "
 },
 {
-  "id": "exercise-224",
+  "id": "exercise-225",
   "level": "2",
-  "url": "questions-113.html#exercise-224",
+  "url": "questions-113.html#exercise-225",
   "type": "Exercise",
   "number": "38.2.4",
   "title": "",
@@ -3295,27 +3295,27 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 13.1 and 13.2 of Applied Discrete Structures . Partial orderings were introduced in Chapter 6 and you might want to review the definition before you start on Chapter 13. You might recall that partial orderings tend to compare certain pairs of elements in a poset according to some size, where size might not always mean size in the conventional sense. In any case, if we take two elements from a poset, an upper bound is something in the poset that is comparably larger than them both. A lower bound is defined similarly. In some cases, we can define binary operations ( join and meet ) based on this idea. When we can, we get an algebraic structure called a lattice .  Response Question Google “total ordering” and find out if a total ordering is a “partial ordering.”  Also, turn in solutions to these exercises:    For the poset , what are the greatest lower bound and least upper bound of two elements and ? Are there least and\/or greatest elements?  Let be the set of all propositions generated by and . What are the meet and join operations in this lattice under implication? What are the maximum and minimum elements?   "
 },
 {
-  "id": "question-36",
+  "id": "question-35",
   "level": "2",
-  "url": "reading-114.html#question-36",
+  "url": "reading-114.html#question-35",
   "type": "Question",
   "number": "39.1.1",
   "title": "Response Question.",
   "body": "Response Question Google “total ordering” and find out if a total ordering is a “partial ordering.” "
 },
 {
-  "id": "exercise-225",
+  "id": "exercise-226",
   "level": "2",
-  "url": "reading-114.html#exercise-225",
+  "url": "reading-114.html#exercise-226",
   "type": "Exercise",
   "number": "39.1.1",
   "title": "",
   "body": " For the poset , what are the greatest lower bound and least upper bound of two elements and ? Are there least and\/or greatest elements? "
 },
 {
-  "id": "exercise-226",
+  "id": "exercise-227",
   "level": "2",
-  "url": "reading-114.html#exercise-226",
+  "url": "reading-114.html#exercise-227",
   "type": "Exercise",
   "number": "39.1.2",
   "title": "",
@@ -3331,36 +3331,36 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises     Consider the poset , where .  Find all lower bounds of 10 and 25.  Find the greatest lower bound of 10 and 25.  Find all upper bounds of 10 and 25.  Determine the least upper bound of 10 and 25.  Draw the Hasse diagram for with respect to .   Demonstrate that the pentagon lattice is nondistributive.  We naturally order the numbers in with less than or equal to, which is a partial ordering. We define an ordering, on the elements of by   Prove that is a partial ordering on .  Draw the ordering diagrams for on , , and .  In general, how does one determine the least upper bound and greatest lower bound of two elements of , and ?  Are there least and\/or greatest elements in ?   The last question you answered with the readings for this class is actually not very precise. For example, is it true that or , or are both true? If both are true, what does that say about the relation ? This would present a problem, but it can be fixed by considering the elements of our poset to be equivalence classes. What would be the equivalence classes?    "
 },
 {
-  "id": "exercise-227",
+  "id": "exercise-228",
   "level": "2",
-  "url": "questions-114.html#exercise-227",
+  "url": "questions-114.html#exercise-228",
   "type": "Exercise",
   "number": "39.2.1",
   "title": "",
   "body": "Consider the poset , where .  Find all lower bounds of 10 and 25.  Find the greatest lower bound of 10 and 25.  Find all upper bounds of 10 and 25.  Determine the least upper bound of 10 and 25.  Draw the Hasse diagram for with respect to .  "
 },
 {
-  "id": "exercise-228",
+  "id": "exercise-229",
   "level": "2",
-  "url": "questions-114.html#exercise-228",
+  "url": "questions-114.html#exercise-229",
   "type": "Exercise",
   "number": "39.2.2",
   "title": "",
   "body": "Demonstrate that the pentagon lattice is nondistributive. "
 },
 {
-  "id": "exercise-229",
+  "id": "exercise-230",
   "level": "2",
-  "url": "questions-114.html#exercise-229",
+  "url": "questions-114.html#exercise-230",
   "type": "Exercise",
   "number": "39.2.3",
   "title": "",
   "body": "We naturally order the numbers in with less than or equal to, which is a partial ordering. We define an ordering, on the elements of by   Prove that is a partial ordering on .  Draw the ordering diagrams for on , , and .  In general, how does one determine the least upper bound and greatest lower bound of two elements of , and ?  Are there least and\/or greatest elements in ?  "
 },
 {
-  "id": "exercise-230",
+  "id": "exercise-231",
   "level": "2",
-  "url": "questions-114.html#exercise-230",
+  "url": "questions-114.html#exercise-231",
   "type": "Exercise",
   "number": "39.2.4",
   "title": "",
@@ -3394,9 +3394,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 13.3 of Applied Discrete Structures . In this section we further restrict our attention to lattices that have the algebraic properties that are required of a Boolean Algebra. Propositional logic that we saw in Chapter 3 is prime model for what Boolean Algebra is like, but there several other concrete Boolean Algebras that we will consider.  Response Question Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra?  Also, turn in solutions to these exercises: Let be the set of positive integers that divide evenly into . List the elements of each of the sets   What is the complement of a logical proposition in the Boolean algebra of logic?    "
 },
 {
-  "id": "question-37",
+  "id": "question-36",
   "level": "2",
-  "url": "reading-115.html#question-37",
+  "url": "reading-115.html#question-36",
   "type": "Question",
   "number": "40.1.1",
   "title": "Response Question.",
@@ -3430,9 +3430,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 13.4 and 13.5 of Applied Discrete Structures . For any positive integer, , the number of different groups of order can vary quite a bit. In contrast, the number of Boolean Algebras of order is either zero or one. In these two sections, you will see why.  Response Question Consider the lattice of real numbers in the interval with the relation . Does this lattice have any atoms?  Also, turn in solutions to these exercises: What are the atoms of the lattice of subsets of generated by the two sets and with the partial ordering ?  What are the atoms of the lattice of positive integers with the relation divides?    "
 },
 {
-  "id": "question-38",
+  "id": "question-37",
   "level": "2",
-  "url": "reading-116.html#question-38",
+  "url": "reading-116.html#question-37",
   "type": "Question",
   "number": "41.1.1",
   "title": "Response Question.",
@@ -3457,9 +3457,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Sections 15.1 of Applied Discrete Structures . Some groups have the property that they are formed as a cyclic subgroup of one of its elements. When this is the case, the group itself has a particularly simple form, which we examine in this section.  Response Question Google Chinese Remainder Theorem . Why does the theorem have this name?  Also, turn in solutions to these exercises: List all of the distinct cyclic subgroups of the cyclic group . Explain why this list is actually a list of all of the subgroups of .  What are the generators of the multiplicative group ?    "
 },
 {
-  "id": "question-39",
+  "id": "question-38",
   "level": "2",
-  "url": "reading-117.html#question-39",
+  "url": "reading-117.html#question-38",
   "type": "Question",
   "number": "42.1.1",
   "title": "Response Question.",
@@ -3484,9 +3484,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read Section 15.2 of Applied Discrete Structures . If you get confused in this section, think about the partition of the integers into even integers and odd integers. There is a consistency in doing arithmetic on the integers where, for example, any time you add an even integer and an odd integer, you get an odd integer. So . This is coset addition! For any group, the only way something like this can work is when the partition is into cosets, which is why we start by defining this set of subsets of a group.  Response Question How did Galois die, and why am I asking you this?  Also, turn in solutions to these exercises: What does Lagrange's Theorem say about the possible subgroups of a group of order 12?  Let be the subgroup of the additive group . How many distinct left cosets are there of ? What coset contains the number 42? List its elements.    "
 },
 {
-  "id": "question-40",
+  "id": "question-39",
   "level": "2",
-  "url": "reading-118.html#question-40",
+  "url": "reading-118.html#question-39",
   "type": "Question",
   "number": "43.1.1",
   "title": "Response Question.",
@@ -3511,9 +3511,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the first two subsections of Section 15.3 of Applied Discrete Structures , stopping when you get to Subsection 15.3.3. Our focus in this section is on whole sets of functions, but we also consider convenient ways to represent individual functions. In most cases, you'll find that cycle notation is probably the best option, even though it might look strange at first.  Response Question Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation. Who did that?  Also, turn in solutions to these exercises: Write the following elements of as a product of disjoint cycles.        Compute the following using the values of and above. Write your answer as a product of disjoint cycles.          "
 },
 {
-  "id": "question-41",
+  "id": "question-40",
   "level": "2",
-  "url": "reading-119.html#question-41",
+  "url": "reading-119.html#question-40",
   "type": "Question",
   "number": "44.1.1",
   "title": "Response Question.",
@@ -3556,9 +3556,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the rest of Section 15.3 of Applied Discrete Structures . The family of symmetric groups is extremely important in group theory, particularly when it comes to doing computations. There is a theorem called Cayley's Theorem that essentially says that every group is subgroup of some symmetric group. This means that if you intend to do group computations, it's natural to implement the work in terms of permutations.  Response Question How is Rubik's cube related to permutation groups?  Also, turn in solutions to these exercises: Based on Lagrange's Theorem , what are the possible orders of subgroups of the group ?  The shape of a permutation, in is the sequence of lengths of the cycles in the representaion of as a product of disjoint cycles. The lengths are written in descending order. For example, if , then its shape is 4,3,2,2,1. List all possible shapes of elements in .    "
 },
 {
-  "id": "question-42",
+  "id": "question-41",
   "level": "2",
-  "url": "reading-120.html#question-42",
+  "url": "reading-120.html#question-41",
   "type": "Question",
   "number": "45.1.1",
   "title": "Response Question.",
@@ -3583,9 +3583,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the definition of Homomorphism in Section 15.4. Then read Section 15.5 of Applied Discrete Structures up to, but not including, Subsection 15.5.2 Error Correction. After outlining the objectives behind coding theory we first consider how to effectively detect transmission errors.  Response Question If you measure the distance between elements of a set, , with a function , what general distance properties would you expect of this function?  Also, turn in solutions to these exercises: Interogating a Liar . I'm a liar, but not a big one. In my responses to your yes\/no questions, I promise not to lie more than one time. I'm thinking of a number, either 0 or 1. How many yes\/no questions do you need to ask in order to find out my number? Explain your logic.  The Hamming Distance , , between two strings of bits with the same length is the number positions within the two strings where the strings differ. For instance, because the two strings differ in positions 2 and 5. What is the minimal Hamming distance between any two strings in the set     "
 },
 {
-  "id": "question-43",
+  "id": "question-42",
   "level": "2",
-  "url": "reading-121.html#question-43",
+  "url": "reading-121.html#question-42",
   "type": "Question",
   "number": "46.1.1",
   "title": "Response Question.",
@@ -3610,9 +3610,9 @@ var ptx_lunr_docs = [
   "body": "Reading Assignment  Read the rest of Section 15.5 of Applied Discrete Structures . We consider how to correct transmission errors by using redundant information in a coded message. This avoids having to ask for a message to be resent from the sender.  Response Question Who was Claude Shannon and what is his connection with coding theory?  Also, turn in solutions to these exercises:  What is the minimum Hamming distance between code words in the set ? Without doing any calculation, how can you tell cannot be the code words of a linear code?  I'm a liar, but not a big one. In my responses to your yes\/no questions, I promise not to lie more than one time. My favorite number is 0, 1, 2, or 3. How many yes\/no questions do you need to ask in order to figure it out? You need to submit all of your questions to me without waiting for my answers. (thanks to Daniel Glasscock for this problem)    "
 },
 {
-  "id": "question-44",
+  "id": "question-43",
   "level": "2",
-  "url": "reading-122.html#question-44",
+  "url": "reading-122.html#question-43",
   "type": "Question",
   "number": "47.1.1",
   "title": "Response Question.",
@@ -3628,9 +3628,9 @@ var ptx_lunr_docs = [
   "body": "In-Class Exercises    Suppose a two bit message is encoded into a five bit message using the function . Determine a matrix such that if a two bit message, , is encoded and transmitted, then any single bit error in the received string can be identified by whether is the zero vector or not.  Consider the linear code defined by the generator matrix    What size blocks does this code encode and what is the length of the code words?  What are the code words for this code?  With this code, can you detect single bit errors? Can you correct all, some, or no single bit errors?    Rectangular Code To build a rectangular code , you partition your message into blocks of length and then factor into and arrange the bits in a rectangular array as in the figure below. Then you add parity bits along the right side and bottom of the rows and columns. The code word is then read row by row.   For example, if is 4, then our only choice is a 2 by 2 array. The message 1101 would be encoded as and the code word is the string 11001110.    Suppose that you were sent four bit messages using this code and you received the following strings. What were the messages, assuming no more than one error in the transmission of coded data?  11011000  01110010  10001111   If you encoded bits in this manner, what would be the rate of the code?  Rectangular codes are linear codes. For the 3 by 2 rectangular code, what are the generator and parity check matrices?    A code with minimum distance is called perfect if every string of bits is within Hamming distance of some codeword. For such a code, the spheres of radius around the codewords partition the set of all strings. This is analogous to packing objects into a box with no wasted space. Using just the number of bit strings of length and the number of strings in a sphere of radius , for what values of is it possible to find a perfect code of distance ? You don't have to actually find the codes.    "
 },
 {
-  "id": "p-826",
+  "id": "p-832",
   "level": "2",
-  "url": "questions-122.html#p-826",
+  "url": "questions-122.html#p-832",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

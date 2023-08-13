@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <runestone-services version="7.0.8"/>
+  <runestone-services version="7.1.0"/>
   <library-metadata publisher="pretext">
     <title>Active Applied Discrete Structures</title>
     <subtitle/>
@@ -39,7 +39,7 @@
 
 \newcommand{\card}[1]{\left| #1 \right|}
 \newcommand{\twoline}[2]{\begin{pmatrix}#1 \\ #2 \end{pmatrix}}
-\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,label=#1:#2]{}}
+\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,marker=#1:#2]{}}
 \newcommand{\va}[1]{\vtx{above}{#1}}
 \newcommand{\vb}[1]{\vtx{below}{#1}}
 \newcommand{\vr}[1]{\vtx{right}{#1}}
