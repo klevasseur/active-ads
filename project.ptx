@@ -8,9 +8,11 @@
     	format="pdf" 
     	output-dir="print" 
     	publication="publication.ptx" />
-	<target name="web" format="html" output-dir="web" publication="publication.ptx" />
-<!-- 
-    <target name="rs" format="html" platform="runestone" />
- -->
+	<target name="web" format="html" output-dir="web" publication="publication.ptx" /> 
+    <target 
+     name="runestone" 
+     format="html" platform="runestone"
+     publication="pub-runestone.ptx"
+     output-dir="published/activeads"/>
   </targets>
 </project>
