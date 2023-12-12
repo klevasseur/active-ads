@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of the book                  -->
+<!--                                                -->
+<!--   Active Applied Discrete Structures   -->
+<!--                                                -->
+<!-- by and Ken Levasseur         -->
+<!-- licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License  -->
+
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+
+<!-- Master file for ADS                           -->
+<!-- Use XSL stylesheets to create subsets          -->
+<!--    Important: Always process all of the source -->
+<!--    to preserve numbering and cross-references! -->
+<!--    So it is never advisable to edit this file  -->
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+  		<xi:include href="./bookinfo.xml" />    <!--ISBN, website, other metadata -->
+    
+	<book xml:id="active-ads">
+        <title>Active Applied Discrete Structures</title>    
+         <xi:include href="./frontmatter.xml" /> 
+      <part><title>Fundamentals</title>
+ 		<xi:include href="./Class_1.xml" />                        
+		<xi:include href="./Class_2.xml" />                        
+		<xi:include href="./Class_3.xml" />                        
+		<xi:include href="./Class_4.xml" />                        
+		<xi:include href="./Class_5.xml" />                        
+		<xi:include href="./Class_6.xml" />                        
+		<xi:include href="./Class_7.xml" />                        
+		<xi:include href="./Class_8.xml" />                        
+		<xi:include href="./Class_9.xml" />                        
+		<xi:include href="./Class_10.xml" />                        
+ 		<xi:include href="./Class_11.xml" />                        
+		<xi:include href="./Class_12.xml" />                        
+		<xi:include href="./Class_13.xml" />                        
+		<xi:include href="./Class_14.xml" />                        
+		<xi:include href="./Class_15.xml" />                        
+		<xi:include href="./Class_16.xml" /> 
+		<xi:include href="./Class_17.xml" />                        
+		<xi:include href="./Class_18.xml" />                        
+		<xi:include href="./Class_19.xml" />                        
+		<xi:include href="./Class_20.xml" /> 
+		<xi:include href="./Class_21.xml" /> 
+		<xi:include href="./Class_22.xml" /> 
+		<xi:include href="./Class_23.xml" /> 
+		<xi:include href="./Class_24.xml" /> 
+		</part>
+		<part><title>Structures</title>
+		<xi:include href="./Class_101.xml" /> 
+		<xi:include href="./Class_102.xml" /> 
+		<xi:include href="./Class_103.xml" />                        
+		<xi:include href="./Class_104.xml" />                        
+		<xi:include href="./Class_104a.xml" />                        
+		<xi:include href="./Class_105.xml" />                        
+		<xi:include href="./Class_106.xml" />                        
+		<xi:include href="./Class_107.xml" />                        
+		<xi:include href="./Class_108.xml" />                        
+		<xi:include href="./Class_109.xml" />                        
+		<xi:include href="./Class_110.xml" />                        
+ 		<xi:include href="./Class_111.xml" />                        
+		<xi:include href="./Class_112.xml" />                        
+		<xi:include href="./Class_113.xml" />                        
+		<xi:include href="./Class_114.xml" />                        
+		<xi:include href="./Class_115.xml" />                        
+		<xi:include href="./Class_116.xml" /> 
+		<xi:include href="./Class_117.xml" />                        
+		<xi:include href="./Class_118.xml" />                        
+		<xi:include href="./Class_119.xml" />                        
+		<xi:include href="./Class_120.xml" /> 
+ 		<xi:include href="./Class_121.xml" /> 
+		<xi:include href="./Class_122.xml" /> 
+
+		</part>		
+		<xi:include href="./backmatter.xml" />            
+    </book>
+
+</pretext>
