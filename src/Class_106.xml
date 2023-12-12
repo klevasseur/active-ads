@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_106" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Rooted Trees, Binary Trees  </title>
-<idx></idx>
+<idx>Rooted Trees</idx>
+<idx>Binary Trees</idx>
 <section xml:id="reading-106"><title>Reading Assignment</title>
 <p>Read Sections 10.3 and 10.4 of <em>Applied Discrete Structures</em>. Here we consider some more structured trees in which a specific vertex is designated as the <em>root</em> of the tree.  We see that there are several applications of these trees.  Special attention is given to binary trees, where no more than two edges branch away from the root and any away other vertex that is reached by the root.</p>
 <question><title>Response Question</title><statement><p>The level of a vertex of a binary tree is the length of the path from the root to that vertex.  What is the maximum number of vertices at levels <m>1, 2, 3, \dots</m> of any binary tree?</p></statement></question>

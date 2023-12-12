@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_103" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Data Structures and Connectivity   </title>
-<idx></idx>
+<idx>Data Structures</idx><idx>Connectivity</idx>
 <section xml:id="reading-103"><title>Reading Assignment</title>
 <p>Read Sections 9.2 and 9.3 of <em>Applied Discrete Structures</em>. The topics in these sections are data structures for graphs and connectivity between vertices in a graph.</p>
 <!-- 

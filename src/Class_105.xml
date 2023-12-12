@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_105" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Trees and Spanning Trees  </title>
-<idx></idx>
+<idx>Trees</idx>
+<idx>Spanning Trees</idx>
 <section xml:id="reading-105"><title>Reading Assignment</title>
 <p>Read Sections 10.1 and 10.2 of <em>Applied Discrete Structures</em>. In these sections we introduce trees, which are connected graphs without cycles.  We also examine spanning trees of connected graphs, which are the smallest subgraphs which maintain connectedness in a graph.</p>
 <question><title>Response Question</title><statement><p>In general, a family tree isn't really a tree in the sense of graph theory. Explain why.  You can assume links in the family tree are undirected.</p></statement></question>

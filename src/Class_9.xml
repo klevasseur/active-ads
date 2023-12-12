@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_9" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Mathematical Induction</title>
-<idx></idx>
+<idx>Mathematical Induction<</idx>
+<idx>Induction<</idx>
+
 <section xml:id="reading-9"><title>Reading Assignment</title>
 <p>Read Sections 3.6 and 3.7 of <em>Applied Discrete Structures</em>. It is only necessary to read 3.6 through Example 3.6.7.   The main idea in this reading is Mathematical Induction, which is a proof technique for propositions that have an integer variable.  This type of proof is used throughout mathematics and is particularly prevalent in discrete settings.	</p>
 <question><title>Response Question</title><statement><p>  You don’t need induction to prove that the sum of the first <m>n</m> Positive integers equals <m>\frac{n(n+1)}{2}</m>. Google “Gauss sum of consecutive integers” and read about how you can do it even more simply. Explain what you read.  </p></statement></question>

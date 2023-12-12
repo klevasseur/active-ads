@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_104" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Graph Traversals  </title>
-<idx></idx>
+<idx>Graph Traversals</idx>
 <section xml:id="reading-104"><title>Reading Assignment</title>
 <p>Read Section 9.4 of <em>Applied Discrete Structures</em>.  In this section, we consider whether certain paths or circuits exist in a given graph.  Our objective will either be to trace every edge once or visit every vertex once.</p>
 <question><title>Response Question</title><statement><p>In the 18th century, Koenigsberg was  part of Prussia. In what country is it now? Besides its bridges, find one other fact about Koenigsberg.</p></statement></question>

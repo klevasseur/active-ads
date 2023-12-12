@@ -4,7 +4,7 @@
 <idx></idx>
 <section xml:id="reading-117"><title>Reading Assignment</title>
 <p>Read Sections 15.1 of <em>Applied Discrete Structures</em>. Some groups have the property that they are formed as a cyclic subgroup of one of its elements.  When this is the case, the group itself has a particularly simple form, which we examine in this section.</p>
-<question><title>Response Question</title><statement><p>  Google <q>Chinese Remainder Theorem</q>. Why does the theorem have this name? </p></statement></question>
+<question><title>Response Question</title><statement><p>  Google <q>Sun Tzu’s Theorem</q>. Who was Sun Tzu? </p></statement></question>
 <p>Also, turn in solutions to these exercises: 
 	<ul><li>List all of the distinct cyclic subgroups of the cyclic group <m>\mathbb{Z}_{15}</m>.  Explain why this list is actually a list of <em>all</em> of the subgroups of <m>\mathbb{Z}_{15}</m>.</li>
 		<li>What are the generators of the multiplicative group <m>\{5^k \mid k\in \mathbb{Z}\}</m>?</li>
