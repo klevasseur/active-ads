@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    This file provides the overall configuration for your PreTeXt
-    project. To edit the content of your document, open `source/main.ptx`
-    (default location).
--->
-<project>
+<!-- (delete the above line to manage this file manually) -->
+<!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
+<project ptx-version="2" source="src">
   <targets>
-    <target name="html">
-      <format>html</format>
-      <source>src/active-ads.xml</source>
-      <publication>src/to_html.xml</publication>
-      <output-dir>output/html</output-dir>
-    </target>
-    <target name="latex-full-noprint">
-      <format>latex</format>
-      <source>src/ads.xml</source>
-      <publication>src/to_tex.xml</publication>
-      <output-dir>output/latex</output-dir>
-    </target>
-     <target name="runestone">
-      <format>html</format>
-      <source>src/active-ads.xml</source>
-      <publication>publication/pub-runestone.ptx</publication>
-      <output-dir>published/active-ads</output-dir>
-    </target>
- </targets>
-  <executables>
-      <tex>xelatex</tex>
-      <pdfsvg>pdf2svg</pdfsvg>
-      <asy>asy</asy>
-      <sage>sage</sage>
-      <pdfpng>convert</pdfpng>
-      <pdfeps>pdftops</pdfeps>
-      <pdfcrop>pdf-crop-margins</pdfcrop>
-      <pageres>pageres</pageres>
-      <node>node</node>
-      <liblouis>file2brl</liblouis>
-    </executables>
+     <target 
+    	name="print" 
+    	format="pdf" 
+    	output-dir="print" 
+    	publication="publication.ptx" />
+	<target name="web" format="html" output-dir="web" publication="publication.ptx" />
+<!-- 
+    <target name="rs" format="html" platform="runestone" />
+ -->
+  </targets>
 </project>
