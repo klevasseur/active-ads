@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_108" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Algebraic Structures</title>
-<idx></idx>
+<idx>Algebraic Structures</idx>
 <section xml:id="reading-108"><title>Reading Assignment</title>
 <p>Read Section 10.2 of <em>Applied Discrete Structures</em>. We start by introducing the idea of levels of abstraction as they apply to monoids.  We then introduce groups, which is the main type of system we focus on in this chapter.
  </p>

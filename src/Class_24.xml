@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_24" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Generating Functions</title>
-<idx></idx>
+<idx>Generating Functions</idx>
 <section xml:id="reading-24"><title>Reading Assignment</title>
 <p>Read the first two subsections of Section 8.5 of <em>Applied Discrete Structures</em>. Generating functions can serve as an alternative to the algorithm we introduced in Section 8.3, but also is a tool for solving other problems.</p>
 <question><title>Response Question</title><statement><p>  (adopteds from <xref ref="biblio-bogart-2017"/>) Suppose we treat addition as logical <em>or</em> and multiplication as logical <em>and</em>.  Furthermore, suppose that <m>B</m> stands for banana.  Then to say you could have as many as two bananas, we could write <m>B^0+B^1+B^2=1+B+B^2</m>.  Suppose that in addition you could have up to three apples (use <m>A</m> for apples) and zero or one pears (use <m>P</m> for pears).  What algebraic expression represents all your choices in selecting fruits?  Identify the part of this expression where you select exactly two pieces of fruit. </p></statement></question>

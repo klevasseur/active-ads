@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_14" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Matrix Laws and Oddities</title>
-<!-- 
-<idx></idx>
- -->
+<title>Matrix Laws and Oddities</title> 
+<idx>Matrix Laws and Oddities</idx>
+
 <section xml:id="reading-14"><title>Reading Assignment</title>
 <p>Read Sections 5.3 and 5.4 of <em>Applied Discrete Structures</em>.  In these two sections we concentrate on the algebraic laws of set theory and some of the laws that are missing (because they are false!).</p>
 <question><title>Response Question</title><statement><p>  Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. </p></statement></question>

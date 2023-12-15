@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_23" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Some Common Recurrence Relations</title>
-<idx></idx>
+<idx>Searching and Sorting Analysis</idx>
+<idx>Derangements</idx>
 <section xml:id="reading-23"><title>Reading Assignment</title>
 <p>Read Section 8.4 of <em>Applied Discrete Structures</em>. There is no general method for solving all recurrence relations.  In this section we consider a few cases for which the method in Section 8.3 cannot be applied.</p>
 <question><title>Response Question</title><statement><p>  In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list.  What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with <m>n</m> items? </p></statement></question>

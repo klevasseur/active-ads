@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_17" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Relation Matrices and Closure</title>
-<idx></idx>
+<idx>Relation Matrices</idx>
+<idx>Closure</idx>
 <section xml:id="reading-17"><title>Reading Assignment</title>
 <p>Read Sections 6.4 and 6.5 of <em>Applied Discrete Structures</em>.  Although some relations can be computed (e. g. determining whether <m>a \lt b</m>), some are more efficiently represented in a matrix.  We introduce the matrix representation of relations in Section 6.4, and then transitive closure in Section 6.5.</p>
 <question><title>Response Question</title><statement><p>  Let <m>p</m> be the relation on people where <m>x p y</m> if <m>y</m> is either <m>x</m>'s mother or father.   What is <m>\{z \mid x p^+ z\}</m>, where <m>p^+</m> is the transitive closure of <m>p</m>. </p></statement></question>

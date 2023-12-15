@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="chapter_120" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Permutation Groups, Part 2</title>
-<idx></idx>
+<idx>Permutation Groups</idx>
 <section xml:id="reading-120"><title>Reading Assignment</title>
 <p>Read the rest of  Section 15.3 of <em>Applied Discrete Structures</em>. The family <m>S_n</m> of symmetric groups is extremely important in group theory, particularly when it comes to doing computations.   There is a theorem called Cayley's Theorem that essentially says that <em>every</em> group is  subgroup of some symmetric group.  This means that if you intend to do group computations, it's natural to implement the work in terms of permutations. </p>
 <question><title>Response Question</title><statement><p>How is Rubik's cube related to permutation groups? </p></statement></question>
