@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2021-06-20T10:57:47-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
+<ol class="decimal">
+<li><p xmlns:svg="http://www.w3.org/2000/svg">Suppose a two bit message is encoded into a five bit message using the function \(e(b_{1}b_{2})=b_{1}b_{1}(b_{1}+_2 b_{2})b_{2}b_{2}\text{.}\)  Determine a matrix \(P\) such that if a two bit message, \(b = b_{1}b_{2}\text{,}\) is encoded and \(e(b)\) transmitted, then any single bit error in the received string \(c=c_{1}c_{2}c_{3}c_{4}c_{5}\) can be identified by whether \(c P\) is the zero vector or not.</p></li>
+<li>
+<p>Consider the  linear code defined by the generator matrix</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+G=\left(
+\begin{array}{cccc}
+1 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 1 &amp; 1 &amp; 1 \\
+\end{array}
+\right)
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li><p xmlns:svg="http://www.w3.org/2000/svg">What size blocks does this code encode and what is the length of the code words?</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">What are the code words for this code?</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">With this code, can you detect single bit errors?  Can you correct all, some, or no single bit errors?</p></li>
+</ol>
+</li>
+<li>
+<p>To build a <dfn xmlns:svg="http://www.w3.org/2000/svg" class="terminology">rectangular code</dfn>, you partition your message into blocks of length \(m\) and then factor \(m\) into \(k_1\cdot k_2\)  and arrange the bits in a  \(k_1 \times k_2\) rectangular array as in the figure below.  Then you add parity bits along the right side and bottom of the rows and columns.   The code word is then read row by row.</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\begin{array}{cccccc}
+\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
+\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
+\vdots  &amp; \vdots  &amp; \vdots  &amp;   &amp; \vdots  &amp; \vdots  \\
+\blacksquare  &amp; \blacksquare  &amp; \blacksquare  &amp; \cdots  &amp; \blacksquare  &amp; \square  \\
+\square  &amp; \square  &amp; \square  &amp; \cdots  &amp; \square  &amp;   \\
+\end{array}  \quad \begin{array}{c}
+\textrm{      }\blacksquare  = \textrm{ message} \textrm{ bit} \\
+\square  =\textrm{ parity} \textrm{ bit} \\
+\end{array}
+\end{equation*}
+</div>
+<p>For example, if \(m\) is 4, then our only choice is a 2 by 2 array.  The message 1101 would be encoded as</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\begin{array}{cc|c}
+1 &amp; 1 &amp; 0\\
+0 &amp; 1 &amp; 1\\
+\hline
+1 &amp; 0 &amp;\\
+\end{array}
+\end{equation*}
+</div>
+<p class="continuation">and the code word is the string 11001110.</p>
+<ol class="lower-alpha">
+<li>
+<p>Suppose that you were sent four bit messages using this code and you received the following strings.  What were the messages, assuming no more than one error in the transmission of coded data?</p>
+<ol class="lower-roman cols3">
+<li><p xmlns:svg="http://www.w3.org/2000/svg">11011000</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">01110010</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">10001111</p></li>
+</ol>
+</li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">If you encoded \(n^2\) bits in this manner, what would be the rate of the code?</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">Rectangular codes are linear codes.  For the 3 by 2 rectangular code, what are the generator and parity check matrices?</p></li>
+</ol>
+</li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">A code with minimum distance \(d\) is called <em class="emphasis">perfect</em> if every string of bits is within Hamming distance \(r=\frac{d-1}{2}\) of some codeword. For such a code, the spheres of radius \(r\) around the codewords partition the set of all strings.  This is analogous to packing objects into a box with no wasted space.  Using just the number of bit strings of length \(n\) and the number of strings in a sphere of radius \(1\text{,}\) for what values of \(n\) is it possible to find a perfect code of distance \(3\text{?}\)  You don't have to actually find the codes.</p></li>
+</ol>
+<span class="incontext"><a href="questions-122.html#p-827">in-context</a></span>
+</body>
+</html>

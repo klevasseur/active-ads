@@ -1,0 +1,61 @@
+This is makeindex, version 2.16 [TeX Live 2022] (kpathsea + Thai support).
+Scanning input file active-ads.idx....
+!! Input index error (file = active-ads.idx, line = 6):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 19):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 20):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 21):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 24):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 25):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 28):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 37):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 38):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 40):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 42):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 43):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 49):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 51):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 52):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 53):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 68):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 69):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 70):
+   -- Illegal null field.
+
+!! Input index error (file = active-ads.idx, line = 72):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 73):
+   -- Illegal null field.
+!! Input index error (file = active-ads.idx, line = 74):
+   -- Illegal null field.
+done (54 entries accepted, 22 rejected).
+Sorting entries....done (325 comparisons).
+Generating output file active-ads.ind....done (107 lines written, 0 warnings).
+Output written in active-ads.ind.
+Transcript written in active-ads.ilg.

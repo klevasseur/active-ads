@@ -1,0 +1,2 @@
+#!/bin/bash
+xsltproc --xinclude  --stringparam exercise.divisional.solution "yes" --stringparam exercise.divisional.answer  "yes"  ../../pretext/xsl/pretext-latex.xsl src/active-ads.xml > active-ads-w-sol.tex	

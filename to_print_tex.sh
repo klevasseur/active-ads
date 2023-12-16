@@ -1,0 +1,2 @@
+#!/bin/bash
+xsltproc --xinclude --stringparam exercise.divisional.solution "no" --stringparam exercise.divisional.answer  "no"  --stringparam latex.print "yes"  ../../pretext/xsl/pretext-latex.xsl src/active-ads.xml > active-ads_print.tex

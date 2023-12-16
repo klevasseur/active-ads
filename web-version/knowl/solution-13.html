@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2021-06-20T10:57:43-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<div class="solution solution-like">
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading">
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">5.2.5.1</span><span class="period">.</span>
+</h6>
+<ol class="lower-alpha">
+<li><p xmlns:svg="http://www.w3.org/2000/svg">The chromatic polynomial of a \(K_4\) is \(x(x-1)(x-2)(x-3)\text{.}\) This follows from the fact that each vertex must be colored differently.</p></li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">The chromatic polynomial of a \(C_4\) is a bit more difficult to determine.   If we number the vertices 1 through 4 and start be coloring vertex 1, it can colored \(x\) ways.  Then going around a cycle of any length we color the next vertex so as to differ from the previous one.  However we run into a problem when we reach the last two vertices before reaching the start of the cycle.  For the \(4\)-cycle, vertex 1 can be colored \(x\) ways and vertex 2 can be colored \(x-1\) ways. We need to to partition the possibilities according to whether vertex 3 has the same color as vertex 1 or a different color.  If they have the same color, then there are \(x-1\) ways to color vertex 4.  If they differ in color, then there are \(x-2\) ways to color vertex 3, and then \(x-2\) ways to finish up coloring vertex 4. Therefore the chromatic polynomial is \(x(x-1)((x-1)+(x-2)^2)= x(x-1)(x^2-3x+3)\text{.}\)</p></li>
+<li>
+<p>The chromatic polynomial of a \(K_{3,3}\) is \(x^6-9 x^5+36 x^4-75 x^3+78 x^2-31 x\text{.}\) One way to derive this is as follows. We partition the possible ways to color the “left side” of the graph according to how many different colors are used.  It's possible to use the same color for all vertices, two colors for them or three different colors.  If the same color is used on the left, there are \(x\) ways to do that, and then \((x-1)^3\) ways to color the right. If there are two colors used on the left, there are three ways to select the vertex that has a unique color and then there are \(x(x-1)\) ways to select the two colors. This second possible scheme is finished by coloring the right side in one of  \((x-2)^3\) ways.  Finally, if all three of the left side vertices are colored differently, this can be done \(x(x-1)(x-2)\) ways and the right side can then be colored in one of \((x-3)^3\) ways.  To sum up the total number of ways to color our graph is</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+x (x-1)^3  +3x (x-1) (x-2)^3 + x (x-1) (x-2) (x-3)^3= x^6-9 x^5+36 x^4-75 x^3+78 x^2-31 x
+\end{equation*}
+</div>
+</li>
+<li><p xmlns:svg="http://www.w3.org/2000/svg">The chromatic number is the least positive integer \(n\) such that the chromatic polynomial evaluated at \(x=n\) is nonzero.  For example, the chomatic polynomial of the \(K_{3,3}\) is zero when \(x=0\text{,}\) but its value when \(x=2\) is 2, which is consistant with the fact that a \(K_{3,3}\) is bipartite.</p></li>
+</ol>
+</div>
+<span class="incontext"><a href="questions-104a.html#solution-13">in-context</a></span>
+</body>
+</html>

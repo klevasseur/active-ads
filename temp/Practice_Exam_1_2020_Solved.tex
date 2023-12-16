@@ -1,0 +1,526 @@
+%% AMS-LaTeX Created with the Wolfram Language : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\begin{document}
+
+\title{MATH.3220 Practice Exam $\#$1}
+\author{}
+\date{}
+\maketitle
+
+
+
+Instructions: { }When you are asked to explain something, do so. Simple yes/no answers will not get full credit.
+
+
+
+1. Consider the following directed graph. What is the adjacency matrix of this graph? 
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccccc}
+ 0 & 0 & 0 & 0 & 0 & 1 \\
+ 0 & 0 & 0 & 0 & 0 & 0 \\
+ 1 & 0 & 0 & 0 & 1 & 0 \\
+ 0 & 0 & 1 & 0 & 0 & 0 \\
+ 0 & 0 & 1 & 1 & 0 & 1 \\
+ 0 & 1 & 0 & 1 & 1 & 0 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+
+
+2. { } (a) For any undirected graph \(G\), define what is meant by the diameter, radius, and center of G.
+
+
+
+Let \(d(v)\) be the longest distance in \(G\) from \(v\) to the other vertices in \(G\), { }where distance is measured by the number of edges between
+vertices. 
+
+
+
+The diameter is the largest value \(d(v)\).
+
+
+
+The radius is the smallest value of \(d(v)\).
+
+
+
+The center is \(\{v | d(v)=\text{the} \text{radius} \text{of} G\}\).
+
+
+
+ { } { }(b) { } Apply your definitions to determine the diameter, radius, and center of the graph with the following distance matrix, where \(D_{i,j}\)
+the length of the shortest path from \(i\) to \(j\).
+graph_measures.png
+\begin{doublespace}
+\noindent\(\text{/Users/ken$\_$l/Library/Mobile Documents/com$\sim $apple$\sim $CloudDocs/MATH.3220}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[69];}\\
+\pmb{n = 12; e = 17;}\\
+\pmb{(\text{DG}=\text{RandomGraph}[\{n, e\}, \text{EdgeLabels} \text{-$>$} \text{None}, \text{EdgeLabelStyle} \text{-$>$} \text{Larger}, }\\
+\pmb{\text{VertexLabelStyle} \text{-$>$} \text{Directive}[\text{Italic}, 18], \text{VertexSize} \text{-$>$} \text{Large}, }\\
+\pmb{\text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, n\}]])}\\
+\pmb{\text{DG}\text{//}\text{Export}[\text{{``}fig-compute-distance-graph.png{''}},\#,\text{{``}PNG{''}}]\&}\\
+\pmb{\text{Dee}=\text{GraphDistanceMatrix}[\text{DG}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\text{fig-compute-distance-graph.png}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccccccccccc}
+ 0 & 2 & 2 & 2 & 3 & 1 & 1 & 3 & 3 & 1 & 2 & 2 \\
+ 2 & 0 & 3 & 3 & 2 & 2 & 1 & 4 & 1 & 2 & 2 & 1 \\
+ 2 & 3 & 0 & 2 & 5 & 3 & 2 & 3 & 4 & 1 & 4 & 3 \\
+ 2 & 3 & 2 & 0 & 3 & 1 & 2 & 1 & 3 & 1 & 2 & 3 \\
+ 3 & 2 & 5 & 3 & 0 & 2 & 3 & 4 & 1 & 4 & 1 & 3 \\
+ 1 & 2 & 3 & 1 & 2 & 0 & 1 & 2 & 2 & 2 & 1 & 2 \\
+ 1 & 1 & 2 & 2 & 3 & 1 & 0 & 3 & 2 & 1 & 2 & 1 \\
+ 3 & 4 & 3 & 1 & 4 & 2 & 3 & 0 & 4 & 2 & 3 & 4 \\
+ 3 & 1 & 4 & 3 & 1 & 2 & 2 & 4 & 0 & 3 & 1 & 2 \\
+ 1 & 2 & 1 & 1 & 4 & 2 & 1 & 2 & 3 & 0 & 3 & 2 \\
+ 2 & 2 & 4 & 2 & 1 & 1 & 2 & 3 & 1 & 3 & 0 & 3 \\
+ 2 & 1 & 3 & 3 & 3 & 2 & 1 & 4 & 2 & 2 & 3 & 0 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Max}[\text{Dee}]}\)
+\end{doublespace}
+
+
+
+ The diameter is 4, the radius is 2, and the center is \(\{4,11\}\).
+
+
+
+3. { } { }Consider the following undirected graph.
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[34];}\\
+\pmb{n = 12; e = 17;}\\
+\pmb{G=\text{RandomGraph}[\{n, e\}, \text{VertexLabelStyle} \text{-$>$} \text{Directive}[\text{Italic}, 18], }\\
+\pmb{\text{VertexSize} \text{-$>$} \text{Large}, \text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, n\}]]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+
+
+$\quad $(a) { }Determine the degree sequence of the graph
+
+
+
+ The degrees, in order of the vertex numbers are \(3,4,1,1,3,2,3,2,3,3,4, \text{and} 5\) and so the degree sequence is \(5,4,4,3,3,3,3,3,2,2,1,1\).
+
+
+
+$\quad $(b) { }In a breadth-first search of this graph starting at vertex 8, what would be the depth sets?
+
+
+
+\(D_0= \{8\}, D_1=\{1,11\}, D_2=\{7,12\}, D_3=\{6,2,10\}, D_4=\{4,5,9\}, D_5=\{3\}\)
+
+
+
+ 4. Consider the following graph. { }
+
+
+
+$\quad $(a) Is this graph Hamiltonian? { }Explain your answer.
+
+
+
+Yes because there is a Hamiltonian circuit. { }One such is \(1,4,8,2,7,5,6 ,1\).
+
+
+
+$\quad $(b) { }This graph is not Eulerian. { }Explain why, and identify what edges could be added and/or removed to the graph to make it Eulerian.
+
+
+
+The degrees of the vertices, in order of vertex number, are 4, 6, 3, 5, 5, 6, 3. { } There are four vertices of odd degree and so no Eulerian circuit.
+{ } We can adjust the graph to be Eulerian by removing or adding edges between pairs of vertices of odd degree. { }For example, we could remove the
+edges $\{$3,7$\}$ and { }\(\{4,5\}\), or we could add edges $\{$3,5$\}$ and $\{$4,7$\}$. { }Either way, we end up with a { }connected graph where
+all vertices have even degree.
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[2987];n=8;}\\
+\pmb{J=\text{RandomGraph}[\{n,18\}];}\\
+\pmb{\text{While}[\text{Length}[\text{Select}[\text{VertexDegree}[J],\text{OddQ}]]>4,}\\
+\pmb{J=\text{RandomGraph}[\{n,18\},\text{VertexLabelStyle}\to \text{Large},\text{VertexSize} \text{-$>$} \text{Large}, }\\
+\pmb{\text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, 8\}]]];}\\
+\pmb{\text{GraphPlot}[J,\text{VertexLabelStyle}\to \text{Large},\text{VertexSize} \text{-$>$} \text{Large}, }\\
+\pmb{\text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, 8\}]]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+
+
+
+
+
+
+5. { }State the theorem that relates the numbers of vertices and edges of a tree.
+
+
+
+$\quad $See Theorem 10.1.11, part 5. { }
+
+
+
+6. { }Define: Spanning Tree of a graph
+
+
+
+Assuming \textit{ G} is connected, a spanning subtree of \textit{ G} is a graph with the same vertices as \textit{ G} and a subset of edges of \textit{
+G} that forms a tree. { }See Definition 10.2.2.
+
+
+
+7. { }Use Prim{'}s algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[17];}\\
+\pmb{n = 10; e = 13;}\\
+\pmb{g=\text{RandomGraph}[\{n, e\}, \text{EdgeWeight} \text{-$>$} \text{RandomInteger}[\{5, 15\}, e], }\\
+\pmb{\text{EdgeLabels} \text{-$>$} \text{{``}EdgeWeight{''}}, \text{EdgeLabelStyle} \text{-$>$} \text{Larger}, }\\
+\pmb{\text{VertexLabelStyle} \text{-$>$} \text{Directive}[\text{Italic}, 18], \text{VertexSize} \text{-$>$} \text{Medium}, }\\
+\pmb{\text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, n\}]]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+
+
+The edges that are added, in order are \(\{1,5\}, \{1,9\}, \{1,2\},\{9,7\}, \{7,6\},\{7,3\},\{1,10\},\{5,8\},\{9,4\}\). { }This assumes that if there
+is a tie in possibly adding an edge, the smallest vertex number is added, which is the case, when \(\{1,2\}\) is added.
+
+
+
+8. Build an expression tree for the expression { }\(x+(y\cdot (z+w\cdot t))\) and then list the vertices in a preorder traversal of the tree. 
+
+
+
+Doing this by hand, you would normally use addition and multiplication symbols instead of the words Plus and Times.
+
+\begin{doublespace}
+\noindent\(\pmb{\text{TreeForm}[x+(y(z+w t))]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+
+
+9. Consider the { }operation \(\square\) on the set S =\(\text{the} \text{positive} \text{integers} ,( \text{NOT}\{1,2,3,4,5\})\), defined by { }\(a\square
+b\text{  }= a+b-1\). { }\\
+$\quad $(a) { }Is \(\square\) associative on \(S\)
+
+
+
+\((a\square b)\square c= (a+b-1)\square c = a+b-1+c-1 = a+b+c-2\\
+\\
+a\square (b\square c)= a\square (b+c-1) = a+(b+c-1)-1 = a+b+c-2\)
+
+
+
+Same result, so \(\square\) is associative.
+
+
+
+$\quad $(b) { }Is \(\square\) { }commutative on \(S\)
+
+
+
+Yes, { }by comparing \(a\square b\) and \(b\square a\), you see that the result is also the same here.
+
+
+
+$\quad $(c) Does { }\(\square\) have an identity in \(S\) ?
+
+
+
+If \(e\) is an identity, { }we would need \(a\square e=a+e-1 = a\). { }Solving \(a+e-1 = a\) for \(e\), we see that \(e=1\) is an identity. { }
+
+
+
+$\quad $(d) { }Does { }\(\square\) have the inverse property on \(S\)?
+
+
+
+No, the inverse of { }\(a\in S\), { }would be \(b\in S\) { }such that \(a\square b=1\). { } Therefore \(a+b-1=1\), or \(b=-a+2\). { }But since we
+assume \(a\) is a positive integer \(b \notin S\) unless \(a = 1\), { }and so no other elements have an inverse.
+
+
+
+10. { }Define the following terms in clear English sentences.
+
+
+
+See sections 11.1 and 11.2 for these definitions.
+
+
+
+$\quad $(a) { } { }Assume \(*\) is a binary operation on a set \(S\). { } A subset, \(T\), of \(S\) is closed with respect to \(*\)...
+
+
+
+$\quad $(c) { }\([G,*]\) is an abelian group if ...
+
+
+
+11. Let \(A\) be a nonempty set and \(\mathcal{P}(A)\) the set of all subsets of \(A\). Consider the algebraic system \([\mathcal{P}(A),\cup ]\)
+
+
+
+(a) What is the identity for this system?
+
+
+
+$\quad \quad $The empty set, since { } \(B \cup \emptyset =B=\emptyset \cup B\) { }for all \(B\subseteq A\).
+
+
+
+(b) For what sets \(X\in \mathcal{P}(A)\) is there an inverse?
+
+
+
+Only the empty set has an inverse. { } If \(B\) is nonempty, and C is any set, \(B \subseteq B\cup C\) and so \(B\cup C \neq \emptyset\).
+
+
+
+12. The real numbers with either addition or multiplication is a monoid. With which operation is it also a group. { }Explain your answer. 
+
+
+
+With addition, the real number form a groups since every real number has an additive inverse. { } With addition, you don{'}t get a group because
+0 has no multiplicative inverse. { } That can be {``}fixed{''} by removing 0 to give us the group \(\left[\mathbb{R}^*; \cdot \right]\).
+
+
+\section{}
+
+
+
+4. { } Use only the axioms of a group to prove that \([G,*]\) is a group, and \(a,b\in  G\), then
+
+
+
+$\quad \quad $\(x*a= b \Longrightarrow  x=b*a^{-1}\)
+
+
+
+5. { }(a) { }Find integers \(s\) and \(t\) such that \(91x + 27 y = \gcd (91,27)\)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) { }What are the additive and multiplicative inverses of 27 for modular addition and multiplication modulo 91?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. How many elements are there in the two groups { }\(\mathbb{Z}_{25}\) and { }\(U_{25}\)? { }Explain how you arrived at your answers.
+
+
+\section{Code}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[7];}\\
+\pmb{G=\text{RandomGraph}[\{6,10\},\text{DirectedEdges}\to \text{True},\text{VertexSize}\to \text{Medium},}\\
+\pmb{\text{VertexStyle}\to \text{White},}\\
+\pmb{\text{VertexLabels}\to \text{Table}[i\to \text{Placed}[\text{ToString}[i],\text{Center}],\{i,1,7\}],}\\
+\pmb{\text{VertexLabelStyle}\to \text{Larger}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{AdjacencyMatrix}[G]\text{//}\text{Normal}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccccc}
+ 0 & 0 & 0 & 0 & 0 & 1 \\
+ 0 & 0 & 0 & 0 & 0 & 0 \\
+ 1 & 0 & 0 & 0 & 1 & 0 \\
+ 0 & 0 & 1 & 0 & 0 & 0 \\
+ 0 & 0 & 1 & 1 & 0 & 1 \\
+ 0 & 1 & 0 & 1 & 1 & 0 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[67];}\\
+\pmb{n = 12; e = 18;}\\
+\pmb{\text{DG}=\text{RandomGraph}[\{n, e\}, \text{EdgeLabels} \text{-$>$} \text{{``}EdgeWeight{''}}, }\\
+\pmb{\text{EdgeLabelStyle} \text{-$>$} \text{Larger}, \text{VertexLabelStyle} \text{-$>$} \text{Directive}[\text{Italic}, 18], }\\
+\pmb{\text{VertexSize} \text{-$>$} \text{Large}, \text{VertexStyle} \text{-$>$} \text{White}, }\\
+\pmb{\text{VertexLabels} \text{-$>$} \text{Table}[i \text{-$>$} \text{Placed}[\text{ToString}[i], \text{Center}], \{i, 1, n\}]]}\\
+\pmb{\text{Dee}=\text{GraphDistanceMatrix}[\text{DG}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left(
+\begin{array}{cccccccccccc}
+ 0 & 1 & 1 & 2 & 1 & 4 & 1 & 4 & 3 & 4 & 2 & 2 \\
+ 1 & 0 & 2 & 1 & 1 & 3 & 2 & 3 & 2 & 3 & 2 & 2 \\
+ 1 & 2 & 0 & 2 & 2 & 4 & 1 & 4 & 3 & 4 & 2 & 2 \\
+ 2 & 1 & 2 & 0 & 2 & 2 & 1 & 2 & 1 & 2 & 1 & 1 \\
+ 1 & 1 & 2 & 2 & 0 & 3 & 2 & 3 & 2 & 3 & 1 & 3 \\
+ 4 & 3 & 4 & 2 & 3 & 0 & 3 & 2 & 1 & 2 & 2 & 3 \\
+ 1 & 2 & 1 & 1 & 2 & 3 & 0 & 3 & 2 & 3 & 1 & 1 \\
+ 4 & 3 & 4 & 2 & 3 & 2 & 3 & 0 & 1 & 2 & 2 & 3 \\
+ 3 & 2 & 3 & 1 & 2 & 1 & 2 & 1 & 0 & 1 & 1 & 2 \\
+ 4 & 3 & 4 & 2 & 3 & 2 & 3 & 2 & 1 & 0 & 2 & 3 \\
+ 2 & 2 & 2 & 1 & 1 & 2 & 1 & 2 & 1 & 2 & 0 & 2 \\
+ 2 & 2 & 2 & 1 & 3 & 3 & 1 & 3 & 2 & 3 & 2 & 0 \\
+\end{array}
+\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Manipulate}[\text{SeedRandom}[k];}\\
+\pmb{n=9;e=13;}\\
+\pmb{\text{RandomGraph}[\{n,e\},\text{VertexLabelStyle}\to \text{Directive}[\text{Italic},18],}\\
+\pmb{\text{VertexSize}\to \text{Large},\text{VertexStyle}\to \text{White},}\\
+\pmb{\text{VertexLabels}\to \text{Table}[i\to \text{Placed}[\text{ToString}[i],\text{Center}],\{i,1,n\}]],}\\
+\pmb{\{k,20,100,1\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Manipulate}[\text{SeedRandom}[k];}\\
+\pmb{n=7;e=10;}\\
+\pmb{\text{RandomGraph}[\{n,e\},\text{EdgeWeight}\to \text{RandomInteger}[\{5,15\},e],}\\
+\pmb{\text{EdgeLabels}\to \text{{``}EdgeWeight{''}},\text{EdgeLabelStyle}\to \text{Larger},}\\
+\pmb{\text{VertexLabelStyle}\to \text{Directive}[\text{Italic},18],\text{VertexSize}\to \text{Large},}\\
+\pmb{\text{VertexStyle}\to \text{White},}\\
+\pmb{\text{VertexLabels}\to \text{Table}[i\to \text{Placed}[\text{ToString}[i],\text{Center}],\{i,1,n\}]],}\\
+\pmb{\{k,20,100,1\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\fbox{$\text{Unresolved} \text{Dynamic} \text{Content}$}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{SeedRandom}[28];}\\
+\pmb{\text{RandomSample}[\text{Range}[10,99],9]\text{//}\text{Print}}\)
+\end{doublespace}
+
+\noindent\(\{33,55,46,79,86,19,13,40,58\}\)
+
+\end{document}

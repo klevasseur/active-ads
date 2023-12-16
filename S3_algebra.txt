@@ -1,0 +1,13 @@
+\begin{table}[]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\circ & y_1 & y_2 & y_3 & y_4 & y_5 & y_6 \\ \hline
+y_1   & y_1 & y_2 & y_3 & y_4 & y_5 & y_6 \\ \hline
+y_2   & y_2 & y_1 & y_6 & y_5 & y_  & y_  \\ \hline
+y_3   & y_3 & y_4 &  &  &  &  \\ \hline
+y_4   &     & y_3 &  &  &  &  \\ \hline
+y_5   &     &  &  &  &  &  \\ \hline
+y_6   &     &  &  &  &  &  \\ \hline
+\end{tabular}
+\end{table}

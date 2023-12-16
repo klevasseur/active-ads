@@ -1,0 +1,1 @@
+/Users/ken_l/Documents/active-ads/src/active-ads.xml:20:41: fatal: Error attempting to parse XML file (href='./bookinfo.xml').

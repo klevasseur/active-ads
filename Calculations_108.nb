@@ -1,0 +1,3714 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    168970,       3706]
+NotebookOptionsPosition[    165384,       3639]
+NotebookOutlinePosition[    165721,       3654]
+CellTagsIndexPosition[    165678,       3651]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "AbstractAlgebra`Master`"}]], "Input",
+ CellChangeTimes->{{3.801143919078197*^9, 3.801143927523058*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"ed529228-bc47-4a13-b3a8-f1a632e75218"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "FormGroupoidByRelations"}]], "Input",
+ CellChangeTimes->{{3.8011439314709063`*^9, 3.801143937515655*^9}},
+ CellLabel->
+  "In[374]:=",ExpressionUUID->"8bb0fb23-8975-4262-8b96-2ad00bf5f0bf"],
+
+Cell[BoxData[
+ FormBox[
+  InterpretationBox[
+   StyleBox[
+    FrameBox[
+     DynamicModuleBox[{System`InformationDump`open$$ = False, 
+      System`InformationDump`mouseOver$$ = False}, 
+      PaneSelectorBox[{True->
+       TagBox[GridBox[{
+          {
+           ItemBox[
+            PaneBox[
+             StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+              StripOnInput->False,
+              BaseStyle -> None],
+             FrameMargins->{{4, 0}, {-1, 1}}],
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False], 
+           ItemBox["\<\"\"\>",
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False]},
+          {
+           ItemBox[
+            PaneBox[
+             
+             StyleBox["\<\"FormGroupoidByRelations[gens_List,rels_List] forms \
+a Groupoid from elements in gens, reducing the products using the relations \
+in rels.\"\>", "InformationUsageText",
+              StripOnInput->False,
+              LineSpacing->{1.5, 1.5, 3.}],
+             FrameMargins->{{10, 10}, {8, 10}}],
+            BaseStyle->"InformationUsageSubtitleBackground",
+            StripOnInput->False], 
+           ItemBox["\<\"\"\>",
+            BaseStyle->"InformationUsageSubtitleBackground",
+            StripOnInput->False]},
+          {
+           PaneBox[GridBox[{
+              {
+               
+               DynamicModuleBox[{System`InformationDump`open$$ = {
+                False, False, False, False, False, False, False, False, False,
+                  False, False, False}}, 
+                StyleBox[GridBox[{
+                   {
+                    TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Definitions\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Definitions", "Tooltip"]& ], GridBox[{
+                    {
+                    RowBox[{
+                    RowBox[{"FormGroupoidByRelations", "[", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`gens_List", ",", 
+                    "AbstractAlgebra`Master`Private`rels_List"}], "]"}], ":=", 
+                    RowBox[{"Module", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`RelationGRule", ",", 
+                    "AbstractAlgebra`Master`Private`a", ",", 
+                    "AbstractAlgebra`Master`Private`s", ",", 
+                    "AbstractAlgebra`Master`Private`t", ",", 
+                    "AbstractAlgebra`Master`Private`i", ",", 
+                    "AbstractAlgebra`Master`Private`j", ",", 
+                    "AbstractAlgebra`Master`Private`x", ",", 
+                    "AbstractAlgebra`Master`Private`p", ",", 
+                    "AbstractAlgebra`Master`Private`q", ",", 
+                    "AbstractAlgebra`Master`Private`eq", ",", 
+                    "AbstractAlgebra`Master`Private`lhs", ",", 
+                    "AbstractAlgebra`Master`Private`rhs", ",", 
+                    "AbstractAlgebra`Master`Private`g"}], "}"}], ",", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`RelationGRule", "[", 
+                    "AbstractAlgebra`Master`Private`eq_Equal", "]"}], ":=", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"AbstractAlgebra`Master`Private`lhs", "=", 
+                    RowBox[{"AbstractAlgebra`Master`Private`g", "@@", 
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`p___", ",", 
+                    RowBox[{"Sequence", "@@", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Head", "[", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}], "===", "NonCommutativeMultiply"}], ",", 
+                    RowBox[{"List", "@@", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+                    ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "}"}]}], "]"}], "//.", "\[VeryThinSpace]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`s___", ",", 
+                    
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x_", 
+                    "AbstractAlgebra`Master`Private`i_"], ",", 
+                    "AbstractAlgebra`Master`Private`t___"}], "}"}], 
+                    "\[RuleDelayed]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`s", ",", 
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x", 
+                    RowBox[{"AbstractAlgebra`Master`Private`i", "-", "1"}]], 
+                    ",", "AbstractAlgebra`Master`Private`x", ",", 
+                    "AbstractAlgebra`Master`Private`t"}], "}"}], "/;", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`i", ">", "1"}]}]}]}], 
+                    ")"}]}], ",", "AbstractAlgebra`Master`Private`q___"}], 
+                    "}"}]}]}], ";", 
+                    RowBox[{"AbstractAlgebra`Master`Private`rhs", "=", 
+                    RowBox[{"AbstractAlgebra`Master`Private`g", "@@", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`p", ",", 
+                    RowBox[{"Sequence", "@@", "#1"}], ",", 
+                    "AbstractAlgebra`Master`Private`q"}], "}"}], "&"}], ")"}],
+                     "[", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Head", "[", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                    "]"}], "===", "NonCommutativeMultiply"}], ",", 
+                    RowBox[{"List", "@@", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+                    ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`eq", 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                    "}"}]}], "]"}], "//.", "\[VeryThinSpace]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`s___", ",", 
+                    
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x_", 
+                    "AbstractAlgebra`Master`Private`i_"], ",", 
+                    "AbstractAlgebra`Master`Private`t___"}], "}"}], 
+                    "\[RuleDelayed]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`s", ",", 
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x", 
+                    RowBox[{"AbstractAlgebra`Master`Private`i", "-", "1"}]], 
+                    ",", "AbstractAlgebra`Master`Private`x", ",", 
+                    "AbstractAlgebra`Master`Private`t"}], "}"}], "/;", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`i", ">", "1"}]}]}], ",", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`s___", ",", "e", ",", 
+                    "AbstractAlgebra`Master`Private`t___"}], "}"}], 
+                    "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`s", ",", 
+                    "AbstractAlgebra`Master`Private`t"}], "}"}]}]}], "}"}]}], 
+                    "]"}]}]}], ";", 
+                    RowBox[{"SetDelayed", "@@", 
+                    RowBox[{"{", 
+                    RowBox[{"AbstractAlgebra`Master`Private`lhs", ",", 
+                    "AbstractAlgebra`Master`Private`rhs"}], "}"}]}], ";", 
+                    "AbstractAlgebra`Master`Private`eq"}], ")"}]}], ";", 
+                    RowBox[{
+                    "Clear", "[", "AbstractAlgebra`Master`Private`g", "]"}], 
+                    ";", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`RelationGRule", "[", "#1",
+                     "]"}], "&"}], ")"}], "/@", 
+                    "AbstractAlgebra`Master`Private`rels"}], ";", 
+                    RowBox[{
+                    FormBox[
+                    RowBox[{"AbstractAlgebra`Master`Private`g", "[", "]"}],
+                    StandardForm], "=", "e"}], ";", 
+                    RowBox[{
+                    FormBox[
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`g", "[", 
+                    "AbstractAlgebra`Master`Private`p__", "]"}],
+                    StandardForm], ":=", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    "NonCommutativeMultiply", "[", 
+                    "AbstractAlgebra`Master`Private`p", "]"}], "//.", 
+                    "\[VeryThinSpace]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"AbstractAlgebra`Master`Private`s___", "**", 
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x_", 
+                    RowBox[{"AbstractAlgebra`Master`Private`i_", ":", "1"}]], 
+                    "**", 
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x_", 
+                    RowBox[{"AbstractAlgebra`Master`Private`j_", ":", "1"}]], 
+                    "**", "AbstractAlgebra`Master`Private`t___"}], 
+                    "\[RuleDelayed]", 
+                    RowBox[{"AbstractAlgebra`Master`Private`s", "**", 
+                    SuperscriptBox["AbstractAlgebra`Master`Private`x", 
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`i", "+", 
+                    "AbstractAlgebra`Master`Private`j"}]], "**", 
+                    "AbstractAlgebra`Master`Private`t"}]}], "}"}]}], "/.", 
+                    "\[VeryThinSpace]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "NonCommutativeMultiply", "[", 
+                    "AbstractAlgebra`Master`Private`a_", "]"}], 
+                    "\[RuleDelayed]", "AbstractAlgebra`Master`Private`a"}], 
+                    "}"}]}]}], ";", 
+                    RowBox[{"FormGroupoid", "[", 
+                    RowBox[{
+                    RowBox[{
+                    "AbstractAlgebra`Master`Private`g", "/@", 
+                    "AbstractAlgebra`Master`Private`gens"}], ",", 
+                    RowBox[{
+                    RowBox[{"AbstractAlgebra`Master`Private`g", "[", 
+                    RowBox[{
+                    RowBox[{"Sequence", "@@", "#1"}], ",", 
+                    RowBox[{"Sequence", "@@", "#2"}]}], "]"}], "&"}], ",", 
+                    RowBox[{"WideElements", "\[Rule]", "True"}]}], "]"}]}], 
+                    ")"}]}]}], "]"}]}]}
+                    },
+                    DefaultBaseStyle->"Column",
+                    GridBoxAlignment->{"Columns" -> {{Left}}},
+                    
+                    GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+                   {
+                    TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], \
+"\<\"AbstractAlgebra`Master`FormGroupoidByRelations\"\>"}
+                  },
+                  AutoDelete->False,
+                  GridBoxAlignment->{"Columns" -> {Right, Left}},
+                  GridBoxDividers->None,
+                  GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                  GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                 StripOnInput->False],
+                DynamicModuleValues:>{}]}
+             },
+             DefaultBaseStyle->"Column",
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+             GridBoxSpacings->{"Columns" -> {
+                 Offset[0.27999999999999997`], {
+                  Offset[0.5599999999999999]}, 
+                 Offset[0.27999999999999997`]}, "Rows" -> {
+                 Offset[0.2], {
+                  Offset[3.6]}, 
+                 Offset[0.2]}}],
+            FrameMargins->6], ""},
+          {
+           ItemBox[
+            TagBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "UpPointerOpener"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+               System`InformationDump`mouseOver$$]],
+              Alignment->Left,
+              Appearance->{"Default" -> None},
+              
+              ButtonFunction:>FEPrivate`Set[
+               System`InformationDump`open$$, False],
+              Evaluator->Automatic,
+              FrameMargins->{{9, 0}, {0, 0}},
+              ImageMargins->0,
+              ImageSize->Full,
+              Method->"Preemptive"],
+             
+             EventHandlerTag[{
+              "MouseEntered" :> 
+               FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+               "MouseExited" :> 
+               FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+               Method -> "Preemptive", PassEventsDown -> Automatic, 
+               PassEventsUp -> True}]],
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         FrameStyle->Directive[
+           GrayLevel[0.8], 
+           Thickness[Tiny]],
+         GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+         
+         GridBoxDividers->{
+          "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"], False->
+       TagBox[GridBox[{
+          {
+           ItemBox[
+            PaneBox[
+             StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+              StripOnInput->False],
+             FrameMargins->{{4, 0}, {-1, 1}}],
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False], 
+           ItemBox["\<\"\"\>",
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False]},
+          {
+           ItemBox[
+            PaneBox[
+             
+             StyleBox["\<\"FormGroupoidByRelations[gens_List,rels_List] forms \
+a Groupoid from elements in gens, reducing the products using the relations \
+in rels.\"\>", "InformationUsageText",
+              StripOnInput->False,
+              LineSpacing->{1.5, 1.5, 3.}],
+             FrameMargins->{{10, 10}, {8, 10}}],
+            BaseStyle->"InformationUsageSubtitleBackground",
+            StripOnInput->False], 
+           ItemBox["\<\"\"\>",
+            BaseStyle->"InformationUsageSubtitleBackground",
+            StripOnInput->False]},
+          {
+           ItemBox[
+            TagBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "DownPointerOpener"],
+                ImageSizeCache->{15., {2., 13.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "DownPointerOpenerHot"],
+                ImageSizeCache->{15., {2., 13.}}]}, Dynamic[
+               System`InformationDump`mouseOver$$]],
+              Alignment->Left,
+              Appearance->{"Default" -> None},
+              
+              ButtonFunction:>FEPrivate`Set[
+               System`InformationDump`open$$, True],
+              Evaluator->Automatic,
+              FrameMargins->{{9, 0}, {0, 0}},
+              ImageMargins->0,
+              ImageSize->Full,
+              Method->"Preemptive"],
+             
+             EventHandlerTag[{
+              "MouseEntered" :> 
+               FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+               "MouseExited" :> 
+               FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+               Method -> "Preemptive", PassEventsDown -> Automatic, 
+               PassEventsUp -> True}]],
+            BaseStyle->"InformationTitleBackground",
+            StripOnInput->False], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         FrameStyle->Directive[
+           GrayLevel[0.8], 
+           Thickness[Tiny]],
+         GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+         
+         GridBoxDividers->{
+          "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"]}, Dynamic[System`InformationDump`open$$],
+       BaselinePosition->Baseline,
+       FrameMargins->0,
+       ImageSize->Automatic],
+      DynamicModuleValues:>{}],
+     BaseStyle->"InformationGridFrame",
+     StripOnInput->False], "InformationGridPlain",
+    StripOnInput->False],
+   InformationData[
+    Association[
+    "ObjectType" -> "Symbol", "Usage" -> 
+     "FormGroupoidByRelations[gens_List,rels_List] forms a Groupoid from \
+elements in gens, reducing the products using the relations in rels.", 
+     "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
+     "DownValues" -> 
+     Information`InformationValueForm[
+      DownValues, AbstractAlgebra`Master`FormGroupoidByRelations, {
+       AbstractAlgebra`Master`FormGroupoidByRelations[
+          Pattern[AbstractAlgebra`Master`Private`gens, 
+           Blank[List]], 
+          Pattern[AbstractAlgebra`Master`Private`rels, 
+           Blank[List]]] :> 
+        Module[{AbstractAlgebra`Master`Private`RelationGRule, 
+           AbstractAlgebra`Master`Private`a, AbstractAlgebra`Master`Private`s,
+            AbstractAlgebra`Master`Private`t, 
+           AbstractAlgebra`Master`Private`i, AbstractAlgebra`Master`Private`j,
+            AbstractAlgebra`Master`Private`x, 
+           AbstractAlgebra`Master`Private`p, AbstractAlgebra`Master`Private`q,
+            AbstractAlgebra`Master`Private`eq, 
+           AbstractAlgebra`Master`Private`lhs, 
+           AbstractAlgebra`Master`Private`rhs, 
+           AbstractAlgebra`Master`Private`g}, 
+          AbstractAlgebra`Master`Private`RelationGRule[
+             Pattern[AbstractAlgebra`Master`Private`eq, 
+              Blank[Equal]]] := (
+            AbstractAlgebra`Master`Private`lhs = 
+             Apply[AbstractAlgebra`Master`Private`g, {
+                Pattern[AbstractAlgebra`Master`Private`p, 
+                 BlankNullSequence[]], 
+                Apply[Sequence, 
+                 ReplaceRepeated[
+                  If[Head[
+                    Part[AbstractAlgebra`Master`Private`eq, 1]] === 
+                   NonCommutativeMultiply, 
+                   Apply[List, 
+                    Part[AbstractAlgebra`Master`Private`eq, 1]], {
+                    Part[AbstractAlgebra`Master`Private`eq, 1]}], {
+                    Pattern[AbstractAlgebra`Master`Private`s, 
+                    BlankNullSequence[]], 
+                    Pattern[AbstractAlgebra`Master`Private`x, 
+                    Blank[]]^Pattern[AbstractAlgebra`Master`Private`i, 
+                    Blank[]], 
+                    Pattern[AbstractAlgebra`Master`Private`t, 
+                    BlankNullSequence[]]} :> 
+                  Condition[{
+                    AbstractAlgebra`Master`Private`s, 
+                    AbstractAlgebra`Master`Private`x^(
+                    AbstractAlgebra`Master`Private`i - 1), 
+                    AbstractAlgebra`Master`Private`x, 
+                    AbstractAlgebra`Master`Private`t}, 
+                    AbstractAlgebra`Master`Private`i > 1]]], 
+                Pattern[AbstractAlgebra`Master`Private`q, 
+                 BlankNullSequence[]]}]; 
+            AbstractAlgebra`Master`Private`rhs = 
+             Apply[AbstractAlgebra`Master`Private`g, 
+               ({AbstractAlgebra`Master`Private`p, 
+                Apply[Sequence, #], AbstractAlgebra`Master`Private`q}& )[
+                ReplaceRepeated[
+                 If[Head[
+                    Part[AbstractAlgebra`Master`Private`eq, 2]] === 
+                  NonCommutativeMultiply, 
+                  Apply[List, 
+                   Part[AbstractAlgebra`Master`Private`eq, 2]], {
+                   Part[AbstractAlgebra`Master`Private`eq, 2]}], {{
+                    Pattern[AbstractAlgebra`Master`Private`s, 
+                    BlankNullSequence[]], 
+                    Pattern[AbstractAlgebra`Master`Private`x, 
+                    Blank[]]^Pattern[AbstractAlgebra`Master`Private`i, 
+                    Blank[]], 
+                    Pattern[AbstractAlgebra`Master`Private`t, 
+                    BlankNullSequence[]]} :> 
+                  Condition[{
+                    AbstractAlgebra`Master`Private`s, 
+                    AbstractAlgebra`Master`Private`x^(
+                    AbstractAlgebra`Master`Private`i - 1), 
+                    AbstractAlgebra`Master`Private`x, 
+                    AbstractAlgebra`Master`Private`t}, 
+                    AbstractAlgebra`Master`Private`i > 1], {
+                    Pattern[AbstractAlgebra`Master`Private`s, 
+                    BlankNullSequence[]], AbstractAlgebra`Master`e, 
+                    Pattern[AbstractAlgebra`Master`Private`t, 
+                    BlankNullSequence[]]} :> {
+                   AbstractAlgebra`Master`Private`s, 
+                    AbstractAlgebra`Master`Private`t}}]]]; 
+            Apply[SetDelayed, {
+              AbstractAlgebra`Master`Private`lhs, 
+               AbstractAlgebra`Master`Private`rhs}]; 
+            AbstractAlgebra`Master`Private`eq); 
+          Clear[AbstractAlgebra`Master`Private`g]; (
+           Map[AbstractAlgebra`Master`Private`RelationGRule[#]& , 
+             AbstractAlgebra`Master`Private`rels]; Format[
+              AbstractAlgebra`Master`Private`g[]] = AbstractAlgebra`Master`e; 
+           Format[
+              AbstractAlgebra`Master`Private`g[
+               Pattern[AbstractAlgebra`Master`Private`p, 
+                BlankSequence[]]]] := ReplaceAll[
+              ReplaceRepeated[
+               NonCommutativeMultiply[AbstractAlgebra`Master`Private`p], {
+               NonCommutativeMultiply[
+                  Pattern[AbstractAlgebra`Master`Private`s, 
+                   BlankNullSequence[]], 
+                  Pattern[AbstractAlgebra`Master`Private`x, 
+                    Blank[]]^Optional[
+                    Pattern[AbstractAlgebra`Master`Private`i, 
+                    Blank[]], 1], Pattern[AbstractAlgebra`Master`Private`x, 
+                    Blank[]]^Optional[
+                    Pattern[AbstractAlgebra`Master`Private`j, 
+                    Blank[]], 1], 
+                  Pattern[AbstractAlgebra`Master`Private`t, 
+                   BlankNullSequence[]]] :> 
+                NonCommutativeMultiply[
+                 AbstractAlgebra`Master`Private`s, 
+                  AbstractAlgebra`Master`Private`x^(
+                   AbstractAlgebra`Master`Private`i + 
+                   AbstractAlgebra`Master`Private`j), 
+                  AbstractAlgebra`Master`Private`t]}], {NonCommutativeMultiply[
+                 Pattern[AbstractAlgebra`Master`Private`a, 
+                  Blank[]]] :> AbstractAlgebra`Master`Private`a}]; 
+           AbstractAlgebra`Master`FormGroupoid[
+             Map[
+             AbstractAlgebra`Master`Private`g, 
+              AbstractAlgebra`Master`Private`gens], 
+             AbstractAlgebra`Master`Private`g[
+              Apply[Sequence, #], 
+              Apply[Sequence, #2]]& , AbstractAlgebra`Master`WideElements -> 
+             True])]}], "SubValues" -> None, "DefaultValues" -> None, 
+     "NValues" -> None, "FormatValues" -> None, "Options" -> None, 
+     "Attributes" -> {}, "FullName" -> 
+     "AbstractAlgebra`Master`FormGroupoidByRelations"], False]], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.801143938288625*^9},
+ CellLabel->
+  "Out[374]=",ExpressionUUID->"3b4ccf50-9b13-41fb-b23b-b62b14c6e5fb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"op", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Join", "[", 
+      RowBox[{"#1", ",", "#2"}], "]"}], "//.", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"pre___", ",", "a", ",", "a", ",", "post___"}], "}"}], 
+        "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"pre", ",", "post"}], "}"}]}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"pre___", ",", "b", ",", "b", ",", "post___"}], "}"}], 
+        "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"pre", ",", "post"}], "}"}]}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"pre___", ",", "c", ",", "c", ",", "post___"}], "}"}], 
+        "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"pre", ",", "post"}], "}"}]}]}], "}"}]}], ")"}], 
+   "&"}]}]], "Input",
+ CellChangeTimes->{{3.8011449534219513`*^9, 3.80114508876861*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"efb03bc7-f9ab-44d1-8924-dbe94d0bdfe4"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"Join", "[", 
+     RowBox[{"#1", ",", "#2"}], "]"}], "//.", "\[VeryThinSpace]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"pre___", ",", "a", ",", "a", ",", "post___"}], "}"}], 
+       "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"pre", ",", "post"}], "}"}]}], ",", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"pre___", ",", "b", ",", "b", ",", "post___"}], "}"}], 
+       "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"pre", ",", "post"}], "}"}]}], ",", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"pre___", ",", "c", ",", "c", ",", "post___"}], "}"}], 
+       "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"pre", ",", "post"}], "}"}]}]}], "}"}]}], "&"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{3.8011450665687523`*^9, 3.801145101486022*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"10dfa2be-2a68-4735-b07a-9808cf26e01d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"H", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Join", "@@", 
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Tuples", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "#"}], "]"}], "&"}],
+        ",", 
+       RowBox[{"Range", "[", 
+        RowBox[{"0", ",", "5"}], "]"}]}], "]"}]}], "//", 
+    RowBox[{
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"op", "[", 
+         RowBox[{"#", ",", 
+          RowBox[{"{", "}"}]}], "]"}], "&"}], ",", "#"}], "]"}], "&"}]}], "//",
+    "Union"}]}]], "Input",
+ CellChangeTimes->{{3.801144198839098*^9, 3.801144216933898*^9}, {
+  3.801145209349482*^9, 3.801145251057364*^9}, {3.801145282417892*^9, 
+  3.801145303101577*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"fe810d1a-1d44-4748-9b23-92d663c84a49"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", 
+    RowBox[{"{", "a", "}"}], ",", 
+    RowBox[{"{", "b", "}"}], ",", 
+    RowBox[{"{", "c", "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "c", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "a", ",", "c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "c", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "b", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "a", ",", "c", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "b", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "c", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "a", ",", "c", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "a", ",", "b"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "a", ",", "c"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "b", ",", "a"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "b", ",", "c", ",", "b", ",", "c"}], "}"}]}], "}"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{
+  3.801144218452956*^9, 3.801145253855204*^9, {3.8011452956246767`*^9, 
+   3.801145303918297*^9}},
+ CellLabel->"Out[42]=",ExpressionUUID->"f6dc4600-2279-4955-b23a-1137a2a1f72a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"t", "=", 
+   RowBox[{"RandomChoice", "[", 
+    RowBox[{"H", ",", "3"}], "]"}]}], ";", 
+  RowBox[{"k", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"k", "<", "10000"}], " ", "&&", " ", 
+     RowBox[{
+      RowBox[{"op", "[", 
+       RowBox[{
+        RowBox[{"t", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", 
+        RowBox[{"op", "[", 
+         RowBox[{
+          RowBox[{"t", "[", 
+           RowBox[{"[", "2", "]"}], "]"}], ",", 
+          RowBox[{"t", "[", 
+           RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}], "]"}], "\[Equal]", 
+      RowBox[{"op", "[", 
+       RowBox[{
+        RowBox[{"op", "[", 
+         RowBox[{
+          RowBox[{"t", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], ",", 
+          RowBox[{"t", "[", 
+           RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ",", 
+        RowBox[{"t", "[", 
+         RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}]}], ",", 
+    RowBox[{
+     RowBox[{"t", "=", 
+      RowBox[{"RandomChoice", "[", 
+       RowBox[{"H", ",", "3"}], "]"}]}], ";", 
+     RowBox[{"k", "+=", "1"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"k", ",", "t"}], "}"}]}], "Input",
+ CellChangeTimes->{{3.8011445395472*^9, 3.801144735551345*^9}, {
+  3.801145352326981*^9, 3.801145367559997*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"e9dd09ed-4522-4053-aaa1-8812e1345427"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{"10000", ",", 
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {"a", "b", "c", "b", "c"},
+       {"a", "b", "c", "b", "a"},
+       {"c", "a", "c", "b", "c"}
+      },
+      GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}}], "\[NoBreak]", ")"}]}], "}"}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{{3.801144555060749*^9, 3.801144563096756*^9}, 
+   3.801144736900634*^9, 3.801145319176195*^9, {3.801145362845092*^9, 
+   3.801145369631279*^9}},
+ CellLabel->"Out[52]=",ExpressionUUID->"3a43b5e6-09c1-44d8-b4a1-81b3f4ed2a86"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.801145562801532*^9},ExpressionUUID->"a8cc3905-b83a-4b97-a8ba-\
+73c4c2ac485b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"o", "[", 
+  RowBox[{
+   RowBox[{"o", "[", 
+    RowBox[{
+     RowBox[{"t", "[", 
+      RowBox[{"[", "1", "]"}], "]"}], ",", 
+     RowBox[{"t", "[", 
+      RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ",", 
+   RowBox[{"t", "[", 
+    RowBox[{"[", "3", "]"}], "]"}]}], "]"}]], "Input",
+ CellLabel->"In[46]:=",ExpressionUUID->"a085cb32-7ee8-48b8-b951-7ebc7755df09"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"Operation", "(", 
+    RowBox[{"FormGroupoidByRelations", "(", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["a", "2"], "\[LongEqual]", "e"}], ",", 
+        RowBox[{
+         SuperscriptBox["b", "2"], "\[LongEqual]", "e"}], ",", 
+        RowBox[{
+         SuperscriptBox["c", "2"], "\[LongEqual]", "e"}]}], "}"}], ",", 
+      RowBox[{"SizeLimit", "\[Rule]", "25"}]}], ")"}], ")"}], 
+   "\[InvisibleApplication]", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Operation", "(", 
+       RowBox[{"FormGroupoidByRelations", "(", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["a", "2"], "\[LongEqual]", "e"}], ",", 
+           RowBox[{
+            SuperscriptBox["b", "2"], "\[LongEqual]", "e"}], ",", 
+           RowBox[{
+            SuperscriptBox["c", "2"], "\[LongEqual]", "e"}]}], "}"}], ",", 
+         RowBox[{"SizeLimit", "\[Rule]", "25"}]}], ")"}], ")"}], 
+      "\[InvisibleApplication]", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"b", ",", "a", ",", "b", ",", "a", ",", "c"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"c", ",", "a", ",", "b", ",", "a"}], "}"}]}], ")"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"c", ",", "a", ",", "b", ",", "c"}], "}"}]}], ")"}]}], 
+  TraditionalForm]], "Output",
+ CellChangeTimes->{
+  3.801144793675103*^9, {3.801144905046489*^9, 3.801144908824888*^9}, 
+   3.801145338568611*^9},
+ CellLabel->"Out[46]=",ExpressionUUID->"feb331a7-5e3a-4e18-a1a6-dce8e370e0c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AssociativeQ", "[", 
+  RowBox[{"K", ",", 
+   RowBox[{"Mode", "\[Rule]", "Textual"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.801144029759742*^9, 3.8011440734637413`*^9}, {
+  3.8011442785538692`*^9, 3.801144305634164*^9}, {3.80114434115899*^9, 
+  3.801144384052766*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"38000d52-cc83-4b67-8b8c-010c5d2e604e"],
+
+Cell[BoxData[
+ FormBox["$Aborted", TraditionalForm]], "Output",
+ CellChangeTimes->{{3.8011440742522507`*^9, 3.801144080734016*^9}, 
+   3.8011441539447117`*^9, {3.801144279327932*^9, 3.801144286580917*^9}, {
+   3.801144333700444*^9, 3.801144357380541*^9}, 3.801144527430373*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"df06ecce-ee72-406f-a3da-6471e6810d9a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Elements", "[", "G", "]"}]], "Input",
+ CellChangeTimes->{{3.8011440909194403`*^9, 3.801144093342441*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"2cee5d34-a6fd-4592-8877-98e9767d34ba"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"{", 
+   RowBox[{
+    FormBox["a",
+     TraditionalForm], ",", 
+    FormBox["b",
+     TraditionalForm], ",", 
+    FormBox["c",
+     TraditionalForm]}], "}"}], TraditionalForm]], "Output",
+ CellChangeTimes->{3.801144094102921*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"468cfc7c-0cdb-4e84-b299-c559352ffaed"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"G1", "=", 
+  RowBox[{"GenerateGroupoid", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"1", "/", "x"}], ",", 
+      RowBox[{"1", "/", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "x"}], ")"}]}]}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"Simplify", "[", 
+      RowBox[{"#1", "/.", 
+       RowBox[{"{", 
+        RowBox[{"x", "\[Rule]", "#2"}], "}"}]}], "]"}], "&"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8012245700923643`*^9, 3.80122457009558*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"b4d4e302-3290-4425-8c62-4e46e6556f9b"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"Groupoid", "(", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"1", "-", "x"}]], ",", 
+      RowBox[{"1", "-", "x"}], ",", 
+      FractionBox["1", "x"], ",", 
+      FractionBox[
+       RowBox[{"x", "-", "1"}], "x"], ",", "x", ",", 
+      FractionBox["x", 
+       RowBox[{"x", "-", "1"}]]}], "}"}], ",", "\<\"-Operation-\"\>"}], ")"}],
+   TraditionalForm]], "Output",
+ CellChangeTimes->{3.8012245733279753`*^9},
+ CellLabel->"Out[53]=",ExpressionUUID->"286ab3ed-ce13-4a76-a731-bacf9920f2d2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Elements", "[", "G1", "]"}], "//", "TeXForm"}]], "Input",
+ CellChangeTimes->{{3.801224584090633*^9, 3.801224598462535*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"8f357d8b-3713-41ae-81bb-4c5134e333b3"],
+
+Cell["\<\
+\\left\\{\\frac{1}{1-x},1-x,\\frac{1}{x},\\f
+   rac{x-1}{x},x,\\frac{x}{x-1}\\right\\}\
+\>", "Output",
+ CellChangeTimes->{{3.801224590988668*^9, 3.801224599706925*^9}},
+ CellLabel->
+  "Out[55]//TeXForm=",ExpressionUUID->"8c060a78-e09c-4de2-a25c-c8ab80a54091"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"CayleyTable", "[", "G1", "]"}]], "Input",
+ CellChangeTimes->{{3.801225866783256*^9, 3.801225873805933*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"38f5d3da-5ca4-4130-9564-28b77507d0c8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  ButtonBox[
+   "\"Group properties\"", ButtonFunction :> 
+    AbstractAlgebra`Master`Private`GroupInformationWork[
+      AbstractAlgebra`Master`Private`groupoid[{(1 - $CellContext`x)^(-1), 
+        1 - $CellContext`x, $CellContext`x^(-1), (-1 + \
+$CellContext`x)/$CellContext`x, $CellContext`x, (-1 + $CellContext`x)^(-1) \
+$CellContext`x}, Simplify[
+        ReplaceAll[#, {$CellContext`x -> #2}]]& , {{}, {}, {}, {}, {}, {}}]], 
+    Appearance -> Automatic, Evaluator -> Automatic, Method -> "Preemptive"],
+   ButtonBox[
+   "\"Element properties\"", ButtonFunction :> 
+    AbstractAlgebra`Master`Private`ElementInformationWork[
+      AbstractAlgebra`Master`Private`groupoid[{(1 - $CellContext`x)^(-1), 
+        1 - $CellContext`x, $CellContext`x^(-1), (-1 + \
+$CellContext`x)/$CellContext`x, $CellContext`x, (-1 + $CellContext`x)^(-1) \
+$CellContext`x}, Simplify[
+        ReplaceAll[#, {$CellContext`x -> #2}]]& , {{}, {}, {}, {}, {}, {}}]], 
+    Appearance -> Automatic, Evaluator -> Automatic, Method -> "Preemptive"],
+   ButtonBox[
+   "\"Group Calculator\"", 
+    ButtonFunction :> (
+     AbstractAlgebra`Master`pushedGroup = 
+      AbstractAlgebra`Master`Private`groupoid[{(1 - $CellContext`x)^(-1), 
+         1 - $CellContext`x, $CellContext`x^(-1), (-1 + \
+$CellContext`x)/$CellContext`x, $CellContext`x, (-1 + $CellContext`x)^(-1) \
+$CellContext`x}, Simplify[
+         ReplaceAll[#, {$CellContext`x -> #2}]]& , {{}, {}, {}, {}, {}, {}}]; 
+     AbstractAlgebra`Master`pushedGroupName = 
+      AbstractAlgebra`Master`GroupoidName[
+        AbstractAlgebra`Master`Private`groupoid[{(1 - $CellContext`x)^(-1), 
+          1 - $CellContext`x, $CellContext`x^(-1), (-1 + \
+$CellContext`x)/$CellContext`x, $CellContext`x, (-1 + $CellContext`x)^(-1) \
+$CellContext`x}, Simplify[
+          
+          ReplaceAll[#, {$CellContext`x -> #2}]]& , {{}, {}, {}, {}, {}, \
+{}}]]; AbstractAlgebra`Master`GroupCalculator), Appearance -> Automatic, 
+    Evaluator -> Automatic, Method -> "Preemptive"]},
+  "RowDefault"]],
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ CellChangeTimes->{
+  3.801225874503935*^9},ExpressionUUID->"7a36dc38-15bf-462b-81e3-\
+5046623898b1"],
+
+Cell[BoxData[
+ FormBox[
+  TagBox[GridBox[{
+     {
+      TemplateBox[{TemplateBox[{
+          PanelBox[
+           TagBox[
+            GridBox[{{
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["\"*\"", StandardForm], StandardForm, Editable -> 
+                   True], "\"operator symbol\"", LabelStyle -> "TextStyling"],
+                  Annotation[#, "operator symbol", "Tooltip"]& ], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False]}, {
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False]}, {
+              
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False]}, {
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False]}, {
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False]}, {
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False]}, {
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", "x"], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*FractionBox[\"1\", \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.559999, 0.370006, 0.599994], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}], "x"], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0, 0, 1], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["1", 
+                    RowBox[{"1", "-", "x"}]], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"1\\\", RowBox[{\\\"1\\\", \
+\\\"-\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"3\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[RowBox[{RowBox[{\\\"-\\\", \
+\\\"1\\\"}], \\\"+\\\", \\\"x\\\"}], \\\"x\\\"]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"1\", RowBox[{\"1\", \"-\", \
+\"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"3\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[RowBox[{RowBox[{\"-\", \"1\"}], \"+\", \
+\"x\"}], \"x\"]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 1, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    RowBox[{"1", "-", "x"}], StandardForm], StandardForm, 
+                   Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*RowBox[{\\\"1\\\", \\\"-\\\", \
+\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\", \"-\", \"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[1, 0.5, 0], StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox[
+                    FractionBox["x", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", "x"}]], StandardForm], 
+                   StandardForm, Editable -> True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"2\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox[
+                    "\"\\!\\(\\*FractionBox[\\\"x\\\", \
+RowBox[{RowBox[{\\\"-\\\", \\\"1\\\"}], \\\"+\\\", \\\"x\\\"}]]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"2\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style[
+                    "\!\(\*FractionBox[\"x\", RowBox[{RowBox[{\"-\", \"1\"}], \
+\"+\", \"x\"}]]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.250999, 0.878399, 0.815699], 
+                StripOnInput -> False], 
+               ItemBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   FormBox["x", StandardForm], StandardForm, Editable -> 
+                   True], 
+                  TagBox[
+                   GridBox[{{
+                    StyleBox["\"g\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"|g|\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\*SuperscriptBox[g, -1]\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}, {
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"1\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False], 
+                    StyleBox["\"\\!\\(\\*RowBox[{\\\"x\\\"}]\\)\"", 
+                    RGBColor[0, 0, 1], 24, StripOnInput -> False]}}, 
+                    AutoDelete -> False, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                   "Grid"]], Annotation[#, 
+                  Grid[{{
+                    Style["g", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["|g|", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\*SuperscriptBox[g, -1]", 
+                    RGBColor[0, 0, 1], 24]}, {
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"1\"}]\)", 
+                    RGBColor[0, 0, 1], 24], 
+                    Style["\!\(\*RowBox[{\"x\"}]\)", 
+                    RGBColor[0, 0, 1], 24]}}, Dividers -> All], "Tooltip"]& ],
+                 Background -> RGBColor[0.739998, 0.990005, 0.790002], 
+                StripOnInput -> False]}}, AutoDelete -> False, 
+             GridBoxDividers -> {
+              "Columns" -> {{1}}, "ColumnsIndexed" -> {2 -> Thickness[4]}, 
+               "Rows" -> {{1}}, "RowsIndexed" -> {2 -> Thickness[4]}}, 
+             GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}}, 
+             GridBoxItemStyle -> {"Columns" -> {{
+                  Directive[Small, StandardForm]}}, "Rows" -> {{
+                  Directive[Small, StandardForm]}}}, 
+             GridBoxSpacings -> {"Columns" -> {{
+                  Offset[1]}}}], "Grid"]], "\" \"", "\" \""}, "Labeled", 
+         DisplayFunction -> (FormBox[
+           GridBox[{{"", 
+              ItemBox[#3, DefaultBaseStyle -> "PanelLabel"]}, {
+              ItemBox[#2, DefaultBaseStyle -> "PanelLabel"], 
+              TagBox[
+               ItemBox[
+                PaneBox[
+                 TagBox[#, "SkipImageSizeLevel"], 
+                 Alignment -> {Center, Baseline}, BaselinePosition -> 
+                 Baseline], DefaultBaseStyle -> "Labeled"], 
+               "SkipImageSizeLevel"]}}, 
+            GridBoxAlignment -> {
+             "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+            False, GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {2, 2}], TraditionalForm]& ), 
+         InterpretationFunction -> (RowBox[{"Labeled", "[", 
+            RowBox[{#, ",", 
+              RowBox[{"{", 
+                RowBox[{#2, ",", #3}], "}"}], ",", 
+              RowBox[{"{", 
+                RowBox[{"Left", ",", "Top"}], "}"}], ",", 
+              RowBox[{"DefaultLabelStyle", "\[Rule]", "\"PanelLabel\""}], ",", 
+              RowBox[{"LabelStyle", "\[Rule]", 
+                RowBox[{"{", "}"}]}], ",", 
+              RowBox[{"RotateLabel", "\[Rule]", "False"}], ",", 
+              RowBox[{"Spacings", "\[Rule]", "Automatic"}]}], "]"}]& )],
+        "\"TheGroup\""},
+       "Labeled",
+       DisplayFunction->(FormBox[
+         GridBox[{{
+            ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}, {
+            TagBox[
+             ItemBox[
+              PaneBox[
+               TagBox[#, "SkipImageSizeLevel"], 
+               Alignment -> {Center, Baseline}, BaselinePosition -> Baseline],
+               DefaultBaseStyle -> "Labeled"], "SkipImageSizeLevel"]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}},
+           AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {2, 1}], TraditionalForm]& ),
+       InterpretationFunction->(RowBox[{"Labeled", "[", 
+          RowBox[{#, ",", 
+            RowBox[{"{", #2, "}"}], ",", 
+            RowBox[{"{", "Top", "}"}]}], "]"}]& )]}
+    },
+    DefaultBaseStyle->"Column",
+    GridBoxAlignment->{"Columns" -> {{Left}}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Column"], TraditionalForm]], "Output",
+ CellChangeTimes->{3.801225874622944*^9},
+ CellLabel->"Out[56]=",ExpressionUUID->"96b0a25a-ad34-42d3-a64e-e9f73ba0e0c1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Orders", "[", "G1", "]"}]], "Input",
+ CellChangeTimes->{{3.801225886508544*^9, 3.8012258991861963`*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"ebbc6b7f-aa23-4619-a608-feca0c049e98"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      FractionBox["1", 
+       RowBox[{"1", "-", "x"}]], "3"},
+     {
+      RowBox[{"1", "-", "x"}], "2"},
+     {
+      FractionBox["1", "x"], "2"},
+     {
+      FractionBox[
+       RowBox[{"x", "-", "1"}], "x"], "3"},
+     {"x", "1"},
+     {
+      FractionBox["x", 
+       RowBox[{"x", "-", "1"}]], "2"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}], TraditionalForm]], "Output",
+ CellChangeTimes->{3.801225899825005*^9},
+ CellLabel->"Out[57]=",ExpressionUUID->"46fd2e57-3d91-4f50-8c09-d1f2926239b1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"G3", "=", 
+  RowBox[{"GenerateGroupoid", "[", 
+   RowBox[{
+    RowBox[{"Map", "[", 
+     RowBox[{"Simplify", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", "/", "x"}], ",", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"x", "+", "1"}], ")"}], "/", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", "x"}], ")"}]}]}], "}"}]}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"Simplify", "[", 
+      RowBox[{"#1", "/.", 
+       RowBox[{"{", 
+        RowBox[{"x", "\[Rule]", "#2"}], "}"}]}], "]"}], "&"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8012264288006287`*^9, 3.801226428804163*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"24813361-ff81-4c27-b6f4-b504fa087411"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"Groupoid", "(", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox["1", "x"]}], ",", 
+      FractionBox["1", "x"], ",", 
+      RowBox[{"-", "x"}], ",", "x", ",", 
+      FractionBox[
+       RowBox[{"1", "-", "x"}], 
+       RowBox[{"x", "+", "1"}]], ",", 
+      FractionBox[
+       RowBox[{"x", "-", "1"}], 
+       RowBox[{"x", "+", "1"}]], ",", 
+      FractionBox[
+       RowBox[{"x", "+", "1"}], 
+       RowBox[{"1", "-", "x"}]], ",", 
+      FractionBox[
+       RowBox[{"x", "+", "1"}], 
+       RowBox[{"x", "-", "1"}]]}], "}"}], ",", "\<\"-Operation-\"\>"}], ")"}],
+   TraditionalForm]], "Output",
+ CellChangeTimes->{3.801226431262515*^9},
+ CellLabel->"Out[58]=",ExpressionUUID->"615fff1f-2919-4545-8ec9-101322758198"]
+}, Open  ]],
+
+Cell[BoxData["Group"], "Input",
+ CellChangeTimes->{{3.801226434848298*^9, 
+  3.801226444216626*^9}},ExpressionUUID->"b260dbc5-6107-4b02-824d-\
+bc35a926f8a5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"F", "=", 
+   RowBox[{"FormGroupoid", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "2", ",", "4", ",", "6", ",", "8"}], "}"}], ",", 
+     RowBox[{
+      RowBox[{"Mod", "[", 
+       RowBox[{
+        RowBox[{"#1", " ", "#2"}], ",", "10"}], "]"}], "&"}]}], "]"}]}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.801579898485147*^9, 3.801579923917357*^9}, {
+  3.80158016432502*^9, 3.801580228682536*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"59fb1bed-420c-4482-868f-6bd85b7b9141"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HasIdentityQ", "[", "F", "]"}]], "Input",
+ CellChangeTimes->{{3.801580175655711*^9, 3.8015801794035587`*^9}},
+ CellLabel->"In[72]:=",ExpressionUUID->"a3b4d3b4-b72a-45d1-84fa-1352acb4b6fd"],
+
+Cell[BoxData[
+ FormBox["False", TraditionalForm]], "Output",
+ CellChangeTimes->{{3.801580180441474*^9, 3.801580255607881*^9}},
+ CellLabel->"Out[72]=",ExpressionUUID->"188d4244-4750-41ee-b286-a772611f7dfd"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{36, Automatic}, {16, Automatic}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 211, 3, 47, "Input",ExpressionUUID->"ed529228-bc47-4a13-b3a8-f1a632e75218"],
+Cell[CellGroupData[{
+Cell[794, 27, 217, 4, 47, "Input",ExpressionUUID->"8bb0fb23-8975-4262-8b96-2ad00bf5f0bf"],
+Cell[1014, 33, 26017, 558, 170, "Output",ExpressionUUID->"3b4ccf50-9b13-41fb-b23b-b62b14c6e5fb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27068, 596, 986, 29, 135, "Input",ExpressionUUID->"efb03bc7-f9ab-44d1-8924-dbe94d0bdfe4"],
+Cell[28057, 627, 963, 28, 65, "Output",ExpressionUUID->"10dfa2be-2a68-4735-b07a-9808cf26e01d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29057, 660, 871, 26, 77, "Input",ExpressionUUID->"fe810d1a-1d44-4748-9b23-92d663c84a49"],
+Cell[29931, 688, 7949, 192, 341, "Output",ExpressionUUID->"f6dc4600-2279-4955-b23a-1137a2a1f72a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37917, 885, 1433, 41, 164, "Input",ExpressionUUID->"e9dd09ed-4522-4053-aaa1-8812e1345427"],
+Cell[39353, 928, 833, 21, 90, "Output",ExpressionUUID->"3a43b5e6-09c1-44d8-b4a1-81b3f4ed2a86"]
+}, Open  ]],
+Cell[40201, 952, 147, 3, 77, "Input",ExpressionUUID->"a8cc3905-b83a-4b97-a8ba-73c4c2ac485b"],
+Cell[CellGroupData[{
+Cell[40373, 959, 380, 11, 47, "Input",ExpressionUUID->"a085cb32-7ee8-48b8-b951-7ebc7755df09"],
+Cell[40756, 972, 1766, 48, 106, "Output",ExpressionUUID->"feb331a7-5e3a-4e18-a1a6-dce8e370e0c4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42559, 1025, 373, 7, 47, "Input",ExpressionUUID->"38000d52-cc83-4b67-8b8c-010c5d2e604e"],
+Cell[42935, 1034, 356, 5, 41, "Output",ExpressionUUID->"df06ecce-ee72-406f-a3da-6471e6810d9a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43328, 1044, 207, 3, 47, "Input",ExpressionUUID->"2cee5d34-a6fd-4592-8877-98e9767d34ba"],
+Cell[43538, 1049, 341, 11, 41, "Output",ExpressionUUID->"468cfc7c-0cdb-4e84-b299-c559352ffaed"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43916, 1065, 580, 17, 77, "Input",ExpressionUUID->"b4d4e302-3290-4425-8c62-4e46e6556f9b"],
+Cell[44499, 1084, 561, 16, 65, "Output",ExpressionUUID->"286ab3ed-ce13-4a76-a731-bacf9920f2d2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45097, 1105, 237, 4, 47, "Input",ExpressionUUID->"8f357d8b-3713-41ae-81bb-4c5134e333b3"],
+Cell[45337, 1111, 269, 6, 88, "Output",ExpressionUUID->"8c060a78-e09c-4de2-a25c-c8ab80a54091"]
+}, Open  ]],
+Cell[45621, 1120, 210, 3, 47, "Input",ExpressionUUID->"38f5d3da-5ca4-4130-9564-28b77507d0c8"],
+Cell[45834, 1125, 2188, 44, 50, InheritFromParent,ExpressionUUID->"7a36dc38-15bf-462b-81e3-5046623898b1"],
+Cell[48025, 1171, 113550, 2343, 358, "Output",ExpressionUUID->"96b0a25a-ad34-42d3-a64e-e9f73ba0e0c1"],
+Cell[CellGroupData[{
+Cell[161600, 3518, 207, 3, 47, "Input",ExpressionUUID->"ebbc6b7f-aa23-4619-a608-feca0c049e98"],
+Cell[161810, 3523, 848, 27, 204, "Output",ExpressionUUID->"46fd2e57-3d91-4f50-8c09-d1f2926239b1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[162695, 3555, 719, 21, 77, "Input",ExpressionUUID->"24813361-ff81-4c27-b6f4-b504fa087411"],
+Cell[163417, 3578, 787, 24, 65, "Output",ExpressionUUID->"615fff1f-2919-4545-8ec9-101322758198"]
+}, Open  ]],
+Cell[164219, 3605, 157, 3, 47, "Input",ExpressionUUID->"b260dbc5-6107-4b02-824d-bc35a926f8a5"],
+Cell[164379, 3610, 544, 14, 77, "Input",ExpressionUUID->"59fb1bed-420c-4482-868f-6bd85b7b9141"],
+Cell[CellGroupData[{
+Cell[164948, 3628, 212, 3, 47, "Input",ExpressionUUID->"a3b4d3b4-b72a-45d1-84fa-1352acb4b6fd"],
+Cell[165163, 3633, 205, 3, 41, "Output",ExpressionUUID->"188d4244-4750-41ee-b286-a772611f7dfd"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2021-06-20T10:57:38-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<div class="exercisegroup">
+<h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading">
+<span class="type">Exercise Group</span><span class="space"> </span><span class="codenumber">13.2.1–4</span><span class="period">.</span>
+</h6>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="exercisegroup-exercises">
+<article class="exercise exercise-like"><h6 class="heading"><span class="codenumber">1<span class="period">.</span></span></h6>
+<p>Let \(A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)\) and \(B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)\text{.}\)  Compute the product \(A B\text{.}\)  Based on this result, what is \(A^{-1}\text{.}\)</p></article><article class="exercise exercise-like"><h6 class="heading"><span class="codenumber">2<span class="period">.</span></span></h6>
+<p>If \(A\) is a an \(m \times n\) matrix, we define the transpose of A to be the \(n \times m\) matrix whose rows are the columns of \(A\text{.}\)  For example, the transpose of</p>
+<div class="displaymath">
+\begin{equation*}
+\left(
+\begin{array}{ccc}
+1 &amp;2 &amp;3 \\
+4 &amp;5 &amp;6 \\
+\end{array}
+\right) \textrm{  is  }
+\left(
+\begin{array}{cc}
+1 &amp;4 \\
+2 &amp;5 \\
+3 &amp;6 \\
+\end{array}
+\right).
+\end{equation*}
+</div>
+<p class="continuation">The notation \(A^t\) is used for the transpose of \(A\text{.}\)</p>
+<ol class="lower-alpha">
+<li><p>If \(A\) is an \(m \times n\) matrix, are the products \(A A^t\) and \(A^t A \) defined?  What are the orders of the products that are defined?</p></li>
+<li>
+<p>Given the following matrix, what useful information might you get from the products \(A A^t\) or \(A^t A\text{.?}\)</p>
+<div class="displaymath">
+\begin{equation*}
+A=\left(
+\begin{array}{ccccc}
+16 &amp;11 &amp;4 &amp;3 &amp;15 \\
+16 &amp;17 &amp;13 &amp;12 &amp;6 \\
+\end{array}
+\right) 
+\end{equation*}
+</div>
+</li>
+</ol></article><article class="exercise exercise-like"><h6 class="heading"><span class="codenumber">3<span class="period">.</span></span></h6>
+<p>Prove by induction that for \(n \geq 1\text{,}\) \(\left(
+\begin{array}{cc}
+a &amp; 0 \\
+0 &amp; b \\
+\end{array}
+\right)^n= \left(
+\begin{array}{cc}
+a^n &amp; 0 \\
+0 &amp; b^n \\
+\end{array}
+\right)\text{.}\)</p></article><article class="exercise exercise-like"><h6 class="heading"><span class="codenumber">4<span class="period">.</span></span></h6>
+<p>In this exercise, we propose to show how matrix multiplication is a natural operation.  Suppose a bakery produces bread, cakes and pies every weekday, Monday through Friday. Based on past sales history, the bakery produces various numbers of each product each day, summarized in the \(5 \times 3\) matrix \(D\text{.}\)  It should be noted that the order could be described as “number of days by number of products.”   For example, on Wednesday (the third day) the number of cakes (second product in our list) that are produced  is  \(d_{3,2} = 4\text{.}\)</p>
+<div class="displaymath">
+\begin{equation*}
+D =\left(
+\begin{array}{ccc}
+25 &amp; 5 &amp; 5 \\
+14 &amp; 5 &amp; 8 \\
+20 &amp; 4 &amp; 15 \\
+18 &amp; 5 &amp; 7 \\
+35 &amp; 10 &amp; 9 \\
+\end{array}
+\right)
+\end{equation*}
+</div>
+<p>The main ingredients of these products are flour, sugar and eggs. We assume that other ingredients are always in ample supply, but we need to be sure to have the three main ones available.   For each of the three products, The amount of each ingredient that is needed is summarized in the \(3 \times 3\text{,}\) or “number of products by number of ingredients” matrix \(P\text{.}\)  For example, to bake a cake (second product) we need \(P_{2,1}=1.5\) cups of flour (first ingredient).  Regarding units: flour and sugar are given in cups per unit of each product, while eggs are given in individual eggs per unit of each product.</p>
+<div class="displaymath">
+\begin{equation*}
+P =\left(
+\begin{array}{ccc}
+2 &amp; 0.5 &amp; 0 \\
+1.5 &amp; 1 &amp; 2 \\
+1 &amp; 1 &amp; 1  \\
+\end{array}
+\right)
+\end{equation*}
+</div>
+<p class="continuation">These amounts are “made up”, so don't used them to do your own baking!</p>
+<ol class="lower-alpha">
+<li><p>How many cups of flour will the bakery need every Monday?  Pay close attention to how you compute your answer and the units of each number.</p></li>
+<li><p>How many eggs will the bakery need every Wednesday?</p></li>
+<li><p>Compute the matrix product \(D P\text{.}\)   What do you notice?</p></li>
+<li><p>Suppose the costs of ingredients are \(\$0.12\) for a cup of flour, \(\$0.15\) for a cup of sugar and \(\$0.19\) for one egg. How can this information be put into a matrix that can meaningfully be multiplied by one of the other matrices in this problem?</p></li>
+</ol></article>
+</div>
+</div>
+<span class="incontext"><a href="questions-13.html#exercisegroup-23">in-context</a></span>
+</body>
+</html>

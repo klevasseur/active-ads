@@ -1,0 +1,237 @@
+\hypertarget {book-active-ads}{}
+\contentsline {chapter}{Preface}{iv}{chapter*.1}%
+\contentsline {part}{\numberline {I}Fundamentals}{1}{part.3}%
+\contentsline {chapter}{\numberline {1}Binary Representation of Positive Integers}{2}{chapter.4}%
+\contentsline {section}{\numberline {1.1}Reading Assignment}{2}{section.5}%
+\contentsline {section}{\numberline {1.2}In-class Exercises}{2}{section.6}%
+\contentsline {subsection}{Exercises}{2}{section.6}%
+\contentsline {section}{\numberline {1.3}Binary Conversion Tables}{3}{section.7}%
+\contentsline {chapter}{\numberline {2}Sets and Operations on them}{4}{chapter.10}%
+\contentsline {section}{\numberline {2.1}Reading Assignment}{4}{section.11}%
+\contentsline {subsection}{Reading Questions}{4}{section.11}%
+\contentsline {section}{\numberline {2.2}In-Class Exercises}{5}{section.28}%
+\contentsline {subsection}{Exercises}{5}{section.28}%
+\contentsline {chapter}{\numberline {3}Sets, Sums \& Products}{6}{chapter.37}%
+\contentsline {section}{\numberline {3.1}Reading Assignment}{6}{section.38}%
+\contentsline {subsection}{Reading Questions}{6}{section.38}%
+\contentsline {section}{\numberline {3.2}In-Class Exercises}{6}{section.39}%
+\contentsline {chapter}{\numberline {4}Counting: Product Rule and Permutations}{8}{chapter.53}%
+\contentsline {section}{\numberline {4.1}Reading Assignment}{8}{section.54}%
+\contentsline {subsection}{Exercises}{8}{section*.56}%
+\contentsline {section}{\numberline {4.2}In-Class Exercises}{8}{section.57}%
+\contentsline {subsection}{Exercises}{8}{section.57}%
+\contentsline {chapter}{\numberline {5}Partitions and Combinations}{10}{chapter.61}%
+\contentsline {section}{\numberline {5.1}Reading Assignment}{10}{section.62}%
+\contentsline {subsection}{Exercises}{10}{section*.64}%
+\contentsline {section}{\numberline {5.2}In-Class Exercises}{11}{section.69}%
+\contentsline {subsection}{Exercises}{11}{section.69}%
+\contentsline {section}{\numberline {5.3}Some Lattices}{12}{section.76}%
+\contentsline {chapter}{\numberline {6}Logic: Propositions and Truth Tables}{13}{chapter.81}%
+\contentsline {section}{\numberline {6.1}Reading Assignment}{13}{section.82}%
+\contentsline {subsection}{Exercises}{13}{section*.84}%
+\contentsline {section}{\numberline {6.2}In-Class Exercises}{14}{section.93}%
+\contentsline {subsection}{Exercises}{14}{section.93}%
+\contentsline {chapter}{\numberline {7}Equivalence, Implication, and Laws of Logic}{15}{chapter.107}%
+\contentsline {section}{\numberline {7.1}Reading Assignment}{15}{section.108}%
+\contentsline {subsection}{Exercises}{15}{section*.110}%
+\contentsline {section}{\numberline {7.2}In-Class Exercises}{15}{section.115}%
+\contentsline {subsection}{Exercises}{15}{section.115}%
+\contentsline {section}{\numberline {7.3}The Sheffer Stroke}{16}{section.120}%
+\contentsline {chapter}{\numberline {8}Structured Proofs}{17}{chapter.123}%
+\contentsline {section}{\numberline {8.1}Reading Assignment}{17}{section.124}%
+\contentsline {subsection}{Exercises}{17}{section*.126}%
+\contentsline {section}{\numberline {8.2}In-Class Exercises}{17}{section.127}%
+\contentsline {subsection}{Exercises}{17}{section.127}%
+\contentsline {section}{\numberline {8.3}Basic Logical Inferences}{18}{section.130}%
+\contentsline {chapter}{\numberline {9}Mathematical Induction}{19}{chapter.133}%
+\contentsline {section}{\numberline {9.1}Reading Assignment}{19}{section.134}%
+\contentsline {subsection}{Exercises}{19}{section*.136}%
+\contentsline {section}{\numberline {9.2}In-Class Exercises}{19}{section.140}%
+\contentsline {subsection}{Exercises}{19}{section.140}%
+\contentsline {chapter}{\numberline {10}Quantifiers and Proof Review}{21}{chapter.141}%
+\contentsline {section}{\numberline {10.1}Reading Assignment}{21}{section.142}%
+\contentsline {subsection}{Exercises}{21}{section*.144}%
+\contentsline {section}{\numberline {10.2}In-Class Exercises}{21}{section.147}%
+\contentsline {subsection}{Exercises}{21}{section.147}%
+\contentsline {chapter}{\numberline {11}Set Theory Logic}{23}{chapter.153}%
+\contentsline {section}{\numberline {11.1}Reading Assignment}{23}{section.154}%
+\contentsline {subsection}{Exercises}{23}{section*.156}%
+\contentsline {section}{\numberline {11.2}In-Class Exercises}{24}{section.162}%
+\contentsline {subsection}{Exercises}{24}{section.162}%
+\contentsline {section}{\numberline {11.3}The Basic Laws of Set Theory}{24}{section.171}%
+\contentsline {chapter}{\numberline {12}Minsets and Duality}{26}{chapter.174}%
+\contentsline {section}{\numberline {12.1}Reading Assignment}{26}{section.175}%
+\contentsline {subsection}{Exercises}{26}{section*.177}%
+\contentsline {section}{\numberline {12.2}In-Class Exercises}{26}{section.178}%
+\contentsline {subsection}{Exercises}{26}{section.178}%
+\contentsline {chapter}{\numberline {13}Matrix Operations}{28}{chapter.186}%
+\contentsline {section}{\numberline {13.1}Reading Assignment}{28}{section.187}%
+\contentsline {subsection}{Exercises}{28}{section*.189}%
+\contentsline {section}{\numberline {13.2}In-Class Exercises}{28}{section.194}%
+\contentsline {subsection}{Exercises}{28}{section.194}%
+\contentsline {chapter}{\numberline {14}Matrix Laws and Oddities}{31}{chapter.201}%
+\contentsline {section}{\numberline {14.1}Reading Assignment}{31}{section.202}%
+\contentsline {subsection}{Exercises}{31}{section*.204}%
+\contentsline {section}{\numberline {14.2}In-Class Exercises}{31}{section.205}%
+\contentsline {subsection}{Exercises}{31}{section.205}%
+\contentsline {chapter}{\numberline {15}Relations}{33}{chapter.211}%
+\contentsline {section}{\numberline {15.1}Reading Assignment}{33}{section.212}%
+\contentsline {subsection}{Exercises}{33}{section*.214}%
+\contentsline {section}{\numberline {15.2}In-Class Exercises}{33}{section.215}%
+\contentsline {subsection}{Exercises}{33}{section.215}%
+\contentsline {chapter}{\numberline {16}Properties of Relations}{35}{chapter.218}%
+\contentsline {section}{\numberline {16.1}Reading Assignment}{35}{section.219}%
+\contentsline {subsection}{Exercises}{35}{section*.221}%
+\contentsline {section}{\numberline {16.2}In-Class Exercises}{35}{section.222}%
+\contentsline {subsection}{Exercises}{35}{section.222}%
+\contentsline {section}{\numberline {16.3}Congruence Modulo \(n\)}{36}{section.233}%
+\contentsline {chapter}{\numberline {17}Relation Matrices and Closure}{37}{chapter.236}%
+\contentsline {section}{\numberline {17.1}Reading Assignment}{37}{section.237}%
+\contentsline {subsection}{Exercises}{37}{section*.239}%
+\contentsline {section}{\numberline {17.2}In-Class Exercises}{38}{section.246}%
+\contentsline {subsection}{Exercises}{38}{section.246}%
+\contentsline {chapter}{\numberline {18}Functions and Their Properties}{40}{chapter.255}%
+\contentsline {section}{\numberline {18.1}Reading Assignment}{40}{section.256}%
+\contentsline {subsection}{Exercises}{40}{section*.258}%
+\contentsline {section}{\numberline {18.2}In-Class Exercises}{41}{section.261}%
+\contentsline {subsection}{Exercises}{41}{section.261}%
+\contentsline {chapter}{\numberline {19}Function Composition}{42}{chapter.266}%
+\contentsline {section}{\numberline {19.1}Reading Assignment}{42}{section.267}%
+\contentsline {subsection}{Exercises}{42}{section*.269}%
+\contentsline {section}{\numberline {19.2}In-Class Exercises}{42}{section.273}%
+\contentsline {subsection}{Exercises}{42}{section.273}%
+\contentsline {chapter}{\numberline {20}Recursion and Sequences}{44}{chapter.276}%
+\contentsline {section}{\numberline {20.1}Reading Assignment}{44}{section.277}%
+\contentsline {subsection}{Exercises}{44}{section*.279}%
+\contentsline {section}{\numberline {20.2}In-Class Exercises}{44}{section.280}%
+\contentsline {subsection}{Exercises}{44}{section.280}%
+\contentsline {section}{\numberline {20.3}Binary Search Algorithm}{45}{section.281}%
+\contentsline {chapter}{\numberline {21}Solving Linear Recurrence Relations I}{47}{chapter.282}%
+\contentsline {section}{\numberline {21.1}Reading Assignment}{47}{section.283}%
+\contentsline {subsection}{Exercises}{47}{section*.285}%
+\contentsline {section}{\numberline {21.2}In-Class Exercises}{47}{section.286}%
+\contentsline {subsection}{Exercises}{47}{section.286}%
+\contentsline {section}{\numberline {21.3}Fibonacci Sequence}{48}{section.287}%
+\contentsline {chapter}{\numberline {22}Solving Linear Recurrence Relations II}{49}{chapter.290}%
+\contentsline {section}{\numberline {22.1}Reading Assignment}{49}{section.291}%
+\contentsline {subsection}{Exercises}{49}{section*.293}%
+\contentsline {section}{\numberline {22.2}In-Class Exercises}{49}{section.294}%
+\contentsline {subsection}{Exercises}{49}{section.294}%
+\contentsline {section}{\numberline {22.3}Interest}{50}{section.295}%
+\contentsline {chapter}{\numberline {23}Some Common Recurrence Relations}{51}{chapter.296}%
+\contentsline {section}{\numberline {23.1}Reading Assignment}{51}{section.297}%
+\contentsline {subsection}{Exercises}{51}{section*.299}%
+\contentsline {section}{\numberline {23.2}In-Class Exercises}{51}{section.300}%
+\contentsline {subsection}{Exercises}{51}{section.300}%
+\contentsline {section}{\numberline {23.3}Inclusion-Exclusion}{52}{section.301}%
+\contentsline {chapter}{\numberline {24}Generating Functions}{53}{chapter.306}%
+\contentsline {section}{\numberline {24.1}Reading Assignment}{53}{section.307}%
+\contentsline {subsection}{Exercises}{53}{section*.309}%
+\contentsline {section}{\numberline {24.2}In-Class Exercises}{53}{section.310}%
+\contentsline {subsection}{Exercises}{53}{section.310}%
+\contentsline {part}{\numberline {II}Structures}{55}{part.311}%
+\contentsline {chapter}{\numberline {25}Start of Second Semeser, Review}{56}{chapter.312}%
+\contentsline {section}{\numberline {25.1}In-Class Exercises}{56}{section.313}%
+\contentsline {subsection}{Exercises}{56}{section.313}%
+\contentsline {chapter}{\numberline {26}Graphs}{57}{chapter.314}%
+\contentsline {section}{\numberline {26.1}Warm-up Exercises}{57}{section.315}%
+\contentsline {section}{\numberline {26.2}In-Class Exercises}{57}{section.316}%
+\contentsline {chapter}{\numberline {27}Data Structures and Connectivity}{59}{chapter.333}%
+\contentsline {section}{\numberline {27.1}Reading Assignment}{59}{section.334}%
+\contentsline {subsection}{Exercises}{59}{section*.336}%
+\contentsline {section}{\numberline {27.2}In-Class Exercises}{59}{section.337}%
+\contentsline {subsection}{Exercises}{59}{section.337}%
+\contentsline {chapter}{\numberline {28}Graph Traversals}{61}{chapter.343}%
+\contentsline {section}{\numberline {28.1}Reading Assignment}{61}{section.344}%
+\contentsline {subsection}{Exercises}{61}{section*.346}%
+\contentsline {section}{\numberline {28.2}In-Class Exercises}{61}{section.347}%
+\contentsline {subsection}{Exercises}{61}{section.347}%
+\contentsline {chapter}{\numberline {29}Planarity and Graph Coloring}{63}{chapter.354}%
+\contentsline {section}{\numberline {29.1}Reading Assignment}{63}{section.355}%
+\contentsline {subsection}{Exercises}{63}{section*.357}%
+\contentsline {section}{\numberline {29.2}In-Class Exercises}{64}{section.362}%
+\contentsline {subsection}{Exercises}{64}{section.362}%
+\contentsline {chapter}{\numberline {30}Trees and Spanning Trees}{66}{chapter.367}%
+\contentsline {section}{\numberline {30.1}Reading Assignment}{66}{section.368}%
+\contentsline {subsection}{Exercises}{66}{section*.370}%
+\contentsline {section}{\numberline {30.2}In-Class Exercises}{66}{section.371}%
+\contentsline {subsection}{Exercises}{66}{section.371}%
+\contentsline {section}{\numberline {30.3}Euler's Formula}{67}{section.378}%
+\contentsline {chapter}{\numberline {31}Rooted Trees, Binary Trees}{68}{chapter.381}%
+\contentsline {section}{\numberline {31.1}Reading Assignment}{68}{section.382}%
+\contentsline {subsection}{Exercises}{68}{section*.384}%
+\contentsline {section}{\numberline {31.2}In-Class Exercises}{68}{section.385}%
+\contentsline {subsection}{Exercises}{68}{section.385}%
+\contentsline {chapter}{\numberline {32}Binary Operations}{71}{chapter.409}%
+\contentsline {section}{\numberline {32.1}Reading Assignment}{71}{section.410}%
+\contentsline {subsection}{Exercises}{71}{section*.412}%
+\contentsline {section}{\numberline {32.2}In-Class Exercises}{71}{section.413}%
+\contentsline {subsection}{Exercises}{71}{section.413}%
+\contentsline {chapter}{\numberline {33}Algebraic Structures}{73}{chapter.417}%
+\contentsline {section}{\numberline {33.1}Reading Assignment}{73}{section.418}%
+\contentsline {subsection}{Exercises}{73}{section*.420}%
+\contentsline {section}{\numberline {33.2}In-Class Exercises}{73}{section.421}%
+\contentsline {subsection}{Exercises}{73}{section.421}%
+\contentsline {chapter}{\numberline {34}Properties of Groups}{75}{chapter.424}%
+\contentsline {section}{\numberline {34.1}Reading Assignment}{75}{section.425}%
+\contentsline {subsection}{Exercises}{75}{lstnumber.441}%
+\contentsline {section}{\numberline {34.2}In-Class Exercises}{76}{section.442}%
+\contentsline {subsection}{Exercises}{76}{section.442}%
+\contentsline {section}{\numberline {34.3}Some Theorems}{76}{section.443}%
+\contentsline {chapter}{\numberline {35}Modular Arithmetic}{77}{chapter.448}%
+\contentsline {section}{\numberline {35.1}Reading Assignment}{77}{section.449}%
+\contentsline {subsection}{Exercises}{77}{section*.451}%
+\contentsline {section}{\numberline {35.2}In-Class Exercises}{77}{section.452}%
+\contentsline {subsection}{Exercises}{77}{section.452}%
+\contentsline {chapter}{\numberline {36}Subsystems}{79}{chapter.453}%
+\contentsline {section}{\numberline {36.1}Reading Assignment}{79}{section.454}%
+\contentsline {subsection}{Exercises}{79}{section*.456}%
+\contentsline {section}{\numberline {36.2}In-Class Exercises}{79}{section.457}%
+\contentsline {subsection}{Exercises}{79}{section.457}%
+\contentsline {section}{\numberline {36.3}Handouts}{80}{section.462}%
+\contentsline {chapter}{\numberline {37}Direct Products}{81}{chapter.465}%
+\contentsline {section}{\numberline {37.1}Reading Assignment}{81}{section.466}%
+\contentsline {subsection}{Exercises}{81}{section*.468}%
+\contentsline {section}{\numberline {37.2}In-Class Exercises}{81}{section.469}%
+\contentsline {subsection}{Exercises}{81}{section.469}%
+\contentsline {chapter}{\numberline {38}Isomorphisms}{83}{chapter.473}%
+\contentsline {section}{\numberline {38.1}Reading Assignment}{83}{section.474}%
+\contentsline {subsection}{Exercises}{83}{section*.476}%
+\contentsline {section}{\numberline {38.2}In-Class Exercises}{83}{section.477}%
+\contentsline {subsection}{Exercises}{83}{section.477}%
+\contentsline {section}{\numberline {38.3}The Slide Rule}{84}{section.480}%
+\contentsline {chapter}{\numberline {39}Posets and Lattices}{85}{chapter.483}%
+\contentsline {section}{\numberline {39.1}Reading Assignment}{85}{section.484}%
+\contentsline {subsection}{Exercises}{85}{section*.486}%
+\contentsline {section}{\numberline {39.2}In-Class Exercises}{85}{section.487}%
+\contentsline {subsection}{Exercises}{85}{section.487}%
+\contentsline {section}{\numberline {39.3}Nondistributive lattices}{86}{section.497}%
+\contentsline {chapter}{\numberline {40}Boolean Algebras}{87}{chapter.500}%
+\contentsline {section}{\numberline {40.1}Reading Assignment}{87}{section.501}%
+\contentsline {section}{\numberline {40.2}In-Class Exercises}{87}{section.504}%
+\contentsline {chapter}{\numberline {41}Atoms and Tuples of Bits}{89}{chapter.518}%
+\contentsline {section}{\numberline {41.1}Reading Assignment}{89}{section.519}%
+\contentsline {section}{\numberline {41.2}In-Class Exercises}{89}{section.522}%
+\contentsline {chapter}{\numberline {42}Cyclic Groups}{90}{chapter.529}%
+\contentsline {section}{\numberline {42.1}Reading Assignment}{90}{section.530}%
+\contentsline {section}{\numberline {42.2}In-Class Exercises}{90}{section.533}%
+\contentsline {chapter}{\numberline {43}Cosets}{91}{chapter.537}%
+\contentsline {section}{\numberline {43.1}Reading Assignment}{91}{section.538}%
+\contentsline {section}{\numberline {43.2}In-Class Exercises}{91}{section.543}%
+\contentsline {chapter}{\numberline {44}Permutation Groups, Part 1}{92}{chapter.549}%
+\contentsline {section}{\numberline {44.1}Reading Assignment}{92}{section.550}%
+\contentsline {section}{\numberline {44.2}In-Class Exercises}{92}{section.561}%
+\contentsline {section}{\numberline {44.3}The order of a group element}{93}{section.575}%
+\contentsline {chapter}{\numberline {45}Permutation Groups, Part 2}{94}{chapter.578}%
+\contentsline {section}{\numberline {45.1}Reading Assignment}{94}{section.579}%
+\contentsline {section}{\numberline {45.2}In-Class Exercises}{94}{section.582}%
+\contentsline {chapter}{\numberline {46}Algebraic Coding, Part 1}{96}{chapter.590}%
+\contentsline {section}{\numberline {46.1}Reading Assignment}{96}{section.591}%
+\contentsline {section}{\numberline {46.2}In-Class Exercises}{96}{section.596}%
+\contentsline {chapter}{\numberline {47}Algebraic Coding, Part 2}{98}{chapter.603}%
+\contentsline {section}{\numberline {47.1}Reading Assignment}{98}{section.604}%
+\contentsline {section}{\numberline {47.2}In-Class Exercises}{98}{section.609}%
+\contentsline {part}{Back Matter}{100}{section*.623}%
+\contentsline {chapter}{References}{100}{chapter*.624}%
+\contentsline {chapter}{Index}{101}{section*.625}%
+\contentsfinish 
