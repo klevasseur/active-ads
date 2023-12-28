@@ -12,14 +12,11 @@
 	        format="html" 
 	        output-dir="web" 
 	        publication="publication.ptx" /> 
-<!-- 
     <target 
      name="runestone" 
      format="html"
-     platform="runestone"
-	 output-dir="runestone" 
+	 output-dir="published/activeads" 
      publication="runestoneminimal.ptx"
      />
- -->
   </targets>
 </project>
