@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <runestone-services version="7.2.9"/>
+  <library-metadata publisher="pretext">
+    <title>Active Applied Discrete Structures</title>
+    <subtitle/>
+    <document-id edition="">activeads
+</document-id>
+    <shelf>Mathematics</shelf>
+    <blurb>
+Active ADS is a collection of reading assignments to be use with Applied Discrete Structures for a flipped/active class.</blurb>
+  </library-metadata>
+  <latex-macros>
+\usepackage[utf8]{inputenc}
+\newcommand{\apple}{\text{🍎}}
+\newcommand{\ap}{\apple}
+\newcommand{\banana}{\text{🍌}}
+\newcommand{\ba}{\banana}
+\newcommand{\pear}{\text{🍐}}
+\newcommand{\pe}{\pear}
+\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\pow}{\mathcal P}
+\newcommand{\inv}{^{-1}}
+\newcommand{\st}{|}
+\renewcommand{\iff}{\leftrightarrow}
+\newcommand{\Iff}{\Leftrightarrow}
+\newcommand{\imp}{\rightarrow}
+\newcommand{\Imp}{\Rightarrow}
+\newcommand{\isom}{\cong}
+
+\newcommand{\card}[1]{\left| #1 \right|}
+\newcommand{\twoline}[2]{\begin{pmatrix}#1 \\ #2 \end{pmatrix}}
+\newcommand{\vtx}[2]{node[fill,circle,inner sep=0pt, minimum size=4pt,marker=#1:#2]{}}
+\newcommand{\va}[1]{\vtx{above}{#1}}
+\newcommand{\vb}[1]{\vtx{below}{#1}}
+\newcommand{\vr}[1]{\vtx{right}{#1}}
+\newcommand{\vl}[1]{\vtx{left}{#1}}
+\renewcommand{\v}{\vtx{above}{}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+</latex-macros>
+  <webwork-version major="" minor=""/>
+  <chapter>
+    <id>chapter_1</id>
+    <title>Binary Representation of Positive Integers</title>
+    <subchapter>
+      <id>reading-1</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-1</id>
+      <title>In-class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-1</id>
+      <title>Binary Conversion Tables</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_2</id>
+    <title>Sets and Operations on them</title>
+    <subchapter>
+      <id>reading-2</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-2</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_3</id>
+    <title>Sets, Sums &amp; Products</title>
+    <subchapter>
+      <id>reading-3</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-3</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_4</id>
+    <title>Counting: Product Rule and Permutations</title>
+    <subchapter>
+      <id>reading-4</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-4</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_5</id>
+    <title>Partitions and Combinations</title>
+    <subchapter>
+      <id>reading-5</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-5</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-5</id>
+      <title>Some Lattices</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_6</id>
+    <title>Logic: Propositions and Truth Tables</title>
+    <subchapter>
+      <id>reading-6</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-6</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_7</id>
+    <title>Equivalence, Implication, and Laws of Logic</title>
+    <subchapter>
+      <id>reading-7</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-7</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-7</id>
+      <title>The Sheffer Stroke</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_8</id>
+    <title>Structured Proofs</title>
+    <subchapter>
+      <id>reading-8</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-8</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-8</id>
+      <title>Basic Logical Inferences</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_9</id>
+    <title>Mathematical Induction</title>
+    <subchapter>
+      <id>reading-9</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-9</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_10</id>
+    <title>Quantifiers and Proof Review</title>
+    <subchapter>
+      <id>reading-10</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-10</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_11</id>
+    <title>Set Theory Logic</title>
+    <subchapter>
+      <id>reading-11</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-11</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>chapter_11-4</id>
+      <title>The Basic Laws of Set Theory</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_12</id>
+    <title>Minsets and Duality</title>
+    <subchapter>
+      <id>reading-12</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-12</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_13</id>
+    <title>Matrix Operations</title>
+    <subchapter>
+      <id>reading-13</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-13</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_14</id>
+    <title>Matrix Laws and Oddities</title>
+    <subchapter>
+      <id>reading-14</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-14</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_15</id>
+    <title>Relations</title>
+    <subchapter>
+      <id>reading-15</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-15</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_16</id>
+    <title>Properties of Relations</title>
+    <subchapter>
+      <id>reading-16</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-16</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-16</id>
+      <title>Congruence Modulo <span class="process-math">\(n\)</span></title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_17</id>
+    <title>Relation Matrices and Closure</title>
+    <subchapter>
+      <id>reading-17</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-17</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_18</id>
+    <title>Functions and Their Properties</title>
+    <subchapter>
+      <id>reading-18</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-18</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_19</id>
+    <title>Function Composition</title>
+    <subchapter>
+      <id>reading-19</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-19</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_20</id>
+    <title>Recursion and Sequences</title>
+    <subchapter>
+      <id>reading-20</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-20</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>s-bsa</id>
+      <title>Binary Search Algorithm</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_21</id>
+    <title>Solving Linear Recurrence Relations I</title>
+    <subchapter>
+      <id>reading-21</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-21</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>def-fibonacci-sequence</id>
+      <title>Fibonacci Sequence</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_22</id>
+    <title>Solving Linear Recurrence Relations II</title>
+    <subchapter>
+      <id>reading-22</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-22</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-22</id>
+      <title>Interest</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_23</id>
+    <title>Some Common Recurrence Relations</title>
+    <subchapter>
+      <id>reading-23</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-23</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>s-inclusion-exclusion</id>
+      <title>Inclusion-Exclusion</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_24</id>
+    <title>Generating Functions</title>
+    <subchapter>
+      <id>reading-24</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-24</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_101</id>
+    <title>Start of Second Semeser, Review</title>
+    <subchapter>
+      <id>questions-101</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_102</id>
+    <title>Graphs</title>
+    <subchapter>
+      <id>reading-102</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-102</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_103</id>
+    <title>Data Structures and Connectivity</title>
+    <subchapter>
+      <id>reading-103</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-103</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_104</id>
+    <title>Graph Traversals</title>
+    <subchapter>
+      <id>reading-104</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-104</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_104a</id>
+    <title>Planarity and Graph Coloring</title>
+    <subchapter>
+      <id>reading-104a</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-104a</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_105</id>
+    <title>Trees and Spanning Trees</title>
+    <subchapter>
+      <id>reading-105</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-105</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-105</id>
+      <title>Euler’s Formula</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_106</id>
+    <title>Rooted Trees, Binary Trees</title>
+    <subchapter>
+      <id>reading-106</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-106</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_107</id>
+    <title>Binary Operations</title>
+    <subchapter>
+      <id>reading-107</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-107</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_108</id>
+    <title>Algebraic Structures</title>
+    <subchapter>
+      <id>reading-108</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-108</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_109</id>
+    <title>Properties of Groups</title>
+    <subchapter>
+      <id>reading-109</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-109</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-109</id>
+      <title>Some Theorems</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_110</id>
+    <title>Modular Arithmetic</title>
+    <subchapter>
+      <id>reading-110</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-110</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_111</id>
+    <title>Subsystems</title>
+    <subchapter>
+      <id>reading-111</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-111</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-111</id>
+      <title>Handouts</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_112</id>
+    <title>Direct Products</title>
+    <subchapter>
+      <id>reading-112</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-112</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_113</id>
+    <title>Isomorphisms</title>
+    <subchapter>
+      <id>reading-113</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-113</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-113</id>
+      <title>The Slide Rule</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_114</id>
+    <title>Posets and Lattices</title>
+    <subchapter>
+      <id>reading-114</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-114</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-114</id>
+      <title>Nondistributive lattices</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_115</id>
+    <title>Boolean Algebras</title>
+    <subchapter>
+      <id>reading-115</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-115</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_116</id>
+    <title>Atoms and Tuples of Bits</title>
+    <subchapter>
+      <id>reading-116</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-116</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_117</id>
+    <title>Cyclic Groups</title>
+    <subchapter>
+      <id>reading-117</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-117</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_118</id>
+    <title>Cosets</title>
+    <subchapter>
+      <id>reading-118</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-118</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_119</id>
+    <title>Permutation Groups, Part 1</title>
+    <subchapter>
+      <id>reading-119</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-119</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+    <subchapter>
+      <id>handouts-119</id>
+      <title>The order of a group element</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_120</id>
+    <title>Permutation Groups, Part 2</title>
+    <subchapter>
+      <id>reading-120</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-120</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_121</id>
+    <title>Algebraic Coding, Part 1</title>
+    <subchapter>
+      <id>reading-121</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-121</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+  <chapter>
+    <id>chapter_122</id>
+    <title>Algebraic Coding, Part 2</title>
+    <subchapter>
+      <id>reading-122</id>
+      <title>Reading Assignment</title>
+    </subchapter>
+    <subchapter>
+      <id>questions-122</id>
+      <title>In-Class Exercises</title>
+    </subchapter>
+  </chapter>
+</manifest>
