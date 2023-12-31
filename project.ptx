@@ -15,7 +15,7 @@
     <target 
      name="runestone" 
      format="html"
-	 output-dir="published/activeads" 
+	 output-dir="../published/activeads" 
      publication="runestoneminimal.ptx"
      />
   </targets>

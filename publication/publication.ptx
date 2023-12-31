@@ -8,10 +8,10 @@ python3 -m pretext foo
 
 <!-- The following is specified in the guide as 
 /publication/foo/bar/@bazz  with bazz having 
-options including 'maybe' -->
+options including 'maybe' 
     <foo>
         <bar bazz="maybe"/>
-    </foo>
+    </foo>-->
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
     <chunking level="2" />
