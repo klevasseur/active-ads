@@ -9,11 +9,6 @@
 
 <!-- USE XINCLUDE SWITCH ON XSLTPROC -->
 
-<!-- Master file for ADS                           -->
-<!-- Use XSL stylesheets to create subsets          -->
-<!--    Important: Always process all of the source -->
-<!--    to preserve numbering and cross-references! -->
-<!--    So it is never advisable to edit this file  -->
 
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
