@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     64876,       1291]
-NotebookOptionsPosition[     63198,       1253]
-NotebookOutlinePosition[     63636,       1270]
-CellTagsIndexPosition[     63593,       1267]
+NotebookDataLength[     61755,       1221]
+NotebookOptionsPosition[     60078,       1183]
+NotebookOutlinePosition[     60516,       1200]
+CellTagsIndexPosition[     60473,       1197]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,10 +38,10 @@ Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"SeedRandom", "[", "52", "]"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"SeedRandom", "[", "90", "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"n", "=", "10"}], ";", 
-  RowBox[{"e", "=", "18"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"n", "=", "8"}], ";", 
+  RowBox[{"e", "=", "12"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{"G", "=", 
   RowBox[{"RandomGraph", "[", 
    RowBox[{
@@ -78,260 +78,189 @@ Cell[BoxData[{
    3.9049989334360867`*^9, 3.9049989551863117`*^9}, {3.904999146674067*^9, 
    3.904999203690057*^9}, {3.904999331983407*^9, 3.904999379097978*^9}, 
    3.905334143513134*^9, {3.90914084259016*^9, 3.909140843590556*^9}, {
-   3.909161011877801*^9, 3.909161016800645*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"5716533a-0dac-4826-a712-dee8fc8b881e"],
+   3.909161011877801*^9, 3.909161016800645*^9}, {3.912768372541089*^9, 
+   3.912768414262855*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"5716533a-0dac-4826-a712-dee8fc8b881e"],
 
 Cell[BoxData[
  FormBox[
   GraphicsBox[
    NamespaceBox["NetworkGraphics",
     DynamicModuleBox[{Typeset`graph = HoldComplete[
-      Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {Null, 
+      Graph[{1, 2, 3, 4, 5, 6, 7, 8}, {Null, 
         SparseArray[
-        Automatic, {10, 10}, 0, {
-         1, {{0, 1, 4, 9, 11, 17, 21, 25, 30, 33, 36}, {{5}, {4}, {5}, {7}, {
-           5}, {6}, {8}, {9}, {10}, {2}, {8}, {1}, {2}, {3}, {8}, {9}, {10}, {
-           3}, {7}, {8}, {10}, {2}, {6}, {8}, {9}, {3}, {4}, {5}, {6}, {7}, {
-           3}, {5}, {7}, {3}, {5}, {6}}}, Pattern}]}, {
+        Automatic, {8, 8}, 0, {
+         1, {{0, 4, 7, 10, 13, 15, 19, 22, 24}, {{3}, {6}, {7}, {8}, {4}, {
+           5}, {6}, {1}, {5}, {6}, {2}, {7}, {8}, {2}, {3}, {1}, {2}, {3}, {
+           7}, {1}, {4}, {6}, {1}, {4}}}, Pattern}]}, {
        EdgeLabels -> {"EdgeWeight"}, EdgeLabelStyle -> {Large}, 
-        EdgeWeight -> {7, 13, 10, 7, 13, 12, 8, 6, 15, 7, 13, 5, 9, 14, 5, 10,
-          11, 7}, ImageSize -> Large, 
-        VertexLabels -> {
+        EdgeWeight -> {15, 10, 5, 6, 9, 11, 15, 8, 12, 5, 9, 15}, ImageSize -> 
+        Large, VertexLabels -> {
          8 -> Placed["8", Center], 2 -> Placed["2", Center], 4 -> 
           Placed["4", Center], 1 -> Placed["1", Center], 5 -> 
           Placed["5", Center], 7 -> Placed["7", Center], 3 -> 
-          Placed["3", Center], 9 -> Placed["9", Center], 10 -> 
-          Placed["10", Center], 6 -> Placed["6", Center]}, VertexLabelStyle -> {
+          Placed["3", Center], 6 -> Placed["6", Center]}, VertexLabelStyle -> {
           Directive[Italic, 18]}, VertexSize -> {Large}, VertexStyle -> {
           GrayLevel[1]}}]]}, 
      TagBox[GraphicsGroupBox[{
         {Hue[0.6, 0.7, 0.5], Opacity[0.7], {
           {Arrowheads[0.], 
-           ArrowBox[{{0., 2.0538976284387136`}, {1.0939698294231657`, 
-            1.3416894892736164`}}, 0.0965359167342929]}, InsetBox[
-           StyleBox["7",
-            StripOnInput->False,
-            FontSize->Large], {0.5469849147115828, 1.697793558856165}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{2.368296315488529, 1.8265649509249946`}, {
-            3.190196398488638, 1.6246554510893474`}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["13",
-            StripOnInput->False,
-            FontSize->Large], {2.7792463569885832, 1.725610201007171}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{2.368296315488529, 1.8265649509249946`}, {
-            1.0939698294231657`, 1.3416894892736164`}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["10",
-            StripOnInput->False,
-            FontSize->Large], {1.7311330724558474, 1.5841272200993055}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{2.368296315488529, 1.8265649509249946`}, {
-            2.6166794489747787`, 0.7990560378337217}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["7",
-            StripOnInput->False,
-            FontSize->Large], {2.4924878822316536, 1.3128104943793582}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.3224638166477387`, 0.5676420854770183}, {
-            1.0939698294231657`, 1.3416894892736164`}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["13",
-            StripOnInput->False,
-            FontSize->Large], {1.2082168230354522, 0.9546657873753174}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.3224638166477387`, 0.5676420854770183}, {
-            1.8549980051836188`, 0.}}, 0.0965359167342929]}, InsetBox[
-           StyleBox["12",
-            StripOnInput->False,
-            FontSize->Large], {1.5887309109156789, 0.28382104273850917}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.3224638166477387`, 0.5676420854770183}, {
-            2.1374973950753886`, 0.8570572422524261}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["8",
-            StripOnInput->False,
-            FontSize->Large], {1.7299806058615637, 0.7123496638647222}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.3224638166477387`, 0.5676420854770183}, {
-            1.7158718970658524`, 1.3455044228449844`}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["6",
-            StripOnInput->False,
-            FontSize->Large], {1.5191678568567957, 0.9565732541610014}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.3224638166477387`, 0.5676420854770183}, {
-            0.800935782315334, 0.16102149373914265`}}, 0.0965359167342929]}, 
-          InsetBox[
+           ArrowBox[{{1.7687328626534566`, 0.}, {0.5788911725247182, 
+            0.06162988892476473}}, 0.15158093829229566`]}, InsetBox[
            StyleBox["15",
             StripOnInput->False,
-            FontSize->Large], {1.0616997994815365, 0.3643317896080805}, 
+            FontSize->Large], {1.1738120175890874, 0.030814944462382365}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}, {
           {Arrowheads[0.], 
-           ArrowBox[{{3.190196398488638, 1.6246554510893474`}, {
-            2.1374973950753886`, 0.8570572422524261}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["7",
+           ArrowBox[{{1.7687328626534566`, 0.}, {1.176351253528964, 
+            0.5692163036909862}}, 0.15158093829229566`]}, InsetBox[
+           StyleBox["10",
             StripOnInput->False,
-            FontSize->Large], {2.6638468967820135, 1.2408563466708866}, 
+            FontSize->Large], {1.4725420580912103, 0.2846081518454931}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}, {
           {Arrowheads[0.], 
-           ArrowBox[{{1.0939698294231657`, 1.3416894892736164`}, {
-            2.1374973950753886`, 0.8570572422524261}}, 0.0965359167342929]}, 
-          InsetBox[
-           StyleBox["13",
-            StripOnInput->False,
-            FontSize->Large], {1.6157336122492771, 1.0993733657630211}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.0939698294231657`, 1.3416894892736164`}, {
-            1.7158718970658524`, 1.3455044228449844`}}, 0.0965359167342929]}, 
-          InsetBox[
+           ArrowBox[{{1.7687328626534566`, 0.}, {2.022509145668308, 
+            0.7141548288140916}}, 0.15158093829229566`]}, InsetBox[
            StyleBox["5",
             StripOnInput->False,
-            FontSize->Large], {1.404920863244509, 1.3435969560593004}, 
+            FontSize->Large], {1.8956210041608823, 0.3570774144070458}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}, {
           {Arrowheads[0.], 
-           ArrowBox[{{1.0939698294231657`, 1.3416894892736164`}, {
-            0.800935782315334, 0.16102149373914265`}}, 0.0965359167342929]}, 
+           ArrowBox[{{1.7687328626534566`, 0.}, {2.8107205315332022`, 
+            0.5633737495535946}}, 0.15158093829229566`]}, InsetBox[
+           StyleBox["6",
+            StripOnInput->False,
+            FontSize->Large], {2.2897266970933297, 0.2816868747767973}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{0.965360287207532, 1.4935844963066618`}, {
+            2.188126586574833, 1.4739299470440022`}}, 0.15158093829229566`]}, 
           InsetBox[
            StyleBox["9",
             StripOnInput->False,
-            FontSize->Large], {0.9474528058692498, 0.7513554915063796}, 
+            FontSize->Large], {1.5767434368911826, 1.483757221675332}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}, {
           {Arrowheads[0.], 
-           ArrowBox[{{1.8549980051836188`, 0.}, {2.6166794489747787`, 
-            0.7990560378337217}}, 0.0965359167342929]}, InsetBox[
-           StyleBox["14",
-            StripOnInput->False,
-            FontSize->Large], {2.235838727079199, 0.39952801891686085}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.8549980051836188`, 0.}, {2.1374973950753886`, 
-            0.8570572422524261}}, 0.0965359167342929]}, InsetBox[
-           StyleBox["5",
-            StripOnInput->False,
-            FontSize->Large], {1.9962477001295036, 0.42852862112621304}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{1.8549980051836188`, 0.}, {0.800935782315334, 
-            0.16102149373914265`}}, 0.0965359167342929]}, InsetBox[
-           StyleBox["10",
-            StripOnInput->False,
-            FontSize->Large], {1.3279668937494764, 0.08051074686957133}, 
-           ImageScaled[{0.5, 0.5}],
-           BaseStyle->"Graphics"]}, {
-          {Arrowheads[0.], 
-           ArrowBox[{{2.6166794489747787`, 0.7990560378337217}, {
-            2.1374973950753886`, 0.8570572422524261}}, 0.0965359167342929]}, 
-          InsetBox[
+           ArrowBox[{{0.965360287207532, 1.4935844963066618`}, {0., 
+            0.9622575992354847}}, 0.15158093829229566`]}, InsetBox[
            StyleBox["11",
             StripOnInput->False,
-            FontSize->Large], {2.377088422025084, 0.8280566400430739}, 
+            FontSize->Large], {0.482680143603766, 1.2279210477710731}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}, {
           {Arrowheads[0.], 
-           ArrowBox[{{2.6166794489747787`, 0.7990560378337217}, {
-            1.7158718970658524`, 1.3455044228449844`}}, 0.0965359167342929]}, 
+           ArrowBox[{{0.965360287207532, 1.4935844963066618`}, {
+            1.176351253528964, 0.5692163036909862}}, 0.15158093829229566`]}, 
           InsetBox[
-           StyleBox["7",
+           StyleBox["15",
             StripOnInput->False,
-            FontSize->Large], {2.1662756730203157, 1.072280230339353}, 
+            FontSize->Large], {1.070855770368248, 1.031400399998824}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{0.5788911725247182, 0.06162988892476473}, {0., 
+            0.9622575992354847}}, 0.15158093829229566`]}, InsetBox[
+           StyleBox["8",
+            StripOnInput->False,
+            FontSize->Large], {0.2894455862623591, 0.5119437440801247}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{0.5788911725247182, 0.06162988892476473}, {
+            1.176351253528964, 0.5692163036909862}}, 0.15158093829229566`]}, 
+          InsetBox[
+           StyleBox["12",
+            StripOnInput->False,
+            FontSize->Large], {0.877621213026841, 0.31542309630787546}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{2.188126586574833, 1.4739299470440022`}, {
+            2.022509145668308, 0.7141548288140916}}, 0.15158093829229566`]}, 
+          InsetBox[
+           StyleBox["5",
+            StripOnInput->False,
+            FontSize->Large], {2.1053178661215703, 1.0940423879290468}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{2.188126586574833, 1.4739299470440022`}, {
+            2.8107205315332022`, 0.5633737495535946}}, 0.15158093829229566`]},
+           InsetBox[
+           StyleBox["9",
+            StripOnInput->False,
+            FontSize->Large], {2.4994235590540175, 1.0186518482987985}, 
+           ImageScaled[{0.5, 0.5}],
+           BaseStyle->"Graphics"]}, {
+          {Arrowheads[0.], 
+           ArrowBox[{{1.176351253528964, 0.5692163036909862}, {
+            2.022509145668308, 0.7141548288140916}}, 0.15158093829229566`]}, 
+          InsetBox[
+           StyleBox["15",
+            StripOnInput->False,
+            FontSize->Large], {1.599430199598636, 0.6416855662525389}, 
            ImageScaled[{0.5, 0.5}],
            BaseStyle->"Graphics"]}}, 
         {GrayLevel[1], EdgeForm[{GrayLevel[0], Opacity[
-         0.7]}], {DiskBox[{0., 2.0538976284387136`}, 0.0965359167342929], 
+         0.7]}], {DiskBox[{1.7687328626534566`, 0.}, 0.15158093829229566], 
           InsetBox[
            StyleBox["\<\"1\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {0., 2.0538976284387136},
+            FontSlant->Italic], {1.7687328626534566, 0.},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{2.368296315488529, 1.8265649509249946`}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{0.965360287207532, 1.4935844963066618`}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"2\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {2.368296315488529, 1.8265649509249946},
+            FontSlant->Italic], {0.965360287207532, 1.4935844963066618},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{1.3224638166477387`, 0.5676420854770183}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{0.5788911725247182, 0.06162988892476473}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"3\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {1.3224638166477387, 0.5676420854770183},
+            FontSlant->Italic], {0.5788911725247182, 0.06162988892476473},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{3.190196398488638, 1.6246554510893474`}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{2.188126586574833, 1.4739299470440022`}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"4\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {3.190196398488638, 1.6246554510893474},
+            FontSlant->Italic], {2.188126586574833, 1.4739299470440022},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{1.0939698294231657`, 1.3416894892736164`}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{0., 0.9622575992354847}, 0.15158093829229566], InsetBox[
            StyleBox["\<\"5\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {1.0939698294231657, 1.3416894892736164},
+            FontSlant->Italic], {0., 0.9622575992354847},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{1.8549980051836188`, 0.}, 0.0965359167342929], InsetBox[
+          DiskBox[{1.176351253528964, 0.5692163036909862}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"6\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {1.8549980051836188, 0.},
+            FontSlant->Italic], {1.176351253528964, 0.5692163036909862},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{2.6166794489747787`, 0.7990560378337217}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{2.022509145668308, 0.7141548288140916}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"7\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {2.6166794489747787, 0.7990560378337217},
+            FontSlant->Italic], {2.022509145668308, 0.7141548288140916},
            BaseStyle->"Graphics"]}, {
-          DiskBox[{2.1374973950753886`, 0.8570572422524261}, 
-           0.0965359167342929], InsetBox[
+          DiskBox[{2.8107205315332022`, 0.5633737495535946}, 
+           0.15158093829229566], InsetBox[
            StyleBox["\<\"8\"\>",
             StripOnInput->False,
             FontSize->18,
-            FontSlant->Italic], {2.1374973950753886, 0.8570572422524261},
-           BaseStyle->"Graphics"]}, {
-          DiskBox[{1.7158718970658524`, 1.3455044228449844`}, 
-           0.0965359167342929], InsetBox[
-           StyleBox["\<\"9\"\>",
-            StripOnInput->False,
-            FontSize->18,
-            FontSlant->Italic], {1.7158718970658524, 1.3455044228449844},
-           BaseStyle->"Graphics"]}, {
-          DiskBox[{0.800935782315334, 0.16102149373914265`}, 
-           0.0965359167342929], InsetBox[
-           StyleBox["\<\"10\"\>",
-            StripOnInput->False,
-            FontSize->18,
-            FontSlant->Italic], {0.800935782315334, 0.16102149373914265},
+            FontSlant->Italic], {2.8107205315332022, 0.5633737495535946},
            BaseStyle->"Graphics"]}}}],
       MouseAppearanceTag["NetworkGraphics"]],
      AllowKernelInitialization->False]],
@@ -343,8 +272,9 @@ Cell[BoxData[
    3.904999183900134*^9, 3.904999204507925*^9}, 3.904999339732566*^9, {
    3.904999376433009*^9, 3.904999380255972*^9}, 3.904999432380682*^9, {
    3.905334139693368*^9, 3.9053341461108017`*^9}, 3.909140785873815*^9, 
-   3.909140844302515*^9, 3.909160835625235*^9, 3.909161019724821*^9},
- CellLabel->"Out[23]=",ExpressionUUID->"0156e441-5eba-45b0-8cec-c9e08392de3b"]
+   3.909140844302515*^9, 3.909160835625235*^9, 3.909161019724821*^9, {
+   3.912768392016491*^9, 3.912768415195979*^9}},
+ CellLabel->"Out[63]=",ExpressionUUID->"79451ea2-1c1d-40f6-b041-7d94ba317c0d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1274,24 +1204,24 @@ Cell[580, 22, 248, 4, 30, "Input",ExpressionUUID->"12029169-626e-4bb8-a7dd-16837
 Cell[831, 28, 278, 5, 30, "Output",ExpressionUUID->"6b212efb-79c1-47f6-9a6f-bffc1bd4e19a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1146, 38, 1984, 43, 115, "Input",ExpressionUUID->"5716533a-0dac-4826-a712-dee8fc8b881e"],
-Cell[3133, 83, 12004, 263, 407, "Output",ExpressionUUID->"0156e441-5eba-45b0-8cec-c9e08392de3b"]
+Cell[1146, 38, 2033, 44, 115, "Input",ExpressionUUID->"5716533a-0dac-4826-a712-dee8fc8b881e"],
+Cell[3182, 84, 8835, 192, 382, "Output",ExpressionUUID->"79451ea2-1c1d-40f6-b041-7d94ba317c0d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15174, 351, 318, 5, 30, "Input",ExpressionUUID->"3c3b4382-14b5-41ea-b7d8-6b5a166104cd"],
-Cell[15495, 358, 5660, 125, 70, "Output",ExpressionUUID->"e6223b02-830a-42ac-abb9-837b198d66ca"]
+Cell[12054, 281, 318, 5, 30, "Input",ExpressionUUID->"3c3b4382-14b5-41ea-b7d8-6b5a166104cd"],
+Cell[12375, 288, 5660, 125, 70, "Output",ExpressionUUID->"e6223b02-830a-42ac-abb9-837b198d66ca"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21192, 488, 214, 3, 30, "Input",ExpressionUUID->"570ace62-30d6-4a2c-ad6b-359182d20336"],
-Cell[21409, 493, 951, 21, 150, "Output",ExpressionUUID->"384822ce-d08d-4a96-80c1-5ffde40b3a98"]
+Cell[18072, 418, 214, 3, 30, "Input",ExpressionUUID->"570ace62-30d6-4a2c-ad6b-359182d20336"],
+Cell[18289, 423, 951, 21, 150, "Output",ExpressionUUID->"384822ce-d08d-4a96-80c1-5ffde40b3a98"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22397, 519, 428, 8, 30, "Input",ExpressionUUID->"4100cbff-b534-4274-9a8e-080f3aa0adda"],
-Cell[22828, 529, 818, 18, 78, "Output",ExpressionUUID->"40200682-e80c-4420-ae2b-309213a263fb"]
+Cell[19277, 449, 428, 8, 30, "Input",ExpressionUUID->"4100cbff-b534-4274-9a8e-080f3aa0adda"],
+Cell[19708, 459, 818, 18, 78, "Output",ExpressionUUID->"40200682-e80c-4420-ae2b-309213a263fb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23683, 552, 571, 10, 30, "Input",ExpressionUUID->"3a10a319-eb3d-48ae-bd79-e640cbadc076"],
-Cell[24257, 564, 38925, 686, 407, 8407, 184, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"7c2a371d-8746-4511-a33c-cee21a094e6d"]
+Cell[20563, 482, 571, 10, 30, "Input",ExpressionUUID->"3a10a319-eb3d-48ae-bd79-e640cbadc076"],
+Cell[21137, 494, 38925, 686, 407, 8407, 184, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"7c2a371d-8746-4511-a33c-cee21a094e6d"]
 }, Open  ]]
 }
 ]
