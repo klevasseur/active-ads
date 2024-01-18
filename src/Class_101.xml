@@ -10,6 +10,21 @@
 
 <exercise><statement><p>Partition the set <m>X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}</m> into equivalence classes according to the relation congruence modulo 4, <m>\equiv_4</m>.</p></statement></exercise>
 
+<exercise><statement><p>Compute the matrix product <md><mrow> \left(
+\begin{array}{cccc}
+ 1 &amp; 0 &amp; 0 \\
+ 0 &amp; 0 &amp; 1  \\
+ 0 &amp; 1 &amp; 0 \\
+\end{array}
+\right)  
+\left(
+\begin{array}{cccc}
+ 0 &amp; 0 &amp; 1  \\
+ 1 &amp; 0 &amp; 0  \\
+ 0 &amp; 1 &amp; 0 \\
+\end{array}
+\right)</mrow></md></p></statement></exercise>
+
 <exercise><statement><p>Is the following logical argument valid?  </p>
 <blockquote>
   <p>

@@ -14,14 +14,14 @@
 <section xml:id="questions-102"><title>In-Class Exercises</title>
 <p>
 <ol marker="1.">
-<li><p>Prove that any graph with at least two vertices must have two vertices of the same degree.</p></li>
+<li><p>Prove that any undirected graph with at least two vertices must have two vertices of the same degree.</p></li>
 <li><p>Starting at vertex <m>s</m>, any finite path in <xref ref="fig-directed-graph-ex1" text="type-global"/> produces a string of bits that are recorded according to the labels on each edge.  For example, the path <m>s,a,b,a,b,b,a</m> will produce the string 101001.</p>				<figure xml:id="fig-directed-graph-ex1">
 					<caption>A model for bit strings with no consecutive 1's</caption>
 					<image  width="70%" source="images/fig-directed-graph-ex1.png">
 					<description>A directed graph with three vertices, a start vertex and vertices labeled "a" and "b." For each vertex there are either one or two edges. Edges labeled 1 points to the "a" vertex, representing a state in which only a 0 can be the next bit.  From "a" only a "0 edge" is present, pointing to "b".  From other vertices a 0 edge points to "b." </description>
 					</image>
 					</figure>
-<p>This graph produces bit strings that contain no consecutive 1's.   Draw a graph similar to it that produces bit strings containing no more than two consecutive 1's.</p></li>
+<p>This graph can produce any bit string that contain no consecutive 1's.   Draw a graph similar to it that can produce any bit string that does not contain more than two consecutive 1's.</p></li>
 <li><p>Find two isomorphisms between the following graphs.</p>						
 				<figure xml:id="fig-graphpair">
 					<caption>Two Isomorphic Graphs</caption>
