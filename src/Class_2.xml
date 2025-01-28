@@ -65,7 +65,7 @@
 		<exercise number="4"><statement><p>Find two sets <m>A</m> and <m>B</m> for which <m>|A| = 5</m>, <m>|B| = 6</m>, and <m>|A\cup B| = 9</m>. What is <m>|A \cap B|</m>?</p>
 		</statement></exercise>
 
-		<exercise number="5"><statement><p>For any sets <m>A</m> and <m>B</m>, define <m>A\times B = \{(a,b) \mid a\in A \text{ and } b \in B\}</m> and <m>AB = \{ab \mid a\in A \text{ and } b \in B\}</m>. If <m>A = \{1,2\}</m> and <m>B = \{2,3,4\}</m>,  what is <m>|A \times B|</m>? What is <m>|AB|</m>?</p>
+		<exercise number="5"><statement><p>For any sets <m>A</m> and <m>B</m>, define <m>A\times B = \{(a,b) \mid a\in A \text{ and } b \in B\}</m> and <m>AB = \{ab \mid a\in A \text{ and } b \in B\}</m>. If <m>A = \{1,2\}</m> and <m>B = \{2,3,4\}</m>,  what are  <m>A \times B</m> and <m>AB</m>?  What are their cardinalities?</p>
 		</statement></exercise>
 
 		<exercise number="6"><statement><p>A common data structure for a software implementation of sets is a <q>bitmap.</q>  The way it works is if you want to work with subsets of a universe, <m>U</m>, with cardinality <m>n</m> you first establish an ordering of <m>U</m> where <m>u_k</m> is the <m>k</m>th element.  A set <m>A</m> is then represented by a string of <m>n</m> bits  <m>b_1b_2\dots b_n</m> when <m>b_k</m> is 1 if <m>u_k \in A</m> and is 0 otherwise.

@@ -5,8 +5,9 @@
 <section xml:id="reading-104a"><title>Reading Assignment</title>
 <p>Read Section 9.6 of <em>Applied Discrete Structures</em>. There are two main topics of this section. The first is planarity of graphs, whether a graph can be drawn on paper without having any edges crossing one another.  The second is coloring, the vertices of a graph are assigned colors with the rule that two vertices that are connected by an edge must have different colors.  The two topics are unified by the Four Color Theorem.</p>
 <question><title>Response Question</title><idx>Fáry, István</idx><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
-<p>Also, turn in solutions to these exercises:</p> 
-<exercises><exercisegroup>
+<p component="paper">Also, turn in solutions to these exercises:</p> 
+<exercises component="paper"><exercisegroup>
+
 		<exercise><statement><p>Although a <m>K_{3,3}</m> it is not planar, it can be embedded on a torus without any edge crossings.  This is demonstrated in the video <url href="https://www.youtube.com/watch?v=k2O0Av_8_fo">https://www.youtube.com/watch?v=k2O0Av_8_fo</url>.  Watch the video and then dermine whether you can embed a <m>K_5</m> on a torus without any edge crossings.</p></statement><solution><p>_</p></solution></exercise>
 		<exercise><statement><p>Find a coloring of the following graph with as few colors as possible.  Use the letters <m>A,B,C,  \dots</m>> for colors and submit your answer in the form of a partition of <m>\{1,2,\dots, 8\}</m>:
 <me>\{\textrm{set of vertices with color }A, \textrm{set of vertices with color }B, \ldots\}</me> 
@@ -27,7 +28,7 @@
  		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104a"><title>In-Class Exercises</title> 
-<exercises><exercisegroup>
+<exercises>
 			<exercise><statement><p>If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must it have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
 	<exercise><idx>Cubic Graph</idx><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
 		<answer><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
@@ -36,7 +37,7 @@
 	<li><p>All faces of the graph's planar embedding are hexagons and pentagons; i. e, they is made up of either five or six edges.</p></li></ul>
 	What can be said about the numbers of hexagons and pentagons in the graph?</p></statement>
 		<answer><p>There must be 12 pentagons. The number of hexagons cannot be determined.</p></answer></exercise>
-		
+		<exercise><statement><p>Let's prove that a <m>K_{3,3}</m> is not planar.   Assume it is.  How many vertices and edges does it have?  Using Euler's formula, how many regions does it divide the plane into.  Using the fact that each region has a boundary of at least four edges (why not 3?), what can we conclude?  </p></statement><solution><p>_</p></solution></exercise>		
 		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
 	</p></statement><solution><p>It is not possible to arrange grading as described.  If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks.
 </p></solution></exercise>
@@ -55,7 +56,7 @@
 		<li><p>The chromatic number is the least positive integer <m>n</m> such that the chromatic polynomial evaluated at <m>x=n</m> is nonzero.  For example, the chomatic polynomial of the <m>K_{3,3}</m> is zero when <m>x=0</m>, but its value when <m>x=2</m> is 2, which is consistant with the fact that a <m>K_{3,3}</m> is bipartite. </p></li>
 		</ol></p></solution></exercise>
 		
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-104a"><title>Handouts</title>

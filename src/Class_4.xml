@@ -4,9 +4,9 @@
 <idx>Product Rule and Permutations</idx>
 <section xml:id="reading-4"><title>Reading Assignment</title>
 <p>Read Sections 2.1 and 2.2 of <em>Applied Discrete Structures</em>.  You will learn about the Rule of Products, which is one of the fundamental rules of counting.  In Section 2.2 we will apply to the rule of products to a very common situation, when we want to know how many ways we can put a set of objects in order.</p>
-<question><title>Response Question</title><statement><p>   Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products. </p></statement></question> 
+<question component="paper"><title>Response Question</title><statement><p>   Suppose <m>A</m> and <m>B</m> are finite sets.  Explain how the cardinality the Cartesian product <m>A \times B</m> can be determined using the Rule of Products. </p></statement></question> 
 <p>Also, turn in solutions to these exercises: </p>
-<exercises><exercisegroup>
+<exercises component="paper"><exercisegroup>
 <exercise><statement><p>A builder of modular homes would like to impress his potential customers with the variety of styles of his houses. For each house there are blueprints for three different living rooms, four different bedroom configurations, and two different garage styles. In addition, the outside can be finished in cedar shingles or brick. How many different houses can be designed from these plans?</p></statement></exercise>
       	<exercise><statement><p>How many ways can the letters in the word DRACUT be arranged? 
       			 They don't have to form a real word.</p></statement></exercise>
@@ -17,14 +17,19 @@
 <exercises><exercisegroup>
 <exercise number="1"><statement><p>How many of the integers from 100 to 999 have the property that the sum of their digits is even? For example, 561 would be counted, but 214 would not be counted.</p></statement></exercise>
 <exercise number="2"><statement><p>How many positive integers divide evenly into <m>67,500=2^2 3^3 5^4</m>? </p></statement></exercise>
-<exercise number="3"><statement><p>The manager of a baseball team has decide on the batting order of his team.  He has selected the nine batters already.
+<exercise number="3"><statement><p>The manager of a baseball team has to decide on the batting order of his team.  He has selected the nine batters already.
 		<ol marker="(a)">
 			<li>How many ways could he select a batting order?</li>
 			<li>He decides that the catcher must bat before the shortstop?  How many ways can he select a batting order now?</li>
 			<li>In addition to the restriction about the catcher and shortstop, suppose he decides that the pitcher must bat immediately after the first baseman.  How many ways can the manager select a batting order now?</li>
 		</ol>
 </p></statement></exercise>
-<exercise number="4"><statement><p>How many ways can the letters in the word APPLE be arranged?</p></statement></exercise>
+<exercise><statement><p>How many ways can the letters in the word DRACUT be arranged? 
+      			 They don't have to form a real word.</p></statement></exercise>
+<exercise><statement><p>How many ways can the letters in the word APPLE be arranged?</p></statement></exercise>
+<exercise><statement><ol><li><p>Suppose you need vote for five candidates for a town council from a list of 16 candidates and that you need to rank them from first to fifth in preference. Describe two different ways that you could proceed in doing this.</p></li>
+<li><p>Another way to vote in an election like the one in the previous part is with approval voting, where you simply check off all candidates who you approve of.  How many ways could you vote in the election?  Suppose you're not allowed to approve of more than five.  How many ways could you vote then?</p></li>
+</ol></statement></exercise>
 </exercisegroup></exercises>
 
 </section>
