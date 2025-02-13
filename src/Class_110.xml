@@ -25,29 +25,38 @@
 <p>  </p> 
 <exercises>
 		<exercise><statement><p>Let <m>n</m> be a positive integer greater than 1.  Show that <m>n-1</m> has a multiplicative inverse mod <m>n</m>. </p></statement>
-		<solution><p>Since <m>gcd(n,n-1)=gcd(n-1,1)=1</m>, <m>n-1</m> has a mod <m>n</m> inverse.  In fact, it is its own inverse.</p></solution></exercise>
-<!-- 
-		<exercise><statement><p>Compute by hand the additive and multiplicative inverses of 653 mod 1001. Show the calculations you did to get your answer.</p></statement>
-		<solution><p></p></solution></exercise>
- -->
+		<solution component="im"><p>Since <m>gcd(n,n-1)=gcd(n-1,1)=1</m>, <m>n-1</m> has a mod <m>n</m> inverse.  In fact, it is its own inverse.</p></solution></exercise>
+		
+		<exercise><statement><p>Given that <m>1=2025\times 397 + 1331 \times (-604)</m>, what what inverse pair can you determine in <m>\mathbb{U}_{2025}</m>?</p></statement>
+		<solution component="im"><p></p></solution></exercise>
+
 		<exercise>
-			<statement><p>Write out the operation table for the multiplicative group of integers mod 8  on
-				 <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
+			<statement><p>Write out the operation table for the multiplicative group of integers mod 8  on <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
 			</statement>
 			<solution><p></p></solution>
 		</exercise>
-		<exercise>
-			<statement><p>Write out the operation table for mod 10 multiplication on
-				 <m>T=\{0,2,4,6,8\}</m>. Is <m>[T;\times_{10}]</m>	 a monoid? Is it a group?</p>
-			</statement>
-			<solution><p></p></solution>
-		</exercise>
+
 		<exercise>
 			<statement><p>Find a formula for the inverse of the function 
+			<m>s: \mathbb{Z}_{29} \rightarrow  \mathbb{Z}_{29}</m>
+			 where <m>s(a)=a +_{29}11</m>.  Suggestion:  In this problem and the next one can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
+			</statement>
+			<answer component="im"><p><m>s^{-1}(a) = a +_{29} 18</m></p></answer>
+			<solution><p></p></solution></exercise>	
+				
+			<exercise>
+			<statement><p>Find a formula for the inverse of the function 
 			<m>g: \mathbb{Z}_{29} \rightarrow  \mathbb{Z}_{29}</m>
-			 where <m>g(a)= 5\times_{29}a +_{29}25</m>.  Suggestion:  You can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
-			</statement><answer><p><m>g^{-1}(a) = 6 \times_{29}(a +_{29} 4)</m></p></answer>
+			 where <m>g(a)= 5\times_{29}a +_{29}25</m>. </p>
+			</statement><answer component="im"><p><m>g^{-1}(a) = 6 \times_{29}(a +_{29} 4)</m></p></answer>
 			<solution><p></p></solution></exercise>
+					<exercise>
+			<statement><p>Write out the operation table for mod 10 multiplication on
+			<m>T=\{2,4,6,8\}</m>. Is <m>[T;\times_{10}]</m>	 a monoid? Is it a group?</p>
+			</statement>
+			<solution><p></p></solution>
+		</exercise>
+			
 	</exercises>
 </section>
 <!-- 
