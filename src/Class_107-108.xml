@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chapter_107" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Binary Operations</title>
+<chapter xml:id="chapter_107-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Binary Operations and Algebraic Structures</title>
 <idx>Binary Operations</idx>
-<section xml:id="reading-107"><title>Reading Assignment</title>
-<p>Read Section 11.1 of <em>Applied Discrete Structures</em>. This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory.   In this first section we review properties of binary operations.</p>
+<section xml:id="reading-107-8"><title>Reading Assignment</title>
+<p>Reread Section 11.1 and read Section 11.2 of <em>Applied Discrete Structures</em>. This is the beginning of a new topic, but you'll find that there are connections between algebra and graph theory.   In this first section we review properties of binary operations.</p>
 <question  component="paper"><title>Response Question</title><statement><p>True or False?  Multiplication is an associative operation on the set <m>\{-1,1\}</m>.  Justify your answer.</p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises:</p> 
 <exercises component="paper">
@@ -11,8 +11,7 @@
 		<exercise><statement><p>Write out the operation table for intersection on the <m>\mathcal{P}(\{0,1\})</m>, the power set of <m>\{0,1\}</m>. </p></statement><solution><p></p></solution></exercise>
 </exercises>
 </section>
-<section xml:id="questions-107"><title>In-Class Exercises</title>
-<p></p> 
+<section xml:id="questions-107-8"><title>In-Class Exercises</title>
 <exercises>
 		<exercise><statement><p>What properties that are introduced in Secton 11.1 are true of intersection on the power set of <m>\{0,1\}</m>?.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
@@ -35,11 +34,29 @@
 		</solution></exercise>
 		<exercise><statement><p>This question is open-ended, with no specific <q>right</q> answer.  Suppose that <m>V</m> is some finite nonempty set. What would be an example of a binary operation on the set of all undirected graphs with vertex set<m>V</m>?</p>
 		</statement><solution><p></p></solution></exercise>
-		</exercises>
+<exercise><statement><p>Let <m>U</m> be a any set.  Prove that, <m>\oplus</m>, defined by <m>A \oplus  B = (A \cup  B) - (A \cap  B)</m> is an associative operation on <m>\mathcal{P}(U)</m>. </p></statement>
+</exercise>
+<exercise><statement><p>Let <m>U</m> be a any set.  Prove that,   <m>[\mathcal{P}(U); \oplus]</m> is a group. </p></statement>
+</exercise>
+		<exercise><statement><p>Consider the following set of six  algebraic expressions, each defining a function on the set of real numbers excluding the numbers 0 and 1.  
+		<me>\mathcal{H}=\left\{x,1-x,\frac{1}{1-x},\frac{1}{x},\frac{x-1}{x},\frac{x}{x-1}\right\}
+				=\left\{y_1,y_2,y_3,y_4,y_5,y_6\right\}</me>
+ We can operate on any two of these expressions using function composition.  For example,
+ <me>(y_3 \circ y_4)(x) = y_3(y_4(x))=y_3(\frac{1}{x})=\frac{1}{1-\frac{1}{x}}=\frac{x}{x-1}=y_6(x)</me>
+ Therefore, <m>y_3 \circ y_4 = y_6</m>.  Complete the following operation table for function composition on <m>\mathcal{H}</m>.</p>
+ 
+ <figure xml:id="fig-compositon_group_6a"><caption>Partially completed operation table for <m>\mathcal{H}</m></caption>
+		 <image  width="70%" source="images/fig-compositon_group_6.png">
+			  <description>Partially completed operation table for the composition of function x, 1/x,...</description>
+		 </image>
+		 </figure>
+		 
+
+<p>	 Is <m>[\mathcal{H},\circ]</m> a monoid? Is it a group?</p>
+  			</statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Let <m>S</m> be the set of all strings of letters of length zero or more from the set <m>\{a,b,c\}</m> that do not have any consecutive identical letters.  Define <m>*</m> on <m>S</m> by the rule that if <m>x, y \in S</m> then <m>x*y</m> is determined by first concatenating  <m>x</m> and <m>y</m> and then repeatedly removing any occurrences of two identical letters until the result is an element of <m>S</m>.   Is <m>[S,*]</m> a monoid?  Is it a group?  
+		 </p></statement><solution><p></p></solution></exercise>
+</exercises>
+
 </section>
-<!-- 
-<section xml:id="handouts-107"><title>Handouts</title>
-<p>None</p>
-</section>
- -->
 </chapter>	

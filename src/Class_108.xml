@@ -5,16 +5,16 @@
 <section xml:id="reading-108"><title>Reading Assignment</title>
 <p>Read Section 10.2 of <em>Applied Discrete Structures</em>. We start by introducing the idea of levels of abstraction as they apply to monoids.  We then introduce groups, which is the main type of system we focus on in this chapter.
  </p>
-<question><title>Response Question</title><statement><p>Discuss the connection between groups and monoids. Is every monoid a group? Is every group a monoid? </p></statement></question>
-<p>Also, turn in solutions to these exercises:</p>
-<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>Discuss the connection between groups and monoids. Is every monoid a group? Is every group a monoid? </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises:</p>
+<exercises component="paper">
 		<exercise><statement><p>Write out the operation table for multiplication on the set <m>\{1,-1,i, -i\}</m>.</p></statement><solution><p></p></solution></exercise>
 		<exercise><statement><p>How many different commutative binary operations are there on any two element set?</p></statement><solution><p></p></solution></exercise>
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <section xml:id="questions-108"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 <exercise><statement><p>Let <m>U</m> be a any set.  Prove that, <m>\oplus</m>, defined by <m>A \oplus  B = (A \cup  B) - (A \cap  B)</m> is an associative operation on <m>\mathcal{P}(U)</m>. </p></statement>
 </exercise>
 <exercise><statement><p>Let <m>U</m> be a any set.  Prove that,   <m>[\mathcal{P}(U); \oplus]</m> is a group. </p></statement>
@@ -54,7 +54,7 @@ $y_6$   &amp; $\hfill$     &amp; $\hfill$  &amp; $\hfill$  &amp; $\hfill$  &amp;
 		<exercise><statement><p>Let <m>S</m> be the set of all strings of letters of length zero or more from the set <m>\{a,b,c\}</m> that do not have any consecutive identical letters.  Define <m>*</m> on <m>S</m> by the rule that if <m>x, y \in S</m> then <m>x*y</m> is determined by first concatenating  <m>x</m> and <m>y</m> and then repeatedly removing any occurrences of two identical letters until the result is an element of <m>S</m>.   Is <m>[S,*]</m> a monoid?  Is it a group?  
 		 </p></statement><solution><p></p></solution></exercise>
 
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-108"><title>Handouts</title>

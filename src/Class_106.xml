@@ -60,7 +60,7 @@
 </sidebyside>
 <p><ol marker="(a)" cols="2">
 			<li><p>Why will <m>B</m> have no right children in this correspondence?</p></li>
-			<li><p>Draw the binary tree that is produced by the ordered rooted tree in <xref ref="fig-ort-to-bt" text="type-local"/>.</p></li>
+			<li><p>Draw the binary tree that is produced by the ordered rooted tree in <xref ref="fig-ort-to-bt" 	/>.</p></li>
 			<li><p>Draw the ordered tree that produces the binary tree in <xref ref="fig-bt-to-ort" text="type-local"/>.</p></li>
 			<li><p>The left subtree of the binary tree in <xref ref="fig-bt-to-ort" text="type-local"/> is one of 5 different binary trees with three vertices.  Draw each of them and also the ordered rooted tree that each corresponds with.</p></li>
 			<li><p>What does this correspondence tell us about how the numbers of different binary trees and ordered rooted trees are related?</p></li>

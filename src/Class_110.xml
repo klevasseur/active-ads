@@ -6,9 +6,9 @@
 <p>Read Section 11.4 of <em>Applied Discrete Structures</em>. When you get to Investigation 11.4.1, skip down to Section 11.4.3 Modular Arithmetic. </p>
 <p> The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>Z_{12}</m>.</p>
 
-<question><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the numbers equal zero?</p></statement></question>
-<p>Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the numbers equal zero?</p></statement></question>
+<p component="paper">Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
+	<exercises component="paper">
 			<exercise>
 				<statement><p>Compute by hand the greatest common divisor of <m>2028</m>  and <m>1001</m>.  Show the calculations you did to get your answer.</p>
 				</statement>
@@ -19,12 +19,11 @@
 				 <m>\mathbb{Z}_4</m>.  Identify the inverse of each element.</p></statement>
 				<solution><p></p></solution>
 			</exercise>
-	</exercisegroup></exercises>
+	</exercises>
 </section>
 <section xml:id="questions-110"><title>In-Class Exercises</title>
 <p>  </p> 
 <exercises>
-	<exercisegroup>
 		<exercise><statement><p>Let <m>n</m> be a positive integer greater than 1.  Show that <m>n-1</m> has a multiplicative inverse mod <m>n</m>. </p></statement>
 		<solution><p>Since <m>gcd(n,n-1)=gcd(n-1,1)=1</m>, <m>n-1</m> has a mod <m>n</m> inverse.  In fact, it is its own inverse.</p></solution></exercise>
 <!-- 
@@ -49,7 +48,7 @@
 			 where <m>g(a)= 5\times_{29}a +_{29}25</m>.  Suggestion:  You can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
 			</statement><answer><p><m>g^{-1}(a) = 6 \times_{29}(a +_{29} 4)</m></p></answer>
 			<solution><p></p></solution></exercise>
-		</exercisegroup></exercises>
+	</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-110"><title>Handouts</title>
