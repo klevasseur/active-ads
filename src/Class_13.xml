@@ -4,9 +4,9 @@
 <idx>Matrix Operations</idx>
 <section xml:id="reading-13"><title>Reading Assignment</title>
 <p>Read Sections 5.1 and 5.2 of Applied Discrete Structures. Matrix algebra serves as a contrasting system to logic and set theory but is also needed in the study of relations in Chapter 6.  In these two sections, we review matrix operations and some special matrices.</p>
-<question><title>Response Question</title><statement><p>   Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case? </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>   Let <m>A=\left(\begin{array}{cc} 2 &amp; 0\\ 0 &amp; -1 \end{array}\right)</m>. Select any 2 by 2 matrix with nonzero entries and call it <m>B</m>. Compute the products <m>AB \textrm{ and }BA</m>  What effect does <m>A</m> have on <m>B</m> in each case? </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: </p>
+	<exercises component="paper">
 <exercise><statement> <p>Let <m>A=\left(
 \begin{array}{cc}
  1 &amp; -1 \\
@@ -40,7 +40,7 @@ explain why.</p>
 \right)</m>
 </li>
 </ol></p></statement></exercise>
-		</exercisegroup>
+		
 			<conclusion><p>There is a short video on matrix multiplication at <url href="https://youtu.be/zt-IU1lXFzs"/></p></conclusion>
 		</exercises>  
 		
@@ -48,7 +48,7 @@ explain why.</p>
 
 <section xml:id="questions-13"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 			
 <exercise><statement><p>Let <m>A=\left(\begin{array}{cc} 1 &amp; a\\ 0 &amp; 1 \end{array}\right)</m> and <m>B=\left(\begin{array}{cc} 1 &amp; b\\ 0 &amp; 1 \end{array}\right)</m>.  Compute the product <m>A B</m>.  Based on this result, what is <m>A^{-1}</m>. 
 			</p></statement></exercise>
@@ -74,11 +74,12 @@ explain why.</p>
 			          		 and <m>A^t A </m> defined?  What are the orders of the products that are 
 			          		 defined?</p></li>
 			          		 <li><p>Given the following matrix, what useful information might you get
-			          		  from the products <m>A A^t</m> or <m>A^t A</m>.?
+			          		  from the products <m>A A^t</m> or <m>A^t A</m>.?  You don't have to actually do the calculations.  The second row represents heights in inches and the third row is weights in pounds.
 			          		<me>A=\left(
 									\begin{array}{ccccc}
-									 16 &amp;11 &amp;4 &amp;3 &amp;15 \\
-									 16 &amp;17 &amp;13 &amp;12 &amp;6 \\
+									 1 &amp;1 &amp;1 &amp;1 &amp;1 \\
+									 65 &amp;70 &amp;72 &amp;72 &amp;75 \\
+									 160 &amp;178 &amp;200 &amp;180 &amp;210 \\
 									\end{array}
 									\right) </me>
 							</p></li>
@@ -125,7 +126,7 @@ explain why.</p>
 						<li><p>Suppose the costs of ingredients are <m>\$0.12</m> for a cup of flour, <m>\$0.15</m> for a cup of sugar and <m>\$0.19</m> for one egg. How can this information be put into a matrix that can meaningfully be multiplied by one of the other matrices in this problem?</p></li>
 				</ol>
 				</p></statement></exercise>	
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <!-- 
