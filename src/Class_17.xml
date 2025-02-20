@@ -2,12 +2,13 @@
 <chapter xml:id="chapter_17" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Relation Matrices and Closure</title>
 <idx>Relation Matrices</idx>
+<idx>Transitive Closure</idx>
 <idx>Closure</idx>
 <section xml:id="reading-17"><title>Reading Assignment</title>
 <p>Read Sections 6.4 and 6.5 of <em>Applied Discrete Structures</em>.  Although some relations can be computed (e. g. determining whether <m>a \lt b</m>), some are more efficiently represented in a matrix.  We introduce the matrix representation of relations in Section 6.4, and then transitive closure in Section 6.5.</p>
-<question><title>Response Question</title><statement><p>  Let <m>p</m> be the relation on people where <m>x p y</m> if <m>y</m> is either <m>x</m>'s mother or father.   What is <m>\{z \mid x p^+ z\}</m>, where <m>p^+</m> is the transitive closure of <m>p</m>. </p></statement></question>
-<p>Also, turn in solutions to this exercise:</p> 
-		<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  Let <m>p</m> be the relation on people where <m>x p y</m> if <m>y</m> is either <m>x</m>'s mother or father.   What is <m>\{z \mid x p^+ z\}</m>, where <m>p^+</m> is the transitive closure of <m>p</m>. </p></statement></question>
+<p component="paper">Also, turn in solutions to this exercise:</p> 
+		<exercises component="paper">
 <exercise><statement><p>Consider the relation, <m>s</m>, defined by the graph in <xref ref="fig-relation-graph" text="type-global" />.</p>
 					<figure xml:id="fig-relation-graph">
 					<caption>Digraph of <m>s</m></caption>
@@ -22,11 +23,39 @@
 				<li><p>Determine the matrix of the transitive closure of <m>s</m>.</p></li>
 			</ol>
 			     </p></statement></exercise>
-		</exercisegroup></exercises> 
+		</exercises> 
 </section>
 <section xml:id="questions-17"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
+<exercise><statement><p>Let <m>A = \{a, b, c, d\}</m>.  Let <m>r</m> be the relation on <m>A</m> with adjacency matrix
+
+<m>\begin{array}{cc}
+   &amp; 
+\begin{array}{cccc}
+ a &amp; b &amp; c &amp; d \\
+\end{array}
+ \\
+ 
+\begin{array}{c}
+ a \\
+ b \\
+ c \\
+ d \\
+\end{array}
+ &amp; \left(
+\begin{array}{cccc}
+ 1 &amp; 0 &amp; 0 &amp; 0 \\
+ 0 &amp; 1 &amp; 0 &amp; 0 \\
+ 1 &amp; 1 &amp; 1 &amp; 0 \\
+ 0 &amp; 1 &amp; 0 &amp; 1 \\
+\end{array}
+\right) \\
+\end{array}</m></p>
+<p><ol marker="(a)">
+<li><p> Explain why <m>r</m> is a partial ordering on <m>A</m>.</p></li>
+<li><p> Draw its Hasse diagram.</p></li>
+</ol></p></statement></exercise>
 
 <exercise><statement><p>Let <m>D</m> be the set of weekdays, Monday through Friday, let <m>W</m> be a set of employees <m>\{1, 2, 3\}</m> of a tutoring center, and let <m>V</m> be a set
 of computer languages for which tutoring is offered,  <m>\{A(PL), B(asic), C(++), J(ava), L(isp), P(ython)\}</m>. We define <m>s</m> (schedule)
@@ -89,34 +118,6 @@ S =
 <li><p> compute <m>S R</m> using regular arithmetic and give an interpretation of what the result describes.</p></li>
 </ol></p></statement></exercise>
 
-<exercise><statement><p>Let <m>A = \{a, b, c, d\}</m>.  Let <m>r</m> be the relation on <m>A</m> with adjacency matrix
-
-<m>\begin{array}{cc}
-   &amp; 
-\begin{array}{cccc}
- a &amp; b &amp; c &amp; d \\
-\end{array}
- \\
- 
-\begin{array}{c}
- a \\
- b \\
- c \\
- d \\
-\end{array}
- &amp; \left(
-\begin{array}{cccc}
- 1 &amp; 0 &amp; 0 &amp; 0 \\
- 0 &amp; 1 &amp; 0 &amp; 0 \\
- 1 &amp; 1 &amp; 1 &amp; 0 \\
- 0 &amp; 1 &amp; 0 &amp; 1 \\
-\end{array}
-\right) \\
-\end{array}</m></p>
-<p><ol marker="(a)">
-<li><p> Explain why <m>r</m> is a partial ordering on <m>A</m>.</p></li>
-<li><p> Draw its Hasse diagram.</p></li>
-</ol></p></statement></exercise>
 
 <exercise><statement><p> What common relations on <m>\mathbb{Z}</m> are the transitive closures of the following relations?</p>
 <p><ol marker="(a)">
@@ -128,7 +129,7 @@ S =
 <li><p>Prove that if <m>r</m> is a transitive relation on a set <m>A</m>, then <m>r^2 \subseteq  r</m>. </p></li>
 <li><p> Find an example of a transitive relation for which <m>r^2\neq r</m>.</p></li>
 </ol></p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 </chapter>	
