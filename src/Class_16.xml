@@ -4,11 +4,13 @@
 <idx><h>Relations</h><h>Properties of</h></idx>
 <section xml:id="reading-16"><title>Reading Assignment</title>
 <p>Read Section 6.3 of <em>Applied Discrete Structures</em>.  You will read about four properties that are satisfied by certain relations.  Two combinations of these properties, when true, characterize relations that are particularly important.  They are partial orderings and equivalence relations. Make an effort to memorize the terms in this section - they will appear throughout the rest of the book.</p>
-<question><title>Response Question</title><statement><p>  Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane? </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+ <reading-questions  xml:id="relationproperties-reading-questions" component="paper">
+<p>Turn in solutions to these exercises. </p>
+
+<exercise><title>Response Question</title><statement><p>  Recall that in geometry, two triangles are similar if and only if their corresponding angles have the same measure. What kind of relation is this on the set of all triangles on the plane? </p></statement></exercise>
+
 <exercise><statement><p>Prove that congruence modulo <m>m</m> is a transitive relation on the set of integers. Do this by assuming that <m>a \equiv_m b </m> and <m>b\equiv_m c</m>, and applying the definition for <m>\equiv_m</m> to conclude that <m>a \equiv_m c</m>.</p></statement>
-<solution>
+<solution component="im">
 <p><me>a \equiv_n b  \Rightarrow  n \mid (a-b) \Rightarrow a-b=n q_1, \quad q_1 \in \mathbb{Z}</me>
  <me>b\equiv_n c \Rightarrow n \mid (b-c) \Rightarrow b-c=n q_2, \quad q_2 \in \mathbb{Z}</me>
  Therefore
@@ -18,11 +20,14 @@
 </exercise>
 		
 <exercise><statement><p>Draw the ordering diagram for the relation <q>divides</q> on the divisors of <m>40=2^3 \cdot 5</m>.</p></statement></exercise>
-		</exercisegroup></exercises>  
+</reading-questions> 
+
+
+ 
 </section>
 <section xml:id="questions-16"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 	
 <exercise><statement><p>Let <m>A = \{a, b, c, d\}</m>. Draw the graphs of relations on <m>A</m> where:
 			<ol marker="(a)">
@@ -51,7 +56,7 @@
 			<li>Define the the relation <m>c</m> defined  on <m>A</m> by <m>x c y</m> if <m>x</m> is contained within <m>y</m>. For example, <m>10 c 101</m>, but <m>11 c 101</m> is false.</li>
 			</ol>
 	For any of these relations that are partial orderings, draw the Hasse diagram for that relation.  For any of them that is an equivalence relation, identify the equivalence classes.</p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <section xml:id="handouts-16"><title>Congruence Modulo <m>n</m></title>

@@ -4,20 +4,20 @@
 <idx>Isomorphism</idx>
 <section xml:id="reading-113"><title>Reading Assignment</title>
 <p>Read Section 11.7  of <em>Applied Discrete Structures</em>.  We've seen several different groups of order two. Two of them are the group <m>\mathbb{Z}_2</m> and <m>[\{1,-1\}; \cdot]</m>.  There is no denying that these groups are different but from an algebraic point of view, they have all the same properties.   This section makes this observation more precise.  Based on the definitions, these two groups (and all other groups with two elements) are <em>isomorphic</em>.  In studying groups, this is essentially saying they are all equal.</p>
-<question><title>Response Question</title><statement><p>How is the topic of isomorphisms related to the <xref ref="fig-slide-rule" text="title"/>, an analog computing device that was in common usage up until the 1970's.</p></statement></question>
+<question component="paper"><title>Response Question</title><statement><p>How is the topic of isomorphisms related to the <xref ref="fig-slide-rule" text="title"/>, an analog computing device that was in common usage up until the 1970's.</p></statement></question>
 
-<p>Also, turn in solutions to this exercise: </p>
-		<exercises><exercisegroup>
+<p component="paper">Also, turn in solutions to this exercise: </p>
+		<exercises component="paper">
 		<exercise><statement>
 		     <p>Answer the following question:  siedem razy cztery = _____?</p>
 		         </statement><hint><p>The question is in Polish.</p></hint><solution><p></p></solution></exercise>
 		<exercise><statement><p>The two groups <m>\mathbb{Z}_4</m> and <m>\mathbb{U}_8</m> have the same order but are not isomorphic.  Give a reason why.</p></statement><solution><p></p></solution></exercise>
-		</exercisegroup></exercises>
+		</exercises>
 
 </section>	
 <section xml:id="questions-113"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 		<exercise><statement>
 		<p>Write out the operation table for <m>G = [\{1, -1, i, -i \}; \cdot ]</m> where <m>i</m> is the complex number for which <m>i^2 = - 1</m>. Show that <m>G</m> is isomorphic to <m>\left[\mathbb{Z}_4;+_4\right]</m>.</p></statement><solution><p></p></solution></exercise>
 		<exercise>
@@ -28,9 +28,9 @@
 		<statement><p>Think about how you might represent a file of nonzero real numbers that you plan to multiply together with a computer so that the sign of each number is seperate from its magnitude.
 		<ol marker="(a)">
 			<li><p>Prove that <m>\mathbb{R}^*</m> is isomorphic to <m>\mathbb{Z}_2 \times  \mathbb{R}</m>.</p></li>
-			<li><p> Describe how multiplication of nonzero real numbers can be accomplished doing only additions. </p></li>
+			<li><p> Describe how multiplication of nonzero real numbers can be accomplished with addition, logarithms and exponentiation. </p></li>
 		</ol></p></statement></exercise>
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <section xml:id="handouts-113"><title>The Slide Rule</title>
 <p>The slide rule was invented in the 17th century.  It was used extensively  by students, scientists and engineers until the 1970's to do multiplication, division and other common arithmetic operations. </p>

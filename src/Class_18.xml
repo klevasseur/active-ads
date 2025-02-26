@@ -4,9 +4,9 @@
 <idx>Function Properties</idx>
 <section xml:id="reading-18"><title>Reading Assignment</title>
 <p>Read Sections 7.1 and 7.2 of <em>Applied Discrete Structures</em>.  You may think you know about functions if you've taken calculus, but the approach to functions in Chapter 7, which is the more formal approach, is different. So make an effort to memorize the terms!  The good news is that there are only two key properties that are introduced in Section 7.2.</p>
-<question><title>Response Question</title><statement><p>  In programming, a <em>function</em> is a named section of a program that performs a specific task and returns a value.  How does this compare with the definition of a function in mathematics?    </p></statement></question>
-<p>Also, turn in solutions to these exercises:  </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  In programming, a <em>function</em> is a named section of a program that performs a specific task and returns a value.  How does this compare with the definition of a function in mathematics?    </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises:  </p>
+	<exercises component="paper">
 		
 <exercise><statement><p> At the end of the semester a teacher assigns letter grades to each of her 45 students. Is this a function? If so, what sets make up the domain and codomain, and is the function injective, surjective, bijective, or neither?</p></statement></exercise>
 	   
@@ -26,11 +26,11 @@
 		<li><p>What are <m>\chi_{\emptyset}</m> and <m>\chi_A</m>?</p></li>
 		</ol></p>
 		</statement></exercise>
-	</exercisegroup></exercises> 
+	</exercises> 
 </section>
 <section xml:id="questions-18"><title>In-Class Exercises</title>
 <p> </p>
-<exercises><exercisegroup>
+<exercises>
 	
 <exercise><statement><p>Define functions on the positive integers, <m>\mathbb{P}</m>, if they exist, that have the properties specified below.
 	      <ol marker="(a)">
@@ -50,7 +50,7 @@
 	
 <exercise><statement>Prove that the set of all functions on the integers is an uncountable set.</statement></exercise>
  -->
-</exercisegroup></exercises>
+</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-18"><title>Handouts</title>

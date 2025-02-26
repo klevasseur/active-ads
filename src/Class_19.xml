@@ -4,9 +4,9 @@
 <idx>Function Composition</idx>
 <section xml:id="reading-19"><title>Reading Assignment</title>
 <p>Read Section 7.3 of <em>Applied Discrete Structures</em>.  The key concept in this section is function composition, which is fundamental in mathematics and computer science. Be sure to learn how it works and you'll be in good shape for the rest of the book!</p>
-<question><title>Response Question</title><idx>piping</idx><statement><p>  Google <q>linux piping</q> and describe how this technique is related to function composition. </p></statement></question>
-<p>Also, turn in solutions to these exercises:  </p>
-	<exercises><exercisegroup>		
+<question component="paper"><title>Response Question</title><idx>piping</idx><statement><p>  Google <q>linux piping</q> and describe how this technique is related to function composition. </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises:  </p>
+	<exercises component="paper">		
 			
 <exercise><statement><p> Define <m>s</m>, <m>u</m>, and <m>d</m>, all functions on the integers, by 
 			   <m>s(n) = n^2</m> , <m>u(n) = n + 1</m>, and <m>d(n) = n-1</m>. Determine:
@@ -20,13 +20,16 @@
 <exercise><statement><p><ul><li><p>Does <m>f:\mathbb{Z} \rightarrow \mathbb{Z}</m> defined by <m>f(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
 			<li><p>Does <m>g:\mathbb{R} \rightarrow \mathbb{R}</m> defined by <m>g(x)=2x+1</m> have an inverse? If it does, what is it? If it doesn't, why?</p></li>
 			</ul></p></statement></exercise>
-		</exercisegroup></exercises> 
+		</exercises> 
 </section>
 <section xml:id="questions-19"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 
 <exercise><statement><p> Let <m>A = \{1, 2, 3, 4\}</m>. Define <m>f:A\rightarrow A</m> by <m>f(1) = 2</m>, <m>f(2) = 3</m>, <m>f(3) = 4</m>, and <m>f(4) = 1</m>. Find <m>f^2</m>, <m>f^3</m>, <m>f^4</m> and <m>f^{-1}</m>.  You can describe each of these functions as being equal to a previous one, or in the same manner as <m>f</m> was originally described.</p></statement></exercise>
+
+<exercise><statement><p>Prove that the set of infinite strings of 0's and 1's is not countable.</p></statement></exercise>
+
 
 <exercise><statement><p>Prove that if a function has an inverse, that inverse must be unique.</p></statement></exercise>
 
@@ -36,7 +39,7 @@
 between the two sets. Why does it not matter whether the bijection is from <m>A</m> into <m>B</m> or <m>B</m> into <m>A</m>?</li>
 <li><p>Prove that <q>has the same cardinality as</q> is an equivalence relation on sets.</p></li>
 </ol></p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <!-- 

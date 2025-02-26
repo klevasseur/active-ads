@@ -23,9 +23,15 @@ Discuss any similarities you see between these three relations.<m>\vspace{10pt}<
 <section xml:id="questions-15"><title>In-Class Exercises</title>
 <p></p>
 <exercises>
-
-
 <exercise><statement><p>Let <m>S</m> be the set of <q>rooms</q> on the floor of the building that includes your classroom.   Draw a digraph of the relation <m>c</m>, where <m>s_1 c s_2</m> if and only if <m>s_1</m> is connected to <m>s_2</m> with at least one doorway.</p></statement></exercise>
+
+<exercise><statement>
+		<ol marker="(a)">
+		<li><p>The divisors of 100 is the set of integers <m>D_{100}=\{1,2,4,5,10,20,25,50,100\}</m>.  Draw a digraph of the relation <q>divides</q> on <m>D_{100}</m>, but do not draw in the self loops on each vertex even though we know they are present.</p>  </li>
+		<li><p> Define the relation <m>\delta</m> on the set <m>G=\{0,1,2\}^2</m>  by <me>(j,k) \delta (s,t) \Leftrightarrow j\leq s\textrm{ and }k\leq t.</me> For example, <m>(2,1)\delta (2,2)</m>, but <m>(2,1)\delta (1,2)</m> is false. Draw a digraph of the relation <m>\delta</m>, but do not draw in the self loops on each vertex even though we know they are present. </p></li>
+<li><p>Compare the two relations and their digraphs.</p></li>
+</ol></statement></exercise>
+
 
 <exercise><statement><p>Given <m>s</m> and <m>t</m>, relations on <m>\mathbb{Z}</m>, <m> s = \{(1, n) : n \in \mathbb{Z}\}</m> and <m>t= \{(n, 1) : n \in  \mathbb{Z}\}</m>,
 what are <m>st</m> and <m>ts</m>? Hint: Even when a relation involves infinite sets, you can often get insights into them by drawing

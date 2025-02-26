@@ -5,9 +5,9 @@
 
 <section xml:id="reading-14"><title>Reading Assignment</title>
 <p>Read Sections 5.3 and 5.4 of <em>Applied Discrete Structures</em>.  In these two sections we concentrate on the algebraic laws of set theory and some of the laws that are missing (because they are false!).</p>
-<question><title>Response Question</title><statement><p>  Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. </p></statement></question>
-<p>Also, turn in solutions to these exercises:</p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  Compare Matrix Law (15), The Inverse of Product Rule, with the fact that although you put your socks on before your shoes, you take your shoes off before taking off your socks. </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises:</p>
+	<exercises component="paper">
 <exercise><statement><p>Let 
 	<m>A=\left(\begin{array}{cccc} 0 &amp;1&amp;0&amp;0\\
 								   0 &amp;0&amp;1&amp;0\\
@@ -16,12 +16,12 @@
 								    Compute <m>A^2</m>, <m>A^3</m>, <m>A^4</m>, and <m>A^{-1}</m>.</p></statement></exercise>
 		
 <exercise><statement><p>Find at least three <m>2\times2</m> matrices, <m>A</m>, such that <m>A^2=A</m>.</p></statement></exercise>
-		</exercisegroup></exercises> 
+		</exercises> 
 </section>
+
 <section xml:id="questions-14"><title>In-Class Exercises</title>
-<p></p>
-<exercises><exercisegroup>
-			
+
+<exercises>			
 <exercise><statement><p>Let <m>A</m> and <m>B</m> be <m>n\times n</m> matrices of real numbers. Is <m>A^2-B^2= (A-B)(A+B)</m>?  Explain.</p></statement></exercise>
 			
 <exercise><statement><p> Write each of the following systems in the form <m>A X = B</m>, and then solve the systems using matrices.</p>
@@ -45,7 +45,7 @@
 <li><p> Consider the special case <m>n = 2</m> and prove that a sufficient condition for <m>A \in  P \subseteq  M_{2\times 2}(\mathbb{R})</m> is that <m>A</m> has a zero determinant (i.e., <m>A</m> is singular) and <m>tr(A) = 1</m> where <m>tr(A) = a_{11}+ a _{22}</m> is the sum of the main diagonal elements of <m>A</m>.</p></li>
 <li><p> Is the condition of part b a necessary condition?</p></li>
 </ol></p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <!-- 
