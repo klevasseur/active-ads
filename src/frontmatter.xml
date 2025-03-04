@@ -25,14 +25,14 @@
 	</titlepage>
 
 	<colophon>
-		<edition> version 1.0</edition>
+		<edition> version 2.0</edition>
 		<website>
 			<url>http://discretemath.org</url>
     	</website>
 
 
 		<copyright>
-			<year>2021</year>
+			<year>2025</year>
 			<holder>Ken Levasseur</holder>
 			<minilicense>Creative Commons Attribution-Noncommercial-ShareAlike 3.0 United States License. 2011-2017</minilicense>
 <!-- 
@@ -86,10 +86,12 @@
     </paragraphs>
    
     
+<!-- 
 	<paragraphs>
         <title>Status</title>
         <p>As of the spring of 2020, <em>Part 1 - Fundamentals</em>, contains 24 chapters class-tested twice in the first semester course at UMass Lowell. This covers the first eight chapters of <em>Applied Discrete Structures</em>. <em>Part 2 - Structures</em> will contain another 23 chapters for use in a second semester course. Most have been class-tested a few times. </p>
     </paragraphs>
+ -->
 
 
 <p>The main web page for Applied Discrete Structures is <url href="http://discretemath.org"/> </p>
