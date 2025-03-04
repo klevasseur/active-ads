@@ -30,7 +30,7 @@
   <p>
     Peacham is either in Vermont or New Hampshire. If Peacham is in Vermont, then Peacham is in New England. If Peacham is in New Hamphire, then Peacham is in New England. Therefore, Peacham is in New England.</p>
 </blockquote>
-</statement><answer><p>Yes, this argument is valid.  Symbolically, it is 
+</statement><answer component="im"><p>Yes, this argument is valid.  Symbolically, it is 
 	<me>V \lor NH, V\rightarrow NE, NH\rightarrow NE \Rightarrow NE</me>
 which can be proven correct. </p></answer></exercise>
 

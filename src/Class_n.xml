@@ -7,13 +7,13 @@
 <question><title>Response Question</title><statement><p>   </p></statement></question>
 <p>Also, turn in solutions to these exercises:</p> 
 <exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution component="im"><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-NN"><title>In-Class Exercises</title>
 <p></p> 
 <exercises><exercisegroup>
-		<exercise><statement><p></p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p></p></statement><solution component="im"><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="handouts-NN"><title>Handouts</title>

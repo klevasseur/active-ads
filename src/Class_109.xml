@@ -7,8 +7,8 @@
 
 <p component="paper">Also, do these exercises:</p>
 <exercises component="paper">
-	<exercise><statement><p>Suppose <m>[G;*]</m> is a group with <m>a,b,c \in G</m>.   Solve the equation <me>a*x*a^{-1}*b= c</me	> for <m>x</m>.</p></statement><solution><p></p></solution></exercise>
-	<exercise><statement><p>Notice that <m>\{1,2,3\} \cap \{1,2\} = \{1,2,3,4\} \cap \{1,2\}</m>, yet <m>\{1,2,3\}  \neq \{1,2,3,4\} </m>. Does this contradict the <xref ref="theorem-11-3-cancellation" text="title"/>? Explain your answer.</p></statement><solution><p>A</p></solution></exercise>
+	<exercise><statement><p>Suppose <m>[G;*]</m> is a group with <m>a,b,c \in G</m>.   Solve the equation <me>a*x*a^{-1}*b= c</me	> for <m>x</m>.</p></statement><solution component="im"><p></p></solution></exercise>
+	<exercise><statement><p>Notice that <m>\{1,2,3\} \cap \{1,2\} = \{1,2,3,4\} \cap \{1,2\}</m>, yet <m>\{1,2,3\}  \neq \{1,2,3,4\} </m>. Does this contradict the <xref ref="theorem-11-3-cancellation" text="title"/>? Explain your answer.</p></statement><solution component="im"><p>A</p></solution></exercise>
 		</exercises>
 </section>
 <section xml:id="questions-109"><title>In-Class Exercises</title>
@@ -36,13 +36,13 @@
 </statement>
 <answer component="im"><p>Any of of the following theorems could be applied to make this observation: Cancellation Laws, Linear Equations in a Groups, or the Pigeonhole Principle.</p></answer></exercise>
 		<exercise><statement><p>Prove that if <m>a^2 = e</m> for all elements <m>a</m> in a group <m>G</m>, then <m>G</m> must be abelian.</p></statement><hint><p>Given <m>a, b \in G</m>, apply the premise to <m>a*b</m>.</p></hint></exercise>
-			<exercise><statement><p>Suppose <m>[G;*]</m> is a group and <m>a \in G</m>.  Define <m>f_a:G \to  G</m> by <m>f_a(x) = a * x</m>.  If we compose two such functions, <m>f_a</m> and <m>f_b</m> where <m>a, b \in G</m>, what function do we get for <m>f_a \circ f_b</m>?</p></statement><solution><p></p></solution></exercise>
+			<exercise><statement><p>Suppose <m>[G;*]</m> is a group and <m>a \in G</m>.  Define <m>f_a:G \to  G</m> by <m>f_a(x) = a * x</m>.  If we compose two such functions, <m>f_a</m> and <m>f_b</m> where <m>a, b \in G</m>, what function do we get for <m>f_a \circ f_b</m>?</p></statement><solution component="im"><p></p></solution></exercise>
 	
 <exercise>
 		<statement>
 		<p>This problem anticipates a future topic that you can plausibly discover on your own. Functions like the ones in the previous problem can be of use in this one.</p>
 		<p>Suppose <m>[G;*]</m> is a finite group of order <m>n</m>. The <xref ref="theorem-11-3-finite" text="title"/> in Section 10.3 states that if <m>a\in G</m>, there exists a positive integer, <m>m</m> less than <m>n</m> such that <m>a^m=e</m>.  Prove that the least such positive integer is a divisor of <m>n</m>.</p></statement>
-		<hint><p>You can partition <m>G</m> into subsets of equal cardinality.</p></hint><solution><p>Let <m>H</m> be the set of distinct powers of <m>a</m>.  This is a finite set since it's a subset of a finite set.  Pick any element <m>a</m> of <m>G</m> that's not in <m>H</m>.  The function <m>f_a:H \rightarrow G</m> from the last problem of the week is a one-to-one function (this implied by the cancellation laws).  The range of <m>f_a</m>,  <m>f_a(H)</m>, has the same cardinality as <m>H</m>.  Keep repeating the process, at each stage selecting an element of <m>G</m> that's not appeared in <m>H</m> or any of the ranges of functions from previous steps.   This process has to end in a finite number of steps and produces a partition of <m>G</m> into subsets all of the same cardinality as <m>H</m>.</p></solution>
+		<hint><p>You can partition <m>G</m> into subsets of equal cardinality.</p></hint><solution component="im"><p>Let <m>H</m> be the set of distinct powers of <m>a</m>.  This is a finite set since it's a subset of a finite set.  Pick any element <m>a</m> of <m>G</m> that's not in <m>H</m>.  The function <m>f_a:H \rightarrow G</m> from the last problem of the week is a one-to-one function (this implied by the cancellation laws).  The range of <m>f_a</m>,  <m>f_a(H)</m>, has the same cardinality as <m>H</m>.  Keep repeating the process, at each stage selecting an element of <m>G</m> that's not appeared in <m>H</m> or any of the ranges of functions from previous steps.   This process has to end in a finite number of steps and produces a partition of <m>G</m> into subsets all of the same cardinality as <m>H</m>.</p></solution>
 </exercise>
 </exercises>
 </section>

@@ -10,8 +10,8 @@
 		<exercises component="paper">
 		<exercise><statement>
 		     <p>Answer the following question:  siedem razy cztery = _____?</p>
-		         </statement><hint><p>The question is in Polish.</p></hint><solution><p></p></solution></exercise>
-		<exercise><statement><p>The two groups <m>\mathbb{Z}_4</m> and <m>\mathbb{U}_8</m> have the same order but are not isomorphic.  Give a reason why.</p></statement><solution><p></p></solution></exercise>
+		         </statement><hint><p>The question is in Polish.</p></hint><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>The two groups <m>\mathbb{Z}_4</m> and <m>\mathbb{U}_8</m> have the same order but are not isomorphic.  Give a reason why.</p></statement><solution component="im"><p></p></solution></exercise>
 		</exercises>
 
 </section>	
@@ -19,11 +19,11 @@
 <p></p>
 <exercises>
 		<exercise><statement>
-		<p>Write out the operation table for <m>G = [\{1, -1, i, -i \}; \cdot ]</m> where <m>i</m> is the complex number for which <m>i^2 = - 1</m>. Show that <m>G</m> is isomorphic to <m>\left[\mathbb{Z}_4;+_4\right]</m>.</p></statement><solution><p></p></solution></exercise>
+		<p>Write out the operation table for <m>G = [\{1, -1, i, -i \}; \cdot ]</m> where <m>i</m> is the complex number for which <m>i^2 = - 1</m>. Show that <m>G</m> is isomorphic to <m>\left[\mathbb{Z}_4;+_4\right]</m>.</p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise>
-		<statement><p>Solve <m>x^2= -1</m> in <m>G</m> by first translating the equation to <m>\mathbb{Z}_4</m>, solving the equation in <m>\mathbb{Z}_4</m>, and then translating back to <m>G</m>. </p></statement><solution><p></p></solution></exercise>
+		<statement><p>Solve <m>x^2= -1</m> in <m>G</m> by first translating the equation to <m>\mathbb{Z}_4</m>, solving the equation in <m>\mathbb{Z}_4</m>, and then translating back to <m>G</m>. </p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise><statement>
-		<p>Although <m>\mathbb{Z}_6</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_3</m> are both groups of order six and are isomophic, <m>\mathbb{Z}_8</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_4</m> are not isomophic even though they both have order eight.  Find a reason why this is the case.</p></statement><solution><p></p></solution></exercise>
+		<p>Although <m>\mathbb{Z}_6</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_3</m> are both groups of order six and are isomophic, <m>\mathbb{Z}_8</m> and <m>\mathbb{Z}_2 \times \mathbb{Z}_4</m> are not isomophic even though they both have order eight.  Find a reason why this is the case.</p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise>
 		<statement><p>Think about how you might represent a file of nonzero real numbers that you plan to multiply together with a computer so that the sign of each number is seperate from its magnitude.
 		<ol marker="(a)">

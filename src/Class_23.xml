@@ -5,17 +5,17 @@
 <idx>Derangements</idx>
 <section xml:id="reading-23"><title>Reading Assignment</title>
 <p>Read Section 8.4 of <em>Applied Discrete Structures</em>. There is no general method for solving all recurrence relations.  In this section we consider a few cases for which the method in Section 8.3 cannot be applied.</p>
-<question><title>Response Question</title><statement><p>  In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list.  What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with <m>n</m> items? </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  In this section we study algorithms for searching and sorting.  If you have data that isn't sorted, then the binary search algorithm can't be implemented and you must do a sequential search. In a sequential search your look at each item in a list until you find what you're looking for, or you reach the end of the list.  What is the average number of items you will examine in a successful, and in an unsuccessful search of a list with <m>n</m> items? </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: </p>
+	<exercises component="paper">
 <exercise><statement> <p>Prove that if <m>n \geq 0</m>, <m>\lfloor n/2\rfloor +\lceil n/2\rceil = n</m>.</p></statement></exercise>
 		
 <exercise><statement><p>One derangement of <m>\{1,2,3,4\}</m> is 2143.  List all others.</p></statement></exercise>
-		</exercisegroup></exercises>  
+		</exercises>  
 </section>
 <section xml:id="questions-23"><title>In-Class Exercises</title>
 <p> </p>
-<exercises><exercisegroup>
+<exercises>
 <exercise><statement>
 <p>The <em>selection sort</em> algorithm on a list of <m>n</m> proceeds first by finding the largest item in the list and placing it last, exchanging it with the <m>n</m>-th item, if necessary.  Then a selection sort sort of the first <m>n-1</m> items is conducted. Let <m>C(n)</m> be the number of comparisons needed to complete a selection sort of <m>n</m> items.   Find a recurrence relation and initial condition for <m>C</m> and solve it.</p></statement></exercise>
 
@@ -28,7 +28,7 @@
 <exercise><statement>
 <p>Among all continuous functions on the interval <m>[0,1]</m>, how many are derangements in that they have no fixed points?</p></statement></exercise>
 
-</exercisegroup></exercises>
+</exercises>
 </section>
  
 <section xml:id="s-inclusion-exclusion"><title>Inclusion-Exclusion</title>

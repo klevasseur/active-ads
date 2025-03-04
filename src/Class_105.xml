@@ -8,18 +8,18 @@
 <question component="paper"><title>Response Question</title><statement><p>In general, a family tree isn't really a tree in the sense of graph theory. Explain why.  You can assume links in the family tree are undirected.</p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises:</p>
 <exercises component="paper"><exercisegroup>
-		<exercise><statement><p>Given a tree with <m>n</m> vertices, <m>n \geq 2</m>, how many leaves (vertices of degree 1) could it have?</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>What can you say about the sum of the entries in the degree sequence of a tree?</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Given a tree with <m>n</m> vertices, <m>n \geq 2</m>, how many leaves (vertices of degree 1) could it have?</p></statement><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>What can you say about the sum of the entries in the degree sequence of a tree?</p></statement><solution component="im"><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-105"><title>In-Class Exercises</title>
 <p></p>
 <exercises>
 		<exercise><statement><p>Use the planarity of trees together with <xref ref="theorem-euler-formula-statement" text="title"/> to derive the relationship between the number of vertices and number of edges in a tree.</p>
-		</statement><solution><p></p></solution></exercise>
+		</statement><solution component="im"><p></p></solution></exercise>
 
 		<exercise><statement><p>Prove that every tree is bipartite, i. e., has a 2-coloring.</p>
-		</statement><solution><p></p></solution></exercise>
+		</statement><solution component="im"><p></p></solution></exercise>
 <exercise><statement>
 <p>Prove that the center of any tree can have no more than two vertices.</p>
 </statement>
@@ -29,7 +29,7 @@
 </solution>
 </exercise>
 			<exercise><statement><p>Prove that every connected graph which is not itself a tree must have at last three different spanning trees.</p>
-		</statement><solution><p></p></solution></exercise>
+		</statement><solution component="im"><p></p></solution></exercise>
 
 		<exercise><statement><p>Use Prim's algorithm starting at vertex 1 to find a minimal spanning tree for the following graph.</p>
 		<figure xml:id="fig-prim-1"><caption/>
@@ -37,7 +37,7 @@
 			  <description>A weighted undirected graph on 10 vertices. The edges are are given by the list of triples [[1,2,8],[1,5,6],[1,9,7],[1,10,10],[3,5,11],[3,7,9],[4,9,13],[5,8,12],[6,7,5],[6,10,13]], where the first two entries are the vertices of the edge and the last entry is its weight.</description>
 		 </image>
 		 </figure>
-		</statement><solution><p>The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}.  This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added.</p></solution></exercise>
+		</statement><solution component="im"><p>The edges that are added, in order are {1,5}, {1,9}, {1,2},{9,7}, {7,6},{7,3},{1,10},{5,8},{9,4}.  This assumes that if there is a tie in possibly adding an edge, the smallest vertex number is added, which is the case when {1,2} is added.</p></solution></exercise>
  <exercise>
     <statement>
       <p>

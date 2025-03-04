@@ -4,8 +4,8 @@
 <idx>Cosets</idx>
 <section xml:id="reading-118"><title>Reading Assignment</title>
 <p>Read Section 15.2 of <em>Applied Discrete Structures</em>. If you get confused in this section, think about the partition of the integers into even integers and odd integers.  There is a consistency in doing arithmetic on the integers where, for example, any time you add an even integer and an odd integer, you get an odd integer.  So <m>\textrm{even} + \textrm{odd} = \textrm{even}</m>.  This is coset addition!  For any group, the only way something like this can work is when the partition is into cosets, which is why we start by defining this set of subsets of a group. </p>
-<question><title>Response Question</title><statement><p>  How did Galois die, and why am I asking you this? </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
+<question component="paper"><title>Response Question</title><statement><p>  How did Galois die, and why am I asking you this? </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: 
 	<ol marker="1."><li>What does Lagrange's Theorem say about the possible subgroups of a group of order 12?</li>
 		<li>Let <m>H</m> be the subgroup <m>\{0,25,50,75\}</m> of the additive group <m>\mathbb{Z}_{100}</m>. How many distinct left cosets are there of <m>H</m>?  What coset contains the number 42? List its elements.</li>
 		</ol>  </p>

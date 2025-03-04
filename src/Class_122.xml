@@ -4,8 +4,8 @@
 <idx>Algebraic Coding</idx>
 <section xml:id="reading-122"><title>Reading Assignment</title>
 <p>Read the rest of  Section 15.5 of <em>Applied Discrete Structures</em>.  We consider how to correct transmission errors by using redundant information in a coded message.  This avoids having to ask for a message to be resent from the sender.</p>
-<question><title>Response Question</title><statement><p>Who was Claude Shannon and what is his connection with coding theory?  </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
+<question component="paper"><title>Response Question</title><statement><p>Who was Claude Shannon and what is his connection with coding theory?  </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: 
 	
 <ol marker="1.">
 		<li><p>What is the minimum Hamming distance between code words in the set <m>\{11100,00111,10001,01010\}</m>?  	

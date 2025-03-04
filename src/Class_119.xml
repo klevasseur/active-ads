@@ -4,8 +4,8 @@
 <idx>Permutation Groups</idx>
 <section xml:id="reading-119"><title>Reading Assignment</title>
 <p>Read the first two subsections of Section 15.3 of <em>Applied Discrete Structures</em>, stopping when you get to  Subsection 15.3.3. Our focus in this section is on whole sets of functions, but we also consider convenient ways to represent individual functions.  In most cases, you'll find that cycle notation is probably the best option, even though it might look strange at first.</p>
-<question><title>Response Question</title><statement><p>Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation.  Who did that?   </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
+<question component="paper"><title>Response Question</title><statement><p>Joseph-Louis Lagrange (1736-1813) first thought of permutations as functions from a set to itself. However, he didn't invent cycle notation.  Who did that?   </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: 
 	<ol marker="1"><li><p>Write the following elements of <m>S_5</m> as a product of disjoint cycles.
 			<ol marker="(a)" cols="2">
 				<li><p><m>\alpha=\left(

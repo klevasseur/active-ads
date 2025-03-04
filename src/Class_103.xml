@@ -7,20 +7,20 @@
 <!-- 
 <question><title>Response Question</title><statement><p>  In most applications to graph theory, the graphs are really too large to draw. One only imagines the graph. For example, imagine a graph representing the residents of a city of 100,000, with an edge between any two persons who live within 50  m. of one another.  Estimate the number of vertices you might have.  If you wanted to draw the graph, estimate how large a  square piece of paper you would need if the vertices were 1 mm. in radius.  </p></statement></question>
  -->
-<question><title>Response Question</title><statement><p>  You're certainly more familiar with the terms diameter, radius and center as they pertain to circles.  Compare their use for circles with their use in graph theory.   How are they similar and how are they different?    </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  You're certainly more familiar with the terms diameter, radius and center as they pertain to circles.  Compare their use for circles with their use in graph theory.   How are they similar and how are they different?    </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: </p>
+	<exercises component="paper">
 <exercise><statement><p>Draw the undirected graph that is represented by the following SageMath expression.
 			<c>Graph({1:[2,3,4],2:[3,5],3:[5,7],4:[6,7]})</c></p>
 		</statement></exercise>
 		
 <exercise><statement><p>In a breadth first search starting at vertex 2 of the graph in the previous problem, what would be the depth sets?</p></statement></exercise>
-		</exercisegroup></exercises>  
+		</exercises>  
 
 </section>
 <section xml:id="questions-103"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 
 <exercise><statement><p>Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment.</p></statement></exercise>
 	
@@ -43,7 +43,7 @@
 \end{array}
 \right)
 </me>
-Can you construct the graph from this matrix?</p></statement><answer><p>The diameter is 5, the radius is 3, and the center is <m>\{4,11\}</m>.</p></answer></exercise>
+Can you construct the graph from this matrix?</p></statement><answer component="im"><p>The diameter is 5, the radius is 3, and the center is <m>\{4,11\}</m>.</p></answer></exercise>
 
 	
 	
@@ -55,14 +55,14 @@ Can you construct the graph from this matrix?</p></statement><answer><p>The diam
 	  	<li><p>If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if <m>i</m> appears in the list of neighbors of <m>j</m>, then we don't need to list <m>j</m> in the list of neighbors of <m>i</m>.</p></li>
 	  	<li><p>If a list of ordered pairs is used, where each pair requires 16 bit, how many bits would be needed?  Assume that for any two vertices, <m>i</m> and <m>j</m>, only one of the pairs <m>(i,j)</m> and <m>(j,i)</m> need to be listed.</p></li>
 	  </ol>
-	</p></statement><answer><p><ol marker="(a)">
+	</p></statement><answer component="im"><p><ol marker="(a)">
 	  	<li><p>There are <m>4\cdot 7\cdot 5- 2\cdot7 - 2 \cdot 5= 116</m> edges.</p></li>
 	  	<li><p>Clearly the longest distance between pairs of desks is <m>4+6= 10</m>. The shortest longest distance from any desk is 5, which is the distance from the desk in the middle of the room, the fourth desk in row 3.  There are vertices with eccentricities for all integers between 5 and 10.  The radius is 5 and the diameter is 10.   The center contains only one desk, the middle one.</p></li>
 	  	<li><p>If an adjacency matrix is constructed for this graph with one bit (0/1) for each entry, how many bits would be needed?  Assume we only store the part of the matrix that appears to the top right of the main diagonal of the matrix since its symmetric.</p></li>
 	  	<li><p>If an edge dictionary is used in which eight bits are used for each vertex number and eight bits for each entry in the list of adjacent vertices, how many bits would be needed? Assume that if <m>i</m> appears in the list of neighbors of <m>j</m>, then we don't need to list <m>j</m> in the list of neighbors of <m>i</m>.</p></li>
 	  	<li><p>If a list of ordered pairs is used, where each pair requires 16 bit, how many bits would be needed?  Assume that for any two vertices, <m>i</m> and <m>j</m>, only one of the pairs <m>(i,j)</m> and <m>(j,i)</m> need to be listed.</p></li>
 	  </ol></p></answer></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <!-- 

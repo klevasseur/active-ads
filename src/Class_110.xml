@@ -4,7 +4,7 @@
 <idx>Modular Arithmetic</idx>
 <section xml:id="reading-110"><title>Reading Assignment</title>
 <p>Read Section 11.4 of <em>Applied Discrete Structures</em>. When you get to Investigation 11.4.1, skip down to Section 11.4.3 Modular Arithmetic. </p>
-<p> The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>Z_{12}</m>.</p>
+<p> The definitions of modular addition and multiplication in this section are <em>really important</em>.  They are used throughout the rest of the book.  The section starts with a review of division properties for integers in order to set up the modular operations.  Generally, the mod <m>n</m> operations are operations only on either <m>\mathbb{Z}_n</m>, or a subset of <m>\mathbb{Z}_n</m>.  For example, it wouldn't make sense to do mod 10 addition on <m>\mathbb{Z}_{12}</m>.</p>
 
 <question component="paper"><title>Response Question</title><statement><p>If the product of two numbers is zero, must one of the numbers equal zero?</p></statement></question>
 <p component="paper">Also, turn in solutions to the following exercises.  Both of them could be done using SageMath by typing two short inputs, but you are encouraged to write (or type) both of these be hand.</p> 
@@ -12,12 +12,12 @@
 			<exercise>
 				<statement><p>Compute by hand the greatest common divisor of <m>2028</m>  and <m>1001</m>.  Show the calculations you did to get your answer.</p>
 				</statement>
-				<solution><p></p></solution>
+				<solution component="im"><p></p></solution>
 			</exercise>
 			<exercise>
 				<statement><p>Write out the operation table for mod 4 addition on
 				 <m>\mathbb{Z}_4</m>.  Identify the inverse of each element.</p></statement>
-				<solution><p></p></solution>
+				<solution component="im"><p></p></solution>
 			</exercise>
 	</exercises>
 </section>
@@ -31,9 +31,9 @@
 		<solution component="im"><p></p></solution></exercise>
 
 		<exercise>
-			<statement><p>Write out the operation table for the multiplicative group of integers mod 8  on <m>\mathbb{U}_8= \{k \in \mathbb{Z}_8 \mid \gcd{(8,k)}=1\}</m>.  Identify the inverse of each element.</p>
+			<statement><p>Write out the operation table for the multiplicative group of integers mod 10  on <m>\mathbb{U}_{10}= \{k \in \mathbb{Z}_{10} \mid \gcd{(10,k)}=1\}</m>.  Identify the inverse of each element.  Compare this group to the group <m>\mathbb{U}_8</m>.  Are they similar?</p>
 			</statement>
-			<solution><p></p></solution>
+			<solution component="im"><p></p></solution>
 		</exercise>
 
 		<exercise>
@@ -42,19 +42,19 @@
 			 where <m>s(a)=a +_{29}11</m>.  Suggestion:  In this problem and the next one can use the symbols <m>\times</m> and <m>+</m> in your work instead of <m>\times_{29}</m> and <m>+_{29}</m> as long as we agree that they stand for mod 29 operations.</p>
 			</statement>
 			<answer component="im"><p><m>s^{-1}(a) = a +_{29} 18</m></p></answer>
-			<solution><p></p></solution></exercise>	
+			<solution component="im"><p></p></solution></exercise>	
 				
 			<exercise>
 			<statement><p>Find a formula for the inverse of the function 
 			<m>g: \mathbb{Z}_{29} \rightarrow  \mathbb{Z}_{29}</m>
 			 where <m>g(a)= 5\times_{29}a +_{29}25</m>. </p>
 			</statement><answer component="im"><p><m>g^{-1}(a) = 6 \times_{29}(a +_{29} 4)</m></p></answer>
-			<solution><p></p></solution></exercise>
+			<solution component="im"><p></p></solution></exercise>
 					<exercise>
 			<statement><p>Write out the operation table for mod 10 multiplication on
 			<m>T=\{2,4,6,8\}</m>. Is <m>[T;\times_{10}]</m>	 a monoid? Is it a group?</p>
 			</statement>
-			<solution><p></p></solution>
+			<solution component="im"><p></p></solution>
 		</exercise>
 			
 	</exercises>

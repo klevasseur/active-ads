@@ -32,7 +32,7 @@
 	<hint>
 		<p>Use the formula for the number of binary trees with <m>n</m> vertices.</p>
 	</hint>
-	<answer>
+	<answer component="im">
 		<p><m>\frac{1}{n} \binom{2(n-1)}{n-1}</m></p>
 	</answer>
 </exercise>	
@@ -81,7 +81,7 @@
 
 
 </statement>
-<solution>
+<solution component="im">
 <p><ol marker="(a)">
 			<li><p>The root of <m>B</m> is the root of the corresponding ordered rooted tree, which as no siblings.</p></li>
 			<li><figure xml:id="fig-ort-to-bt_sol"><caption></caption>

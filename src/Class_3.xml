@@ -12,7 +12,7 @@
 <exercise><title>Response Question</title><statement><p>   If <m>A</m> is a finite set, why is the number of elements in the power set of <m>A</m> a power of 2?  </p></statement></exercise>
 
 		<exercise><statement><p>Let <m>B=\{0,1\}</m>.  List elements of  <m>\mathcal{P}(B)</m>,  <m>B\times B</m> and <m>B\times B\times B</m>.</p></statement>
-		<answer><p><m>\mathcal{P}(B)=\{\emptyset,\{0\},\{1\},B\}</m>,  <m>B\times B=\{(0,0),(0,1),(1,0),(1,1)\}</m> , and <m>B\times B\times B==\{(0,0,0),(0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}</m> </p></answer></exercise>
+		<answer component="im"><p><m>\mathcal{P}(B)=\{\emptyset,\{0\},\{1\},B\}</m>,  <m>B\times B=\{(0,0),(0,1),(1,0),(1,1)\}</m> , and <m>B\times B\times B==\{(0,0,0),(0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}</m> </p></answer></exercise>
 
 		<exercise><statement><p>Calculate <m>\sum_{k=1}^3 (2k-1)</m>, <m>\sum_{k=1}^4 (2k-1)</m>, and <m>\sum_{k=1}^5 (2k-1)</m>.
 	    Do you see a pattern?</p></statement></exercise>

@@ -7,14 +7,14 @@
 <question  component="paper"><title>Response Question</title><statement><p>True or False?  Multiplication is an associative operation on the set <m>\{-1,1\}</m>.  Justify your answer.</p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises:</p> 
 <exercises component="paper">
-		<exercise><statement><p>Explain why subtraction is not an associative operation on the integers.</p></statement><solution><p>A counterexample to the associative property is all that is needed here, of which there are an infinite number of examples.  One such is <m>1-(2-3)\neq (1-2)-3</m>.</p></solution></exercise>
-		<exercise><statement><p>Write out the operation table for intersection on the <m>\mathcal{P}(\{0,1\})</m>, the power set of <m>\{0,1\}</m>. </p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>Explain why subtraction is not an associative operation on the integers.</p></statement><solution component="im"><p>A counterexample to the associative property is all that is needed here, of which there are an infinite number of examples.  One such is <m>1-(2-3)\neq (1-2)-3</m>.</p></solution></exercise>
+		<exercise><statement><p>Write out the operation table for intersection on the <m>\mathcal{P}(\{0,1\})</m>, the power set of <m>\{0,1\}</m>. </p></statement><solution component="im"><p></p></solution></exercise>
 </exercises>
 </section>
 <section xml:id="questions-107"><title>In-Class Exercises</title>
 <p></p> 
 <exercises>
-		<exercise><statement><p>What properties that are introduced in Secton 11.1 are true of intersection on the power set of <m>\{0,1\}</m>?.</p></statement><solution><p></p></solution></exercise>
+		<exercise><statement><p>What properties that are introduced in Secton 11.1 are true of intersection on the power set of <m>\{0,1\}</m>?.</p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise>
 		<statement><p>Consider the  operation <m>\square</m> on the  integers defined by  <me>a \square b  = a+b-1.</me>  
 	<ol marker="(a)">
@@ -23,7 +23,7 @@
 		<li><p> Does  <m>\square</m> have the inverse property?</p></li>
 		</ol></p>
 		</statement>
-		<solution><p>
+		<solution component="im"><p>
 		<ol marker="(a)">
 		<li><p>Yes, it is associative: 
 		<md>
@@ -34,7 +34,7 @@
 		</ol></p>		
 		</solution></exercise>
 		<exercise><statement><p>This question is open-ended, with no specific <q>right</q> answer.  Suppose that <m>V</m> is some finite nonempty set. What would be an example of a binary operation on the set of all undirected graphs with vertex set<m>V</m>?</p>
-		</statement><solution><p></p></solution></exercise>
+		</statement><solution component="im"><p></p></solution></exercise>
 		</exercises>
 </section>
 <!-- 

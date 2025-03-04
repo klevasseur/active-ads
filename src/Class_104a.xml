@@ -4,11 +4,11 @@
 <idx>Planarity</idx><idx>Graph Coloring</idx><idx>Chromatic Polynomial</idx>
 <section xml:id="reading-104a"><title>Reading Assignment</title>
 <p>Read Section 9.6 of <em>Applied Discrete Structures</em>. There are two main topics of this section. The first is planarity of graphs, whether a graph can be drawn on paper without having any edges crossing one another.  The second is coloring, the vertices of a graph are assigned colors with the rule that two vertices that are connected by an edge must have different colors.  The two topics are unified by the Four Color Theorem.</p>
-<question><title>Response Question</title><idx>Fáry, István</idx><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
+<question component="paper"><title>Response Question</title><idx>Fáry, István</idx><statement><p>Who was István Fáry and what did he prove about planar graphs?</p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises:</p> 
 <exercises component="paper"><exercisegroup>
 
-		<exercise><statement><p>Although a <m>K_{3,3}</m> it is not planar, it can be embedded on a torus without any edge crossings.  This is demonstrated in the video <url href="https://www.youtube.com/watch?v=k2O0Av_8_fo">https://www.youtube.com/watch?v=k2O0Av_8_fo</url>.  Watch the video and then dermine whether you can embed a <m>K_5</m> on a torus without any edge crossings.</p></statement><solution><p>_</p></solution></exercise>
+		<exercise><statement><p>Although a <m>K_{3,3}</m> it is not planar, it can be embedded on a torus without any edge crossings.  This is demonstrated in the video <url href="https://www.youtube.com/watch?v=k2O0Av_8_fo">https://www.youtube.com/watch?v=k2O0Av_8_fo</url>.  Watch the video and then dermine whether you can embed a <m>K_5</m> on a torus without any edge crossings.</p></statement><solution component="im"><p>_</p></solution></exercise>
 		<exercise><statement><p>Find a coloring of the following graph with as few colors as possible.  Use the letters <m>A,B,C,  \dots</m>> for colors and submit your answer in the form of a partition of <m>\{1,2,\dots, 8\}</m>:
 <me>\{\textrm{set of vertices with color }A, \textrm{set of vertices with color }B, \ldots\}</me> 
 
@@ -24,22 +24,22 @@
  \_\_ &amp; \_\_ &amp; \_\_ &amp; \_\_ &amp; \_\_ &amp;
    \_\_ &amp; \_\_ &amp; \_\_ \\
 \end{array}</me></p>
-		 </sidebyside></statement><solution><p></p></solution></exercise>
+		 </sidebyside></statement><solution component="im"><p></p></solution></exercise>
  		</exercisegroup></exercises>
 </section>
 <section xml:id="questions-104a"><title>In-Class Exercises</title> 
 <exercises>
-			<exercise><statement><p>If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must it have?</p></statement><solution><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
+			<exercise><statement><p>If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must it have?</p></statement><solution component="im"><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
 	<exercise><idx>Cubic Graph</idx><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
-		<answer><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
+		<answer component="im"><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
 	<exercise><statement><p>Suppose an undirected planar graph <m>G</m> has the following properties:
 	<ul><li><p>All vertices have degree three (this called a <term>cubic graph</term>)</p></li>
 	<li><p>All faces of the graph's planar embedding are hexagons and pentagons; i. e, they is made up of either five or six edges.</p></li></ul>
 	What can be said about the numbers of hexagons and pentagons in the graph?</p></statement>
-		<answer><p>There must be 12 pentagons. The number of hexagons cannot be determined.</p></answer></exercise>
-		<exercise><statement><p>Let's prove that a <m>K_{3,3}</m> is not planar.   Assume it is.  How many vertices and edges does it have?  Using Euler's formula, how many regions does it divide the plane into.  Using the fact that each region has a boundary of at least four edges (why not 3?), what can we conclude?  </p></statement><solution><p>_</p></solution></exercise>		
+		<answer component="im"><p>There must be 12 pentagons. The number of hexagons cannot be determined.</p></answer></exercise>
+		<exercise><statement><p>Let's prove that a <m>K_{3,3}</m> is not planar.   Assume it is.  How many vertices and edges does it have?  Using Euler's formula, how many regions does it divide the plane into.  Using the fact that each region has a boundary of at least four edges (why not 3?), what can we conclude?  </p></statement><solution component="im"><p>_</p></solution></exercise>		
 		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
-	</p></statement><solution><p>It is not possible to arrange grading as described.  If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks.
+	</p></statement><solution component="im"><p>It is not possible to arrange grading as described.  If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks.
 </p></solution></exercise>
 		<exercise><idx>chromatic polynomial of a graph</idx><statement><p>The chromatic polynomial of a graph, <m>G</m> is a polynomial <m>g(x)</m> such that for each positive integer <m>n</m>, <m>g(n)</m> equals the number of different ways you can color <m>G</m> with <m>n</m> colors.  For example, the chromatic polynomial of a <m>K_3</m> is <m>x(x-1)(x-2)</m>.
 		<ol marker="(a)">
@@ -47,7 +47,7 @@
 		<li><p>What is the chromatic polynomial of a <m>C_4</m>, a 4-cycle?</p></li>
 		<li><p>What is the chromatic polynomial of a <m>K_{3,3}</m>?</p></li>
 		<li><p>How are the chromatic number and the chromatic polynomial of a graph related?</p></li>
-		</ol></p></statement><solution><p><ol marker="(a)">
+		</ol></p></statement><solution component="im"><p><ol marker="(a)">
 		<li><p>The chromatic polynomial of a <m>K_4</m> is <m>x(x-1)(x-2)(x-3)</m>. This follows from the fact that each vertex must be colored differently.</p></li>
 		<li><p>The chromatic polynomial of a <m>C_4</m> is a bit more difficult to determine.   If we number the vertices 1 through 4 and start be coloring vertex 1, it can colored <m>x</m> ways.  Then going around a cycle of any length we color the next vertex so as to differ from the previous one.  However we run into a problem when we reach the last two vertices before reaching the start of the cycle.  For the <m>4</m>-cycle, vertex 1 can be colored <m>x</m> ways and vertex 2 can be colored <m>x-1</m> ways. We need to to partition the possibilities according to whether vertex 3 has the same color as vertex 1 or a different color.  If they have the same color, then there are <m>x-1</m> ways to color vertex 4.  If they differ in color, then there are <m>x-2</m> ways to color vertex 3, and then <m>x-2</m> ways to finish up coloring vertex 4. Therefore the chromatic polynomial is <m>x(x-1)((x-1)+(x-2)^2)= x(x-1)(x^2-3x+3)</m>.</p></li>
 		<li><p>The chromatic polynomial of a <m>K_{3,3}</m> is <m>x^6-9 x^5+36 x^4-75 x^3+78 x^2-31 x</m>. One way to derive this is as follows. We partition the possible ways to color the <q>left side</q> of the graph according to how many different colors are used.  It's possible to use the same color for all vertices, two colors for them or three different colors.  If the same color is used on the left, there are <m>x</m> ways to do that, and then <m>(x-1)^3</m> ways to color the right. If there are two colors used on the left, there are three ways to select the vertex that has a unique color and then there are <m>x(x-1)</m> ways to select the two colors. This second possible scheme is finished by coloring the right side in one of  <m>(x-2)^3</m> ways.  Finally, if all three of the left side vertices are colored differently, this can be done <m>x(x-1)(x-2)</m> ways and the right side can then be colored in one of <m>(x-3)^3</m> ways.  To sum up the total number of ways to color our graph is

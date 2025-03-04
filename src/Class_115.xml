@@ -4,8 +4,8 @@
 <idx>Boolean Algebras</idx>
 <section xml:id="reading-115"><title>Reading Assignment</title>
 <p>Read Section 13.3 of <em>Applied Discrete Structures</em>.  In this section we further restrict our attention to lattices that have the algebraic properties that are required of a Boolean Algebra. Propositional logic that we saw in Chapter 3 is prime model for what Boolean Algebra is like, but there several other concrete Boolean Algebras that we will consider.</p>
-<question><title>Response Question</title><statement><p>   Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra?  </p></statement></question>
-<p>Also, turn in solutions to these exercises: 
+<question component="paper"><title>Response Question</title><statement><p>   Why can't a lattice with three elements, a mininum element, a maximum element and third element between them be a boolean algebra?  </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: 
 	<ul><li>Let <m>D_n</m> be the set of positive integers that divide evenly into <m>n</m>.  List the elements of each of the sets <m>D_{6}, D_{16}, D_{12}\textrm{, and }D_{30}</m> </li>
 		<li><p>What is the complement of a logical proposition in the Boolean algebra of logic?</p></li>
 		</ul>  </p>

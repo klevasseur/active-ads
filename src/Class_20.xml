@@ -5,9 +5,9 @@
 <idx>Stack</idx>
 <section xml:id="reading-20"><title>Reading Assignment</title>
 <p>Read  Sections 8.1 and 8.2 of <em>Applied Discrete Structures</em>.  You will see a variety of things that are most easily described through self-reference.  Most computer languages allow recursion, which can be a powerful tool when used properly. </p>
-<question><title>Response Question</title><statement><p>  Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned.  </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  Recursion is used in both mathematics and computer programming. Most programming languages allow recursion and they use something called a <em>stack</em> to allow a function to <q>call</q> itself, such as in the python definition for the <xref ref="s-bsa" text="title"/>.  Google "what is a stack" and briefly describe, in your own words, what you've learned.  </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: </p>
+	<exercises component="paper">
 			
 <exercise><statement><p>Consider a sequence of strings, <m>L(n)</m> defined recursively by
 			 <m>L(n)=L(n-2)+L(n-2)+L(n-1)</m> with <m>L(0)="1"</m> and <m>L(1)="0"</m>. 
@@ -27,11 +27,11 @@
 				 7 &amp;   &amp;   \\
 				\end{array}</m>
 		</p></statement></exercise>
-		</exercisegroup></exercises>  
+		</exercises>  
 </section>
 <section xml:id="questions-20"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 		
 <exercise><statement><p>What is computed by the following function on the natural numbers?
 			 <me>f(n)=\begin{cases} 
@@ -51,7 +51,7 @@
 <exercise><statement><p>The length of a string is the number of characters in the string. Let <m>v(n)</m> be the length of <m>L(n)</m>, which was defined in the the homework problems.  Find a recursive description of <m>v(n)</m>.</p></statement></exercise>
 
 <exercise><statement><p><em>Fun Question</em>.  This last question comes from the BBC quiz show <q>Round Britain</q>. I expect that you would need to Google some of these references.  If Barker and Corbett encountered, sequentially, Kieslowski's colours, Blyton's adventurers, Tarantino's undesirables and Thurber's timepieces, how many pilots would they meet next?  The answer will appear at the end of the next chapter.</p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <section xml:id="s-bsa"><title>Binary Search Algorithm</title>

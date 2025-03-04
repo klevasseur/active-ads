@@ -4,12 +4,12 @@
 <idx>Graph Traversals</idx>
 <section xml:id="reading-104"><title>Reading Assignment</title>
 <p>Read Section 9.4 of <em>Applied Discrete Structures</em>.  In this section, we consider whether certain paths or circuits exist in a given graph.  Our objective will either be to trace every edge once or visit every vertex once.</p>
-<question><title>Response Question</title><statement><p>In the 18th century, Koenigsberg was  part of Prussia. In what country is it now? Besides its bridges, find one other fact about Koenigsberg.</p></statement></question>
-<p>Also, turn in solutions to these exercises:</p> 
-<exercises><exercisegroup>
-		<exercise><statement><p>In answering the question <q>Is every Eulerian graph also Hamiltonian?</q> Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once.  He concluded that this graph can't be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is <q>No!</q> Is his answer correct? Is his reasoning correct?  Explain your answers.</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>How many different Hamiltonian circuits are there of a <m>K_n</m>, <m>n \geq 3</m>, that start with the edge <m>(1,2)</m>?</p></statement><solution><p>There are <m>(n-2)!</m> circuits as described. </p></solution></exercise>
-		</exercisegroup></exercises>
+<question component="paper"><title>Response Question</title><statement><p>In the 18th century, Koenigsberg was  part of Prussia. In what country is it now? Besides its bridges, find one other fact about Koenigsberg.</p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises:</p> 
+<exercises component="paper">
+		<exercise><statement><p>In answering the question <q>Is every Eulerian graph also Hamiltonian?</q> Hansel pointed out an Eulerian circuit in a specific graph that visited several vertices more than once.  He concluded that this graph can't be Hamiltonian since a Hamiltonian circuit visits each vertex exactly once. Therefore, the answer to the question is <q>No!</q> Is his answer correct? Is his reasoning correct?  Explain your answers.</p></statement><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>How many different Hamiltonian circuits are there of a <m>K_n</m>, <m>n \geq 3</m>, that start with the edge <m>(1,2)</m>?</p></statement><solution component="im"><p>There are <m>(n-2)!</m> circuits as described. </p></solution></exercise>
+		</exercises>
 </section>
 <section xml:id="questions-104"><title>In-Class Exercises</title>
 <p></p> 
@@ -22,11 +22,11 @@
 		<li><figure><caption/><image width="100%" source="images/dominos2.png">
 			  <description>Twelve dominos with numbered pairs  		{1,2},{5,7},{1,4},{3,7},{4,5},{1,3},{2,3},{3,5},{3,6},{2,6},{2,7} and {1,5}.</description>
 		 </image></figure></li>
-		</ol></p></statement><solution><p>The answers to both parts can be arrived at by realizing that each domino can be thought of as an edge between vertices having the two numbers on the domino.  We are then asking for an Eulerian circuit or path in the corresponding graph.  A circuit exists  for the first set of dominos, but not the second. For the second, the degrees of four vertices are odd and so the dominos cannot be arranged as desired.	</p></solution></exercise>
-		<exercise><statement><p>A telephone company employee needs to check the telephone lines hanging from telephone poles for a cut in the line over a grid of streets in a city without service.  What graph theory problem is she going to have to solve if she wants to do this efficiently?</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>King Arthur and his knights are either friends with one another or are enemies.  He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve?</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>The Gray code for the 3-cube is not unique in that there are other Hamiltonian circuits that are not equal to <m>G_3</m> or its reverse.  Find one.   Is it your different in <q>shape</q> from <m>G</m>?   For the <m>n</m>-cube, <m>n \gt 3</m>, are there Hamiltonian paths that are different in shape from <m>G_n</m>?</p></statement><solution><p></p></solution></exercise>
-		<exercise><statement><p>Assume we number positions in the Gray Code <m>G_n</m> from 0 to <m>2^n-1</m>.  What is the bit string of in position 20 in the Gray code for the 6-cube? Where will you find 000101 in <m>G_6</m>?	 In what position in <m>G_{10}</m> will you find 0010010000?</p></statement><solution><p></p></solution></exercise>
+		</ol></p></statement><solution component="im"><p>The answers to both parts can be arrived at by realizing that each domino can be thought of as an edge between vertices having the two numbers on the domino.  We are then asking for an Eulerian circuit or path in the corresponding graph.  A circuit exists  for the first set of dominos, but not the second. For the second, the degrees of four vertices are odd and so the dominos cannot be arranged as desired.	</p></solution></exercise>
+		<exercise><statement><p>A telephone company employee needs to check the telephone lines hanging from telephone poles for a cut in the line over a grid of streets in a city without service.  What graph theory problem is she going to have to solve if she wants to do this efficiently?</p></statement><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>King Arthur and his knights are either friends with one another or are enemies.  He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve?</p></statement><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>The Gray code for the 3-cube is not unique in that there are other Hamiltonian circuits that are not equal to <m>G_3</m> or its reverse.  Find one.   Is it your different in <q>shape</q> from <m>G</m>?   For the <m>n</m>-cube, <m>n \gt 3</m>, are there Hamiltonian paths that are different in shape from <m>G_n</m>?</p></statement><solution component="im"><p></p></solution></exercise>
+		<exercise><statement><p>Assume we number positions in the Gray Code <m>G_n</m> from 0 to <m>2^n-1</m>.  What is the bit string of in position 20 in the Gray code for the 6-cube? Where will you find 000101 in <m>G_6</m>?	 In what position in <m>G_{10}</m> will you find 0010010000?</p></statement><solution component="im"><p></p></solution></exercise>
 		</exercisegroup></exercises>
 </section>
 <!-- 

@@ -4,34 +4,34 @@
 <idx>Homogeneous Recurrence Relations</idx>
 <section xml:id="reading-21"><title>Reading Assignment</title>
 <p>Read the first three subsections of Section 8.3 of <em>Applied Discrete Structures</em>.  This will take you up to, but not including the section titled <q>Solution of Nonhomogeneous Finite Order Linear Relations</q>.   Again, the key is to make sure you become familiar with the terms that are introduced in this section.</p>
-<question><title>Response Question</title><statement><p>  One of the main reasons why recurrence relations are part of this course is that the time and/or memory needs of a computer algorithm are often measured by first identifying a recurrence relation.  Once solved, many sorting algorithm are found to take a time that is proportional to <m>n^2</m> to sort <m>n</m> items.  If you are using an algorithm of this type, and it takes three minutes to sort a file with 10 million items, how long would you expect the algorithm to take to sort 20 million items? </p></statement></question>
-<p>Also, turn in solutions to these exercises: </p>
-	<exercises><exercisegroup>
+<question component="paper"><title>Response Question</title><statement><p>  One of the main reasons why recurrence relations are part of this course is that the time and/or memory needs of a computer algorithm are often measured by first identifying a recurrence relation.  Once solved, many sorting algorithm are found to take a time that is proportional to <m>n^2</m> to sort <m>n</m> items.  If you are using an algorithm of this type, and it takes three minutes to sort a file with 10 million items, how long would you expect the algorithm to take to sort 20 million items? </p></statement></question>
+<p component="paper">Also, turn in solutions to these exercises: </p>
+	<exercises component="paper">
 	
 <exercise><statement><p>Find a closed form expression that for the sequence <m>S(n)</m> if  <m>S(0)=4</m> and <m>S(n)=3 \cdot S(n-1)</m> if <m>n \gt 0</m>.</p></statement></exercise>
 	
 <exercise><statement><p>Find a closed form expression that for the sequence <m>T(n)</m> 
 	   if  <m>T(0)=1</m>, <m>T(1)= 5</m> and <m>T(n)- 3\cdot T(n-1) -4 \cdot T(n-2)=0</m>
 	    if <m>n \gt 2</m>.</p></statement></exercise>
-	</exercisegroup></exercises>  
+	</exercises>  
 
 </section>
 <section xml:id="questions-21"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 
 <exercise><statement><p>Find a closed form expression that for the sequence <m>V(n)</m> if  <m>V(0)=2</m>, <m>V(1)= 3</m> and <m>V(n)= \frac{1}{2}\cdot V(n-1)+ \frac{1}{2}\cdot V(n-2)</m> if <m>n \geq 2</m>.</p></statement>
-<answer><p><m>V(n)=\frac{8}{3}+\frac{2}{3} (-\frac{1}{2})^{n+1}</m></p></answer>
+<answer component="im"><p><m>V(n)=\frac{8}{3}+\frac{2}{3} (-\frac{1}{2})^{n+1}</m></p></answer>
 </exercise>
 
 <exercise><statement><p>Find a closed form expression that for the sequence <m>Q(n)</m> if  <m>Q(0)=3</m>, <m>Q(1)= 0</m> and <m>Q(n)=6\cdot Q(n-1)-9\cdot Q(n-2)</m> if <m>n \geq 2</m>.</p></statement>
-<answer><p><m>Q(n)=(1-n)3^{n+1}</m></p></answer>
+<answer component="im"><p><m>Q(n)=(1-n)3^{n+1}</m></p></answer>
 </exercise>
 
 <exercise><statement><p>The recurrence relation <m>R(n)=R(n-1)+2^n</m>, <m>n \geq 1</m> is non-homogeneous.  This is the subject of the next class, but it can be turned into a second order homogeneous recurrence relation.  This can be done by replacing <m>n</m> with <m>n-1</m> in the recurrence relation and multiplying that equation by 2.   You can then eliminate the <m>2^n</m> term. Find the general solution to the resulting second order recurrence relation.</p></statement></exercise>
 
 <exercise><statement><p>The <xref ref="def-fibonacci-sequence" text="title" />  is a second order homogeneous linear recurrence relation. It's characteristic roots are no so nice and clean as some of the examples we've seen, but developing a closed form solution is made easier by the fact that if <m>\alpha</m> and <m>\beta</m> are its two characteristic roots, then <m>\alpha + \beta = 1</m> and <m>\alpha \cdot \beta =-1</m>.  Verify this and then solve for a closed form expression for <m>F_k</m>.</p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 </section>
 <section xml:id="def-fibonacci-sequence"><title>Fibonacci Sequence</title><idx>Fibonacci Sequence</idx><p>The Fibonacci Sequence is the sequence <m>F</m> defined by 
 
