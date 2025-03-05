@@ -24,7 +24,7 @@
 	
 		<edition> version 2.0</edition>
 		<website>
-			<url>http://discretemath.org</url>
+			<url href="https://discretemath.org">https://discretemath.org</url>
     	</website>
     <copyright>
 			<year>2025</year>
@@ -48,7 +48,7 @@
 <title>Dedication</title>
 <p>To Karen</p>
 </dedication>
-	<!-- Accepted order: acknowledgements, forewords, prefaces -->
+		<!-- Accepted order: acknowledgements, forewords, prefaces -->
 <!-- 
 <xi:include href="./acknowledgement.xml" />
  -->
