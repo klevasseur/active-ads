@@ -18,16 +18,15 @@ For each of the following propositions, identify simple propositions, express th
 <li><p><m>2/3 \in  \mathbb{Z}</m> and <m>2/3 \in  \mathbb{Q}</m>.</p></li>
 <li><p>The sum of two even integers is even and the sum of two odd integers is odd.</p></li>
 </ol></p></statement></exercise>
+
 		<exercise><statement><p>Construct the truth tables of:
-<ol marker="(a)" cols="2">
-<li><p>  <m>\neg (p\land  q )</m></p></li>
-<li><p> <m><exercise><statement><p>Construct the truth tables of:
-<ol marker="(a)" cols="2">
-<li><p>  <m>\neg (p\land  q )</m></p></li>
-<li><p> <m>(p \land q)\land r</m> </p></li>
-</ol></p></statement></exercise></m> </p></li>
-</ol></p></statement></exercise>
-		</exercises>
+		<ol marker="(a)" cols="2">
+		<li><p>  <m>\neg (p\land  q )</m></p></li>
+		<li><p> <m>(p \land q)\land r</m> </p></li>
+		</ol>
+		</p></statement>
+		</exercise>
+	</exercises>
 </section>
 <section xml:id="questions-6"><title>In-Class Exercises</title>
 <p></p>

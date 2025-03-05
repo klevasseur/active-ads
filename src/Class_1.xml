@@ -6,7 +6,7 @@
 </section>
 <section xml:id="questions-1"><title>In-class Exercises</title>
 <p>Work on these in class</p>
-<exercises><exercisegroup>
+<exercises>
   		<exercise number="1">
         <statement><p>Spend a few minutes looking at the tables in <xref ref="handouts-1"/> and make a few observations.</p></statement></exercise>
 
@@ -29,7 +29,7 @@
 		<exercise number="7">
 <statement><p>  How can you quickly tell whether a number represented in base 10  is a multiple of 9?  Can you quickly tell whether a number represented in base 2  is a multiple of 9?</p></statement></exercise>
 		
-	</exercisegroup></exercises>
+	</exercises>
 </section>
 <section xml:id="handouts-1"><title>Binary Conversion Tables</title>
 <p>Look for patterns in these two tables. The second gives the binary form of integers padded with 0's so as to contain exactly 4 bits.</p>

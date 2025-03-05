@@ -7,7 +7,7 @@
 <p>Read Sections 3.8 and 3.9 of <em>Applied Discrete Structures</em>.  Quantifiers are used to say something about the truth sets of propositions.  You will read about two basic ones (Universal and Existential).  Individually, they are fairly simple.  Where things can be tricky is when when you have more than one variable and you mix the two types of quantifiers, or you negate a quantified expression.  Pay close attention to these situations. </p>
 <question component="paper"><title>Response Question</title><statement><p>  In reviewing a certain local coffee roaster, a writer stated  "...but all of its coffee is not fair trade." The writer was rebutting a claim by the roaster that "All of our coffee is fair trade."  Explain why the reviewer's statement was incorrect. </p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises: </p>
-	<exercises component="paper"><exercisegroup>
+	<exercises component="paper">
 <exercise><statement> <p>Let <m>M(x)</m> be <q><m>x</m> is a mammal,</q> let <m>A(x)</m> be <q><m>x</m> is an animal,</q> and let <m>W(x)</m> be <q><m>x</m> is warm-blooded.</q></p>
 <p><ol marker="(a)">
 <li><p>Translate into a formula: Every mammal is warm-blooded.</p></li>
@@ -17,7 +17,7 @@
 		
 <exercise><statement><p>Write out a complete proof that if <m>n</m> is an integer, <m>n^2</m> is even if and only if <m>n</m> is even.
 </p></statement></exercise>
-		</exercisegroup></exercises>  
+		</exercises>  
 </section>
 <section xml:id="questions-10"><title>In-Class Exercises</title>
 <p></p>

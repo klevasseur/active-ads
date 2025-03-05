@@ -7,7 +7,7 @@
 <question component="paper"><title>Response Question</title><statement><p>  In mathematics, the word partition is used in two contexts. One is for partitions of sets, as described in Section 2.3. The other is for partitions of a positive integer.  An example of a partition of <m>5</m> is <m>3+1+1</m>, a sum of positive integers equal to <m>5</m>. It is customary to write the terms of the sum in non-increasing order since <m>1+3+1</m> is considered the same partition of <m>5</m>. The other partitions of 5 are <m>5</m>, <m>4+1</m>, <m>3+2</m>, <m>2+2+1</m>, <m>2+1+1+1</m>, and <m>1+1+1+1+1</m>. How might a listing of all partitions of an integer like <m>5</m> help in listing all partitions of a set with that many elements? </p></statement></question>
 
 <p component="paper">Exercises to do and turn in:</p>
-<exercises component="paper"><exercisegroup>
+<exercises component="paper">
    	<exercise><statement><p>Which of the following collections of subsets of the plane, <m> \mathbb{R}^2</m>, are partitions?
    		<ol marker="(a)">
 			<li><p><m> \{ \{(x, y) \mid x + y = c \} \mid c \in \mathbb{R} \}</m></p></li>
@@ -17,7 +17,7 @@
 			<li><p><m>\{\{(x, y)\} \mid (x, y) \in \mathbb{R}^2  \} </m></p></li>
 		</ol></p></statement></exercise>
    <exercise><statement><p> The congressional committees on mathematics and computer science are made up of five representatives each, and a congressional rule is that the two committees must be disjoint. If there are 385 members of congress, how many ways could the committees be selected?</p></statement></exercise>
-   </exercisegroup></exercises>
+   </exercises>
 </section>
 <section xml:id="questions-5"><title>In-Class Exercises</title>
 <p></p>
@@ -41,7 +41,7 @@
 <figure xml:id="fig-lattice-path-6">
        			<caption>A lattice path</caption>
                <image width="50%" source="images/fig-lattice-path-6.png">
-                    <description>An example of a lattice path</description>
+                    <description><p>An example of a lattice path</p></description>
                 </image>
       </figure></statement></exercise>
 <exercise><statement><p>Consider the set of lattice paths from <m>(0,0)</m> to <m>(8,8)</m>.  You should know one quick formula for the cardinality of that set.  However, counting a different way can lead to an interesting  identity involving binomial coefficients.  Notice that any path goes through exactly one of the points <m>(0,8), (1,7), (2,6), \dots , (8,0)</m>.  Count the number of lattice paths that go through each of those 9 points - leave the expression in terms of binomial coefficients.  Even more interesting is what you get if  generalize to a destination of <m>(n,n)</m>, <m>n \geq 1</m>. </p></statement></exercise>
@@ -52,12 +52,12 @@
 <p>Here are a couple of lattices for you to doodle with.</p>
 <sidebyside widths="45% 45%">	<figure><caption/>
 		 <image width="50%" source="images/graphpaper8.png">
-			  <description>An 8 by 8 lattice.</description>
+			  <description><p>An 8 by 8 lattice.</p></description>
 		 </image>
 		 </figure>
 		<figure><caption/>
 		 <image width="50%" source="images/graphpaper8.png">
-			  <description>Another 8 by 8 lattice.</description>
+			  <description><p>Another 8 by 8 lattice.</p></description>
 		 </image>
 		 </figure>
 </sidebyside>			 

@@ -5,7 +5,7 @@
 <p>Read Sections 4.1  and 4.2 of <em>Applied Discrete Structures</em>.  In these sections, we revisit some of the set theory from Chapter 1, applying some of the logic in Chapter 3. Be aware of the types of objects that are in the sets involved in a proof.  One example is that when you are proving something about Cartesian products, the objects usually need to be identified as ordered pairs, not simply as single variables.</p>
 <question component="paper"><title>Response Question</title><statement><p>  Compare the Laws of Set Theory in Section 4.2 of Applied Discrete Structures with the Basic Laws of Logic in Section 3.5 of Applied Discrete Structures.  Focus on any two different laws of set theory that you choose and discuss how they are similar to two logic laws.  </p></statement></question>
 <p component="paper">Also, turn in solutions to these exercises:</p>
-    <exercises component="paper"><exercisegroup>
+    <exercises component="paper">
 <exercise><statement><p>Write the converse of the following true statements and prove or disprove them.
     		<ol marker="(a)">
 <li><p>Let <m>A</m>, <m>B</m>, and <m>C</m> be sets. If <m>A\subseteq B</m> and <m>B\subseteq C</m>, then <m>A\subseteq C</m>.</p></li>
@@ -18,11 +18,11 @@
 <li>Prove the Identity Law for sets  with a membership table.</li>
 <li>Prove the Involution Law  for sets using basic definitions.</li>
 </ol></p></statement></exercise>
-        </exercisegroup></exercises>  
+        </exercises>  
 </section>
 <section xml:id="questions-11"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
             
 <exercise><statement><p>What can one say about the sets <m>A</m> and <m>B</m> if we
         know the following?  Back up your answers with proofs.
@@ -57,7 +57,7 @@
     </md>
     If either is not true, can you replace the equals sign with <m>\subseteq</m> or <m>\supseteq</m> to get a true statement?
     </p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 <section><title>The Basic Laws of Set Theory</title>

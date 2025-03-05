@@ -44,7 +44,7 @@
 
 </section>
 <section xml:id="questions-2"><title>In-Class Exercises</title>
-<p></p><exercises><exercisegroup>
+<p></p><exercises>
   		<exercise number="1"><statement><p> 
  Use set-builder notation to describe the following sets of positive integers: 
 <ol marker="(a)">
@@ -75,7 +75,7 @@ In the following questions, assume <m>U=\{1,2,3,4,5\}</m> with the ordering as l
 			<li><p>What are the bit strings for <m>A=\{1,2,3\}</m> and <m>B=\{1,3,5\}</m>?</p></li>
 			<li><p>What are the general rules for determining the the bit strings for <m>A\cap B</m> and <m>A \cup B</m>?  What their bit strings in this particular case?</p> </li></ol>
 </p></statement></exercise>
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-2"><title>Handouts</title>

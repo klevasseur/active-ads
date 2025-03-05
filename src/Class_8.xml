@@ -17,6 +17,7 @@
 </section>
 
 <section xml:id="questions-8"><title>In-Class Exercises</title>
+<p></p>
 <exercises>
 		
 <exercise><statement><p>Prove either directly or indirectly:
@@ -27,7 +28,7 @@
 
 			
 <exercise><statement>
-<commentary component="im"><title>Why ask this here?</title> <idx>commentary</idx><p>This problem looks like it belongs in an earlier class.  It might be argued that it's fine that we are revisting older material, but it is actually placed here to set up the next topic, proof by induction.  When students complete this problem, they should have come up with a closed form expression for the sum of the squares of the first <m>n</m> positive integers. However the logic is just tricky enough that you could argue that whatever is arrived could be flawed.  This is where proof by induction can naturally be introduced!</p></commentary>
+<p component="im"><em>Why ask this here?</em> This problem looks like it belongs in an earlier class.  It might be argued that it's fine that we are revisting older material, but it is actually placed here to set up the next topic, proof by induction.  When students complete this problem, they should have come up with a closed form expression for the sum of the squares of the first <m>n</m> positive integers. However the logic is just tricky enough that you could argue that whatever is arrived at could be flawed.  This is where proof by induction can naturally be introduced!</p>
 <p>There are <m>n+1</m>, <m>n\ge 1</m> people who want to go to a concert.  All have different ages. You have three tickets: a back-stage pass and two regular (but distinguishable) tickets. Here are the rules for passing out the tickets:
     	<ul>
 			<li>The backstage pass must go to the oldest person who gets a ticket.</li>
@@ -93,4 +94,4 @@
  </tabular>
 </table>
 </section>
-</chapter>	
+</chapter>
