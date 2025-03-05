@@ -13,7 +13,7 @@
 					<figure xml:id="fig-relation-graph">
 					<caption>Digraph of <m>s</m></caption>
 					<image  width="50%" source="images/fig-relation-graph.png">
-					<description>A graph with six vertices defined by the dictionary {1:[3,5],2:[4],3:[4],4:[6],5:[4],6:[2]}</description>
+					<description><p>A graph with six vertices defined by the dictionary {1:[3,5],2:[4],3:[4],4:[6],5:[4],6:[2]}</p></description>
 					</image>
 					</figure>
 <p>		<ol marker="(a)">

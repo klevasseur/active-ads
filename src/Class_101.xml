@@ -4,7 +4,7 @@
 <introduction><p>In the first class of the second semester, some time will be taken to review the course format and syllabus.  In the remaining time, work on problems that review some of the fundamental concepts from the first semester.</p></introduction>
 <section xml:id="questions-101"><title>In-Class Exercises</title>
 <p></p>
-<exercises><exercisegroup>
+<exercises>
 
 <exercise><statement><p>Prove that if <m>f</m> and <m>g</m> are bijections on a set <m>X</m>, then <m>g \circ f</m> is also a bijection on <m>X</m>. </p></statement></exercise>
 
@@ -44,7 +44,7 @@ which can be proven correct. </p></answer></exercise>
 <exercise><statement><p>Prove that if <m>n</m> is an integer and you divide <m>n^2</m> by 5, then the remainder is always 0, 1, or 4.</p></statement></exercise>
 
 <exercise><statement><p>Prove that the square root of 5 is an irrational number.</p></statement></exercise>
-</exercisegroup></exercises>
+</exercises>
 
 </section>
 	</chapter>	
