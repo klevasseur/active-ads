@@ -13,7 +13,7 @@
 </section>
 <section xml:id="questions-104"><title>In-Class Exercises</title>
 <p></p> 
-<exercises><exercisegroup>
+<exercises>
 		<exercise><statement><p>For each of the following sets of twelve dominos, is it possible to arrange them end-to-end so that touching ends have matching numbers and the numbers at the two ends of the line match?
 		<ol marker="(a)">
 		<li><figure><caption/><image width="100%" source="images/dominos1.png">
@@ -27,7 +27,7 @@
 		<exercise><statement><p>King Arthur and his knights are either friends with one another or are enemies.  He has called a meeting of all of his knights and would like to have them seated at his huge round table so that each knight is seated next to two friends. What graph theory problem is he going to have to solve?</p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise><statement><p>The Gray code for the 3-cube is not unique in that there are other Hamiltonian circuits that are not equal to <m>G_3</m> or its reverse.  Find one.   Is it your different in <q>shape</q> from <m>G</m>?   For the <m>n</m>-cube, <m>n \gt 3</m>, are there Hamiltonian paths that are different in shape from <m>G_n</m>?</p></statement><solution component="im"><p></p></solution></exercise>
 		<exercise><statement><p>Assume we number positions in the Gray Code <m>G_n</m> from 0 to <m>2^n-1</m>.  What is the bit string of in position 20 in the Gray code for the 6-cube? Where will you find 000101 in <m>G_6</m>?	 In what position in <m>G_{10}</m> will you find 0010010000?</p></statement><solution component="im"><p></p></solution></exercise>
-		</exercisegroup></exercises>
+		</exercises>
 </section>
 <!-- 
 <section xml:id="handouts-104"><title>Handouts</title>
