@@ -10,7 +10,9 @@
 		<li> The <em>shape</em> of a permutation, <m>\sigma</m> in <m>S_n</m> is the sequence of lengths of the cycles in the representaion of <m>\sigma</m> as a product of disjoint cycles. The lengths are written in descending order.  For example, if <m>\sigma = (1,3,4)(8,11)(2,5,6,7)(9,10)(12) \in S_{12}</m>, then its shape is  4,3,2,2,1.  List all possible shapes of elements in <m>S_4</m>.  Give an example a permutation with each shape, determine its order, and count the number of permutations with that shape.</li>
 		</ul>  </p>
 </section>
-<section xml:id="questions-120"><title>In-Class Exercises</title>
+<section xml:id="questions-120"><title>In-Class Exercises</title><idx>Group Automorphism</idx>
+<definition><title>Graph Automorphism</title><statement><p>For any graph <m>[V,E]</m>, an automorphism on <m>G</m> is an isomorphism from <m>G</m> into <m>G</m>.</p></statement></definition>
+<p>Note that there is always at least one automorphism on a graph, the identity function <m>i</m>. If the vertex set of a graph is the set <m>\{1,2,\dots,n\}</m>, then the set of automorphisms of is a subgroup of <m>S_n</m>.</p>
 <p>
 <ol marker="1.">
 <li><p>Prove that <m>H =\{\sigma \in S_5 \mid \sigma(5)=5 \}</m> is a subgroup of <m>S_5</m>.  How many elements does <m>H</m> have?</p></li>
