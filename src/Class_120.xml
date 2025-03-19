@@ -11,7 +11,7 @@
 		</ul>  </p>
 </section>
 <section xml:id="questions-120"><title>In-Class Exercises</title><idx>Group Automorphism</idx>
-<definition><title>Graph Automorphism</title><statement><p>For any graph <m>[V,E]</m>, an automorphism on <m>G</m> is an isomorphism from <m>G</m> into <m>G</m>.</p></statement></definition>
+<definition><title>Graph Automorphism</title><statement><p>For any graph <m>G=[V,E]</m>, an automorphism on <m>G</m> is an isomorphism from <m>G</m> into <m>G</m>.</p></statement></definition>
 <p>Note that there is always at least one automorphism on a graph, the identity function <m>i</m>. If the vertex set of a graph is the set <m>\{1,2,\dots,n\}</m>, then the set of automorphisms of is a subgroup of <m>S_n</m>.</p>
 <p>
 <ol marker="1.">
