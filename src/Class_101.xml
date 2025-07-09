@@ -6,7 +6,7 @@
 <p></p>
 <exercises>
 
-<exercise><statement><p>Prove that if <m>f</m> and <m>g</m> are bijections on a set <m>X</m>, then <m>g \circ f</m> is also a bijection on <m>X</m>. </p></statement></exercise>
+<exercise><statement><p>Prove that if <m>f</m> and <m>g</m> are one-to-one functions on a set <m>X</m>, then <m>g \circ f</m> is also a one-to-one function on <m>X</m>. Note: You might be more familiar with the term <em>injection</em> or <em>injective function</em> for a one-to-one function.  They all mean the same thing.</p></statement></exercise>
 
 <exercise><statement><p>Partition the set <m>X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}</m> into equivalence classes according to the relation congruence modulo 4, <m>\equiv_4</m>.</p></statement></exercise>
 
