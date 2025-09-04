@@ -46,7 +46,7 @@ which can be proven correct. </p></answer></exercise>
 <exercise><statement><p>Prove that the square root of 5 is an irrational number.</p></statement></exercise>
 
 <exercise><statement><p>Solve the recurrence relation <m>e_n=2 e_{n-1}+2^{n-1}</m> with initial condition <m>e_1 = 1</m>. Recall that solving a recurrence relation means finding  closed form expression for the sequence it defines.</p></statement>
-<solution component="im"><m>e_n= n 2^{n-1}</m><solution></exercise>
+<solution component="im"><p><m>e_n= n 2^{n-1}</m></p></solution></exercise>
 
 
 
