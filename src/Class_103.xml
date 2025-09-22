@@ -22,7 +22,8 @@
 <p></p>
 <exercises>
 
-<exercise><statement><p>Determine the eccentricities of each vertex, and the diameter, radius, and center of the graph in exercise 1 of the reading assignment.</p></statement></exercise>
+<exercise><statement><p>Determine the eccentricities of each vertex, and the diameter, radius, and center of the undirected graph that is represented by the following SageMath expression.
+			<c>Graph({1:[2,3,4],2:[3,5],3:[5,7],4:[6,7]})</c></p></statement></exercise>
 	
 	<exercise><statement><p>Determine the diameter, radius, and center of the graph with the following distance matrix, where <m>D_{i,j}</m> is the length of the shortest path from <m>i</m> to <m>j</m>.  
 	<me>

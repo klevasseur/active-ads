@@ -29,15 +29,15 @@
 </section>
 <section xml:id="questions-104a"><title>In-Class Exercises</title> 
 <exercises>
-			<exercise><statement><p>If a planar graph with 12 vertices divides the plane into 21 regions, how many edges must it have?</p></statement><solution component="im"><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
-	<exercise><idx>Cubic Graph</idx><statement><p>The graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
+			<exercise><statement><p>If a connected planar graph with 12 vertices divides the plane into 21 regions, how many edges must it have?</p></statement><solution component="im"><p>Using Euler's formula, since <m>v+r-e=12+21-e=2</m>, <m>e=31</m> </p></solution></exercise>
+	<exercise><statement><p>A connected planar graph <m>G</m> has vertices with degree sequence <m>(5, 3, 3, 2, 2, 1)</m>. How many edges does it have? If it is planar, into how many regions of the plane does it divide?  Does <m>G</m> have an Eulerian path?</p></statement>
 		<answer component="im"><p>The degree sequence indicates that <m>v=6</m> and <m>e=8</m>. Since <m>v +r - e=6+r-8=2</m>, <m>r = 4</m>.</p></answer></exercise>
-	<exercise><statement><p>Suppose an undirected planar graph <m>G</m> has the following properties:
+	<exercise><idx>Cubic Graph</idx><statement><p>Suppose a connected planar graph <m>G</m> has the following properties:
 	<ul><li><p>All vertices have degree three (this called a <term>cubic graph</term>)</p></li>
 	<li><p>All faces of the graph's planar embedding are hexagons and pentagons; i. e, they is made up of either five or six edges.</p></li></ul>
 	What can be said about the numbers of hexagons and pentagons in the graph?</p></statement>
 		<answer component="im"><p>There must be 12 pentagons. The number of hexagons cannot be determined.</p></answer></exercise>
-		<exercise><statement><p>Let's prove that a <m>K_{3,3}</m> is not planar.   Assume it is.  How many vertices and edges does it have?  Using Euler's formula, how many regions does it divide the plane into.  Using the fact that each region has a boundary of at least four edges (why not 3?), what can we conclude?  </p></statement><solution component="im"><p>_</p></solution></exercise>		
+		<exercise><statement><p>Let's prove that a <m>K_{3,3}</m> is not planar.   Assume it is.  How many vertices and edges does it have?  Using Euler's formula, how many regions does it divide the plane into.  Using the fact that each region has a boundary of at least four edges (why not 3?), what can we conclude?  </p></statement><solution component="im"><p>Since a <m>K_{3,3}</m> is bipartite, there are no regions with  </p></solution></exercise>		
 		<exercise><statement><p>A teacher decides to have their students grade one another's quizzes.  The scheme that is devised is that when a bell is rung, each  student is to immediately pass their quiz to a classmate either to the front, back, right or left of themselves.  Suppose that class is arranged in rectanglar configuration of five rows of seven students each. Is is possible for each student to get exactly one quiz to grade?
 	</p></statement><solution component="im"><p>It is not possible to arrange grading as described.  If you color the desks in the class like a checkerboard, alternating black and white desks, there will be more of one color, say white, than black. Every white desk has to pass their paper to a different black desk, but that's impossible because there aren't enough black desks.
 </p></solution></exercise>
