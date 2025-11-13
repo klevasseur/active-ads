@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="sagequiz" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>SageMath Quiz</title>
+<section xml:id="first-sage-question"><title>Graph Theory</title>
+<p>
+This is a test!
+ </p>
+<sage>
+<input>
+import random
+seed=input('enter the last three digits of your student id number.')
+</input>
+</sage>
+
+<p>Now ask the question.</p>
+
+<sage>
+		<input>
+		random.seed(seed)
+		n=random.randint(3, 34)
+		r=input('If a planar graph has 35 vertices, 75 edges and '+str(n)+' connected components, how many regions does it divide the plane into?')
+		if r==41+n:
+			print('correct!')
+		else:
+			print('No, the number of regions is '+str(41+n)+'.')
+		
+		</input>
+		<output>
+		Correct!
+		</output>
+</sage>
+</section>
+
+</chapter>	
