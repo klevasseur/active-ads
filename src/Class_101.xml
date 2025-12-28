@@ -5,26 +5,53 @@
 <section xml:id="questions-101"><title>In-Class Exercises</title>
 <p></p>
 <exercises>
+<exercise><statement><p>Let <m>V=\{1,2,\dots,n\}</m> where <m>n</m> is some positive integer greater than 1. 
+<ol>
+<li><p> How many two element subsets are there of <m>V</m>?</p></li>
+<li><p>   What is the cardinality of <m>V\times V</m>?</p></li>
+<li><p> Are <m>\{1,2\}</m> and <m>\{2,1\}</m> equal?</p></li>
+<li><p>  Are <m>\{1,2\}</m> and <m>(1,2)</m> equal?</p></li>
+<li><p>Are <m>(1,2)</m> and <m>(2,1)</m> equal?</p></li>
+<li><p>If <m>n=4</m> and we define the relation <m>\asymp</m> by <m>(a,b)\asymp (c,d)</m> if and only if <m>a+b=c+d</m>.  What are the equivalence classes defined by <m>\asymp</m>? </p></li>
+</ol>
+    </p>
+</statement>
+</exercise>
+
 
 <exercise><statement><p>Prove that if <m>f</m> and <m>g</m> are one-to-one functions on a set <m>X</m>, then <m>g \circ f</m> is also a one-to-one function on <m>X</m>. Note: You might be more familiar with the term <em>injection</em> or <em>injective function</em> for a one-to-one function.  They all mean the same thing.</p></statement></exercise>
 
 <exercise><statement><p>Partition the set <m>X=\{k \in \mathbb{Z} \mid  -10 \leq k \leq 10\}</m> into equivalence classes according to the relation congruence modulo 4, <m>\equiv_4</m>.</p></statement></exercise>
 
-<exercise><statement><p>Compute the matrix product <md><mrow> \left(
-\begin{array}{cccc}
+<exercise><statement><p>Let <md><mrow>A= \left(
+\begin{array}{ccc}
  1 &amp; 0 &amp; 0 \\
  0 &amp; 0 &amp; 1  \\
  0 &amp; 1 &amp; 0 \\
 \end{array}
-\right)  
+\right) \textrm{ and B=}  
 \left(
-\begin{array}{cccc}
+\begin{array}{ccc}
  0 &amp; 0 &amp; 1  \\
  1 &amp; 0 &amp; 0  \\
  0 &amp; 1 &amp; 0 \\
 \end{array}
-\right)</mrow></md></p></statement></exercise>
+\right)</mrow></md>Compute the matrix products <m>AB</m> and <m>BA</m></p></statement></exercise>
 
+<exercise><statement><p>Let <md><mrow>A= \left(
+\begin{array}{cc}
+ 1 &amp; a  \\
+ 0 &amp; 1  \\
+\end{array}
+\right) \textrm{ and B=}  
+\left(
+\begin{array}{cc}
+ 1 &amp; b \\
+ 0 &amp; 1 \\
+\end{array}
+\right)</mrow></md>Compute the matrix products <m>AB</m> and <m>BA</m></p></statement></exercise>
+
+<!-- 
 <exercise><statement><p>Is the following logical argument valid?  </p>
 <blockquote>
   <p>
@@ -33,6 +60,7 @@
 </statement><answer component="im"><p>Yes, this argument is valid.  Symbolically, it is 
 	<me>V \lor NH, V\rightarrow NE, NH\rightarrow NE \Rightarrow NE</me>
 which can be proven correct. </p></answer></exercise>
+ -->
 
 <exercise><statement><p>
         Prove, by mathematical induction, that <m>F_0 + F_1 + F_2 + \cdots + F_{n} = F_{n+2} - 1</m>,

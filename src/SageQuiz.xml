@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="sagequiz" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="sagequiz-test" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>SageMath Quiz</title>
 <section xml:id="first-sage-question"><title>Graph Theory</title>
 <p>
@@ -29,6 +29,7 @@ seed=input('enter the last three digits of your student id number.')
 		Correct!
 		</output>
 </sage>
+<p>More to come?</p>	
 </section>
 
 </chapter>	
